@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+node_modules/
+.pytest_cache/
+.venv/
+venv/
+docs/
+build/
+CLAUDE.md
+SKILL.md
+.pytest_cache/
+_pytest_cache/
+.edge-headless/

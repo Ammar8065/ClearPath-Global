@@ -1,0 +1,86 @@
+/* Design tokens (CSS variables) + header */
+/* ──────────────────────────────────────────────────────────
+   ClearPath Global — "THE RISK GAZETTE"
+   Broadsheet-grade editorial. Cream paper, black ink,
+   vermillion signal, brass gold. Industrial-condensed
+   display type over refined body. Deliberately asymmetric.
+   ────────────────────────────────────────────────────────── */
+
+:root {
+  --sidebar-w: 272px;
+  --topbar-h: 96px;
+
+  /* Paper & ink — the stock */
+  --paper:         #ece3cf;
+  --paper-tint:    #f2ead7;
+  --paper-raised:  #f7f0dd;
+  --paper-deep:    #ddd3ba;
+  --paper-rough:   #e4daba;
+
+  /* Ink — true pressroom black */
+  --ink:           #0c0c0b;
+  --ink-soft:      #1c1a16;
+  --ink-mute:      #4a433a;
+  --ink-whisper:   #857c69;
+  --ink-faded:     #a89d85;
+
+  /* Rules — hand-drawn paper feel */
+  --rule:          #bfb397;
+  --rule-soft:     #d4c8a8;
+  --rule-strong:   #938872;
+
+  /* Sidebar — warm pressroom graphite (tuned to share ink/paper DNA
+     with the broadsheet body, rather than cold navy) */
+  --sidebar-bg:       #1b1712;
+  --sidebar-surface:  #241e17;
+  --sidebar-text:     #8a7f6c;
+  --sidebar-text-hi:  #ece3cf;
+  --sidebar-gold:     #c9922a;
+  --sidebar-gold-hi:  #e0aa3a;
+  --sidebar-gold-mut: #5a4010;
+  --sidebar-border:   rgba(197, 57, 26, 0.16);
+  --sidebar-accent:   #c5391a;
+  --sidebar-accent-hi:#e0441d;
+  --sidebar-accent-bg:rgba(197, 57, 26, 0.10);
+
+  /* Brand — electric vermillion */
+  --brand:          #c5391a;
+  --brand-deep:     #9a2710;
+  --brand-soft:     #f6dccd;
+  --brand-hover:    #e0441d;
+  --brand-contrast: #fff8e6;
+
+  /* Risk — matte, broadsheet-editorial */
+  --risk-high:        #c5391a;
+  --risk-high-bg:     #f6dccd;
+  --risk-high-border: #e8b6a1;
+  --risk-medium:      #a57318;
+  --risk-medium-bg:   #f3e2b5;
+  --risk-medium-border:#dcc283;
+  --risk-low:         #2b5a3c;
+  --risk-low-bg:      #d8e4c7;
+  --risk-low-border:  #a8c092;
+
+  /* Feedback */
+  --danger:        #c5391a;
+  --danger-soft:   #f6dccd;
+
+  /* Radius — sharp pressroom edges */
+  --r-sm: 2px;
+  --r-md: 3px;
+  --r-lg: 4px;
+  --r-xl: 6px;
+
+  /* Shadow — quiet press-ink drop */
+  --shadow-sm: 0 1px 0 rgba(12, 12, 11, 0.06);
+  --shadow-md: 0 2px 0 rgba(12, 12, 11, 0.04), 0 14px 28px -14px rgba(12, 12, 11, 0.22);
+  --shadow-lg: 0 4px 0 rgba(12, 12, 11, 0.06), 0 30px 60px -20px rgba(12, 12, 11, 0.35);
+
+  /* Fonts — masthead / quote / copy / data */
+  --font-display: "Big Shoulders Display", "Impact", "Haettenschweiler", sans-serif;
+  --font-italic:  "Instrument Serif", "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-serif:   "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-body:    "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
+  --font-mono:    "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+}
+

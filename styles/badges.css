@@ -1,0 +1,63 @@
+/* Badges & pills (printed stamps) */
+/* ── Badges & Pills — printed stamps ──────────────────── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 9px;
+  border-radius: 0;
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  font-weight: 600;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+.badge-jurisdiction {
+  background: var(--ink);
+  color: var(--paper-tint);
+  border: 1px solid var(--ink);
+}
+
+.badge-risk-high {
+  background: var(--risk-high);
+  color: var(--brand-contrast);
+  border: 1px solid var(--risk-high);
+}
+
+.badge-risk-medium {
+  background: var(--risk-medium);
+  color: var(--brand-contrast);
+  border: 1px solid var(--risk-medium);
+}
+
+.badge-risk-low {
+  background: var(--risk-low);
+  color: var(--brand-contrast);
+  border: 1px solid var(--risk-low);
+}
+
+.badge-deleted {
+  background: transparent;
+  color: var(--ink-whisper);
+  border: 1px dashed var(--rule-strong);
+}
+
+.badge-category {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--ink);
+}
+
+.badge-source-type {
+  background: var(--sidebar-gold);
+  color: var(--ink);
+  border: 1px solid var(--sidebar-gold-mut);
+}
+
+.badge-asset-type {
+  background: var(--risk-medium-bg);
+  color: var(--risk-medium);
+  border: 1px solid var(--risk-medium);
+}
+
