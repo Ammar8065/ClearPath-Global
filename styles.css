@@ -957,23 +957,6 @@ textarea {
   border: 1px solid #fecaca;
 }
 
-/* ── Prototype banner ─────────────────────────────────── */
-.prototype-banner {
-  background: #fffbeb;
-  border: 1px solid #fde68a;
-  color: #92400e;
-  padding: 10px 20px;
-  font-size: 13px;
-  line-height: 1.5;
-  margin: 0 24px 0;
-  border-radius: 8px;
-}
-.prototype-banner strong {
-  color: #78350f;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
 /* ── Empty state ───────────────────────────────────────── */
 .empty-state {
   padding: 32px 20px;
