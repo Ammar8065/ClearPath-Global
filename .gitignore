@@ -8,6 +8,8 @@ docs/
 build/
 CLAUDE.md
 SKILL.md
+ARCHITECTURE.md
+sample_report.pdf
 .pytest_cache/
 _pytest_cache/
 .edge-headless/
