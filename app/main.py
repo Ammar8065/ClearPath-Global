@@ -1,10 +1,11 @@
 from contextlib import asynccontextmanager
 from pathlib import Path
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
+from starlette.middleware.base import BaseHTTPMiddleware
 
 from app.database.init_db import ensure_schema_ready, init_db, should_auto_create_schema
 from app.routes.assets import router as assets_router
@@ -14,6 +15,16 @@ from app.routes.rules import router as rules_router
 from app.routes.sources import router as sources_router
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+_NO_CACHE_PREFIXES = ("/frontend/", "/static/")
+
+
+class NoCacheStaticAssetsMiddleware(BaseHTTPMiddleware):
+    async def dispatch(self, request: Request, call_next):
+        response = await call_next(request)
+        if request.url.path.startswith(_NO_CACHE_PREFIXES) or request.url.path == "/":
+            response.headers["Cache-Control"] = "no-cache, must-revalidate"
+        return response
 
 
 @asynccontextmanager
@@ -39,6 +50,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+app.add_middleware(NoCacheStaticAssetsMiddleware)
 
 app.mount("/frontend", StaticFiles(directory=BASE_DIR / "frontend"), name="frontend")
 
