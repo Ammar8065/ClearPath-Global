@@ -1,13 +1,4 @@
-import { jurisdictionBadge, riskBadge, scoreFill } from "./core.js";
-
-function escapeHtml(value) {
-  return String(value)
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#39;");
-}
+import { escapeHtml, jurisdictionBadge, riskBadge, scoreFill } from "./core.js";
 
 export function renderPreviewResult(result, context) {
   const matchedRules = result.rules.filter((rule) => rule.matched);
@@ -159,6 +150,7 @@ export function renderEvaluationResult(result, context) {
             ${jurisdictionBadge(item.jurisdiction)}
             ${riskBadge(item.risk_level)}
             <span class="badge badge-category">${escapeHtml(item.category || "")}</span>
+            ${item.review_status && item.review_status !== "verified_current" ? `<span class="badge badge-review-${item.review_status === "needs_update" ? "update" : "bad-source"}">${escapeHtml(item.review_status.replace(/_/g, " "))}</span>` : ""}
           </div>
         </div>
         <div class="rule-desc">${escapeHtml(item.description)}</div>

@@ -5,7 +5,6 @@ const SECTION_META = {
   rules: { title: "Rules Library", sub: "Versioned, legislation-backed rules" },
   sources: { title: "Knowledge Sources", sub: "Legislation and guidance underpinning rules" },
   assets: { title: "Asset Storage Disabled", sub: "Private mode prevents persistent asset registers" },
-  tenants: { title: "Workspaces", sub: "Manage advisory firm workspaces" },
 };
 
 function getSectionElements() {

@@ -1,12 +1,13 @@
 # ClearPath Global — Risk Intelligence Platform
 
-Rules-based cross-border risk intelligence for advisory teams. Privacy-first by default: workspace, rule, and source data are persisted, but client financial facts are evaluated statelessly and never stored.
+Rules-based cross-border risk intelligence for advisory teams. Privacy-first by default: rules and knowledge sources are persisted, but client financial facts are evaluated statelessly and never stored. Generates professional HTML and PDF assessment reports.
 
 ## Stack
 
 - Python 3.11+, FastAPI, SQLAlchemy 2, Alembic, Pydantic 2
 - SQLite (default) via `risk_intelligence.db`
 - Vanilla JavaScript SPA served by FastAPI
+- FPDF2 for PDF report generation
 
 ## Privacy Model
 
@@ -39,26 +40,24 @@ Rules-based cross-border risk intelligence for advisory teams. Privacy-first by 
 
 ## API Endpoints
 
-### Tenants
-- `GET /tenants` — list workspaces
-- `POST /tenants` — create workspace
-- `DELETE /tenants/{id}`
-
 ### Sources
-- `GET /sources`
-- `POST /sources`
+- `GET /sources` — list knowledge sources
+- `POST /sources` — create knowledge source
 
 ### Rules
-- `GET /rules`
-- `POST /rules`
+- `GET /rules` — list rules
+- `POST /rules` — create rule
 - `DELETE /rules/{id}` — soft delete
 
 ### Private Evaluation
 - `POST /evaluate/private` — full stateless evaluation (score, breakdown, citations)
 - `POST /evaluate/private/preview` — matched/unmatched rules with reasons, no scoring
+- `POST /evaluate/private/report` — generates printable HTML assessment report
 - `GET /evaluate/rules/{rule_code}/versions` — full version history
 
-### Legacy (blocked in privacy mode)
+### Client Evaluation (blocked in privacy mode)
+- `POST /evaluate/{client_id}` — evaluate against a stored client
+- `POST /evaluate/{client_id}/preview` — preview rule matching for a stored client
 - `GET/POST /clients`, `DELETE /clients/{id}`
 - `GET/POST /assets`
 
@@ -81,7 +80,7 @@ POST /evaluate/private
 }
 ```
 
-Response includes `overall_risk`, `score` (0–100), `triggered_rules`, `category_breakdown`, `jurisdiction_breakdown`, `citations`, and `warnings` for any malformed rules that were skipped.
+Response includes `overall_risk`, `score` (0–100), `triggered_rules`, `summary` (with `review_status` per rule), `category_breakdown`, `jurisdiction_breakdown`, `citations`, `incomplete_rules` (rules skipped due to missing data), and `warnings` for any malformed rules.
 
 ## Testing
 
@@ -89,12 +88,12 @@ Response includes `overall_risk`, `score` (0–100), `triggered_rules`, `categor
 .\venv\Scripts\python.exe -m pytest -q
 ```
 
-Test coverage: engine unit tests (conditions, scoring, version dedup, report assembly), schema write-time validation, privacy-mode route behavior, live HTTP integration tests against a temporary migrated database.
+Test coverage: engine unit tests (conditions, scoring, version dedup, report assembly), schema write-time validation, privacy-mode route behavior, migration regressions, live HTTP integration tests against a temporary migrated database.
 
 ## What Is Not Yet Implemented
 
 - Authentication and authorisation
 - Persistent evaluation result storage
 - Background processing
-- Report generation (Milestone 3)
+- PDF report endpoint (service exists, endpoint not yet wired)
 - AI-assisted data extraction (Milestone 4)

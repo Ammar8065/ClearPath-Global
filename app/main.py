@@ -12,7 +12,6 @@ from app.routes.clients import router as clients_router
 from app.routes.evaluation import router as evaluation_router
 from app.routes.rules import router as rules_router
 from app.routes.sources import router as sources_router
-from app.routes.tenants import router as tenants_router
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -42,13 +41,11 @@ app.add_middleware(
 )
 
 app.mount("/frontend", StaticFiles(directory=BASE_DIR / "frontend"), name="frontend")
-app.mount("/styles", StaticFiles(directory=BASE_DIR / "styles"), name="styles")
 
 app.include_router(sources_router)
 app.include_router(rules_router)
 app.include_router(clients_router)
 app.include_router(assets_router)
-app.include_router(tenants_router)
 app.include_router(evaluation_router)
 
 

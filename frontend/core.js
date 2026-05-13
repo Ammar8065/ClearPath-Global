@@ -15,20 +15,14 @@ export const SECTION_META = {
   rules: { title: "Rules Library", sub: "Versioned, legislation-backed rules" },
   sources: { title: "Knowledge Sources", sub: "Legislation and guidance underpinning rules" },
   assets: { title: "Asset Storage Disabled", sub: "Private mode prevents persistent asset registers" },
-  tenants: { title: "Workspaces", sub: "Manage advisory firm workspaces" },
 };
 
 export const elements = {
-  activeTenantSelect: document.getElementById("activeTenantSelect"),
-  clientTenantIdInput: document.getElementById("clientTenantId"),
   statusMessage: document.getElementById("statusMessage"),
   topbarTitle: document.getElementById("topbarTitle"),
   topbarSub: document.getElementById("topbarSub"),
   rulesList: document.getElementById("rulesList"),
   sourcesList: document.getElementById("sourcesList"),
-  clientsList: document.getElementById("clientsList"),
-  assetsList: document.getElementById("assetsList"),
-  tenantsList: document.getElementById("tenantsList"),
   evaluationReviewPanel: document.getElementById("evaluationReviewPanel"),
   evaluationResult: document.getElementById("evaluationResult"),
   showDeletedRulesToggle: document.getElementById("showDeletedRulesToggle"),
@@ -36,23 +30,13 @@ export const elements = {
   sourcesJurisdictionFilter: document.getElementById("sourcesJurisdictionFilter"),
   ruleJurisdictionSelect: document.getElementById("ruleJurisdictionSelect"),
   sourceJurisdictionSelect: document.getElementById("sourceJurisdictionSelect"),
-  clientResidencySelect: document.getElementById("clientResidencySelect"),
-  assetLocationSelect: document.getElementById("assetLocationSelect"),
-  evaluateClientSelect: document.getElementById("evaluateClientSelect"),
-  tenantForm: document.getElementById("tenantForm"),
   ruleForm: document.getElementById("ruleForm"),
   sourceForm: document.getElementById("sourceForm"),
-  clientForm: document.getElementById("clientForm"),
-  assetForm: document.getElementById("assetForm"),
   evaluateForm: document.getElementById("evaluateForm"),
   ruleJsonError: document.getElementById("ruleJsonError"),
   dashEvaluateBtn: document.getElementById("dashEvaluateBtn"),
-  loadClientsBtn: document.getElementById("loadClientsBtn"),
   loadRulesBtn: document.getElementById("loadRulesBtn"),
   loadSourcesBtn: document.getElementById("loadSourcesBtn"),
-  loadAssetsBtn: document.getElementById("loadAssetsBtn"),
-  refreshTenantsBtn: document.getElementById("refreshTenantsBtn"),
-  evaluateClientId: document.getElementById("evaluateClientId"),
   evaluateGuidedSections: document.getElementById("evaluateGuidedSections"),
   evaluateGuidedFieldset: document.getElementById("evaluateGuidedFieldset"),
   resetEvaluateFormBtn: document.getElementById("resetEvaluateFormBtn"),
@@ -63,11 +47,9 @@ export const elements = {
   exportAssessmentBtn: document.getElementById("exportAssessmentBtn"),
   importAssessmentBtn: document.getElementById("importAssessmentBtn"),
   assessmentImportInput: document.getElementById("assessmentImportInput"),
+  downloadPdfBtn: document.getElementById("downloadPdfBtn"),
+  evalResultActions: document.getElementById("evalResultActions"),
 };
-
-export function getActiveTenantId() {
-  return elements.activeTenantSelect?.value ? Number(elements.activeTenantSelect.value) : null;
-}
 
 export function setStatus(message, isError = false) {
   if (!elements.statusMessage) return;
@@ -118,21 +100,28 @@ export function populateJurisdictionControls() {
   populateSelect(elements.sourcesJurisdictionFilter, JURISDICTIONS, "All jurisdictions");
   populateSelect(elements.ruleJurisdictionSelect, JURISDICTIONS);
   populateSelect(elements.sourceJurisdictionSelect, JURISDICTIONS);
-  populateSelect(elements.clientResidencySelect, JURISDICTIONS);
-  populateSelect(elements.assetLocationSelect, JURISDICTIONS);
 
   if (elements.ruleJurisdictionSelect) elements.ruleJurisdictionSelect.value = "AU";
   if (elements.sourceJurisdictionSelect) elements.sourceJurisdictionSelect.value = "SG";
-  if (elements.clientResidencySelect) elements.clientResidencySelect.value = "UAE";
-  if (elements.assetLocationSelect) elements.assetLocationSelect.value = "AU";
+}
+
+export function escapeHtml(value) {
+  if (value === null || value === undefined) return "";
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
 }
 
 export function riskBadge(level) {
-  return `<span class="badge badge-risk-${level}">${level.toUpperCase()}</span>`;
+  const safe = escapeHtml(level);
+  return `<span class="badge badge-risk-${safe}">${safe.toUpperCase()}</span>`;
 }
 
 export function jurisdictionBadge(jurisdiction) {
-  return `<span class="badge badge-jurisdiction">${jurisdiction}</span>`;
+  return `<span class="badge badge-jurisdiction">${escapeHtml(jurisdiction)}</span>`;
 }
 
 export function deletedBadge() {

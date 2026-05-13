@@ -1,4 +1,4 @@
-import { apiRequest, elements, jurisdictionBadge, setStatus } from "./core.js";
+import { apiRequest, elements, escapeHtml, jurisdictionBadge, setStatus } from "./core.js";
 
 let loadDashboardStats = async () => {};
 
@@ -18,17 +18,18 @@ export async function loadSources() {
     filtered.forEach((source) => {
       const card = document.createElement("div");
       card.className = "item-card";
+      const safeUrl = /^https?:\/\//i.test(source.url) ? source.url : "";
       card.innerHTML = `
         <div class="item-top">
-          <div class="item-title">${source.title}</div>
+          <div class="item-title">${escapeHtml(source.title)}</div>
           <div class="badge-row">
             ${jurisdictionBadge(source.jurisdiction)}
-            <span class="badge badge-source-type">${source.source_type.replace(/_/g, " ")}</span>
+            <span class="badge badge-source-type">${escapeHtml(source.source_type.replace(/_/g, " "))}</span>
           </div>
         </div>
         <div class="item-meta" style="margin-top:6px">
-          <span>Source ID: <strong>#${source.id}</strong></span>
-          <a href="${source.url}" target="_blank" rel="noreferrer" style="color:var(--brand);word-break:break-all">${source.url}</a>
+          <span>Source ID: <strong>#${escapeHtml(source.id)}</strong></span>
+          <a href="${escapeHtml(safeUrl)}" target="_blank" rel="noreferrer" style="color:var(--brand);word-break:break-all">${escapeHtml(source.url)}</a>
         </div>
       `;
       elements.sourcesList.appendChild(card);

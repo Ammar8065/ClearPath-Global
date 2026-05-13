@@ -1,4 +1,3 @@
-from fastapi import HTTPException, status
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
@@ -10,10 +9,7 @@ from app.schemas.asset import AssetCreate
 def _get_active_client(db: Session, client_id: int) -> Client:
     client = db.get(Client, client_id)
     if client is None or client.is_deleted:
-        raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND,
-            detail="Client not found.",
-        )
+        raise LookupError("Client not found.")
     return client
 
 

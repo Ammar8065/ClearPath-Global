@@ -1,12 +1,9 @@
-import { apiRequest } from "./core.js";
+import { apiRequest, escapeHtml, JURISDICTIONS } from "./core.js";
 
-const JURISDICTIONS = [
-  { code: "AU", label: "Australia" },
-  { code: "SG", label: "Singapore" },
-  { code: "HK", label: "Hong Kong" },
-  { code: "UAE", label: "UAE" },
-  { code: "US", label: "United States" },
-];
+const DASH_JURISDICTIONS = JURISDICTIONS.map(({ value, label }) => ({
+  code: value,
+  label: label.replace(/ \(.+\)$/, ""),
+}));
 
 const CATEGORIES = [
   { key: "residency", label: "Residency" },
@@ -67,10 +64,10 @@ function renderRuleTable(rules, mode) {
       const uClass = urgencyClass(days);
       return `
         <div class="dash-table-row">
-          <span class="dash-table-code">${r.rule_code}</span>
-          <span class="badge badge-jurisdiction">${r.jurisdiction}</span>
-          <span class="badge ${riskClass}">${r.risk_level.toUpperCase()}</span>
-          <span class="dash-table-date">${r.effective_to}</span>
+          <span class="dash-table-code">${escapeHtml(r.rule_code)}</span>
+          <span class="badge badge-jurisdiction">${escapeHtml(r.jurisdiction)}</span>
+          <span class="badge ${riskClass}">${escapeHtml(r.risk_level.toUpperCase())}</span>
+          <span class="dash-table-date">${escapeHtml(r.effective_to)}</span>
           <span class="dash-table-urgency ${uClass}">${urgencyLabel(days)}</span>
         </div>`;
     }
@@ -78,11 +75,11 @@ function renderRuleTable(rules, mode) {
     const createdDate = r.created_at ? r.created_at.split("T")[0] : "—";
     return `
       <div class="dash-table-row">
-        <span class="dash-table-code">${r.rule_code}</span>
-        <span class="badge badge-jurisdiction">${r.jurisdiction}</span>
-        <span class="badge ${riskClass}">${r.risk_level.toUpperCase()}</span>
-        <span class="dash-table-category">${r.category.replace("_", " ")}</span>
-        <span class="dash-table-date">${createdDate}</span>
+        <span class="dash-table-code">${escapeHtml(r.rule_code)}</span>
+        <span class="badge badge-jurisdiction">${escapeHtml(r.jurisdiction)}</span>
+        <span class="badge ${riskClass}">${escapeHtml(r.risk_level.toUpperCase())}</span>
+        <span class="dash-table-category">${escapeHtml(r.category.replace("_", " "))}</span>
+        <span class="dash-table-date">${escapeHtml(createdDate)}</span>
       </div>`;
   }).join("");
 
@@ -91,8 +88,7 @@ function renderRuleTable(rules, mode) {
 
 export async function loadDashboardStats() {
   try {
-    const [tenants, rules, sources] = await Promise.all([
-      apiRequest("/tenants"),
+    const [rules, sources] = await Promise.all([
       apiRequest("/rules"),
       apiRequest("/sources"),
     ]);
@@ -102,7 +98,6 @@ export async function loadDashboardStats() {
 
     // — Top stat cards —
     const el = (id) => document.getElementById(id);
-    if (el("statClients")) el("statClients").textContent = tenants.length;
     if (el("statRules")) el("statRules").textContent = total;
     if (el("statSources")) el("statSources").textContent = sources.length;
 
@@ -162,12 +157,12 @@ export async function loadDashboardStats() {
 
     // — Jurisdiction coverage —
     const jCounts = {};
-    JURISDICTIONS.forEach(({ code }) => { jCounts[code] = 0; });
+    DASH_JURISDICTIONS.forEach(({ code }) => { jCounts[code] = 0; });
     active.forEach((r) => { if (r.jurisdiction in jCounts) jCounts[r.jurisdiction]++; });
     const maxJ = Math.max(...Object.values(jCounts), 1);
     if (el("dashJurisdictionBreakdown")) {
       el("dashJurisdictionBreakdown").innerHTML = renderBarRows(
-        JURISDICTIONS.map(({ code, label }) => ({
+        DASH_JURISDICTIONS.map(({ code, label }) => ({
           label,
           count: jCounts[code],
           colorClass: "dash-bar-brand",

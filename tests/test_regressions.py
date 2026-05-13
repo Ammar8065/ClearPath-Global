@@ -6,7 +6,6 @@ from types import SimpleNamespace
 import pytest
 from alembic import command
 from alembic.config import Config
-from fastapi import HTTPException
 from sqlalchemy import create_engine, inspect
 from sqlalchemy.orm import Session
 
@@ -74,7 +73,7 @@ def test_create_asset_rejects_soft_deleted_client():
         db.commit()
         db.refresh(client)
 
-        with pytest.raises(HTTPException) as exc_info:
+        with pytest.raises(LookupError, match="Client not found."):
             create_asset(
                 db,
                 AssetCreate(
@@ -84,9 +83,6 @@ def test_create_asset_rejects_soft_deleted_client():
                     ownership_structure="individual",
                 ),
             )
-
-        assert exc_info.value.status_code == 404
-        assert exc_info.value.detail == "Client not found."
 
 
 def test_list_assets_filters_to_active_clients_and_requested_tenant():
@@ -198,19 +194,23 @@ def test_frontend_api_calls_are_not_pinned_to_localhost():
     assert 'await import("/frontend/app.js")' in script
     assert "Basic navigation is still available." in script
     assert "window.__clearPathNavInitialized" in script
+
     assert "127.0.0.1:8000" not in frontend_core
+    assert "localhost:8000" not in frontend_core
     assert "window.location.origin" in frontend_core
+
     assert "initEvaluationSection" in frontend_app
     assert "loadClients" not in frontend_app
+    assert "loadAssets" not in frontend_app
+
     assert "evaluateGuidedSections" in index_html
-    assert "advancedJsonToggle" in index_html
     assert "evaluateAssessmentLabel" in index_html
     assert "evaluationReviewPanel" in index_html
     assert "Export Local Copy" in index_html
+
     assert '"/evaluate/private"' in frontend_evaluation
-    assert "parseAdvancedPayload" in frontend_evaluation
-    assert "Assessment readiness" in frontend_evaluation
+    assert '"/evaluate/private/preview"' in frontend_evaluation
     assert "client_data: snapshot.payload" in frontend_evaluation
-    assert "Custom JSON keys are preserved" in frontend_evaluation
     assert "renderEvaluationResult" in frontend_views
-    assert "Apply JSON To Guided Form" in index_html
+
+

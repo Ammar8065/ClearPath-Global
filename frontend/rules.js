@@ -2,6 +2,7 @@ import {
   apiRequest,
   deletedBadge,
   elements,
+  escapeHtml,
   jurisdictionBadge,
   riskBadge,
   setStatus,
@@ -31,18 +32,19 @@ export async function loadRules() {
       card.innerHTML = `
         <div class="item-top">
           <div>
-            <div class="item-title" style="font-family:monospace">${rule.rule_code} <small style="font-family:inherit;font-weight:500;color:var(--text-muted)">v${rule.version ?? 1}</small></div>
+            <div class="item-title" style="font-family:monospace">${escapeHtml(rule.rule_code)} <small style="font-family:inherit;font-weight:500;color:var(--text-muted)">v${escapeHtml(rule.version ?? 1)}</small></div>
           </div>
           <div class="badge-row">
             ${jurisdictionBadge(rule.jurisdiction)}
             ${riskBadge(rule.risk_level)}
-            <span class="badge badge-category">${rule.category}</span>
+            <span class="badge badge-category">${escapeHtml(rule.category)}</span>
             ${rule.is_deleted ? deletedBadge() : ""}
+            ${rule.review_status && rule.review_status !== "verified_current" ? `<span class="badge badge-review-${rule.review_status === "needs_update" ? "update" : "bad-source"}">${escapeHtml(rule.review_status.replace(/_/g, " "))}</span>` : ""}
           </div>
         </div>
-        <div class="item-desc">${rule.description}</div>
+        <div class="item-desc">${escapeHtml(rule.description)}</div>
         <div class="item-meta">
-          <span>Confidence: <strong>${rule.confidence_level}</strong> · Effective: ${rule.effective_from}${rule.effective_to ? ` → ${rule.effective_to}` : " onwards"} · Source #${rule.source_id}</span>
+          <span>Confidence: <strong>${escapeHtml(rule.confidence_level)}</strong> · Effective: ${escapeHtml(rule.effective_from)}${rule.effective_to ? ` → ${escapeHtml(rule.effective_to)}` : " onwards"} · Source #${escapeHtml(rule.source_id)}</span>
         </div>
         ${!rule.is_deleted ? '<div style="margin-top:10px"><button class="btn btn-danger" data-rule-id="">Soft Delete</button></div>' : ""}
       `;

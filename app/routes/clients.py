@@ -20,7 +20,10 @@ def _ensure_client_storage_allowed() -> None:
 @router.post("", response_model=ClientRead, status_code=status.HTTP_201_CREATED)
 def create_client_endpoint(payload: ClientCreate, db: Session = Depends(get_db)) -> ClientRead:
     _ensure_client_storage_allowed()
-    return create_client(db, payload)
+    try:
+        return create_client(db, payload)
+    except LookupError as exc:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(exc)) from exc
 
 
 @router.get("", response_model=list[ClientRead])
@@ -35,4 +38,7 @@ def list_clients_endpoint(
 @router.delete("/{client_id}", response_model=ClientRead)
 def soft_delete_client_endpoint(client_id: int, db: Session = Depends(get_db)) -> ClientRead:
     _ensure_client_storage_allowed()
-    return soft_delete_client(db, client_id)
+    try:
+        return soft_delete_client(db, client_id)
+    except LookupError as exc:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(exc)) from exc

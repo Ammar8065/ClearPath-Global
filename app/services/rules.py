@@ -1,7 +1,6 @@
 from datetime import date
 
-from fastapi import HTTPException, status
-from sqlalchemy import and_, or_, select
+from sqlalchemy import or_, select
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session, joinedload
 
@@ -45,23 +44,17 @@ def _check_version_overlap(db: Session, payload: RuleCreate) -> None:
     ).first()
 
     if conflicting is not None:
-        raise HTTPException(
-            status_code=status.HTTP_409_CONFLICT,
-            detail=(
-                f"Rule '{payload.rule_code}' already has an active version "
-                f"(v{conflicting.version}) whose effective date range overlaps "
-                f"with the requested range. Soft-delete the existing version first."
-            ),
+        raise ValueError(
+            f"Rule '{payload.rule_code}' already has an active version "
+            f"(v{conflicting.version}) whose effective date range overlaps "
+            f"with the requested range. Soft-delete the existing version first."
         )
 
 
 def create_rule(db: Session, payload: RuleCreate) -> Rule:
     source = db.get(KnowledgeSource, payload.source_id)
     if source is None:
-        raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND,
-            detail="Knowledge source not found.",
-        )
+        raise LookupError("Knowledge source not found.")
 
     _check_version_overlap(db, payload)
 
@@ -71,10 +64,7 @@ def create_rule(db: Session, payload: RuleCreate) -> Rule:
         db.commit()
     except IntegrityError as exc:
         db.rollback()
-        raise HTTPException(
-            status_code=status.HTTP_409_CONFLICT,
-            detail="A rule with this rule_code and version already exists.",
-        ) from exc
+        raise ValueError("A rule with this rule_code and version already exists.") from exc
 
     db.refresh(rule)
     return rule
@@ -101,11 +91,8 @@ def get_rule_versions(db: Session, rule_code: str) -> list[Rule]:
 
 def soft_delete_rule(db: Session, rule_id: int) -> Rule:
     rule = db.get(Rule, rule_id)
-    if rule is None:
-        raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND,
-            detail="Rule not found.",
-        )
+    if rule is None or rule.is_deleted:
+        raise LookupError("Rule not found.")
 
     rule.is_deleted = True
     db.commit()

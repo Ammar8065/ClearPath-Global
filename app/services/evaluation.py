@@ -2,12 +2,12 @@ from datetime import date
 from types import SimpleNamespace
 from typing import Any
 
-from fastapi import HTTPException, status
 from sqlalchemy import select
 from sqlalchemy.orm import Session, joinedload
 
 from app.engine import run_evaluation
-from app.engine.conditions import evaluate_rule
+from app.engine.conditions import evaluate_rule, missing_required_fields, parse_condition_expression
+from app.engine.scorer import _normalize
 from app.engine.selector import deduplicate_by_version
 from app.models.client import Client
 from app.models.rule import Rule
@@ -32,44 +32,65 @@ def _active_rules(db: Session) -> list[Rule]:
 def _preview_rule_detail(rule: Rule, client_data: dict[str, Any]) -> tuple[bool, dict]:
     """Build a rule-match detail dict used by both preview flows.
 
-    Returns (matched, detail_dict). Keeping as a module-private helper lets both
-    preview_client and preview_private_assessment reuse the identical dict shape
-    without either function being removed or altered at its public surface.
+    Returns (matched, detail_dict). Distinguishes between "condition evaluated
+    to false" and "required fields missing" so the preview doesn't silently
+    claim a rule doesn't match when it simply can't be evaluated.
     """
+    cat = _normalize(rule.category)
+    rl = _normalize(rule.risk_level)
+    rev = _normalize(getattr(rule, "review_status", "verified_current"))
+
+    try:
+        condition = parse_condition_expression(getattr(rule, "condition_expression", None))
+    except (ValueError, TypeError):
+        return False, {
+            "rule_code": rule.rule_code, "description": rule.description,
+            "risk_level": rl, "jurisdiction": rule.jurisdiction, "category": cat,
+            "version": rule.version, "matched": False,
+            "reason": "Malformed condition — rule skipped.",
+            "review_status": rev,
+        }
+
+    missing = missing_required_fields(condition, client_data)
+    if missing:
+        return False, {
+            "rule_code": rule.rule_code, "description": rule.description,
+            "risk_level": rl, "jurisdiction": rule.jurisdiction, "category": cat,
+            "version": rule.version, "matched": False,
+            "reason": f"Cannot evaluate — missing: {', '.join(missing)}",
+            "review_status": rev,
+        }
+
     matched = evaluate_rule(rule, client_data)
-    reason = (
-        "All conditions satisfied."
-        if matched
-        else "One or more conditions not met, or required fields missing from payload."
-    )
+    reason = "All conditions satisfied." if matched else "Conditions not met."
 
-    cat = str(getattr(getattr(rule, "category", ""), "value", getattr(rule, "category", ""))).lower()
-    rl = str(getattr(getattr(rule, "risk_level", "low"), "value", getattr(rule, "risk_level", "low"))).lower()
-
-    detail = {
-        "rule_code": rule.rule_code,
-        "description": rule.description,
-        "risk_level": rl,
-        "jurisdiction": rule.jurisdiction,
-        "category": cat,
-        "version": rule.version,
-        "matched": matched,
-        "reason": reason,
+    return matched, {
+        "rule_code": rule.rule_code, "description": rule.description,
+        "risk_level": rl, "jurisdiction": rule.jurisdiction, "category": cat,
+        "version": rule.version, "matched": matched, "reason": reason,
+        "review_status": rev,
     }
-    return matched, detail
 
 
-def evaluate_client(db: Session, client_id: int, client_data: dict[str, Any]) -> dict:
+def _require_active_client(db: Session, client_id: int) -> Client:
     client = db.get(Client, client_id)
     if client is None or client.is_deleted:
-        raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND,
-            detail="Client not found.",
-        )
+        raise LookupError("Client not found.")
+    return client
+
+
+def evaluate_client(
+    db: Session,
+    client_id: int,
+    client_data: dict[str, Any],
+    *,
+    assessment_label: str | None = None,
+) -> dict:
+    client = _require_active_client(db, client_id)
 
     rules = _active_rules(db)
     result = run_evaluation(client, rules, client_data)
-    result["assessment_label"] = None
+    result["assessment_label"] = assessment_label
     return result
 
 
@@ -87,12 +108,7 @@ def evaluate_private_assessment(
 
 
 def preview_client(db: Session, client_id: int, client_data: dict[str, Any]) -> dict:
-    client = db.get(Client, client_id)
-    if client is None or client.is_deleted:
-        raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND,
-            detail="Client not found.",
-        )
+    _require_active_client(db, client_id)
 
     rules = _active_rules(db)
     rule_details = []

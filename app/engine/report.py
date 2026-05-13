@@ -14,6 +14,7 @@ from app.engine.conditions import (
     parse_condition_expression,
 )
 from app.engine.scorer import (
+    _normalize,
     category_breakdown,
     jurisdiction_breakdown,
     overall_risk,
@@ -59,8 +60,8 @@ def run_evaluation(client: Any, rules: list[Any], client_data: dict[str, Any]) -
 
         missing = missing_required_fields(condition, client_data)
         if missing:
-            rl = str(getattr(getattr(rule, "risk_level", "low"), "value", getattr(rule, "risk_level", "low"))).lower()
-            cat = str(getattr(getattr(rule, "category", ""), "value", getattr(rule, "category", ""))).lower()
+            rl = _normalize(rule.risk_level)
+            cat = _normalize(rule.category)
             incomplete_rules.append(
                 {
                     "rule_code": getattr(rule, "rule_code", ""),
@@ -91,11 +92,12 @@ def run_evaluation(client: Any, rules: list[Any], client_data: dict[str, Any]) -
         source = getattr(rule, "source", None)
         source_title = getattr(source, "title", "") or ""
         source_url = _source_url(source)
-        risk_lv = str(getattr(getattr(rule, "risk_level", "low"), "value", getattr(rule, "risk_level", "low"))).lower()
-        conf_lv = str(getattr(getattr(rule, "confidence_level", "medium"), "value", getattr(rule, "confidence_level", "medium"))).lower()
-        cat = str(getattr(getattr(rule, "category", ""), "value", getattr(rule, "category", ""))).lower()
+        risk_lv = _normalize(rule.risk_level)
+        conf_lv = _normalize(rule.confidence_level)
+        cat = _normalize(rule.category)
 
         r_score = rule_score(risk_lv, conf_lv)
+        rev_status = _normalize(getattr(rule, "review_status", "verified_current"))
 
         triggered_rules.append(rule.rule_code)
         summary.append(
@@ -111,6 +113,7 @@ def run_evaluation(client: Any, rules: list[Any], client_data: dict[str, Any]) -
                 "source_title": source_title,
                 "source_url": source_url,
                 "section_reference": rule.section_reference,
+                "review_status": rev_status,
             }
         )
 

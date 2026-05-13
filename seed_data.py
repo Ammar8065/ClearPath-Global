@@ -7,7 +7,7 @@ from app.database.base import Base
 from app.database.init_db import init_db
 from app.database.session import SessionLocal, engine
 from app.models.knowledge_source import KnowledgeSource
-from app.models.rule import Rule
+from app.models.rule import ReviewStatus, Rule
 
 from seed_sources import SOURCE_FIXTURES
 from seed_rules import (
@@ -56,6 +56,7 @@ def upsert_rules(source_ids: dict[str, int]) -> None:
             source_id = source_ids[source_key]
 
             rule_values = {k: v for k, v in payload.items() if k != "source_key"}
+            rule_values.setdefault("review_status", ReviewStatus.verified_current)
 
             rule = db.scalar(
                 select(Rule).where(
@@ -75,6 +76,7 @@ def upsert_rules(source_ids: dict[str, int]) -> None:
             rule.risk_level = rule_values["risk_level"]
             rule.confidence_level = rule_values["confidence_level"]
             rule.section_reference = rule_values.get("section_reference")
+            rule.review_status = rule_values.get("review_status", "needs_update")
             rule.source_id = source_id
 
         db.commit()

@@ -3,7 +3,7 @@ from typing import Any
 
 from pydantic import BaseModel, ConfigDict, model_validator
 
-from app.models.rule import ConfidenceLevel, RiskLevel, RuleCategory
+from app.models.rule import ConfidenceLevel, ReviewStatus, RiskLevel, RuleCategory
 from app.schemas.knowledge_source import KnowledgeSourceRead
 
 # Operators supported by app/engine/conditions.py
@@ -73,6 +73,7 @@ class RuleBase(BaseModel):
     confidence_level: ConfidenceLevel
     source_id: int
     section_reference: str | None = None
+    review_status: ReviewStatus = ReviewStatus.needs_update
     version: int = 1
     effective_from: date
     effective_to: date | None = None

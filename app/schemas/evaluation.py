@@ -1,11 +1,18 @@
 from typing import Any
 
-from pydantic import BaseModel
+from pydantic import BaseModel, field_validator
 
 
 class EvaluationRequest(BaseModel):
     assessment_label: str | None = None
     client_data: dict[str, Any]
+
+    @field_validator("client_data")
+    @classmethod
+    def limit_payload_size(cls, v: dict[str, Any]) -> dict[str, Any]:
+        if len(v) > 200:
+            raise ValueError("client_data exceeds maximum of 200 fields.")
+        return v
 
 
 class TriggeredRule(BaseModel):
@@ -20,6 +27,7 @@ class TriggeredRule(BaseModel):
     source_title: str
     source_url: str
     section_reference: str | None
+    review_status: str = "verified_current"
 
 
 class CategoryScore(BaseModel):
@@ -50,6 +58,7 @@ class RuleMatchDetail(BaseModel):
     version: int
     matched: bool
     reason: str
+    review_status: str = "verified_current"
 
 
 class IncompleteRule(BaseModel):

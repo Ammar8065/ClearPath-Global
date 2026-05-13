@@ -12,6 +12,8 @@ router = APIRouter(prefix="/rules", tags=["Rules"])
 def create_rule_endpoint(payload: RuleCreate, db: Session = Depends(get_db)) -> RuleWithSourceRead:
     try:
         rule = create_rule(db, payload)
+    except LookupError as exc:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(exc)) from exc
     except ValueError as exc:
         raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail=str(exc)) from exc
 
@@ -26,6 +28,9 @@ def list_rules_endpoint(db: Session = Depends(get_db)) -> list[RuleWithSourceRea
 
 @router.delete("/{rule_id}", response_model=RuleWithSourceRead)
 def soft_delete_rule_endpoint(rule_id: int, db: Session = Depends(get_db)) -> RuleWithSourceRead:
-    rule = soft_delete_rule(db, rule_id)
+    try:
+        rule = soft_delete_rule(db, rule_id)
+    except LookupError as exc:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(exc)) from exc
     db.refresh(rule, attribute_names=["source"])
     return rule

@@ -11,3 +11,4 @@ SKILL.md
 .pytest_cache/
 _pytest_cache/
 .edge-headless/
+.claude/

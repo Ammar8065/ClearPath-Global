@@ -28,6 +28,12 @@ class ConfidenceLevel(str, enum.Enum):
     high = "high"
 
 
+class ReviewStatus(str, enum.Enum):
+    verified_current = "verified_current"
+    needs_update = "needs_update"
+    unsupported_or_wrong_source = "unsupported_or_wrong_source"
+
+
 class Rule(Base):
     __tablename__ = "rules"
     __table_args__ = (UniqueConstraint("rule_code", "version", name="uq_rule_code_version"),)
@@ -50,6 +56,12 @@ class Rule(Base):
     is_deleted: Mapped[bool] = mapped_column(Boolean, default=False, nullable=False, index=True)
     source_id: Mapped[int] = mapped_column(ForeignKey("knowledge_sources.id"), nullable=False, index=True)
     section_reference: Mapped[str | None] = mapped_column(String(200), nullable=True)
+    review_status: Mapped[ReviewStatus] = mapped_column(
+        Enum(ReviewStatus),
+        nullable=False,
+        default=ReviewStatus.verified_current,
+        index=True,
+    )
     created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
 
     source: Mapped["KnowledgeSource"] = relationship(back_populates="rules")

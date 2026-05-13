@@ -20,7 +20,10 @@ def _ensure_asset_storage_allowed() -> None:
 @router.post("", response_model=AssetRead, status_code=status.HTTP_201_CREATED)
 def create_asset_endpoint(payload: AssetCreate, db: Session = Depends(get_db)) -> AssetRead:
     _ensure_asset_storage_allowed()
-    return create_asset(db, payload)
+    try:
+        return create_asset(db, payload)
+    except LookupError as exc:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(exc)) from exc
 
 
 @router.get("", response_model=list[AssetRead])
