@@ -429,27 +429,21 @@ async function downloadPdfReport() {
       body: JSON.stringify(requestBody(snapshot)),
     });
     if (!res.ok) throw new Error(`Server returned ${res.status}`);
-    const html = await res.text();
 
-    let frame = document.getElementById("reportPrintFrame");
-    if (!frame) {
-      frame = document.createElement("iframe");
-      frame.id = "reportPrintFrame";
-      frame.style.cssText = "position:fixed;left:-9999px;top:0;width:210mm;height:297mm;border:none;";
-      document.body.appendChild(frame);
-    }
+    const blob = await res.blob();
+    const disposition = res.headers.get("Content-Disposition") || "";
+    const match = disposition.match(/filename="?([^"]+)"?/i);
+    const filename = match ? match[1] : "ClearPath Report.pdf";
 
-    const doc = frame.contentDocument || frame.contentWindow.document;
-    doc.open();
-    doc.write(html);
-    doc.close();
-
-    frame.onload = () => {
-      setTimeout(() => {
-        frame.contentWindow.print();
-        setStatus("Report ready — use the print dialog to save as PDF.");
-      }, 600);
-    };
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+    setStatus("Report downloaded.");
   } catch (error) {
     console.error(error);
     setStatus(`Report generation failed: ${error.message}`, true);

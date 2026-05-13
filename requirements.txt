@@ -3,3 +3,4 @@ uvicorn[standard]==0.37.0
 sqlalchemy==2.0.43
 pydantic==2.12.5
 alembic==1.14.1
+playwright==1.59.0

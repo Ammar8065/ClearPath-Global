@@ -17,6 +17,7 @@ from app.services.evaluation import (
     preview_private_assessment,
 )
 from app.services.report_html import generate_report_html
+from app.services.report_pdf import render_pdf
 from app.engine.scorer import _normalize
 from app.services.rules import get_rule_versions
 
@@ -70,7 +71,18 @@ def report_private_endpoint(
         if v is not None and v != "" and v is not False
     )
     html = generate_report_html(result, fact_count=fact_count)
-    return Response(content=html, media_type="text/html")
+    pdf_bytes = render_pdf(html)
+    safe_label = (payload.assessment_label or "Private Assessment").strip() or "Private Assessment"
+    safe_label = "".join(c if c.isalnum() or c in (" ", "-", "_") else "_" for c in safe_label).strip()
+    filename = f"ClearPath - {safe_label}.pdf"
+    return Response(
+        content=pdf_bytes,
+        media_type="application/pdf",
+        headers={
+            "Content-Disposition": f'attachment; filename="{filename}"',
+            "Cache-Control": "no-store",
+        },
+    )
 
 
 @router.post("/{client_id}", response_model=EvaluationResponse)
