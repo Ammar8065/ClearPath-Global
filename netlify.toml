@@ -1,0 +1,6 @@
+# Static deploy of the UI only. The FastAPI backend (evaluations, AI, RAG,
+# PDF reports) does not run on Netlify — API calls from the page will fail
+# unless the backend is hosted elsewhere and proxied.
+[build]
+  publish = "."
+  command = ""
