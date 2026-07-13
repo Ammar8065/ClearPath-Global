@@ -1,0 +1,193 @@
+SOURCE_KEY: UAE_FTA_RESIDENCY
+TITLE: UAE Federal Tax Authority — Tax residency certificate guidance
+JURISDICTION: UAE
+URL: https://tax.gov.ae/en/services/issuance.of.tax.certificates.aspx
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:28+00:00
+------------------------------------------------------------------------------
+Issuance of Tax Certificates for Tax Residency
+Page last updated:: Monday, April 06, 2026
+Start Service
+Type
+Customer Service
+Service Category
+From Government to Business, From Government to Government, From Government to People
+Service Channels
+Obligation to Sign-up
+Mandatory - create a profile through Emaratax portal.
+Categories of Customers
+All persons that are UAE Tax Resident under UAE Tax Legislation, or UAE Tax Resident under the application of a Double Taxation Agreement (“DTA”).
+Relevant Publications
+Taxpayer User Manual
+(8661 KB)
+Tax Resident and Tax Residency Certificate – TPGTR1
+(614 KB)
+Sustainable Development Goals
+Service Card Rating
+10 Minutes
+Estimated Time to Submit Application
+Service Description
+Through this service, the Federal Tax Authority (“FTA”) reviews the application for and, if the application is approved, issues:
+1.
+Tax Residency Certificates to enable applicants, being a Tax Resident in the UAE, to take advantage of provisions under DTAs signed by the UAE with other jurisdictions, and whereby such DTA is in effect.
+2.
+Tax Residency Certificates “for purposes other than the application of a DTA”.
+3.
+International Form stamped by the FTA, to confirm the Tax Residency status in a related Tax Residency Certificate, through an equivalent form provided by another jurisdiction
+Channels and working hours
+Tax Residency Certificates platform:
+https://trc.tax.gov.ae/TRC_Th
+24 hours a day, 7 days a week
+Service Fees Details
+The issuance of a Tax Residency Certificate is subject to certain fees as determined by Cabinet Decision No. 65 of 2020 on the Fees for the Services Provided by the Federal Tax Authority, and its amendments.
+The applicable fees are as follows, and shall not be refundable in case of rejection of the Application:
+A submission fee for the service of (50) AED applies.
+Depending on the application type submitted by the applicant:
+Fees for each hard copy certificate requested
+(250) AED
+Review of the application and issuance of an electronic Tax Residency Certificate to a Registrant with the FTA (Tax Registrants with a Corporate Tax TRN).
+(500) AED
+Review of the application and issuance of an electronic Tax Residency Certificate to a natural person not registered with the FTA (Natural persons without a Corporate Tax TRN).
+(1,000) AED
+Review of the application and issuance of an electronic Tax Residency Certificate to a legal person not registered with the FTA (Juridical persons without a Corporate Tax TRN).
+(1,750) AED
+Disclaimer: Applicants will be required to settle the applicable fees for the service in full, before being able to complete the submission of the request.
+Note: A Corporate Tax Group is not an entity that is incorporated, established or otherwise recognised and hance cannot be regarded as a UAE Tax Resident (and no discounted fees shall apply under the use of the Corporate Tax Group credentials).  Members of a Corporate Tax Group shall be able to apply individually for the issuance of a Tax Residency Certificate, subject to meeting the requirements and conditions.
+Estimated Time to Submit Application
+10 Minutes
+Estimated Time to Complete Application by the FTA
+Tax Residency Certificate:
+• (5) Five business days from the date the completed application was received.
+• In case the applicant requested a hard copy of the certificate: )5( Five business days from the date the relevant fee payment is completed.
+• In case the applicant has a special (“International”) form that requires FTA attestation: )5( Five business days from the date the completed form is received and related fees have been paid.*
+*The applicant can submit a scanned copy of the International Form along with the Tax Residency Certificate request, or send a hard copy of the Form by courier service to the FTA.
+If the International Form is not provided or the processing fee is not paid within (30) Thirty business days, the International Form stamping request will not be processed. In such cases, the applicant will be required to resubmit a new application with the relevant International Form, and proceed with payment.
+Required Documents and Forms
+Kindly refer to the published tax procedures guide:
+Tax Resident and Tax Residency Certificate – TPGTR1
+Documentation required to apply for a Tax Residency Certificate for purposes other than the application of a Double Taxation Agreement:
+Type of Applicant
+Documentation requirements
+Natural person
+The evidence and proof required to be submitted shall depend on the case under which the Applicant considers him/herself to be a UAE Tax Resident
+Case 1: The Applicant has been physically present in the UAE for 183 days or more in a consecutive 12-month period
+:
+Emirates ID and visa, or
+copy of passport, and entry and exit report from the Federal Authority of Identity and Citizenship or a local competent Government entity, and a declaration explaining the reasons of being physically in the UAE for 183 days or more.
+Case 2: The Applicant has been physically present in the UAE between 90-182 days in a consecutive 12-month period:
+one of the following:
+Emirates ID and resident visa (if not embedded in the Emirates ID), or
+copy of passport, and entry and exit report from the Federal Authority of Identity and Citizenship or a local competent Government entity,
+AND
+one of the following:
+Proof of employment or Business: proof of source of income in the UAE, salary certificate and/or labour contract with an UAE employer, or evidence that there is a continuing relationship where all or substantially all of their income for their labour performed in the UAE is derived from one party (the relationship and derived income cannot be from a voluntary role), or evidence of owning or carrying on a business in the UAE, or other proof demonstrating employment or Business in the UAE ,
+Or
+proof of permanent place of residence in the UAE (i.e.a furnished house, apartment, room or other form of dwelling, which a natural person has arranged to have made continuously available to him/her). Such proof may for example be, a certified tenancy contract, other long-term rental contract, or a written and or signed statement from the landlord or owner of the property that the Applicant has continuous access to the place, or a title deed with a utility bill (i.e. water/electricity or gas) in the name of the natural person.
+Case 3: The Applicant has a primary place of residence and the centre of financial and personal interests in the UAE:
+one of the following:
+- Emirates ID and resident visa or
+- copy of the passport, and entry and exit report from the Federal Authority of Identity and Citizenship or a local competent Government entity.
+proof of financial and personal interests in the UAE, including a written statement explaining how the applicant believes their financial and personal interests are in the UAE, alongside all supporting documentation (Emirates IDs and entry/exit reports of close family members, club memberships, relevant bank account excerpts, social and professional engagements and memberships, etc), and
+proof that the usual or primary place of residence of the Applicant is in the UAE. The usual or primary place of residence refers to the country where a natural person (the Applicant) habitually or normally lives as a part of their settled routine and where they spend most of their time as compared to any other place. Hence, this is the country in which a natural person (the Applicant) is customarily or usually present, which depends on the frequency, duration and regularity of stays that are part of a person's life over a sufficient length of time.In addition to the above specified elements of proof, the FTA shall, for example, also consider certified tenancy contract, other long-term rental contracts for each property residing in, or written and signed statement from the landlord or owner of the property, or title deed with a utility bill (i.e. water/electricity or gas) in the name of the natural person, and
+proof of source of income, if applicable: for example, salary certificate, share certificate, Trade License, savings, or other proof of income
+Juridical person
+A relevant and valid Licence (for example, trade licence) and lease agreement (as applicable),
+UAE Corporate Tax TRN, if applicable,
+Certificate of incorporation,
+Certified copy of the Memorandum of Association if available,
+Authorised signatory (name, Emirates ID and passport) and proof of their authorisation (Establishment Contract or the Power of Attorney).
+Proof of being effectively managed and controlled in the UAE (if applicable) – this should be a written statement explaining how the applicant believes their effective management and control is in the UAE, alongside all supporting documentation.
+Documentation required to apply for a Tax Residency Certificate for Double Taxation Agreement purposes
+Type of Applicant
+Documentation requirements
+Natural person
+Irrespective of the DTA under which the Application is made:
+One of the following:
+Emirates ID and resident visa, or
+copy of passport, and entry and exit report from the Federal Authority of Identity and Citizenship or a local competent Government entity.
+proof of residence, if applicable,
+source of UAE income/salary certificate if applicable
+If the DTA residence definition and requirements refers to the conditions and requirements of the UAE Tax laws for being a Tax resident in the UAE, you can refer to the above specified cases and evidences (that is, documents required for a Tax Residence Certificate for purposes other than a DTA).
+Otherwise, you are required to clearly review the provisions of the concerned DTA and submit any relevant evidence to support your application to be considered a Tax Resident in the UAE, under the provisions of that DTA.
+Juridical person
+Irrespective of the DTA under which the application is made:
+A relevant and valid Licence (for example, a trade licence) and lease agreement (as applicable),
+UAE Corporate Tax TRN, if applicable,
+Certificate of incorporation,
+Certified copy of the Memorandum of Association,
+Authorised signatory (name, Emirates ID and passport) and proof of their authorisation Establishment Contract or the Power of Attorney),
+Proof of being effectively managed and controlled in the UAE (if applicable) – this should be a written statement explaining how the applicant believes their effective management and control is in the UAE, alongside all supporting documentation.
+Otherwise, the applicant must review the provisions of the concerned DTA and submit any relevant evidence to support its application to be considered a Tax Resident in the UAE, under the provisions of that DTA.
+Procedures and Steps
+Step 1: Go to the
+EmaraTax portal
+.
+Step 2: Create an account.
+You can use a current account on EmaraTax, create a new one, or link an old account related to the previous Tax Certificate portal.
+Step 3: Once logged in, choose “other services”
+Step 4: Select “Tax Residency Certificate”.
+Step 5: If available/applicable, select the Tax Registration Number (“TRN”) for Corporate Tax of the applicant.
+If there is no Corporate Tax TRN, choose the last option "No TRN". However, if you are obtaining a Tax Residency Certificate for the purposes of a DTA, the other contracting state may require that you are registered for UAE Corporate Tax.
+Providing a CT TRN will also reduce the application fees and also allow for auto-completion of relevant details in the application.
+Step 6: Select the type of Tax Residency Certificate requested.
+This will either be for the purposes of a DTA or otherwise. For those applying to be issued with a TRC under a specific DTA, the other applicable country will need to be selected first.
+Step 7: Complete the remaining fields and upload relevant/required supporting documentation.
+This step also includes the request for printed certificates and the request to the FTA to attest an international form.
+Step 8: Pay the full application fee and the review fee.
+Step 9: Submit the application.
+Step 10: Download the Certificate.
+Once the application is approved, a “download” icon will be displayed for the particular request on the Tax Residency Certificate platform. You can then click on the icon and download the digital Tax Residency Certificate.
+The Tax Residency Certificate will also be sent to their registered email ID.
+If a printed Certificate was requested, it will be delivered by courier.
+FAQs
+•
+1. How is the Tax Residency Certificate received?
+Once the Application is approved, the Tax Residency Certificate can be downloaded from EmaraTax via the Tax Residency Certificate platform/service page.
+•
+2. What period is covered by the Tax Residency Certificate?
+The Tax Residency Certificate covers a Tax Period, or any other 12-months period, selected by the applicant. If a Tax Period is selected, it can only be the current Tax Period or a prior Tax Period.
+A Tax Residency Certificate cannot be issued to cover a future period (i.e. for a Tax Period or a 12-month period that has not commenced), or for a period exceeding 12 months.
+•
+3. How can I obtain a stamped/attested international form?
+The FTA can, upon request, stamp Forms provided by other jurisdictions. The cost of this is included in the Tax Residency Certificate processing fee.
+The International Form must be properly completed (the FTA cannot do this on your behalf) and duly signed (and stamped for a juridical person Applicant) by the applicant before submitting it to the FTA. It must also cover the same 12-month period and the same country as in the related Tax Residency Certificate. In the cases of a Juridical Person, a stamp is also required in addition to the signature by the authorized signatory.
+An electronic International Form or a scanned copy can be attached along with the application for the Tax Residency Certificate, in the Tax Residency Certificate portal.
+If a hard-copy International Form is requested, the applicant must send the form by courier service to the FTA. Once stamped, the International Form will be couriered back to the applicant, subject to the applicant bearing the fees for this. Alternatively, the applicant can collect the Form in person from the relevant FTA office.
+4.
+Why could the FTA reject a request for stamping / attesting the International Form?
+–
+The International Form attestation was not requested in the submitted application.
+–
+The international form was not properly completed, not fully completed or not duly signed (and stamped) by the applicant.
+–
+The international form was not received by the FTA.
+–
+The period specified in the Form does not match the period selected in the related Tax Residency Certificate application.
+–
+The country mentioned in the international form does not match with the country mentioned in the related Tax Residency Certificate application.
+5.
+How does the applicant obtain the Tax Residency Certificate?
+If the applicant has paid the fees and FTA approved the application, a digital Tax Residency Certificate will be sent to their registered email ID, and it will also become downloadable from the Tax Residency Certificate platform on EmaraTax.
+If the applicant requests a printed certificate(s), it will be delivered by courier. An additional fee (AED 250) applies for each printed copy.
+The address provided in the application will be used to deliver the hard copy. If a different delivery address is required, this must be clearly stated and provided when completing the application form. Delivery is only available to an address in the UAE.
+6.
+Can I apply for the Tax Residency Certificate for a 12-month period that has not yet finished?
+Yes, but the criterion will depend on the Person applying for the Tax Residency Certificate:
+-
+Juridical Person: you can apply after (3) three months into the period or any time after expiry of the period.
+-
+Natural Person: you can apply as soon as the criteria to be Tax Resident in the UAE are met.
+-
+Government Entities and Government Controlled Entities: You can apply from (1) one day into the period or anytime after expiry of the period.
+7.
+When is the earliest I can apply for a Tax Residency Certificate for a newly incorporated or established company?
+A company must be established for 12 months before being eligible to apply for the Tax Residency Certificate.
+Terms & Conditions
+1.
+An applicant that is a juridical person and applying for a Tax Residency Certificate must be already incorporated or established for at least 12 months.
+2.
+A Tax Residency Certificate for DTA purposes will be issued based on Ministerial Decision No. 247 of 2023 on the Issuance of Tax Residency Certificate for the Purposes of International Agreements.
+3.
+An applicant who is a Juridical Person and applying for a Tax Residency Certificate for purposes other than the application of a DTA, must meet the criteria from Cabinet Decision No. 85 of 2022 for the relevant 12-month period.
+4.
+An applicant who is a Natural Person and applying for a Tax Residency Certificate for purposes other than the application of a DTA, must meet the criteria from Cabinet Decision No. 85 of 2022 for the relevant 12-month period, to be read with Ministerial Decision No. 27 of 2023 on Implementation of Certain Provisions of Cabinet Decision No. 85 of 2022 on Determination of Tax Residency.

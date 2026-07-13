@@ -1,0 +1,70 @@
+SOURCE_KEY: US_IRS_GILTI
+TITLE: IRS — GILTI and Subpart F income for US shareholders of CFCs
+JURISDICTION: US
+URL: https://www.irs.gov/forms-pubs/about-form-5471
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:59+00:00
+------------------------------------------------------------------------------
+Certain U.S. citizens and residents who are officers, directors, or shareholders in certain foreign corporations file Form 5471 and schedules to satisfy the reporting requirements of sections 6038 and 6046, and the related regulations.
+Current revision
+Form 5471
+PDF
+Instructions for Form 5471
+(
+Print version
+PDF
+)
+Recent developments
+None at this time.
+Schedules
+Schedule E (Form 5471), Income, War Profits, and Excess Profits Taxes Paid or Accrued
+Foreign corporation’s that file Form 5471 use this schedule, to report taxes paid, accrued, or deemed paid and to report taxes for which a credit may not be taken.
+All Schedule E (Form 5471) revisions
+Instructions for Schedule E (Form 5471)
+Schedule G-1 (Form 5471), Income, War Profits, and Excess Profits Taxes Paid or Accrued
+Foreign corporation’s that file Form 5471 use this schedule to report for each cost sharing arrangement in which the foreign corporation was a controlled during the tax year.
+All Schedule G-1 (Form 5471) revisions
+Instructions for Schedule G-1 (Form 5471)
+Schedule H (Form 5471), Current Earnings and Profits
+Foreign corporation’s that file Form 5471 use this schedule to report the current E&P for U.S. tax purposes.
+All Schedule H (Form 5471) revisions
+Instructions for Schedule H (Form 5471)
+Schedule I-1 (Form 5471), Information for Global Intangible Low-Taxed Income
+Foreign corporation’s that file Form 5471 use this schedule to report information determined at the CFC level with respect to amounts used in the determination of income inclusions by U.S. shareholders.
+All Schedule I-1 (Form 5471) revisions
+Instructions for Schedule I-1 (Form 5471)
+Schedule J (Form 5471), Accumulated Earnings & Profits (E&P) of Controlled Foreign Corporation
+Foreign corporation’s that file Form 5471 use this schedule to report a CFC’s accumulated E&P in its functional currency.
+All Schedule J (Form 5471) revisions
+Instructions for Schedule J (Form 5471)
+Schedule M (Form 5471), Transactions Between Controlled Foreign Corporation and Shareholders or Other Related Persons
+Foreign corporation’s that file Form 5471 use this schedule to report the transactions that occurred during the foreign corporation's annual accounting period ending with or within the U.S. person's tax year.
+All Schedule M (Form 5471) revisions
+Instructions for Schedule M (Form 5471)
+Schedule O (Form 5471), Organization or Reorganization of Foreign Corporation, and Acquisitions and Dispositions of its Stock
+Foreign corporation’s that file Form 5471 use this schedule to report the organization or reorganization of a foreign corporation and the acquisition or disposition of its stock.
+All Schedule O (Form 5471) revisions
+Instructions for Schedule O (Form 5471)
+Schedule P (Form 5471), Previously Taxed Earnings and Profits of U.S. Shareholder of Certain Foreign Corporations
+Foreign corporation’s that file Form 5471 use this schedule to report the PTEP in the U.S. shareholder’s annual PTEP accounts.
+All Schedule P (Form 5471) revisions
+Instructions for Schedule P (Form 5471)
+Schedule Q (Form 5471), CFC Income by CFC Income Groups
+Foreign corporation’s that file Form 5471 use this schedule to report the CFC’s income, deductions, taxes, and assets by CFC income groups.
+All Schedule Q (Form 5471) revisions
+Instructions for Schedule Q (Form 5471)
+Schedule R (Form 5471), Distributions From a Foreign Corporation
+Foreign corporation’s that file Form 5471 use this schedule to report basic information pertaining to distributions from foreign corporations.
+All Schedule R (Form 5471) revisions
+Instructions for Schedule R (Form 5471)
+Other items you may find useful
+All Form 5471 revisions
+About Publication 1167, General Rules and Specifications for Substitute Forms and Schedules
+Other current products
+Related
+About Form 8858, Information Return of U.S. Persons With Respect to Foreign Disregarded Entities (FDEs) and Foreign Branches (FBs)
+About Form 8883, Asset Allocation Statement Under Section 338
+About Form 8886, Reportable Transaction Disclosure Statement
+About Form 8918, Material Advisor Disclosure Statement
+About Form 8938, Statement of Specified Foreign Financial Assets
+About Form 8960, Net Investment Income Tax Individuals, Estates, and Trusts

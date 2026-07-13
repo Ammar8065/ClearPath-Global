@@ -1,0 +1,67 @@
+SOURCE_KEY: AU_ATO_S99B
+TITLE: ATO — Receiving payments or assets from foreign trusts (s 99B)
+JURISDICTION: AU
+URL: https://www.ato.gov.au/businesses-and-organisations/trusts/trust-income-losses-and-capital-gains/receiving-payments-or-assets-from-foreign-trusts
+METHOD: wayback (snapshot 20260624172741)
+FETCHED_AT: 2026-07-11T11:13:15+00:00
+------------------------------------------------------------------------------
+Receiving payments or assets from foreign trusts
+Learn what to do as an Australian resident if you receive a payment or asset from a foreign trust.
+Last updated
+17 December 2024
+Print or Download
+Payments and assets subject to section 99B
+Section 99B
+of the
+Income Tax Assessment Act 1936
+(ITAA 1936) applies when amounts of foreign trust property are paid to you or applied for your benefit, and you are a beneficiary of the trust. Trust assets can include cash, land, shares and other assets.
+The amount or value of the trust property is included in your assessable income in the income year that you receive it.
+Amounts of trust property paid to you or applied for your benefit from a resident trust which was previously a foreign trust will also be subject to section 99B.
+Trust property paid to you or applied for your benefit can include:
+loans to you by the trustee directly or indirectly through another entity
+amounts paid by the trustee to a third party on your behalf
+amounts that are described as gifts from family members, but are sourced from the trust
+distributions paid to you or trust assets (such as shares) transferred to you by the trustee.
+Reducing the amount taxed under section 99B
+There are a number of ways in which the amount assessed under section 99B can be reduced. For example, you may not have to include a payment or other asset or benefit you receive from a foreign trust in your assessable income if it:
+has already been assessed to you (or the trustee) under another provision of the income tax law, or
+represents an amount of corpus which is not otherwise removed by the hypothetical taxpayer test.
+We may ask you for further information to verify any reduction in your circumstances.
+PCG 2024/3
+Section 99B of the Income Tax Assessment Act 1936
+provides guidance on documentation we may ask for.
+You should seek further advice, including supporting documents, from the trustee of the foreign trust about any money or other assets you receive from the trust.
+If you receive money or other assets from a foreign trust
+If you receive money or other assets from overseas or from an Australian trust which has been a foreign trust, you need to understand the nature and source of the money or other assets you receive.
+If you receive money from a trust, either directly, or indirectly through another entity, you may need to ask further questions to determine whether the amount must be included in your assessable income.
+Questions may include:
+whether you are a beneficiary of the trust
+where and how the foreign trust obtained the money or property (this will assist in determining the source of the money or property)
+why the money was paid to you – for example, is it payment for services, a gift, a distribution or a loan (this will assist in understanding the nature of the payment).
+Similar questions are relevant if you receive other assets or benefits from a trust.
+Section 99C
+of the ITAA 1936 outlines the circumstances, including specific situations, in which amounts or assets will be considered to have been applied for the direct or indirect benefit of a beneficiary.
+Examples when section 99B needs to be considered include where:
+an Australian beneficiary receives money from a family member who received it from a foreign trust
+an Australian beneficiary receives a capital distribution from a foreign trust out of the trust's accumulated prior year income
+a family member provides an amount of money from their foreign family trust (or through another intermediary) and the recipient, who considers the amount a gift, is also a beneficiary of the trust
+an Australian beneficiary receives a loan from a foreign trust that is sourced from prior year income derived by the trust.
+Where section 99B applies to include an amount in your assessable income,
+section 102AAM
+interest may also apply, resulting in an additional income tax liability.
+We're often alerted to potential section 99B cases as a result of
+AUSTRAC
+External Link
+(Australian Transaction Reports and Analysis Centre) monitoring of payments to Australian residents from overseas. This data is matched with information reported in tax returns.
+Guidance material
+PCG 2024/3
+Section 99B of the Income Tax Assessment Act 1936 – ATO compliance approach
+TA 2021/2
+Disguising undeclared foreign income as gifts or loans from related overseas entities
+TD 2017/24
+Where an amount included in a beneficiary's assessable income under subsection 99B(1) of the ITAA 1936 had its origins in a capital gain from non-taxable Australian property of a foreign trust, can the beneficiary offset capital losses or a carry-forward net capital loss ('capital loss offset') or access the CGT discount in relation to the amount?
+TD 2024/9
+Income tax: factors taken into account in applying the exceptions to section 99B of the Income Tax Assessment Act 1936 contained in paragraphs 99B(2)(a) and 99B(2)(b)
+QC
+67389
+Print or Download

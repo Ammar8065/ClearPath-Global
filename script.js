@@ -1,3 +1,6 @@
+// Fallback copy of frontend/core.js SECTION_META — kept inline so basic
+// navigation still works if the module bundle fails to load. Keep the two
+// in sync when adding sections.
 const SECTION_META = {
   dashboard: { title: "Dashboard", sub: "Privacy-first cross-border advisory workspace" },
   evaluate: { title: "Private Assessment", sub: "Run a stateless client assessment without storing financial data" },
@@ -5,6 +8,7 @@ const SECTION_META = {
   rules: { title: "Rules Library", sub: "Versioned, legislation-backed rules" },
   sources: { title: "Knowledge Sources", sub: "Legislation and guidance underpinning rules" },
   assets: { title: "Asset Storage Disabled", sub: "Private mode prevents persistent asset registers" },
+  ask: { title: "Ask ClearPath", sub: "Grounded search over the rules and sources knowledge base" },
 };
 
 function getSectionElements() {

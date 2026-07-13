@@ -1,0 +1,39 @@
+SOURCE_KEY: US_IRS_ESTATE_NRA
+TITLE: IRS — Estate and gift tax for non-resident aliens (US-situs assets)
+JURISDICTION: US
+URL: https://www.irs.gov/individuals/international-taxpayers/some-nonresidents-with-us-assets-must-file-estate-tax-returns
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:17:00+00:00
+------------------------------------------------------------------------------
+Certain deceased nonresidents who were not citizens of the United States are subject to U.S. estate taxation with respect to their U.S.-situated assets. For estate tax purposes, a citizen of a U.S. possession is not a U.S. citizen.
+U.S.-situated assets that are subject to estate tax include, for example:
+Real estate located in the U.S.,
+Tangible personal property (excluding some art), and
+Stock of corporations organized in or under U.S. law, even if the nonresident held the certificates abroad or registered the certificates in the name of a nominee.
+Examples of property treated as situated outside the U.S., and therefore not subject to the U.S. estate tax, include certain deposits and debt obligations described in Section 871(g)-(i), bank accounts deposited with a foreign branch of a domestic commercial banking business, and proceeds of life insurance on the life of a nonresident who is not a U.S. citizen.
+Estate tax treaties between the U.S. and other countries often provide more favorable tax treatment to nonresidents by limiting the type of asset considered situated in the U.S. and subject to U.S. estate taxation. Executors for nonresident estates should consult such treaties where applicable. Treaties and tax information exchange agreements are viewable at the
+Department of the Treasury's Resource Center for Treaties
+and
+Tax Information Exchange Agreements
+.
+An executor for a nonresident, not a citizen of the U.S. must file an estate tax return,
+Form 706-NA, United States Estate (and Generation-Skipping) Tax Return, Estate of a nonresident not a citizen of the United States
+PDF
+, if the fair market value at death of the decedent's U.S.-situated assets exceeds $60,000. See the
+Form 706-NA Instructions
+for more information.
+U.S. citizens are subject to U.S. estate taxation with respect to their worldwide assets, even if they are not residents of the U.S. An estate tax return,
+Form 706, United States Estate (and Generation-Skipping) Tax Return, Estate of a citizen or resident of the United States
+PDF
+, is required for a deceased U.S. citizen if the fair market value at death of the decedent's worldwide assets plus the value of the decedent's adjusted taxable gifts exceeds the basic exclusion amount in effect on the date of death. For additional information, refer to the
+Instructions to Form 706
+or to
+Publication 559, Survivors, Executors, and Administrators
+PDF
+.
+The Internal Revenue Service may collect any unpaid estate tax from any person receiving a distribution of the decedent’s property under transferee liability provisions of the tax code.
+Related
+Estate Tax for Nonresidents not Citizens of the United States
+Gift Tax for Nonresidents not Citizens of the United States
+Estate and Gift Tax Treaties (International)
+Taxation of Nonresident Aliens

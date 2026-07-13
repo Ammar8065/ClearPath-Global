@@ -1,0 +1,216 @@
+SOURCE_KEY: AU_ATO_MEDICARE
+TITLE: ATO — Medicare Levy and Medicare Levy Surcharge
+JURISDICTION: AU
+URL: https://www.ato.gov.au/individuals-and-families/medicare-and-private-health-insurance/medicare-levy-surcharge
+METHOD: wayback (snapshot 20260607075748)
+FETCHED_AT: 2026-07-11T11:14:34+00:00
+------------------------------------------------------------------------------
+Medicare levy surcharge
+Find out when you have to pay the Medicare levy surcharge and the income thresholds and rates.
+Paying the Medicare levy surcharge
+Find out when you have to pay the Medicare levy surcharge and how much you will pay.
+Family and dependants for Medicare levy surcharge purposes
+Find out who is considered a member of a family and who is a dependant for the purposes of the Medicare levy surcharge.
+Medicare levy surcharge income, thresholds and rates
+Based on your income for MLS purposes, you can work out which income threshold and MLS rates apply to you.
+Medicare levy surcharge and your tax return
+Information to help you complete the Medicare levy surcharge in your tax return.
+QC
+27040
+
+===== SUB-PAGE: https://www.ato.gov.au/individuals-and-families/medicare-and-private-health-insurance/medicare-levy-surcharge/medicare-levy-surcharge-income-thresholds-and-rates =====
+Medicare levy surcharge income, thresholds and rates
+Based on your income for MLS purposes, you can work out which income threshold and MLS rates apply to you.
+Last updated
+22 June 2026
+Print or Download
+Income for Medicare levy surcharge purposes
+Income for Medicare levy surcharge (MLS) purposes is used to work out whether you have to pay the MLS and the rate you will pay.
+If you have a spouse, we will use your combined income for MLS purposes.
+You can work out your income for MLS purposes with our
+Income tests calculator
+.
+Your income for MLS purposes is the sum of the following items for you (and your spouse, if you have one):
+Taxable income
+include the net
+amount on which family trust distribution tax has been paid
+don't include any assessable first home super saver (FHSS) released amount for the income year under the
+FHSS scheme
+.
+Reportable fringe benefits
+.
+Total net investment losses – the sum of
+net financial investment losses
+net rental property losses
+.
+Reportable super contributions – the sum of
+reportable employer super contributions
+deductible personal super contributions.
+If you have a spouse, their share of the net income of a trust on which the trustee must pay tax (under section 98 of the
+Income Tax Assessment Act 1936
+) and which hasn't been included in their taxable income.
+If you had exempt foreign employment income, add it to your taxable income if your taxable income is $1 or more.
+For 2023–24 and prior income years, if you meet both of the following conditions, you can reduce your income for MLS purposes by any taxed element of the super lump sum, other than a death benefit, that does not exceed your (or your spouse's)
+low rate cap
+:
+you (or your spouse) are aged from your (or their)
+preservation age
+to under 60 years old
+you (or your spouse) received a super lump sum.
+Income threshold and rates for 2026–27
+Once you determine your income for
+Medicare levy surcharge
+(MLS) purposes, you can use the MLS income threshold tables below to work out which MLS rate applies to you.
+These income thresholds and MLS rates apply for the 2026–27 income year.
+Use this information to work out which income threshold and MLS rate apply to you.
+MLS income thresholds and rates for 2026–27
+Threshold
+Base tier
+Tier 1
+Tier 2
+Tier 3
+Single threshold
+$105,000 or less
+$105,001 – $123,000
+$123,001 – $164,000
+$164,001 or more
+Family threshold
+$210,000 or less
+$210,001 – $246,000
+$246,001 – $328,000
+$328,001 or more
+Medicare levy surcharge
+0%
+1%
+1.25%
+1.5%
+The family income threshold is increased by $1,500 for each MLS dependent child after the first child.
+Example: Medicare levy surcharge for a single adult
+In the 2026–27 income year, Tom doesn't have the appropriate level of private patient hospital cover and is:
+35 years old
+single without any dependants.
+Tom’s taxable income is $90,000. When Tom completes his tax return, he also completes the income test section and declares total reportable fringe benefits of $27,000.
+Tom’s income for MLS purposes is $117,000 ($90,000 taxable income and $27,000 total reportable fringe benefits).
+Therefore, Tom is a Tier 1 income earner and the Tier 1 MLS rate that applies to him is 1%.
+The amount of MLS is calculated on his taxable income of $90,000 and total reportable fringe benefits of $27,000.
+Tom’s MLS liability for 2026–27 is $1,170 ($117,000 × 1%).
+End of example
+Income threshold and rates for 2025–26
+Once you determine your income for
+Medicare levy surcharge
+(MLS) purposes, you can use the MLS income threshold tables below to work out which MLS rate applies to you.
+These income thresholds and MLS rates apply for the 2025–26 income year.
+Use this information to work out which income threshold and MLS rate apply to you.
+MLS income thresholds and rates for 2025–26
+Threshold
+Base tier
+Tier 1
+Tier 2
+Tier 3
+Single threshold
+$101,000 or less
+$101,001 – $118,000
+$118,001 – $158,000
+$158,001 or more
+Family threshold
+$202,000 or less
+$202,001 – $236,000
+$236,001 – $316,000
+$316,001 or more
+Medicare levy surcharge
+0%
+1%
+1.25%
+1.5%
+The family income threshold is increased by $1,500 for each MLS dependent child after the first child.
+Income threshold and rates for 2024–25
+Once you determine your income for
+Medicare levy surcharge
+(MLS) purposes, you can use the MLS income threshold tables below to work out which MLS rate applies to you.
+These income thresholds and MLS rates apply for the 2024–25 income year.
+Use this information to work out which income threshold and MLS rate apply to you.
+MLS income thresholds and rates for 2024–25
+Threshold
+Base tier
+Tier 1
+Tier 2
+Tier 3
+Single threshold
+$97,000 or less
+$97,001 – $113,000
+$113,001 – $151,000
+$151,001 or more
+Family threshold
+$194,000 or less
+$194,001 – $226,000
+$226,001 – $302,000
+$302,001 or more
+Medicare levy surcharge
+0%
+1%
+1.25%
+1.5%
+The family income threshold is increased by $1,500 for each MLS dependent child after the first child.
+Income threshold and rates for 2023–24
+Once you determine your income for
+Medicare levy surcharge
+(MLS) purposes, you can use the MLS income threshold tables below to work out which MLS rate applies to you.
+These income thresholds and MLS rates apply for the 2023–24 income year.
+Use this information to work out which income threshold and MLS rate apply to you.
+MLS income thresholds and rates for 2023–24
+Threshold
+Base tier
+Tier 1
+Tier 2
+Tier 3
+Single threshold
+$93,000 or less
+$93,001 – $108,000
+$108,001 – $144,000
+$144,001 or more
+Family threshold
+$186,000 or less
+$186,001 – $216,000
+$216,001 – $288,000
+$288,001 or more
+Medicare levy surcharge
+0%
+1%
+1.25%
+1.5%
+The family income threshold is increased by $1,500 for each MLS dependent child after the first child.
+Income threshold and rates for 2022–23
+These income thresholds and MLS rates apply for the 2022-23 income year.
+Use this information to work out which income threshold and MLS rate apply to you.
+MLS income thresholds and rates 2022–23
+Threshold
+Base tier
+Tier 1
+Tier 2
+Tier 3
+Single threshold
+$90,000 or less
+$90,001 – $105,000
+$105,001 – $140,000
+$140,001 or more
+Family threshold
+$180,000 or less
+$180,001 – $210,000
+$210,001 – $280,000
+$280,001 or more
+Medicare levy surcharge
+0%
+1%
+1.25%
+1.5%
+The family income threshold is increased by $1,500 for each MLS dependent child after the first child.
+See
+Family and dependants for Medicare levy surcharge purposes
+for more information about what is considered family and dependant for the MLS.
+Prior year income thresholds and rates
+MLS income thresholds and rates from 2010–11 to 2021-22 are available on the
+Prior year tax return forms and schedules
+page.
+QC
+49961
+Print or Download

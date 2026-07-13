@@ -1,0 +1,97 @@
+SOURCE_KEY: AU_ATO_COMPANY_RES
+TITLE: ATO — Company tax residency (central management and control test)
+JURISDICTION: AU
+URL: https://www.ato.gov.au/businesses-and-organisations/international-tax-for-business/working-out-your-residency
+METHOD: wayback (snapshot 20260122140816)
+FETCHED_AT: 2026-07-11T11:15:58+00:00
+------------------------------------------------------------------------------
+Working out your residency
+Work out the residency status of your business entity to determine your Australian income tax obligations.
+Last updated
+11 June 2025
+Print or Download
+Residency criteria
+Foreign resident entities are generally taxed in Australia on any income that has an Australian source. Australian resident entities are generally taxed on their worldwide income.
+There are different residency criteria for:
+sole traders and ordinary partnerships
+companies
+corporate limited partnerships
+trusts
+Sole traders and ordinary partnerships
+If you operate your business as a sole trader or an ordinary partnership, your Australian income tax obligations are based on your individual residency. Refer to
+Your tax residency
+.
+Companies
+A company is a resident of Australia if it is either:
+incorporated in Australia, or
+not incorporated in Australia but carries on business in Australia, and has either its
+central management and control in Australia, or
+voting power controlled by shareholders who are residents of Australia.
+We provide our view on the central management and control test of corporate residency in:
+Taxation Ruling
+TR 2018/5
+Income tax: central management and control test of residency
+Practical Compliance Guideline
+PCG 2018/9
+Central management and control test of residency: identifying where a company's central management and control is located
+COVID-19 had a temporary effect on our approach to the following issues for foreign-incorporated companies:
+•
+central management and control
+•
+permanent establishments
+Corporate limited partnerships
+A corporate limited partnership will be considered a resident of Australia if either the partnership:
+was formed in Australia
+carries on business in Australia or has its central management and control in Australia.
+It is usually not necessary to determine the residency status of ordinary partnerships (which do not have the benefit of limited liability). The individual partners are taxed on their share of the net partnership income according to their individual residency status.
+Trusts
+Generally, trusts are considered Australian residents for an income year if either:
+a trustee of the trust estate was a resident at any time during the income year
+the central management and control of the trust estate was in Australia at any time during the income year.
+For capital gains tax (CGT) purposes, the resident conditions are the same, unless the trust is a unit trust. A unit trust is a resident trust for CGT purposes for an income year if it meets the
+unit trust residency requirement
+at any time during the year.
+For public trading trust purposes, the conditions for determining whether a unit trust is an Australian resident for an income year are the same as those for unit trusts for CGT purposes.
+The
+unit trust residency requirement
+has 2 parts. A condition in both the first and second parts must be met.
+Unit trust residency requirement
+One of these requirements was satisfied:
+Any property of the unit trust was situated in Australia.
+The trustee of the unit trust carried on a business in Australia.
+And also one of these:
+The central management and control of the unit trust was in Australia.
+One or more Australian residents held more than 50% of the beneficial interests in the income or property of the trust.
+Note:
+The concept of ‘property’ is broad and is not restricted to tangible property. It may include items such as trading stock, cash and software.
+Announced but unenacted legislative measures
+In the 2020–21 Budget, the former government announced technical amendments to clarify the corporate residency test. Legislation to implement this announcement remains unenacted.
+Announced measures that are not yet law will be subject to consideration by the government. In these circumstances, you need to self-assess based on the current law.
+If you choose to anticipate new law in line with the announcement and it is not enacted, you may need to seek an amendment. For more information, see
+Administrative treatment of retrospective legislation
+.
+Subject to any future legislative amendments, TR 2018/5 and PCG 2018/9 provide our existing view on the central management and control test of corporate residency.
+Further guidance will be provided if the legislative amendments are enacted.
+Public company disclosures for subsidiary entities
+The
+Treasury Laws Amendment (Making Multinationals Pay Their Fair Share—Integrity and Transparency) Act 2024
+External Link
+introduced disclosure requirements for public companies in subsection 295(3A) of the
+Corporations Act 2001
+. This includes information regarding the tax residency of subsidiary entities.
+The Australian Securities and Investments Commission (ASIC) and the Auditing and Assurance Standards Board (AUASB) have provided the following guidance on the consolidated entity disclosure statement (CEDS):
+ASIC Information Sheet 284
+External Link
+Public companies to include a consolidated entity disclosure statement in their annual financial report
+AUASB Bulletin Audit Implications of the Consolidated Entity Disclosure Statement – July 2024
+External Link
+The
+Treasury Laws Amendment (Fairer for Families and Farmers and Other Measures) Act 2024
+amended subsection 295(3A) and inserted subsection 295(3B) of the
+Corporations Act 2001
+to clarify the tax residency disclosures required in annual financial reports for financial years commencing on or after 1 July 2024. The amendments clarify the disclosures required for dual resident public companies and subsidiaries, partnerships and trusts.
+The amendments ensure disclosures in the CEDS align with income tax return disclosures, to improve multinational tax transparency. ASIC’s information sheet has been updated to reflect these amendments.
+ASIC's guidance states that entities that determine tax residency in good faith and in accordance with the Commissioner of Taxation’s public guidance may declare that the tax residency status of a subsidiary is true and correct for the purposes of the CEDS. The ATO was consulted on the preparation of the ASIC and AUASB guidance.
+QC
+45541
+Print or Download

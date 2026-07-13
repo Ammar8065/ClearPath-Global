@@ -1,0 +1,1138 @@
+SOURCE_KEY: HK_IRD_60DAY
+TITLE: IRD Hong Kong — Salaries Tax 60-day visitor exemption (s. 8(1B) IRO)
+JURISDICTION: HK
+URL: https://www.ird.gov.hk/eng/pdf/dipn10.pdf
+METHOD: direct+pdf
+FETCHED_AT: 2026-07-11T11:16:22+00:00
+------------------------------------------------------------------------------
+Inland Revenue Department 
+The Government o
+f the Hong Kong Special Administrative Region 
+of the People's Republic of China
+ 
+DEPARTMENTAL INTERPRETATION AND PRACTICE NOTES 
+NO. 10 (REVISED) 
+THE CHARGE TO SALARIES TAX 
+These notes are issued for the info rmation of taxpayers and their tax 
+representatives. They contain the Depart ment’s interpretation and practices in 
+relation to the law as it stood at the date  of publication.  Ta xpayers are reminded 
+that their right of objection against the a ssessment and their right of appeal to the 
+Commissioner, the Board of Review or the Court are not affected by the 
+application of these notes. 
+These notes replace those issued in December 1987. 
+LAU MAK Yee-ming, Alice 
+Commissioner of Inland Revenue 
+June 2007 
+Our web site : www.ird.gov.hk 
+
+DEPARTMENTAL INTERPRETATION AND PRACTICE NOTES 
+ 
+No. 10 (REVISED) 
+ 
+CONTENT 
+ 
+ 
+Paragraph
+ 
+(A)  Basic charge – Empl
+oyment 
+Introduction 1
+ The Goepfert decision 5
+ 
+ Contract of employment 
+ 
+ Written contract 7
+ 
+ Parties to the contract 9
+ 
+ Contract negotiated and concluded 11
+ 
+ Enforceability of contract 13
+ 
+Residence of employer 15
+ 
+ Central management and control 16
+ 
+ Parent and subsidiary 19
+ 
+ Establishing employer’ s residence 20
+ 
+Place of payment of remuneration 21
+ 
+Look further than the external or superficial features 24
+ 
+Summing up  25
+ 
+ 
+(B) Extension of ch arge – Employment 26
+ 
+ 
+(C) Exclusion from charge – Employment 31
+ 
+ 
+(D) Directors’  fees 34
+ 
+ 
+(E) Ship and aircraft personnel 35
+ 
+ 
+(F) Exclusion – Tax paid outside Hong Kong 36
+ 
+ 
+Appendix 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+                                                 
+     
+      
+  
+(A) BASIC CHARGE – EMPLOYMENT 
+Introduction 
+The basic char
+ge to Salaries Tax is imposed by section 8(1) of the 
+Inland Revenue Ordinance (“the Ordinan ce”) on income “arising in or derived 
+from Hong Kong” from any office or employment of profit. No general rules 
+are given in the Ordinance for determin ing whether income “arises in or is 
+derived from Hong Kong”. However, in  deciding this question in connection 
+with employment, it has long been accepted that it is necessary to establish the 
+place where the employment, the source of income, is located. 
+2. This Departmental Interpretatio n & Practice Notes No. 10 (“DIPN 
+10”) was first issued in January 1982 and revised in December 1987 after the 
+High Court decision in Commissioner of Inland Revenue v. George Andrew 
+Goepfert, 2 HKTC 210 . In the 1987 version of DIPN 10, the Department has 
+accepted that in the great majority of cases, the question of Hong Kong or 
+non-Hong Kong employment can be resolved by considering the three factors, 
+namely, (a) contract of employment, (b) residence of the employer, and (c) 
+place of payment of remuneration. 
+3.  Since the issue of the 1987 re vision of DIPN 10, the Board of  
+Review ha
+d heard over 30 cases on the source of employment.  While most 
+Boards had taken into account the above-mentioned three factors in their 
+decision, some Boards had expressed the view that the 1987 revision was 
+inaccurate and misleading a nd the three-factor test promulgated in the Notes 
+was contrary to the “totality of facts” test set out by MacDougall, J. in the 
+Goepfert decision
+1 . There is indeed a need to bring the 1987 version 
+up-to-date. 
+4. In this present revision, the Depa rtment does not seek to introduce a 
+new approach in determining the source of employment. The Department still 
+holds the view that the above-mentioned factors are the major factors in 
+determining source of employment. This revision intends to set out in clearer 
+terms the Department’s practices in determining the source of employment.       
+Particularly strong criticism of the three-factor test promulgated in the 1987 version of the Notes 
+can be found in Case No. D40/90, 5 IRBRD 306, at p.314, Case No. D87/00, 15 IRBRD 750, at 
+p.764, Case No. D125/02, 18 IRBRD 179, at p.185. 
+1 
+
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+                                                 
+       
+The Goepfert decision  
+5. The question of w
+here the employm ent or the source of income was 
+located was decided by the Hi gh Court in 1987 in the Goepfert case. After 
+referring to a number of UK cases and decisions of the Board of Review, 
+MacDougall, J., made the following comments on the approach to resolve the 
+issue: 
+(a) 	 “It follows that the place where the services are rendered is 
+not relevant to the enquiry unde r section 8(1) as to whether 
+income arises in or is derived from Hong Kong from any 
+employment.  It should theref ore be completely ignored.” 
+(page 236) 
+(b) 	 “Specifically, it is necessary to look for the place where the 
+income really comes to the employee, that is to say, where the 
+source of income, the employmen t, is located.  As Sir 
+Wilfred Greene said, regard must first be had to the contract 
+of employment. 
+This does not mean that the Commissioner may not look 
+behind the appearances to discover the reality.  The 
+Commissioner is not bound to accept as conclusive, any claim 
+made by an employee in this connexion. He is entitled to 
+scrutinise all evidence, documentary or otherwise, that is 
+relevant to this matter.” (page 237) 
+(c) 	 “If any authority be needed  for this basic proposition one 
+needs only to refer to the words of Lord Normand at page 155 
+of Bray v.
+ Colenbrander2: 
+‘My Lords, in each of thes e appeals the Respondent 
+entered into a contract of employment with an employer 
+resident abroad.  The contract  was in each case entered 
+into in the country of the employer’s residence and it 
+provided for payment of the employee’s remuneration in 
+that country. Parenthetically it should be said that there 
+Reported in 34 TC 138 
+2
+ 
+2 
+
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+is no suggestion that the payment was nominal or 
+pretended, or that the real or genuine place of payment 
+was not the place specified in the contract. Nothing, 
+therefore of what follows in this opinion in any way 
+touches a case where the desi gnated place of payment is 
+challenged as nominal or pr etended and unreal.’ ” (page 
+237) 
+(d) 	 “There can be no doubt therefore that in  deciding the crucial 
+issue, the Commissioner may need  to look further than the 
+external or superficial features of the employment. 
+Appearance may be deceptive.  He may need to examine 
+other factors that point to the real locus of the source of 
+income, the employment. 
+It occurs to me that sometimes when reference is made to the 
+so called ‘totality of facts’ test it may be that what is meant is 
+this very process. If that is what it means then it is not an 
+enquiry of a nature different from that to wh ich the English 
+cases refer, but is descriptive of the process adopted to 
+ascertain the true answer to the question that arises under 
+section 8(1).” (page 237) 
+(e) 	 “Having stated what I consider  to be the proper test to be 
+applied in determining for the purpose of sec. 8(1) whether 
+income arises in or is derived from Hong Kong from 
+employment, the position may, in my view, be summarised as 
+follows. 
+If during a year of assessment, a person’s income falls within 
+the basic charge to salaries tax under section 8(1), his entire 
+salary is subject to salaries tax wherever his services may 
+have been rendered, subject on ly to the so called ‘60 days 
+rule’ that operates when the ta xpayer can claim relief by way 
+of exemption under section 8( 1A)(b) as read with section 
+8(1B). Thus, once income is ca ught by section 8(1) there is 
+no provision for apportionment. 
+3
+ 
+
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+I hasten to add, however, th at the ‘60 days rule’ does not 
+apply to the income derived fro m services rendered by those 
+persons who, by the operation of section 8(1A)(b)(i) are 
+excluded from enjoying the benefit conferred by section 
+8(1A)(b)(ii) as read with section 8(1B).” (page 238) 
+(f) 	 “On the other hand, if a person, whose income does not fall 
+within the basic char ge to salaries tax under section 8(1), 
+derives income from employment in respect of which he 
+rendered services in Hong Kong , only that income derived 
+from the services he actually  rendered in Hong Kong is 
+chargeable to salaries tax. Agai n, this is subject to the ‘60 
+days rule’.” (page 238) 
+6. The Department accepts the lear ned judge’s view and would follow 
+the above approach. No do ubt, the contract of employment is the key factor 
+in ascertaining the location of the employm ent.  In the course of examination, 
+the Department may need to look furt her than the external or superficial 
+features of the employment. In determ ining where the source of income, the 
+employment, is located, the Department  will take into account all of the 
+relevant facts, with particular emphasis on: 
+(a) 	 where the contract of employment was negotiated and entered 
+into, and is enforceable, whet her in Hong Kong or outside 
+Hong Kong; 
+(b) 	 where the employer is reside nt, whether in Hong Kong or 
+outside Hong Kong; and 
+(c) 	 where the employee’s remuneration is paid to him, whether in 
+Hong Kong or outside Hong Kong. 
+Source is a practical hard matter of fact . The Department’s practice is set out 
+below. 
+4
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Contract of employment 
+Written contract 
+7. The contract to be considered is that which is curre ntly in force and 
+which is the basis for the relationship of master and servant existing between 
+the employer and employee. The fact that  the contract may have been entered 
+into many years earlier will not diminish its relevance in considering this factor. 
+However, if certain terms in the agreement have been varied subsequently, 
+alterations and additions to the initial agreement should also be taken into 
+account in so far as they may affect the determination of where the source of 
+employment is located. 
+8. The Department expects to be  provided with a copy of the 
+employment contract properly executed by the employer and employee. In 
+the past, there were taxpayers clai ming they had empl oyment with entities 
+outside Hong Kong but their employmen t contracts were not in writing. 
+Having regard to the present day sta ndard regarding parties’ rights and 
+obligations and the fact that they can sue or be sued, the Department would 
+have difficulty in accepting that no written contract ex ists to record what the 
+parties have agreed. For this reason,  the Department would expect that a 
+written contract be provided. If, as a ma tter of fact, a written contract does 
+not exist, the taxpayer is nevertheless required to provide a document from his 
+employer certifying the terms of his appointment, the effective date of the 
+appointment, etc. The document sh ould be signed by the parties. 
+Parties to the contract 
+9. While the Department  would generally accept the parties named in 
+the contract as the relevant parties, th e Departm
+ent would take steps to verify 
+the genuineness of the relationship be tween the parties if warranted by 
+circumstances. For example, if a comp any in its capacity as an employer, 
+sponsors an individual to gain entr y into Hong Kong to take up employment 
+and has represented to other Government departments to that effect, this will be 
+a factor for the Department to take into  account together with other relevant 
+facts in determining whether an employer-employee relationship exists 
+between the sponsor and the individual. 
+5
+ 
+
+ 
+ 
+        
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+  
+ 
+10. In testing whether a true em ployer-employee relationship exists 
+between the parties, the Department wo uld also consider who has the legal 
+liability to pay or control over the employee, the capacity in which the 
+employee represents himself to third par ties, whether the employee is part of 
+the organisation of the employer, etc. 
+Contract negotiated and concluded 
+1
+1. It would be up to the taxpayer to provide the full facts as to where 
+and when the negotiation took place, the persons taking part in the negotiation, 
+the matters discussed, the terms agr eed, etc.  If a written contract was 
+subsequently executed, a copy of the contract needs to be provided. 
+12. If the employer is resident in Ho ng Kong, it is unlik ely that a claim 
+for non-Hong Kong employment will be accepted even if it is shown that 
+negotiation takes place outside Hong K ong or a contract of employment is 
+signed outside Hong Kong. The followi ng Board of Review Decision serves 
+to illustrate the point: 
+Case No. D8/92, 7 IRBRD 107 
+The taxpayer was resident in the USA when he received a written 
+offer of employment from a company in Hong Kong. The taxpayer 
+accepted the employment contract by signing and returning to Hong 
+Kong the offer which he had received.  The employer was a 
+member of a multi-national group a nd the taxpayer’s duties included 
+responsibility not only for the Hong Kong company which employed 
+him but also other companies within the Group in the Far East. The 
+Board of Review decided at page 110 that: 
+“He was not employed by any co mpany in the United States 
+and he was not subject to any master and servant relation with 
+any United States company. Hi s master and servant relation 
+was clearly with the company in Hong Kong with whom he 
+entered into an employment cont ract.  In the circumstances 
+of this case the fact that he was physically in the United States 
+when he received the employment contract is not material.” 
+The Department will adopt the same approach as set out in the above case. 
+6
+ 
+
+ 
+ 
+ 
+ 
+  
+  
+    
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Enforceability of contract 
+13. In a contract of employment, the parties are free to choose the 
+governing law so far as it is bona fi de, legal, not against public policy, and 
+unambiguous. Where there is no express choice of law, the choice of law can 
+be inferred from the terms of the contract  and the general circumstances of the 
+case. Where there is no express or implied choice of law, the contract is 
+governed by the system of law with whic h the contract has its closest and most 
+real connection ( Bank of India v. Gobindram Naraindas Sadhwan t, [1988] 2 
+HKLR 262) . 
+14. From the above guideline, in determining where an employment 
+contract is enforceable, it is necessary  in certain circumstances to ascertain 
+where the employee habitual ly performs his work, the business that engaged 
+him and where that business is located. It may also be necessary to consider 
+the place where the parties would take legal action in enforcing terms of the 
+contract from a practical perspective, see for example, Board of Review 
+Decisions, Case No. D20/97, 12 IRBRD 161, at page 172 and Case No. D59/03, 
+18 IRBRD 626, at page 651.       
+Residence of employer  
+15. The employer for this purpose is the person who, in the relationship 
+of master and servant, is the true employer of the employee. 
+Central management and control 
+16. In determ
+ining the residence of a corporation, the Department will 
+take into account where the corporation’ s central management and control is 
+located. The “central management and control” test is a well-established 
+common law principle widely adopted in  many jurisdictions for determining 
+residence of companies. Under this principle, a company resides where its 
+real business is carried on, and the real business is carried on where the central 
+management and control actually abides. The classic exposition is by Lord 
+Loreburn, L.C. in De Beers Consolidated Mines Ltd. v. Howe, [1906] 5 TC 198 
+at pages 212 and 213, 
+7
+ 
+
+ 
+ 
+ 
+  
+ 
+ 
+ 
+   
+    
+ 
+ 
+                                                 
+“In applying the conception of resi dence to a Company, we ought, I 
+think to proceed as nearly as we can upon the analogy of an 
+individual. A Company cannot eat or sleep, but it can keep house 
+and do business. We ought, theref ore, to see where it really keeps 
+house and does business.  An individual may be of foreign 
+nationality, and yet reside in th e United Kingdom.  So may a 
+Company. Otherwise it might have its chief seat of management 
+and its centre of trading in Engla nd under the protection of English 
+law, and yet escape the appropriate taxation by the simple expedient 
+of being registered abroad and di stributing its dividends abroad. 
+The decision of Chief Baron Kelly, and Baron Huddleston in the 
+Calcutta Jute Mills v. Nicholson and the Cesena Sulphur Company v. 
+Nicholson, now thirty years ago, invo lved the principle that a 
+Company resides for purposes of In come Tax where its real business 
+is carried on. Those decisions have  been acted upon ever since. I 
+regard that as the true rule; and th e real business is carried on where 
+the central management and control actually abides.” 
+17. In Charter View Holdings (
+ BVI) Ltd. v . Cor ona Investments Ltd. &  
+Another, [1998] 1 HKLRD 469 3 , the issue of whether the plaintiff was 
+ordinarily resident in Hong Kong was before Keith J, who made the following 
+comments at page 471: 
+“In Insurance Co. of the State of  Pennsylvania v. Grand Union 
+Insurance Co. Ltd. [1988] 2 HKLR 541 , the Court of Appeal held  
+that, for the purpose of O.23 r.1(1)(a) 4, the ordinary residence of a 
+limited company is to be decided by reference to where its central 
+management and control is.  However, the application of that test is 
+not straightforward.  It was considered in Re Little Olympian Each 
+Ways Ltd. [1995] 1 WLR 560 .  Three propositions can be derived 
+from the judgment of Lindsay J: 
+(i) 	 The mere assertion of where the company’s central 
+management and control is unsatisfactory.   What are needed 
+are the primary facts on which that assertion is based. 
+8
+ 
+3   This case was referred to in Jade Harbour Ltd. v. Eltones Profits Ltd. & Another, [2005]  3 HKLRD  
+158. 
+4   The Rules of the High  Court (Cap. 4 ,  Sub. Leg.), Order No. 2 3. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+  
+ 
+ 
+ 
+  
+(ii) 	 All the circumstances in wh ich the company carries on its 
+business should be taken into acc ount, though the weight to 
+be applied to each factor will obviously differ from case to 
+case. Those factors include th e provisions of the company’s 
+objects clause, the place of inco rporation, the place where the 
+company’s real trade and busi ness is carried on, the place 
+where the company’s books are kept, the place where the 
+company’s administration is carri ed out, the place where the 
+directors with power to disapprove of local steps or to require 
+different ones to be taken themselves meet or are resident, the 
+place where its chief office is or where the company secretary 
+is to be found, and the place where most significant assets are. 
+(iii) 	 In applying the test to a non- trading company, it may be more 
+important than would otherwise be the case to have regard to 
+the nature of the company’s corporate activities.”    
+18. The issue of whether a comp any was centrally managed and 
+controlled outside Hong Kong or in H ong Kong was critical ly examined in 
+Board of Review Decision Case No. D123/02, 18 IRBRD 150 . The 
+Department will follow the above guiding  principles in ascertaining where a 
+limited company resides.  In general, importance is attached to the place 
+where the directors hold board meetings. In many cases, the directors meet in 
+the country where the business operations take place, and central management 
+and control is clearly located in that pl ace. In other cases, the directors may 
+exercise central management and control in one jurisdiction, while the actual 
+business operations may take place in a nother. The place of board meetings, 
+however, is significant only in so far as  those meetings constitute the medium 
+through which central management and control is exercised. The location 
+where central management and control is  exercised is a question of fact and 
+each case must be decided on its own facts. When reaching a conclusion in 
+accordance with case law principles, only factors which exist for genuine 
+commercial reasons will be accepted. 
+Parent and subsidiary 
+19. In appl
+ying the “central management and control” test in the situation 
+of a subsidiary company and its pare nt operating in another territory, the 
+9
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+                                                 
+Department would normally regard the s ubsidiary and its parent as separate 
+legal entities, each being managed and controlled by its own board of directors. 
+While it is normal for a parent company to exert influence and exercise power 
+over the subsidiary company, it is not al ways the case that the subsidiary is 
+resident in the same territory as the parent. Regard will be given to the degree 
+of autonomy with which the board of directors in the subsidiary deals with such 
+matters as to investment, production,  marketing and procurement without 
+reference to the parent. In this rega rd, the Department is mindful of the 
+comments by the Board of Review in Case No. D59/03, 18 IRBRD 626, at page 
+653: 
+“Even if Company A’s final and supreme authority were to come 
+from its pa
+rent company, Company D in the United States of 
+America, we do not accept the Re presentative’s assertion that 
+Company A was centrally manage d and controlled by its parent 
+company in the United States of Amer ica.  In arriving at this stance 
+we are mindful of the  Union Corporation case 5  where it was held  
+the formula ‘where the central power and authority abides’ does not 
+demand that the court should look, and look only, to the place where  
+the final and supreme authority is found, and also the decision in  
+De Beers case
+6  that what was required wa s ‘a scrutiny of the course 
+of business and trading’.  Thus, we find Company A was resident in 
+Hong Kong for the purpose of this tax assessment.” 
+Establishing employer’s residence 
+20. In support
+ of claims that the employer is centrally managed and 
+controlled outside Hong Kong, the Depa rtment would require information of 
+the identities and capacities of the persons (in the employer’s organisation) who 
+are responsible for the central manageme nt and control, the specific tasks 
+undertaken by these persons and where they are located while exercising 
+management and control, etc.  Docu mentary proof may be required.  The 
+Department will generally accept certifie d copies of directors’ reports and 
+minutes of meetings for the purpose. 
+5   Union Corporation Ltd.  v. CIR, [1953] 34  TC 207  
+6   De Beers Consolidated Mines Limited v.  Howe, [1906] 5 TC 198 
+10
+ 
+
+ 
+ 
+ 
+ 
+  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+                                                 
+     
+   
+Place of payment of remuneration  
+21. In B
+oard of Review Decision Case No. D20/97, 12 IRBRD 161 , the 
+Board had the following observation at page 173: 
+“. . . it would seem to be absurdly  simple and inappr opriate in this 
+age of electronic banking to reach our  decision on the basis that the 
+place of payment determined the s ource of employment income in 
+this case. Surely source of employment, which should be 
+determined as a ‘hard practical matte r of fact’, should not depend in 
+the final analysis upon the place fr om where an employee is actually 
+paid. Accordingly, we decided to look more broadly, from a 
+practical perspective, at where the Taxpayer’s employment was 
+located.” 
+22. The significance of the place of payment for the present purpose was 
+considered by Deputy Hi gh Court Judge To in Lee Hung Kwong v. 
+Commissioner of Inland Revenue, 6 HKTC 543.   The learned judge pointed 
+out that: 
+“In Bray and Colenbrander; Harvey and Breyfogle 7, after reviewing 
+the earlier authorities, Lord Normand concluded . . .: 
+‘The House of Lords . . . in Foulsham v Pickles 8 have  definitely 
+decided that in the case of an  employment the locality of the 
+source of income is not the pl ace where the activities of the 
+employee are exercised but the place  either where the contract for 
+payment is deemed to have a lo cality or where the payments for 
+the employment are made, which may mean the same thing.” 
+Thus, where the source of inco me is from an employment, the 
+locality of the source of income is the place where the contract for 
+payment is deemed to have a loca lity.  By “contract for payment”, 
+Lord Normand must mean the contract of employment based on 
+which the employee earned his payment and not necessarily the 
+place where the payments are made. The place of payment is of 
+7 Reported in 34 TC 138 
+8 Reported in 9 TC 261 
+11
+ 
+
+ 
+   
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+ 
+ 
+                                                 
+     
+course an important indi cator of the locality of  the contract and is 
+prima facie the locality of the contract.  But it is not conclusive: see 
+for example Bennett v Marshall 9 . If an employee enters into a 
+contract of employment in Hong K ong with an employer resident in 
+Hong Kong but had his salary paid  into his Swiss bank account, it  
+can hardly be doubted that the locality of his contract is in Hong 
+Kong.  His income is from a Hong  Kong source.  In most cases, 
+the place of payment is the locality of the contract.  That must be 
+why Lord Normand sa id that the two may mean the same thing, but 
+not that the two mean the same thing.” (paragraph 24) 
+23. The Department will readily fo llow the above approach. Payment 
+of the remuneration made outside Hong Kong, when viewed on its own, should 
+not be a determinative factor in ascertaining the source of employment. Other 
+facts have to be considered as well. Re muneration here is not restricted to the 
+monthly salary but includes all perquis ites and benefits in kind which are 
+included in the definition of income. In support of claims that salaries are 
+paid outside Hong Kong, the Department would require the taxpayer to provide 
+details of bank accounts and documentary proof of such payments. 
+Look further than the external or
+  superficial features  
+24. If a person claims that his employm
+ent with an employer resident in 
+Hong Kong has been change d to a related company of the employer, which is 
+resident outside Hong Kong, and there is little apparent change in the terms of 
+employment, the Department will look deeper than the external  or superficial 
+features of the employment. Similarly,  attention will be gi ven to cases where 
+locally-engaged employees claim that they hold offshore contracts of 
+employment. These examples are not  meant to be exhaustive. 
+Summing up 
+25. In sum
+mary, if the source of em ployment is located in Hong Kong, 
+any income derived from that employmen t falls within the basic charge to 
+Salaries Tax under section 8(1), irrespective of where the employee renders his 
+services (subject to the exclusion referred to in (C) below).  Thus, once 
+income is caught by secti on 8(1) there can be no claim for the so-called time 
+Reported in 22 TC 73 
+12
+ 
+9 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+apportionment. However, if a non-Hong  Kong employment exists then any 
+income derived from that employment falls outside the basic charge and 
+liability to Salaries Tax can only aris e under section 8(1A), which brings to 
+charge income derived from services actua lly rendered in Ho ng Kong.  In the 
+latter cases, it will be necessary to apportion the total in come, usually on a 
+time-in time-out basis. 
+(B)  EXTENSION OF CHARGE – EMPLOYMENT   
+26. In general, the Departm
+ent wo uld accept that a non-Hong Kong 
+employment exists if the contract of employment was negotiated, entered into 
+and enforceable outside Hong Kong with an employer who is resident outside 
+Hong Kong and the employee’s remunera tion is paid to him outside Hong 
+Kong. Typically, the taxpayer holds an  employment in his home country and 
+is assigned by his employer to take up  duties outside his home country. The 
+taxpayer is required by his employer to be  based in Hong Kong and to travel 
+outside Hong Kong to perform some of the duties. During the period of his 
+assignment outside his home country, the employer-employee relationship with 
+his home country employer still subsists so  that at the end of the assignment, 
+the taxpayer will be re-located to his home country and continue to work for his 
+home-country employer.      
+27. General statements made by taxp ayers or their representatives that 
+they hold overseas empl oyments with an overseas entity will not normally be 
+accepted at their face value. The info rmation required in support of claims 
+will be the same as that set out in the foregoing pa ragraphs under (A) BASIC 
+CHARGE – EMPLOYMENT.  A non-Ho ng Kong employment accepted by 
+the Department is subject to review periodically.  The Appendix provides 
+some examples of Hong Kong and non-Hong Kong employments.        
+28. Where a non-Hong Kong employme nt exists, consideration will be 
+given to the liability arising under the ex tension to the basi c charge contained 
+in section 8(1A). Subsection (a) of section 8(1A) extends the charge by 
+specifically including as income aris ing in or derived from Hong Kong, all 
+income derived from services rendered in Hong Kong, including leave pay 
+attributable to such services. This subsection relates only to employments; it 
+does not apply to office of profit (see (D) below). 
+13
+ 
+
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+29. For the purposes of quantifying the amount of income derived from 
+services rendered in Hong  Kong, the Department wi ll usually look at the 
+number of days an employee spent in Hong Kong and apportion his 
+remuneration including leave pay on a time- in time-out basis. In exceptional 
+circumstances where the application of this basis would be inappropriate a 
+different approach may be adopted. Fo r instance, if an employee can establish 
+that the rate of remuneration for the services he renders outside Hong Kong is 
+substantially greater than the rate he receives in Hong Kong, the apportionment 
+can be made on the basis of the actual re muneration attributable to the services 
+rendered in Hong Kong. 
+30. In order to arrive at the amount  of income derived from services 
+rendered in Hong Kong, an employee should include in his Salaries Tax Return, 
+apart from remuneration received locally, all other remuneration related to his 
+employment, for example, receipts from his overseas parent company or head 
+office. 
+(C) EXCLUSION FROM CHARGE –EMPLOYMENT   
+31. Subsection (b) of section 8(1A) ex cludes from the char
+ge to Salaries 
+Tax income from services rendered by persons (other than Government 
+employees and ship and air crew) who in the basis period of a year of 
+assessment render all their services outsi de Hong Kong.  Fo r the purposes of 
+this exclusion, services rendered during visits to Hong Kong not exceeding a 
+total of 60 days in the ba sis period of a year of asse ssment are to be ignored 
+[section 8(1B)]. In other words, a pers on who renders services in Hong Kong 
+during visits for not more than a total of 60 days in the basis period of a year of 
+assessment will have no liability to Salaries Tax. 
+32. Thus, an employee deriving income from a Hong Kong employment, 
+who is posted to, say, Singapore or Tokyo to represent his firm and in the basis 
+period of a year of assessment renders all his services there, will be wholly 
+exempt from Salaries Tax. However, if he visits Hong Kong for 61 days or 
+more and, during the visits, renders some services here he will be liable on the 
+whole of his income derived in a year .  Similarly, an employee deriving 
+income from a non-Hong Kong  employment will not be lia ble if he is here to 
+carry out short assignments during visits  to Hong Kong wh ich do not exceed a 
+14
+ 
+
+ 
+  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+    
+ 
+ 
+  
+ 
+total of 60 days in the basis period of a year of assessment. On the other hand, 
+if his visits exceed 60 days he will be  liable under the extended charge of 
+section 8(1A)(a) on that part of his in come which is derived from services 
+rendered in Hong Kong including leave pay attributable to such services. 
+33. The exclusion under section 8(1A )(b) only refers to visits, e.g. a 
+person may be chargeable even though he  spent 60 days or less in the basis 
+period of a year of assessment in Hong Kong if this is the st art or finish of a 
+long period of residence in Hong Kong or his presence does not constitute a 
+“visit”. 
+(D) DIRECTORS’  FEES  
+34. Fees paid to persons who hold the office of director of a corporation 
+whose central management and contro l are exercised in Hong Kong, are 
+income arising in or derived from Hong  Kong and chargeable to Salaries Tax 
+under the basic charge of section 8(1) irrespective of where the person resides. 
+This is because the office of director of a corporation is located in a place 
+where the central management and control of the corporation is exercised (see 
+McMillan v. Guest, 24 TC 190 ). Thus, if an office is  located in Hong Kong, 
+any fees derived from the office can be sa id to arise in H ong Kong.  Neither 
+the extension to the basic charge unde r section 8(1A), nor the exclusion under 
+section 8(1A)(b) or (c), has any applica tion to directors’ fees. They apply 
+only to income from employment. This issue was before the Board of Review 
+in Case No. D123/02, 18 IRBRD 150 in which the Board found that the office 
+of director held by the taxpayer was located in Hong Kong. In this case, the 
+Board found that part of the superior and directing authority of the company 
+was exercised in Hong Kong. 
+(E) SHIP  AND AIRCRAFT  PERSONNEL 
+35. The liability of ship and aircra ft personnel
+ is determined under 
+section 8(1) and section 8(1A)(a) in the same way as other employees. 
+However, there are important exemptions to be considered under subsection 
+8(2)(j) which excludes from charge income derived from services rendered by 
+persons of this category who were present in Hong  Kong on not more than 60 
+days in the basis period and a total of 120 days falling partly in each of the 
+15
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+basis periods for two consecutive years of  assessment, one of which is the year 
+of assessment being considered.  The br oad effect of this exclusion is to 
+exempt from charge members of the crew of a ship or an aircraft other than 
+those who spend a substan tial portion of their time in Hong Kong (including 
+territorial waters). 
+(F) EXCLUSION – TAX PAID OUTSIDE HONG KONG 
+36. Following the introduction of se ction 8(1A)(c) with ef
+fect from 1 
+April 1987, income derived by a person from services rendered outside Hong 
+Kong is excluded from the charge to Sala ries Tax if, in the territory where the 
+services are rendered, the person is chargeable to and has paid tax of 
+substantially the same nature as Salaries  Tax in respect of that income. For 
+example, if a person holding a Hong  Kong employment derives income from 
+rendering services in the Mainland on 190  consecutive days in a year and pays 
+Individual Income Tax to a Mainland authority on that income, section 8(1A)(c) 
+will operate to exclude that income from the charge to Salaries Tax in Hong 
+Kong. 
+37. Whether a particular foreign tax is of substantially the same nature as 
+Salaries Tax is a question of fact to be considered in each case. Whilst the 
+Department would generally accept as sufficiently similar any tax on 
+employment income levied on the employee by the government of the territory 
+in which the services were rendered, th e Department would not accept a tax or 
+levy charged otherwise than by reference to the amount of employment income 
+derived as coming within the scope of section 8(1A)(c). Neither the rate of 
+tax levied in the foreign territory nor  the assessment method under which the 
+amount of tax paid was determined by the taxing authorities is relevant to the 
+issue. In order to qualify under sec tion 8(1A)(c) all that is required is 
+chargeability to and actual payment of the foreign tax. For example, if an 
+American citizen holding a Hong Kong employment renders services in the US 
+on 50 days and is assessed to US inco me tax on his world income, including 
+the income derived from those services, then provided he has paid some US 
+income tax, the Department will accept th at tax has been paid  on the 50 days’ 
+income and section 8(1A)(c) will apply to exclude that income from the charge 
+to tax here. On the other hand, if the level of his total wo rld income is such 
+that no US income tax is payable, section 8(1A)(c) cannot apply. 
+16
+ 
+
+ 
+  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+38. On a practical point, cases ma y arise where the basis period for 
+assessment to Hong Kong Salaries Tax,  the year ended 31 March, may differ 
+from that of the foreign territory in which services ar e rendered.  For instance, 
+at the time the assessment to Hong Kong tax is made, the foreign tax, although 
+chargeable, may not actually have been as sessed and paid. In this situation, 
+the taxpayer should lodge an objection against the assessment to Hong Kong 
+tax on the foreign income on the grounds that foreign tax will in due course be 
+paid. Upon receipt of the objection th e assessor will, where justified, order 
+that the tax in dispute be held over unc onditionally. Once the foreign tax has 
+been paid and proof ther eof submitted by the taxpayer , the objection will be 
+allowed and the Hong Kong tax will be di scharged.  Similarly, the likelihood 
+that foreign tax is to be paid will be accepted as a valid reason for holding over 
+Provisional Salaries Tax where the taxpay er can show that once foreign tax is 
+paid his assessable income (after excluding  that part subject to the foreign tax) 
+will be less than 90% of that for the previous year. 
+39. There may also be a situation in which the taxpayer is not aware that 
+he or she has a liability to foreign ta x when the Hong Kong Salaries Tax 
+assessment is received. Thus, an objection would not be ra ised as mentioned 
+in the paragraph above. If the taxpayer has to pay foreign tax after the 
+objection period has expired, he or she can still rely on section 70A to file a 
+claim for relief under section 8(1A)(c) wi thin 6 years after the end of the 
+assessment or within 6 months after the date of the notice of assessment if later, 
+for the omission in the return. 
+40. It should be noted that as a ma tter of practice section 8(1A)(c) has 
+application to Hong Kong  employments only.  This is because persons 
+holding non-Hong Kong employments will be chargeable to tax in Hong Kong 
+only on income derived from services re ndered here. Such persons are, of 
+course, not chargeable to tax on income derived from services rendered outside 
+Hong Kong. 
+17
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appendix 
+Examples on Source of Employment 
+Example 1 
+Assignment to Hong Kong 
+The taxpayer was initially em ployed by Company A.  He worked in the US. 
+Due to a change of his roles and resp onsibilities, he entered into a new 
+employment contract with Company B.  The negotiation and conclusion 
+processes for both employment contract s took place in the US.  Company B 
+deposited his remuneration into his bank account in the US. 
+Company B immediately assigned the taxp ayer to Hong Kong  to oversee the 
+Asia Pacific operations of Group X.  The Hong Kong subsidiary of Company B 
+acted as the sponsor of th e taxpayer’s Hong Kong wo rk visa.  The taxpayer 
+remained an employee of Company B throughout his Hong Kong assignment.  
+Companies A and B were both US resident companies of substance.  They were 
+affiliated companies of Group X, a US-b ased conglomerate with business 
+operations all over the world. 
+On being satisfied with the above facts, the assessor accepted that the taxpayer 
+had a non-Hong Kong employment.  The taxpayer provided to the assessor a 
+copy of his employment contract with Company B, information and documents 
+to show that Company B was a company of substance with its management and 
+control in the US and his remuneration was paid by Company B into his bank 
+account in the US. 
+Example 2 
+Transfer of employment to Hong Kong and reporting lines 
+The taxpayer was an employee of C Inc. and he worked in the US.  C Inc. was a 
+US resident company.  The taxpayer was offered an appointment with the 
+subsidiary of C Inc. in Hong Kong. By an agreement dated 1 March 2005 
+signed with C (Hong Kong) Ltd, he agr eed to work in th e subsidiary as 
+Marketing Director from 1 April 2005.  The negotiation  of the contract terms 
+took place in the US with the human resources director of C Inc.   
+C (Hong Kong) Ltd was a company in corporated in Hong Kong and its 
+operations were managed by a board of directors resident in Hong Kong.  The 
+taxpayer’s employment contract dated 1 March 2005 was with C (Hong Kong) 
+Ltd, which sponsored the taxpayer’s  entry into Hong  Kong to take up 
+employment.   
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+As part of his job, the taxpayer had to tr avel frequently around Asia Pacific to 
+meet with clients. The taxpayer carried a business card describing himself as 
+Marketing Director of C (Hong Kong) Ltd, bearing a Hong Kong 
+correspondence address and telephone nu mber.  As Marketing Director, the 
+taxpayer had to report to the board of directors of C Inc. in the US. 
+On being satisfied with the above facts,  the assessor was of the view that the 
+taxpayer had a Hong Kong employment.  As the taxpayer had entered into a 
+contract of employment with C (Hong Kong) Ltd., a company resident in Hong 
+Kong, the source of his employment was Hong Kong.  As part of his duties, a 
+taxpayer might be required to report to  persons outside Hong Kong but this 
+should not be a decisive factor. 
+Example 3 
+Salary and benefit paid in Hong Kong 
+The Taxpayer was an employee of E Ltd,  a company resident in Italy.  E Ltd 
+sent the taxpayer to its Hong Kong buying office to take charge of the sourcing 
+operations.  The taxpayer had to travel  to the Mainland and neighbouring 
+countries in the performanc e of his duties.  The empl oyment agreement with E 
+Ltd was negotiated and concluded in Italy prior to the taxpa yer’s arrival into 
+Hong Kong. 
+The taxpayer agreed with E Ltd that he  would not be tax equalised to Italy 
+because the tax rate in Hong  Kong was lower than that in Italy.  The taxpayer 
+received his salary and benefits in Ho ng Kong dollars.  He joined the Hong 
+Kong Mandatory Provident Fund and was covered under the Hong Kong 
+medical scheme. 
+On being satisfied with the above facts, the assessor accepted that the taxpayer 
+had a non-Hong Kong employment.  Do cumentary proof similar to those 
+mentioned in Example 1 was provided to the assessor.   
+Example 4 
+Place of payment and location where payment is borne 
+The taxpayer was residing in the UK.  He was offere d employment as Regional 
+Controller of F Asia Pacific Ltd. F As ia Pacific Ltd was incorporated in the 
+Cayman Islands. The taxpayer’s employment contra ct was initially negotiated 
+in the UK through a recru itment agency appointed by F Asia Pacific Ltd.  The 
+offer letter was sent to the taxpayer in the UK.  The taxpayer accepted the offer 
+and signed the contract while he was in the UK.   
+ii 
+
+ 
+  
+ 
+ 
+ 
+F Asia Pacific Ltd was the regional headquarter of a group of companies in 
+Asia. Its office was in Hong Kong.  It was managed by a board of directors in 
+Hong Kong.  The taxpayer had to travel  around Asia for business.  His salary 
+was partly paid into his bank accounts in Hong Kong and the UK.  F Asia 
+Pacific Ltd recovered the taxpayer’s sa lary cost from its subsidiaries and 
+associates in the Asia Pacific.   
+On being satisfied with the above facts,  the assessor was of the view that the 
+taxpayer had a Hong Kong employment.  As the taxpayer had entered into a 
+contract of employment with F Asia Pa cific Ltd., a company resident in Hong 
+Kong, the source of his employment is  Hong Kong.  The assessor did not 
+consider recovering the costs by the employer from companies outside Hong 
+Kong was a relevant factor to be taken into account in the circumstances. 
+iii

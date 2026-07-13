@@ -1,0 +1,79 @@
+SOURCE_KEY: UAE_DMTT
+TITLE: UAE Ministry of Finance — Domestic Minimum Top-up Tax / OECD Pillar Two (effective Jan 2025)
+JURISDICTION: UAE
+URL: https://mof.gov.ae/en/public-finance/tax/corporate-tax-in-the-uae/
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:42+00:00
+------------------------------------------------------------------------------
+Close modal
+English
+عربي
+Other languages
+The list of "Other" languages” listed above use Google Translate to create an automated translation of content for the purpose of display. Accuracy of automated content translation is not guaranteed.
+alert
+—
+—
+—
+—
+Corporate Tax​ in the UAE
+Public Notice
+The Ministry of Finance would like to remind the public of the need to only rely on official publications from the Ministry of Finance and the Federal Tax Authority concerning Federal Decree Law No. (47) of 2022 on the Taxation of Corporations and Businesses and the associated Cabinet and Ministerial Decisions. The Ministry has spotted a number of posts circulating on social media and other platforms that are issued by unauthorised private parties and contain inaccurate interpretations and analyses of Corporate Tax. Such analyses have not been authorized by the Ministry. The Ministry would like to advise the public that publishing or re-publishing such misleading and unfounded analysis of the Corporate Tax Law and the associated Cabinet and Ministerial Decisions will be considered a violation and breach under the Federal Decree Law No. 34 of 2021 on Combatting Rumours and Cybercrime. The official sources of information on Federal Taxes in the UAE are the Ministry of Finance and the Federal Tax Authority.
+On this page
+Applying the Corporate Tax​ Law
+The UAE issued the Corporate Tax Law on 9 December 2022, establishing the legislative framework for the introduction and implementation of a federal corporate tax in the country. The Federal Decree-Law applies to financial years beginning on or after 1 June 2023. The UAE’s corporate tax regime is built upon global best practices and incorporates internationally recognized and accepted principles, ensuring the system is easy to understand and that its economic implications are clearly defined.
+The Federal Decree-Law No. (47) of 2022 on the Taxation of Corporations is intended to empower the national economy and help the UAE achieve its strategic objectives and accelerate its development and transformation. The certainty of a competitive Corporate Tax regime that adheres to international standards, together with the UAE’s extensive network of double tax treaties, will cement the UAE’s position as a leading jurisdiction for business and investment.
+For more information about the Corporate Tax Law,
+click here.
+Corporate Tax in the UAE
+Corporate Tax is a form of direct tax levied on the net income of corporations and other businesses.
+Corporate Tax is sometimes also referred to as “Corporate Income Tax” or “Business Profits Tax” in other jurisdictions.
+Who is Subject to Corporate Tax?
+Broadly, Corporate Tax applies to the following “Taxable Persons”:
+UAE companies and other juridical persons that are incorporated or effectively managed and controlled in the UAE.
+Natural persons (individuals) who conduct a Business or Business Activity in the UAE as specified in a Cabinet Decision to be issued in due course.
+Non-resident juridical persons (foreign legal entities) that have a Permanent Establishment in the UAE.
+Juridical persons established in a UAE Free Zone are also within the scope of Corporate Tax as “Taxable Persons” and will need to comply with the requirements set out in the Corporate Tax Law. However, a Free Zone Person that meets the conditions to be considered a Qualifying Free Zone Person can benefit from a Corporate Tax rate of 0% on their Qualifying Income.
+Non-resident persons that do not have a Permanent Establishment in the UAE or that earn UAE sourced income that is not related to their Permanent Establishment may be subject to Withholding Tax (at the rate of 0%). Withholding tax is a form of Corporate Tax collected at source by the payer on behalf of the recipient of the income. Withholding taxes exist in many tax systems and typically apply to the cross-border payment of dividends, interest, royalties and other types of income.
+Who is Exempt from Corporate Tax?
+Certain types of businesses or organisations are exempt from Corporate Tax given their importance and contribution to the social fabric and economy of the UAE. These are known as Exempt Persons and include:
+Automatically exempt
+Government Entities
+Government Controlled Entities that are Specified in a Cabinet Decision
+Exempt if notified to the Ministry of Finance
+(Subject to meeting certain conditions)
+Extractive Businesses
+Non-Extractive Natural Resource Businesses
+Exempt if listed in a Cabinet Decision
+Qualifying Public Benefit Entities
+Exempt if applied to and approved by the Federal Tax Authority (Subject to meeting certain conditions)
+Public or private pension and social security funds
+Qualifying Investment Funds
+Wholly-owned and controlled UAE subsidiaries of a Government Entity, a Government Controlled Entity, a Qualifying Investment Fund, or a public or private pension or social security fund
+In addition to not being subject to Corporate Tax, Government Entities, Government Controlled Entities that are specified in a Cabinet Decision, Extractive Businesses and Non-Extractive Natural Resource Businesses may also be exempted from any registration, filing and other compliance obligations imposed by the Corporate Tax Law, unless they engage in an activity which is within the charge of Corporate Tax.
+Taxable Income for Corporate Tax Purposes
+Corporate Tax is imposed on Taxable Income earned by a Taxable Person in a Tax Period.
+Corporate Tax would generally be imposed annually, with the Corporate Tax liability calculated by the Taxable Person on a self-assessment basis. This means that the calculation and payment of Corporate Tax is done through the filing of a Corporate Tax Return with the Federal Tax Authority by the Taxable Person.
+The starting point for calculating Taxable Income is the Taxable Person’s accounting income (i.e. net profit or loss before tax) as per their financial statements. The Taxable Person will then need to make certain adjustments to determine their Taxable Income for the relevant Tax Period. For example, adjustments to accounting income may need to be made for income that is exempt from Corporate Tax and for expenditure that is wholly or partially non-deductible for Corporate Tax purposes.
+Registering, Filing and Paying Corporate Tax
+All Taxable Persons (including Free Zone Persons) will be required to register for Corporate Tax and obtain a Corporate Tax Registration Number. The Federal Tax Authority may also request certain Exempt Persons to register for Corporate Tax.
+Taxable Persons are required to file a Corporate Tax return for each Tax Period within 9 months from the end of the relevant period. The same deadline would generally apply for the payment of any Corporate Tax due in respect of the Tax Period for which a return is filed.
+Illustrated below are examples of the registration, filing and payment deadlines associated for Taxable Persons with a Tax Period (Financial Year) ending on 31 May or 31 December (respectively).
+How to Prepare for Corporate Tax?
+For More Information
+Frequently Asked Questions
+Close modal
+Give us your feedback
+Give us your feedback
+Name
+(Optional)
+Email
+Your Feedback
+Note:
+All fields are mandatory, except the ones marked as optional.
+Did you find this content useful?
+You can help us improve by providing your feedback about your experience.
+Yes
+No
+Thank you for your feedback.
+Have you recently used our services online or at our service centre?
+Give us your feedback

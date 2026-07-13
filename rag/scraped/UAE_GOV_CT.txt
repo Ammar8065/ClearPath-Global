@@ -1,0 +1,70 @@
+SOURCE_KEY: UAE_GOV_CT
+TITLE: UAE Government portal (u.ae) — Corporate tax rates and scope
+JURISDICTION: UAE
+URL: https://u.ae/en/information-and-services/finance-and-investment/taxation/corporate-tax
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:45+00:00
+------------------------------------------------------------------------------
+Introduction about Corporate tax
+What is Corporate tax (CT)?
+Corporate tax is a form of direct tax levied on the net income or profit of corporations and other entities from their business. Corporate tax is governed by provisions of the
+Federal Decree-Law No. 47 of 2022
+and its amendments on the Taxation of Corporations and Businesses.
+Businesses will become subject to UAE Corporate Tax from the beginning of their first financial year that starts on or after 1 June 2023.
+Objectives of CT
+By introducing the CT, the UAE aims to:
+cement its position as a leading global hub for business and investment
+accelerate its development and transformation to achieve its strategic objectives
+reaffirm its commitment to meeting international standards for tax transparency and preventing harmful tax practices.
+Scope
+CT will apply to:
+all businesses and individuals conducting business activities under a commercial licence in the UAE
+free zone businesses (The UAE CT regime will continue to honour the CT incentives currently being offered to free zone businesses that comply with all regulatory requirements and that do not conduct business set up in the UAE’s mainland.)
+Foreign entities and individuals only if they conduct a trade or business in the UAE in an ongoing or regular manner
+Banking operations
+Businesses engaged in real estate management, construction, development, agency and brokerage activities.
+Exemptions from CT
+Certain types of businesses or organisations are exempt from corporate tax given their importance and contribution to the social fabric and economy of the UAE. These are known as Exempt Persons and include:
+A. Automatically exempt entities:
+government entities
+government-controlled entities that are specified in a Cabinet Decision
+B. Businesses that are exempt if notified to Ministry of Finance (subject to meeting certain conditions):
+extractive businesses
+non-extractive natural resource businesses
+C. Entities that are exempt if listed in a Cabinet Decision:
+qualifying public benefit entities
+D. Funds that are exempt if applied to and approved by Federal Tax Authority (subject to meeting certain conditions):
+public or private pension and social security funds
+qualifying investment funds
+wholly-owned and controlled UAE subsidiaries of a government entity, a government-controlled entity, a qualifying investment fund, or a public or private pension or social security fund.
+In addition to not being subject to corporate tax, government entities, government-controlled entities that are specified in a Cabinet Decision, extractive businesses and non-extractive natural resource businesses may also be exempted from any registration, filing and other compliance obligations imposed by the Corporate Tax Law, unless they engage in an activity which is within the scope of Corporate Tax.
+CT Rate
+As per Ministry of Finance, CT rates are:
+0 per cent for taxable income up to AED 375,000
+9 per cent for taxable income above AED 375,000 and
+a different tax rate (not yet specified) for large multinationals that meet specific criteria set with reference to 'Pillar two' of the
+OECD Base Erosion and Profit Shifting Project
+.
+Federal Tax Authority (FTA
+) is responsible for the administration, collection and enforcement of the CT. FTA  provides more references and guides about
+corporate tax
+and information on how to register and file returns on its website.
+Text sourced from the website of
+Ministry of Finance
+.
+Updated on:
+30 Mar 2026
+Did you find this content useful?
+You can help us improve by providing your feedback about your experience.
+Yes
+No
+Thank you for your feedback.
+Have you used our services at our service center or digitally recently?
+Give us your feedback
+Submit
+Thank you for your feedback.
+Prev topic
+Raqeeb - a whistleblower programme for tax violations and evasion
+View all Services
+Next topic
+Excise tax

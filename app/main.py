@@ -7,10 +7,13 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from starlette.middleware.base import BaseHTTPMiddleware
 
+from app.config import cors_allow_origins
 from app.database.init_db import ensure_schema_ready, init_db, should_auto_create_schema
+from app.routes.ai import router as ai_router
 from app.routes.assets import router as assets_router
 from app.routes.clients import router as clients_router
 from app.routes.evaluation import router as evaluation_router
+from app.routes.rag import router as rag_router
 from app.routes.rules import router as rules_router
 from app.routes.sources import router as sources_router
 
@@ -43,13 +46,19 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=False,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# The SPA is served same-origin by this app, so cross-origin access is off by
+# default. Grant it explicitly via CORS_ALLOW_ORIGINS when a separately
+# hosted frontend needs the API — never with a wildcard on an unauthenticated
+# service that can expose client records when PRIVACY_MODE=0.
+_cors_origins = cors_allow_origins()
+if _cors_origins:
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=_cors_origins,
+        allow_credentials=False,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
 app.add_middleware(NoCacheStaticAssetsMiddleware)
 
 app.mount("/frontend", StaticFiles(directory=BASE_DIR / "frontend"), name="frontend")
@@ -59,6 +68,8 @@ app.include_router(rules_router)
 app.include_router(clients_router)
 app.include_router(assets_router)
 app.include_router(evaluation_router)
+app.include_router(ai_router)
+app.include_router(rag_router)
 
 
 @app.get("/", tags=["System"])

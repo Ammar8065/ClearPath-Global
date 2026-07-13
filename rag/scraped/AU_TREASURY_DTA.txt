@@ -1,0 +1,18 @@
+SOURCE_KEY: AU_TREASURY_DTA
+TITLE: Australian Treasury — Income tax treaties index
+JURISDICTION: AU
+URL: https://treasury.gov.au/tax-treaties
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:15:17+00:00
+------------------------------------------------------------------------------
+False
+Australia has tax treaties with other countries to foster cooperation between Australia and other international tax authorities.
+Australian tax treaties
+Detailed information (that is, country, status and Australian domestic implementation) for Australian tax treaties is available.
+Income Tax Treaties
+Tax Information Exchange Agreements
+Estate Gift Tax Treaties
+East Timor Agreements
+Convention on Mutual Administrative Assistance in Tax Matters
+FATCA Intergovernmental Agreement
+Multilateral Instrument

@@ -1,0 +1,120 @@
+SOURCE_KEY: US_IRS_8938
+TITLE: IRS — Comparison of Form 8938 and FBAR requirements (thresholds)
+JURISDICTION: US
+URL: https://www.irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:17:04+00:00
+------------------------------------------------------------------------------
+The Form 8938 filing requirement does not replace or otherwise affect a taxpayer’s obligation to file FinCEN Form 114 (Report of Foreign Bank and Financial Accounts). Unlike Form 8938, the FBAR (FinCEN Form 114) is not filed with the IRS. It must be filed directly with the office of Financial Crimes Enforcement Network (FinCEN), a bureau of the Department of the Treasury, separate from the IRS.
+Individuals and domestic entities must check the requirements and relevant reporting thresholds of each form and determine if they should file Form 8938 or FinCEN Form 114, or both. Form 8938 and Instructions can be found at
+About Form 8938
+. FinCen Form 114 and Instructions can be found through
+FinCen’s BSA E-Filing System
+.
+Form 8938, Statement of Specified Foreign Financial Assets
+FinCEN Form 114, Report of Foreign Bank and Financial Accounts (FBAR)
+Who must file?
+Specified individuals and specified domestic entities that have an interest in specified foreign financial assets and meet the reporting threshold
+Specified individuals include U.S citizens, resident aliens, and certain non-resident aliens
+Specified domestic entities include certain domestic corporations, partnerships, and trusts
+U.S. persons, which include U.S. citizens, resident aliens, trusts, estates, and domestic entities that have an interest in foreign financial accounts and meet the reporting threshold
+Does the United States include U.S. territories?
+No
+Yes, resident aliens of U.S territories and U.S. territory entities are subject to FBAR reporting
+Reporting threshold (total value of assets)
+Specified individuals living in the US:
+Unmarried individual (or married filing separately): Total value of assets was more than $50,000 on the last day of the tax year, or more than $75,000 at any time during the year.
+Married individual filing jointly: Total value of assets was more than $100,000 on the last day of the tax year, or more than $150,000 at any time during the year.
+Specified individuals living outside the US:
+Unmarried individual (or married filing separately): Total value of assets was more than $200,000 on the last day of the tax year, or more than $300,000 at any time during the year.
+Married individual filing jointly: Total value of assets was more than $400,000 on the last day of the tax year, or more than $600,000 at any time during the year.
+Specified domestic entities:
+Total value of assets was more than $50,000 on the last day of the tax year, or more than $75,000 at any time during the tax year.
+Aggregate value of financial accounts exceeds $10,000 at any time during the calendar year. This is a cumulative balance, meaning if you have 2 accounts with a combined account balance greater than $10,000 at any one time, both accounts would have to be reported.
+When do you have an interest in an account or asset?
+If any income, gains, losses, deductions, credits, gross proceeds, or distributions from holding or disposing of the account or asset are or would be required to be reported, included, or otherwise reflected on your income tax return
+Financial interest: you are the owner of record or holder of legal title; the owner of record or holder of legal title is your agent or representative; you have a sufficient interest in the entity that is the owner of record or holder of legal title.
+Signature authority: you have authority to control the disposition of the assets in the account by direct communication with the financial institution maintaining the account.
+See instructions for further details.
+What is reported?
+Maximum value of specified foreign financial assets, which include financial accounts with foreign financial institutions and certain other foreign non-account investment assets
+Maximum value of financial accounts maintained by a financial institution physically located in a foreign country
+How are maximum account or asset values determined and reported?
+Fair market value in U.S. dollars in accord with the Form 8938 instructions for each account and asset reported
+Convert to U.S. dollars using the end of the taxable year exchange rate and report in U.S. dollars.
+Use periodic account statements to determine the maximum value in the currency of the account.
+Convert to U.S. dollars using the end of the calendar year exchange rate and report in U.S. dollars.
+When due?
+Form is attached to your annual return and due on the date of that return, including any applicable extensions
+Received by April 15 (6-month automatic extension to Oct 15)
+Where to file?
+File with income tax return pursuant to instructions for filing the return.
+File electronically through FinCENs
+BSA E-Filing System
+. The FBAR is not filed with a federal tax return.
+Penalties
+Up to $10,000 for failure to disclose and an additional $10,000 for each 30 days of non-filing after IRS notice of a failure to disclose, for a potential maximum penalty of $60,000; criminal penalties may also apply
+Civil monetary penalties are adjusted annually for inflation. For civil penalty assessment prior to Aug 1, 2016, if non-willful, up to $10,000; if willful, up to the greater of $100,000 or 50 percent of account balances; criminal penalties may also apply
+Types of foreign assets and whether they are reportable
+Note:
+This table is current through the publication date. Please check the instructions for each form for information regarding any future developments.
+Types of foreign assets
+Form 8938, Statement of Specified Foreign Financial Assets
+FinCEN Form 114, Report of Foreign Bank and Financial Accounts (FBAR)
+Financial (deposit and custodial) accounts held at foreign financial institutions
+Yes
+Yes
+Financial account held at a foreign branch of a U.S. financial institution
+No
+Yes
+Financial account held at a U.S. branch of a foreign financial institution
+No
+No
+Foreign financial account for which you have signature authority
+No, unless you otherwise have an interest in the account as described above
+Yes, subject to exceptions
+Foreign stock or securities held in a financial account at a foreign financial institution
+The account itself is subject to reporting, but the contents of the account do not have to be separately reported
+The account itself is subject to reporting, but the contents of the account do not have to be separately reported
+Foreign stock or securities not held in a financial account
+Yes
+No
+Foreign partnership interests
+Yes
+No
+Indirect interests in foreign financial assets through an entity
+No
+Yes, if sufficient ownership or beneficial interest (i.e., a greater than 50 percent interest) in the entity. See instructions for further detail.
+Foreign mutual funds
+Yes
+Yes
+Domestic mutual fund investing in foreign stocks and securities
+No
+No
+Foreign accounts and foreign non-account investment assets held by foreign or domestic grantor trust for which you are the grantor
+Yes, as to both foreign accounts and foreign non-account investment assets
+Yes, as to foreign accounts
+Foreign-issued life insurance or annuity contract with a cash-value
+Yes
+Yes
+Foreign hedge funds and foreign private equity funds
+Yes
+No
+Foreign real estate held directly
+No
+No
+Foreign real estate held through a foreign entity
+No, but the foreign entity itself is a specified foreign financial asset and its maximum value includes the value of the real estate
+No
+Foreign currency held directly
+No
+No
+Precious Metals held directly
+No
+No
+Personal property, held directly, such as art, antiques, jewelry, cars and other collectibles
+No
+No
+‘Social Security’- type program benefits provided by a foreign government
+No
+No

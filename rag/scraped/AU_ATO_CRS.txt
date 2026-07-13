@@ -1,0 +1,105 @@
+SOURCE_KEY: AU_ATO_CRS
+TITLE: ATO — Common Reporting Standard (automatic exchange of information)
+JURISDICTION: AU
+URL: https://www.ato.gov.au/about-ato/tax-avoidance/international-exchange-of-information/automatic-exchange-of-information/common-reporting-standard
+METHOD: wayback (snapshot 20260519164915)
+FETCHED_AT: 2026-07-11T11:15:29+00:00
+------------------------------------------------------------------------------
+Common Reporting Standard
+Overview of the guidance and reporting for CRS financial institutions, tax professionals and digital service providers.
+Published
+21 April 2026
+Print or Download
+What is the Common Reporting Standard
+The Common Reporting Standard (CRS) is the single global standard for the collection, reporting and exchange of financial account information on foreign tax residents. Under the CRS, banks and other financial institutions collect and report financial account information on foreign tax residents to us. We exchange this information with participating foreign tax authorities of those foreign tax residents.
+In return, we receive financial account information on Australian residents from other countries' tax authorities. This helps ensure that Australian residents with financial accounts in other countries are complying with Australian tax law. The exchange of financial account information acts as a deterrent to tax evasion.
+The Australian Government announced the Organisation for Economic Co-operation and Development's (OECD) Common Reporting Standards (CRS) in the Mid-year Economic and Fiscal Outlook 2014–15.
+Legislation
+The CRS legislation received royal assent
+on 18 March 2016 and came into effect on 1 July 2017. The first exchange of information occurred in 2018.
+Guidance material
+We have prepared guidance material to assist financial institutions, customers and tax agents to work with the CRS.
+Financial institutions
+Automatic exchange of information guidance – CRS and FATCA
+– guidance about how the CRS may affect financial institutions and their clients. We update this page as we receive and respond to further questions from industry and changes to legislation.
+CRS and FATCA obligations – self-review guide and toolkit
+– guidance about how to conduct a self-review on a financial institution's automatic exchange of information framework.
+Obtaining valid self-certification for all new accounts
+– guidance on the key requirements for self-certifications and the measures required where certification is not obtained.
+Customers
+Foreign tax resident reporting – how the automatic exchange of information affects you
+– guidance for customers, investors and account holders of financial institutions about how the automatic exchange of information affects them.
+Tax agents
+Common Reporting Standard – information for tax agents
+– guidance about how the CRS may affect your clients.
+CRS circumvention schemes
+Financial institutions should consider the
+OECD's analysis of Residence by investment and Citizenship by investment schemes
+External Link
+.
+Residence and Citizenship by investment schemes
+The OECD has published the
+results of its analysis
+External Link
+of over 100 Residence by investment (RBI) and Citizenship by investment (CBI) schemes offered by jurisdictions committed to the Common reporting Standard (CRS). The analysis identifies schemes that potentially pose a high-risk to the integrity of CRS.
+CBI/RBI schemes are being offered by a substantial number of jurisdictions. These schemes allow individuals to obtain citizenship or residence rights in a jurisdiction based on local investments or for a flat fee. These schemes can be misused to hide assets offshore by avoiding reporting under the CRS.
+Guidance for financial institutions
+The OECD has published practical guidance that financial institutions should consider when performing their required CRS due diligence obligations – see the
+Frequently Asked Questions
+External Link
+section of the analysis. Where there are doubts regarding the tax residences of a CBI/RBI user, the OECD has provided further questions for financial institutions to ask the account holder.
+See the OECD content
+What should Financial Institutions do
+External Link
+in the Frequently Asked Questions section, for the due diligence procedures Reporting Financial Institutions (RFI) may observe and follow.
+Prepare and lodge your CRS report
+Reports must be lodged by 31 July each year in the approved format.
+We have guidance available for:
+Financial institutions –
+Common Reporting Standard reporting
+Not-for-profits (NFPs) – Read
+Not-for-profits and the Common Reporting Standard
+to see if CRS affects your NFP and whether you have a reporting obligation
+Digital service providers – The
+Common Reporting Standard
+External Link
+page on our Software Developers website includes information on the CRS XML schema and technical updates for CRS reporters and digital service providers.
+You can find detailed information about the reporting requirements in
+Automatic Exchange of Information – CRS and FATCA – Reporting
+.
+CRS statistics
+Statistics on Australian CRS reportable accounts by jurisdiction are presented in Federal Parliament each year – see
+CRS annual reporting
+.
+Technical resources
+For more information see:
+The Standard for Automatic Exchange of Financial Account Information in Tax Matters
+External Link
+developed by the OECD with G20 countries
+Automatic Exchange Portal
+External Link
+– resources for the implementation of automatic exchange of information in tax matters.
+News and updates
+To receive the latest CRS news and information, subscribe to our CRS stakeholder group by emailing your contact details to
+CRS@ato.gov.au
+.
+If you have further questions about the CRS, email
+CRS@ato.gov.au
+.
+Latest news
+TIN checking tool for European countries
+The European Commission (EU) have developed a portal to allow entities to verify the structure of a Tax Identification Number (TIN) issued by most European countries.
+We recommend Reporting Financial Institutions (RFI) use this tool to verify foreign TINs as part of their due diligence CRS obligations.
+For more information and instructions on how to use the EU TIN Portal, see
+EU TIN online check module
+External Link
+.
+Common Reporting Standard – information for tax agents
+How the Common Reporting Standard affects financial institutions and their clients.
+Australian CRS reportable accounts by jurisdiction
+Statistics on Australian Financial Accounts held by foreign tax residents are presented annually in Federal Parliament.
+Obtaining valid self-certifications for all new accounts
+CRS requires reporting financial institutions (RFIs) to obtain self-certifications for all new accounts.
+QC
+106731
+Print or Download

@@ -1,0 +1,61 @@
+SOURCE_KEY: SG_IRAS_NONRESIDENT
+TITLE: IRAS — Tax obligations for non-resident individuals
+JURISDICTION: SG
+URL: https://www.iras.gov.sg/taxes/individual-income-tax/non-residents
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:10+00:00
+------------------------------------------------------------------------------
+Individual Income Tax
+For Non-Residents
+Browse by Profile
+Non-resident director
+For non-resident directors of companies that are tax resident in Singapore
+Non-resident professional
+For visiting independent professionals (give a talk, workshop, consultation, etc.)
+Non-resident public entertainer
+For artistes, musicians and sportsmen who are in Singapore for competitions, events, etc
+Foreign employee
+Working in Singapore & tax filing (for employees & company/board directors etc)
+Foreigners with property in Singapore
+Report rental income and claim rental expenses
+Foreigners doing business in Singapore
+Sole-proprietorship, partnership, trade, business, vocation or profession
+Foreigners with side or personal income
+Check its taxability in this comprehensive list, then check if you need to file a tax return using the filing checker
+Related Content for Individuals
+Managing myTax Portal account
+Set up myTax Portal account using Singpass or Singpass Foreign user Account (SFA), and update particulars and contact details
+Update particulars
+Managing your individual client's income tax matters via myTax Portal
+Singpass Foreign user Account (SFA) for foreign individuals
+Setting up myTax Portal account
+Individuals required to file tax
+Find out who, when and how to file an Income Tax Return
+Tax residency and tax rates
+Check if you are a tax resident, and learn the benefits of tax residency in Singapore
+Working out my tax residency
+Individual Income Tax rates
+Sample Income Tax calculations
+Claiming Exemptions under Avoidance of Double Taxation Agreements (DTAs)
+Applying for Certificate of Residence
+Claiming for Foreign Tax Credit
+Receive tax bill, pay tax, check refunds
+Read your tax bill and find out the different payment modes
+Getting my tax assessment
+Understanding my tax assessment
+Making changes after filing/receiving tax bill
+How to pay
+Refunds
+Experiencing difficulties in paying your tax?
+Late payment or non-payment of taxes
+Consequences of non-compliance
+Learn about IRAS' audit processes and penalties for incorrect income reporting
+Errors in tax returns
+Getting individuals to comply
+Audits on individuals by IRAS
+Voluntary disclosure of errors
+Make a voluntary disclosure of any omission or under-declaration of income
+Report tax evasion
+Report someone to IRAS if you think they are evading tax
+Investigation by IRAS
+Reporting tax evasion or fraud

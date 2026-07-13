@@ -1,0 +1,58 @@
+SOURCE_KEY: US_AU_DTA
+TITLE: IRS — Australia-United States income tax treaty
+JURISDICTION: US
+URL: https://www.irs.gov/businesses/international-businesses/australia-tax-treaty-documents
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:17:05+00:00
+------------------------------------------------------------------------------
+Skip to main content
+Australia - Tax treaty documents
+More In File
+Individuals
+Businesses and self-employed
+Business tax account
+Employer ID numbers
+Business taxes
+Business structures
+Operating a business
+Self-employed
+Small business
+Large business
+E-file for Large Business and International (LB&I)
+LB&I compliance campaigns
+LB&I directives
+Qualified Intermediary (QI)
+Charities and nonprofits
+International taxpayers
+Governmental liaisons
+Federal, state and local governments
+Indian tribal governments
+Tax exempt bonds
+Taxpayer identification numbers (TIN)
+The complete texts of the following tax treaty documents are available in Adobe PDF format. If you have problems opening the pdf document or viewing pages, download the latest version of
+Adobe Acrobat Reader
+. For further information on tax treaties refer also to the Treasury Department's
+Tax Treaty Documents
+page.
+Income Tax Treaty
+PDF
+-
+1982
+Technical Explanation
+PDF
+-
+1982
+Protocol
+PDF
+-
+2001
+Technical Explanation
+PDF
+-
+2001
+Page Last Reviewed or Updated: 08-Aug-2025
+Share
+Facebook
+Twitter
+Linkedin
+Print

@@ -1,0 +1,102 @@
+SOURCE_KEY: AU_ATO_TEMP_RES
+TITLE: ATO — Foreign and temporary residents (foreign-source income concessions)
+JURISDICTION: AU
+URL: https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/your-tax-residency/foreign-and-temporary-residents
+METHOD: wayback (snapshot 20260424021834)
+FETCHED_AT: 2026-07-11T11:14:25+00:00
+------------------------------------------------------------------------------
+Foreign and temporary residents
+If you're from overseas working in Australia, your residency and temporary status impact your tax and other obligations.
+Last updated
+25 November 2025
+Print or Download
+Foreign residents
+If you're a foreign resident for tax purposes you must declare on your tax return any income earned in Australia, including:
+employment income
+rental income
+Australian pensions and annuities
+capital gains on
+taxable Australian property
+.
+Exceptions to this include:
+foreign residents earning employment income working on the
+Pacific Labour Mobility (PALM) scheme
+working holiday makers
+who in some circumstances will not need to declare income earned in Australia.
+As a foreign resident:
+you have no
+tax-free threshold
+you don't pay the
+Medicare levy
+– in your Australian tax return, you can claim an exemption from paying the Medicare levy for the number of days in the income year you are a foreign resident
+you don’t declare any Australian-sourced
+interest, dividends or royalties
+you derive while you are a foreign resident, provided the Australian financial institution or company that pays you has already withheld tax
+the
+capital gain on your Australian home
+may need to be included if you are a foreign resident at the time you sign the contract of sale
+you may meet the definition of a
+foreign person
+and need
+foreign investment approval
+External Link
+before purchasing
+residential land
+and other
+Australian assets
+External Link
+.
+If you have a Higher Education Loan Program (HELP), VET Student Loan (VSL) or Australian Apprenticeship Support Loan (AASL) debt, you'll need to declare your worldwide income or lodge a non-lodgment advice. You can do this using our online services through myGov or through a registered Australian tax agent. The
+study and training loan repayment calculator
+will help you find out your compulsory repayment or overseas levy amounts.
+For more information about your study and training loan repayment obligations if you plan to live and work overseas, see
+Overseas obligations when repaying loans
+.
+See
+408 Pandemic event visa
+if you were issued a 408 visa to stay in Australia and continued working during the COVID-19 pandemic. The 408 visa program closed to new applications on 1 February 2024.
+To work out if you need to lodge, use our
+Do I need to lodge a tax return
+? tool.
+Temporary residents
+You're a temporary resident as well as a foreign or Australian resident, if:
+you have a temporary visa
+you and your spouse (if you have one) are not Australian residents within the meaning of
+Social Security Act 1991
+(that is, not an Australian citizen or permanent resident or a protected Special Category visa holder from New Zealand).
+You won't be a temporary resident if, at any time after 6 April 2006, you have been an Australian resident and:
+you didn't have a temporary visa
+either you and your spouse were Australian residents within the meaning of the
+Social Security Act 1991
+(that is, are an Australian citizen or permanent resident or a protected Special Category visa holder from New Zealand).
+If you are a temporary resident you only declare:
+income you derived in Australia
+capital gains on taxable Australian property
+in certain circumstances, income you earn from employment or services performed overseas while you are a temporary resident of Australia.
+Other foreign income and capital gains on property that is not taxable Australian property don't have to be declared.
+Example: temporary resident who is also an Australian resident selling property that is not taxable Australian property
+Kerrie is present in Australia and meets the requirements to be a temporary resident. She is also an Australian resident for tax purposes as she meets one of the residency tests.
+Kerrie owns a house in New Zealand she intends to sell. If she remains a temporary resident and an Australian resident for tax purposes until the time she sells the New Zealand house, she will not have to declare the capital gain or loss on the house in her Australian tax return.
+End of example
+Foreign or temporary resident leaving Australia
+You may need to lodge a tax return if you earn income in Australia as either:
+a foreign resident
+an Australian or foreign resident, who is also a temporary resident.
+If you leave Australia permanently and will no longer receive Australian-sourced income (other than interest, dividend and royalty income), you can either:
+lodge your tax return before leaving Australia
+lodge your tax return from outside Australia
+To lodge your return
+online
+from outside Australia, you will need a
+myGov account linked to the ATO
+.
+If you can't sign-in to your myGov account, see
+When you can't sign-in to your myGov account
+.
+Departing Australia superannuation payment
+If you accumulated super while visiting Australia on a temporary visa, you can apply to have this super paid. Known as a
+departing Australia superannuation payment
+(DASP) and paid after you leave.
+QC
+65131
+Print or Download

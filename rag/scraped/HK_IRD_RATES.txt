@@ -1,0 +1,108 @@
+SOURCE_KEY: HK_IRD_RATES
+TITLE: IRD Hong Kong — Salaries Tax rates and standard rate
+JURISDICTION: HK
+URL: https://www.ird.gov.hk/eng/pdf/pam61e.pdf
+METHOD: direct+pdf
+FETCHED_AT: 2026-07-11T11:16:27+00:00
+------------------------------------------------------------------------------
+Allowances, Deductions and Tax Rate Table 
+1. Allowances 2020/21 and 
+2021/22 
+$       
+2024/25 and 
+2025/26 
+$       
+2026/27 and 
+onwards  # 
+$       
+Year of Assessment 2022/23 
+$       
+2023/24 
+$       
+Basic Allowance 132,000 132,000 132,000 132,000 145,000 
+Married Person’s Allowance 264,000 264,000 264,000 264,000 290,000 
+Child Allowance   (For each of the 1st to 9th child) 120,000 120,000 130,000 130,000 140,000 
+For each child born during the year, the Child Allowance will be increased by 120,000 120,000 130,000 130,000 140,000 
+Dependent Brother or Sister Allowanc  e (For each dependant) 37,500 37,500 37,500 37,500 37,500 
+Dependent Parent and Dependent Grandparent Allowance (For each dependant) 
+Parent   / grandparent aged 60 or above or is eligible to claim an allowance 
+under the Government’s Disability Allowance Scheme 
+50,000 50,000 50,000 50,000 55,000 
+Parent   / grandparent aged 55 or above but below 60 25,000 25,000 25,000 25,000 27,500 
+Additional Dependent Parent and Dependent Grandparent Allowance 
+Parent   / grandparent aged 60 or above or is eligible to claim an allowance 
+under the Government’s Disability Allowance Scheme 
+50,000 50,000 50,000 50,000 55,000 
+Parent   / grandparent aged 55 or above but below 60 25,000 25,000 25,000 25,000 27,500 
+Single Parent Allowance 132,000 132,000 132,000 132,000 145,000 
+Personal Disabi
+lity Allowance 75,000 75,000 75,000 75,000 75,000 
+Disabled Dependant Allowanc  e (For each dependant) 75,000 75,000 75,000 75,000 75,000 
+2. Deduction  s – Ma ximum Limits 2020/21 and 
+2021/22 
+$       
+2024/25 and 
+2025/26 
+$       
+2026/27 and 
+onwards # 
+$       
+Year of Assessment 2022/23 
+$       
+2023/24 
+$       
+Expenses of Self-Education 100,000 100,000 100,000 100,000 100,000 
+Elderly Residential Care Expenses 100,000 100,000 100,000 100,000 110,000 
+Hom
+e Loan In
+terest : Basic 100,000 100,000 100,000 100,000 100,000 
+: Additional -     -      -     20,000 20,000 
+Mandato
+ry Contributions to Recognized Retirement Schemes 18,000 18,000 18,000 18,000 18,000 
+Qualifying Premiums Paid under Voluntary Health Insurance Schem  e (VHIS) Policy
+(For each insured  person) 
+ 8,000 8,000 8,000 8,000 8,000 
+Qualifying Annuity Premiums and Tax Deductible MPF Voluntary Contributions 60,000 60,000 60,000 60,000 60,000 
+Domestic Rents Deduction : Basic -      100,000 100,000 100,000 100,000 
+: Addition
+al -    -     -   20,000 20,000 
+Approved Charitable Donations 
+[(Income – Allowable Expenses – Depreciation Allowances) x Percentage ] 35%    35%    35%    35%    35%    
+Assisted Reproductiv  e (AR) Service Expenses -  -  - 100,000 100,000 
+3. Calculation of Tax Payabl e 
+Tax  payable is calculated at progressive rates on  your net chargeable income or at standard rate on  your net income  (before deduction of the allowan
+whichever is lower. It is further reduced by the tax reduction, subject to a maximum. 
+Net Chargeable Income = Income – Deductions – Allowances 
+Year of Assessment 2020/21 to 2023/24 2024/25 and onwards # 
+Net Chargeable Income Rate Tax   Net Chargeable Income Rate Tax   
+$      $   $      $   
+On the First 50,000 2% 1,000 50,000 2% 1,000 
+On the Next 50,000 6% 3,000 50,000 6% 3,000 
+100,000 4,000 100,000 4,000 
+On the Next 50,000 10% 5,000 50,000 10% 5,000 
+150,000 9,000 150,000 9,000 
+On the Next 50,000 14% 7,000 50,000 14% 7,000 
+200,000 16,000 200,000 16,000 
+Remainder 17% 17% 
+Standard Rate 15% -
+Two-tiered Standard Rates 
+On the first $5,000,000 of net income - 15% 
+Remainder - 16% 
+ces), 
+Tax Reduction 
+Year of Assessment % of Tax Reduction Maximum Per Case ($) Applicable Tax Types 
+2020/21 and 2021/22 100% 10,000 profits tax, salaries tax and tax under personal assessment 
+2022/23 100% 6,000 profi ts tax, salaries tax and tax under personal assessment 
+2023/24 100% 3,000 profits tax, salaries tax and tax under personal assessment 
+2024/25 100% 1,500 profits tax, salaries tax and tax under personal assessment 
+2025/26 100% 3,000 profits tax, salaries tax and tax under personal assessment 
+# until superseded PAM 61(e) 
+June 2026 
+Salaries Tax / 
+Personal Assessment 
+Allowances, Deductions 
+and 
+Tax Rate Table 
+Inland Revenue  Department 
+T  he Government of the Hong Kong Specia  l Administrativ  e Region 
+of the People’s Republ  ic of China

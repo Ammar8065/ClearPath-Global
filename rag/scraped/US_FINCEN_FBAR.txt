@@ -1,0 +1,38 @@
+SOURCE_KEY: US_FINCEN_FBAR
+TITLE: FinCEN — FBAR filing requirements (FinCEN 114)
+JURISDICTION: US
+URL: https://www.fincen.gov/report-foreign-bank-and-financial-accounts
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:55+00:00
+------------------------------------------------------------------------------
+Report Foreign Bank and Financial Accounts
+FBAR Filing Due Date
+Additional Extension Due to Hurricane Milton (10/11/2024)
+Additional Extension Due to the Terroristic Action in the State of Israel (10/11/2024)
+Additional Extension Due to Hurricane Helene (10/07/2024)
+Additional Extension Due to Tropical Storm Francine (10/07/2024)
+Additional Extension Due to Hurricane Debby (10/07/2024)
+Additional Extension Due to Hurricane Beryl (10/07/2024)
+Extension due to the Terroristic Action in the State of Israel (10/16/2023)
+Additional Extension Due to Natural Disasters (09/08/2023)
+Additional Extension Due to Natural Disasters (10/06/2022)
+Additional Extension Due to Natural Disasters (10/05/2021)
+Additional Extension Due to Natural Disasters (10/06/2020)
+FinCEN Further Extends FBAR Deadline for Certain Financial Professionals (12/09/2022)
+FinCEN Further Extends FBAR Deadline for Certain Financial Professionals (12/13/2021)
+FinCEN Further Extends FBAR Deadline for Certain Financial Professionals (12/11/2020)
+FinCEN Further Extends FBAR Deadline for Certain Financial Professionals (12/20/2019)
+New Due Date for FBARs (03/06/2019)
+Hurricane Florence affected filers (09/26/2018)
+Hurricane Harvey affected filers (10/03/2017)
+Hurricane Irma and Hurricane Maria affected filers (10/03/2017)
+FBAR Filing Requirement for Virtual Currency (12/31/2020)
+Who Must File the FBAR?
+A United States person that has a financial interest in or signature authority over foreign financial accounts must file an FBAR if the aggregate value of the foreign financial accounts exceeds $10,000 at any time during the calendar year. The full line item instructions are located at
+FBAR Line Item Instructions
+.
+Which FBAR Filer Are You?
+An FBAR filer is considered an individual when he/she personally owns (or jointly owns with a spouse) a reportable foreign financial account that requires the filing of an FBAR for the reportable year. Individuals may electronically file their FBAR through the BSA E-Filing System without registering for an BSA E-Filing account.
+If you are an attorney, CPA, or an enrolled agent filing the FBAR on behalf of a client, you must register to
+Become a BSA E-Filer
+and file as an institution rather than an individual.

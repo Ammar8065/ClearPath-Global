@@ -1,0 +1,41 @@
+SOURCE_KEY: US_IRS_FATCA
+TITLE: IRS — Form 8938 (FATCA Statement of Specified Foreign Financial Assets)
+JURISDICTION: US
+URL: https://www.irs.gov/businesses/corporations/foreign-account-tax-compliance-act-fatca
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:58+00:00
+------------------------------------------------------------------------------
+The Foreign Account Tax Compliance Act (FATCA), which was passed as part of the HIRE Act, generally requires that foreign financial Institutions and certain other non-financial foreign entities report on the foreign assets held by their U.S. account holders or be subject to withholding on withholdable payments. The HIRE Act also contained legislation requiring U.S. persons to report, depending on the value, their foreign financial accounts and foreign assets.
+FFI List search and download tool
+Search and download a monthly list of approved foreign institutions that have a Global Intermediary Identification Number (GIIN).
+Search and download
+Financial institution registration
+Financial institutions can use the FATCA registration system to manage their accounts.
+Register or login
+International Data Exchange Service (IDES)
+Financial institutions and host country tax authorities can transmit and exchange FATCA data with the United States.
+Enroll
+FATCA for individuals
+FATCA information for individuals
+Summary of FATCA reporting for U.S. individual taxpayers
+What form do I need to report my foreign financial assets?
+Comparison of Form 8938 and FBAR requirements
+Do I need to file the statement of foreign financial assets?
+Basic questions and answers on Form 8938
+FATCA for institutions
+What do foreign financial institutions need to know?
+What do U.S. financial institutions need to know?
+IDES resources and support information
+Understanding Form 8966
+FATCA international compliance management model
+List of jurisdictions that do not issue foreign TINs
+Draft FATCA certifications
+FATCA information for foreign financial institutions and entities
+FATCA for governments
+Intergovernmental agreements (U.S. Treasury)
+What is the importance of data safeguarding?
+Subscribe to the FATCA news and information list
+FATCA information for governments
+Related
+FATCA FAQs
+Overview of FATCA certification process

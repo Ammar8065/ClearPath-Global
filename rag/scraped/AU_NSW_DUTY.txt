@@ -1,0 +1,49 @@
+SOURCE_KEY: AU_NSW_DUTY
+TITLE: Revenue NSW — Surcharge purchaser duty for foreign persons
+JURISDICTION: AU
+URL: https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/transfer-duty/surcharge-purchaser-duty
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:15:16+00:00
+------------------------------------------------------------------------------
+Listen
+Surcharge purchaser duty
+Foreign individuals, trusts and corporations who acquire an interest in residential-related property may need to pay surcharge purchaser duty to Revenue NSW.
+Surcharge purchaser duty calculator
+Surcharge purchaser duty tool
+2026-27 State Budget
+The 2026-2027 State Budget was handed down on 23 June 2026. As part of the budget measures, amendments to Chapter 2A the
+Duties Act 1997
+will impact some build-to-rent transactions and retirement village acquisitions or transfers.
+For more details read the
+2026–27 State Budget announcement
+. If you are a legal professional go to
+chapter 7 of the surcharge purchaser duty guide
+for processing and lodgement instructions.
+What is surcharge purchaser duty?
+An overview of surcharge purchaser duty, including who must pay it, which properties it applies to, and how it is calculated.
+east
+Individuals
+Understand when permanent residents, New Zealand citizens and other visa holders must pay surcharge purchaser duty.
+east
+Trusts
+Learn when a trustee of a trust is considered a foreign person for different types of trusts and when surcharge purchaser duty is applied.
+east
+Corporations
+How a corporation's foreign status is determined by whether foreign shareholders hold a substantial interest or aggregate substantial interest.
+east
+Residential premises that are not dwellings
+Foreign persons who acquire residential-related property in NSW used for certain purposes may not be liable for surcharge purchaser duty.
+east
+Exemption for Australian-based developers
+An exemption or refund is available for corporations that acquire residential land in order to construct and sell housing.
+east
+Exemption for build-to-rent developments
+Corporations may be eligible for an exemption or refund when they acquire land for build-to-rent developments.
+east
+Last updated:
+25 June 2026
+Previous
+Transfer duty exemptions and concessions
+Back to top
+Next
+Landholder duty

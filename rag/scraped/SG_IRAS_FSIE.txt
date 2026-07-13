@@ -1,0 +1,53 @@
+SOURCE_KEY: SG_IRAS_FSIE
+TITLE: IRAS — Income received from overseas (foreign-sourced income)
+JURISDICTION: SG
+URL: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/income-received-from-overseas
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:11+00:00
+------------------------------------------------------------------------------
+Generally, overseas income received in Singapore, including overseas income deposited into a Singapore bank account is not taxable. You do not need to declare overseas income that is not taxable.
+On this page:
+Taxable overseas income
+Overseas income is taxable in Singapore if:
+1. You receive it through
+partnerships
+based in Singapore.
+2. Your overseas employment is incidental to your Singapore employment (e.g. you need to travel abroad as part of your job).
+Example: Regional sales manager employed by a Singapore company
+You are a regional sales manager employed by a Singapore company. Your role requires frequent overseas travel to oversee operations in various countries/regions. In this case, all your employment income is taxable in Singapore because your overseas work
+is related to your employment in Singapore.
+3. You have a trade/business in Singapore and you are carrying on a trade / business overseas which is incidental to your Singapore trade.
+4. You work in Singapore for a
+foreign employer
+.
+5. You are employed overseas on behalf of the Singapore Government.
+Tax treatment for overseas employment on behalf of the Singapore Government
+As a Singapore Citizen or
+tax resident
+in Singapore, any income from your employment exercised outside Singapore on behalf of the Singapore Government is deemed to be derived from Singapore. This includes all earnings from your employment such as overseas allowances, which are taxable in Singapore.
+Your employer will send your employment income information to IRAS. You can approach your employer for information on applying for tax remission for Overseas Cost of Living Allowances.
+If the Minister of Finance approves the application for tax remission, the tax on overseas allowances will be remitted.
+Generally, you will not be taxed in the foreign country/jurisdiction if:
+There is a
+Double Taxation Agreement (DTA)
+between Singapore and the foreign country/ jurisdiction; or
+There is a provision for reciprocal exemption by Singapore and the foreign governments.
+Reporting overseas income
+If you have taxable overseas income, you need to report it in your Income Tax Return under the relevant category such as 'Employment Income' (if your employer is not under the
+Auto-Inclusion Scheme
+), 'Trade Income' or 'Other Income'.
+If your taxable overseas income is also taxed in the foreign country/jurisdiction, you may apply for
+double taxation relief
+to avoid being taxed twice on the same income.
+Your employer will have to refer to
+Reporting Employee Earnings (IR8A, Appendix 8A, Appendix 8B)
+on the need to prepare the Form IR8A.
+Employers participating in the Auto-Inclusion Scheme will need to transmit the overseas income information to IRAS electronically.
+Pages
+Individuals required to file tax
+Pages
+Filing responsibilities of self-employed persons (including individual partners)
+Pages
+Individual Income Tax rates
+Pages
+Working out my tax residency

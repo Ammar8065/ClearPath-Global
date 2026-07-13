@@ -1,0 +1,225 @@
+SOURCE_KEY: HK_IRD_FAMILY_OFFICE
+TITLE: IRD Hong Kong — Tax concession for Family-Owned Investment Holding Vehicles (FIHVs)
+JURISDICTION: HK
+URL: https://www.ird.gov.hk/eng/tax/bus_fihv.htm
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:26+00:00
+------------------------------------------------------------------------------
+Skip to main content
+RSS
+Share
+Printer View
+eTAX Login/Register
+Home
+>
+Tax Information - Individuals/Businesses
+> Tax Concessions for Family-owned Investment Holding Vehicles
+Tax Concessions for Family-owned Investment Holding Vehicles
+Profits Tax Concessions for Eligible Family-owned Investment Holding Vehicles and Family-owned Special Purpose Entities
+Requirements for Family-owned Investment Holding Vehicle
+Ownership of Family-owned Investment Holding Vehicle
+Eligible Single Family Office
+Beneficial Interest held by Charitable Institution or Trust in Family-owned Investment Holding Vehicle or Eligible Single Family Office
+Management of Family-owned Investment Holding Vehicles by Eligible Single Family Office
+Election Mechanism
+Minimum Asset Threshold
+Specified Assets under Schedule 16C to the Inland Revenue Ordinance
+Substantial Activities Requirement
+Qualifying Transactions and Incidental Transactions
+Family-owned Special Purpose Entities
+Losses Sustained by Family-owned Investment Holding Vehicles or Family-owned Special Purpose Entities
+Concessionary Tax Rate
+Anti-avoidance Measures
+Requirements for Investment in Private Companies
+Anti-round Tripping Provisions
+Anti-avoidance Provisions
+Record-keeping Requirements
+Advance Ruling
+More Information
+Enquiries
+back to top
+Profits Tax Concessions for Eligible Family-owned Investment Holding Vehicles and Family-owned Special Purpose Entities
+The Inland Revenue (Amendment) (Tax Concessions for Family-owned Investment Holding Vehicles) Ordinance 2023 (the Amendment Ordinance) was gazetted and came into operation on 19 May 2023. The Amendment Ordinance amended the Inland Revenue Ordinance (Cap. 112) (IRO) to provide profits tax concessions for (a) eligible Family-owned Investment Holding Vehicles (FIHVs) managed by eligible Single Family Offices (SFOs) in Hong Kong; and (b) Family-owned Special Purpose Entities (FSPEs).  Only the assessable profits of FIHVs and FSPEs arising from qualifying transactions and incidental transactions would be eligible for profits tax concessions, which would apply in respect of a year of assessment commencing on or after 1 April 2022.
+back to top
+Requirements for Family-owned Investment Holding Vehicle
+For an FIHV to enjoy the profits tax concession, it must satisfy the following conditions:
+Structure:
+the FIHV must be an entity (established or created in or outside Hong Kong) that is not a business undertaking for general commercial or industrial purposes.  Entity means a body of persons (corporate or unincorporate) or a legal arrangement and includes a corporation, partnership and trust (including a discretionary trust);
+Ownership:
+the FIHV must relate to one or more than one member of a single family and meet the ownership requirements set out below;
+Normal management or control (NMC):
+the FIHV must be normally managed or controlled in Hong Kong during the basis period for the year of assessment;
+Management of FIHV:
+the FIHV must be managed by an eligible SFO and meet the minimum asset threshold; and
+Substantial activities requirement:
+the FIHV must carry out its core income generating activities (CIGAs) in Hong Kong and meet the requirements of qualified full-time employees and operating expenditures.
+back to top
+Ownership of Family-owned Investment Holding Vehicle
+Except where a charitable institution or trust of a public character that is exempt from tax under section 88 of the IRO (charitable entity) is involved, one or more than one member of the family must have at least 95%, in aggregate, of the beneficial interest (whether direct or indirect) in the FIHV at all times during the basis period for the year of assessment.  Members of the family include a natural person (Person A) and all of the persons related to Person A (whether alive or deceased) mentioned below:
+a spouse of Person A (Person B);
+a lineal ancestor of Person A (Person C);
+a lineal ancestor of Person B (Person D);
+a lineal descendant of Person A (Person E);
+a sibling of Person A, Person B, Person C or Person D (Person F);
+a lineal descendant of Person F (Person G); and
+a spouse of Person E, Person F and Person G.
+If a person ceases to be a spouse (i.e. other than being deceased) during a year of assessment that begins on or after 1 April 2022, the spouse and those persons who are connected to the spouse and considered as members of a family before the cessation would still be regarded as members of the family for the subject year of assessment and the following year of assessment (i.e. a total of two years).  A lineal descendent includes adopted and step children of the person’s spouse (including a deceased spouse) or former spouse.
+back to top
+Eligible Single Family Office
+An FIHV must be managed in Hong Kong by an eligible SFO of the family to which the FIHV is related. To be an eligible SFO of a family, the SFO must:
+be a private company (incorporated in or outside Hong Kong) which is normally managed or controlled in Hong Kong;
+have at least 95% of its beneficial interest being held (directly or indirectly) by members of the family (except where a charitable entity is involved);
+provide services to specified persons of the family during the basis period for the year of assessment and the fees for the provision of those services are chargeable to tax; and
+fulfill the safe harbour rule whereby at least 75% of the eligible SFO’s assessable profits should derive from the services provided to specified persons of the family.
+A specified person in relation to a family means:
+an FIHV that is related to the family;
+an FSPE in which the FIHV has a beneficial interest (whether direct or indirect);
+an interposed FSPE of the FIHV; and
+a member of the family.
+back to top
+Beneficial Interest held by Charitable Institution or Trust in Family-owned Investment Holding Vehicle or Eligible Single Family Office
+A charitable entity may have up to 25% of beneficial interest (whether direct or indirect) in an FIHV and/or an eligible SFO. This is subject to the conditions that:
+at least 75% of the beneficial interest of the FIHV and/or eligible SFO must be held by family members; and
+the percentage of beneficial interest that an unrelated person has in the FIHV and/or eligible SFO, or if there is more than one unrelated person, the total percentage of such beneficial interest, does not exceed 5%.
+“Unrelated person” in relation to a particular family means:
+an entity in which no member of the family has a beneficial interest (whether direct or indirect); or
+a natural person who is not a member of the family,
+but does not include a charitable entity.
+back to top
+Management of Family-owned Investment Holding Vehicle by Eligible Single Family Office
+An FIHV is managed by an eligible SFO of the family to which the FIHV is related if the eligible SFO carries out the investment activities in relation to the FIHV.  The activities include the following:
+conducting research and advising on any potential investments to be made by the FIHV;
+acquiring, holding, managing or disposing of property for the FIHV; and
+establishing or administering an FSPE for holding and administering one or more underlying investments of the FIHV.
+A cap is imposed such that not more than 50 FIHVs managed by the same eligible SFO may benefit from the profits tax concession.
+back to top
+Election Mechanism
+An FIHV can elect for the profits tax concession through an election mechanism. The key features of the election mechanism are as follows:
+the election must be made in writing;
+the election, once made, will apply to all subsequent years of assessment (i.e. no annual election is required); and
+the election made is irrevocable.
+back to top
+Minimum Asset Threshold
+The aggregate value of assets specified under Schedule 16C to the IRO (specified assets) managed by an eligible SFO for the FIHV (or multiple FIHVs) of a family must be at least HK$240 million.  In determining whether the minimum asset threshold is met, the aggregate amount of the net asset value (NAV) of the specified assets of each relevant FIHV managed by the eligible SFO (Aggregate NAV) at the end of the FIHV’s basis period for the year of assessment (subject year) will be considered.
+In case the Aggregate NAV for the subject year falls below HK$240 million, the minimum asset threshold is considered to be met if the Aggregate NAV during the period listed below is at least HK$240 million:
+At the end of the FIHV’s basis period for the year of assessment immediately preceding the subject year (1st preceding year), or
+At the end of the FIHV’s basis period for the year of assessment immediately preceding the 1st preceding year.
+In calculating the NAV, the specified assets held by an FSPE of the FIHV will be included.
+back to top
+Specified Assets under Schedule 16C to the Inland Revenue Ordinance
+Assets specified under Schedule 16C to the IRO include the following assets commonly invested by FIHV and FSPE:
+Securities;
+Shares, stocks, debentures, loan stocks, funds, bonds or notes of, or issued by, a private company;
+Futures contracts;
+Foreign exchange contracts under which the parties to the contracts agree to exchange different currencies on a particular date;
+Deposits other than those made by way of a money-lending business;
+Deposits (as defined by section 2(1) of the Banking Ordinance (Cap. 155)) made with a bank (as defined by Part 1 of Schedule 1 to the Securities and Futures Ordinance (Cap. 571));
+Certificates of deposit (as defined by Part 1 of Schedule 1 to the Securities and Futures Ordinance (Cap. 571));
+Exchange-traded commodities;
+Foreign currencies;
+OTC derivative products (as defined by Part 1 of Schedule 1 to the Securities and Futures Ordinance (Cap. 571)).
+back to top
+Substantial Activities Requirement
+In compliance with the latest international tax standards, an FIHV which would benefit from the profits tax concessions must carry out its CIGAs in Hong Kong.  The FIHV must have an adequate number of qualified full-time employees and incur an adequate amount of operating expenditure for carrying out the CIGAs in Hong Kong during the basis period for the year of assessment.  At a minimum, the FIHV is required to have:
+at least two full-time employees in Hong Kong who carry out the activities concerned and have the qualifications necessary for doing so; and
+at least HK$2 million operating expenditure incurred in Hong Kong for carrying out the activities concerned.
+Outsourcing of CIGAs to the eligible SFO is permitted provided that the use of outsourcing is not for circumventing the substantial activities requirement.  For the purpose of satisfying the substantial activities requirement, the number of qualified full-time employees employed and the amount of operating expenditure incurred by the FIHV, or by the eligible SFO on behalf of the FIHV if the CIGAs are outsourced, must be commensurate with the level of the CIGAs carried out in Hong Kong.
+The Department will not apply a mechanical multiplication or division exercise in determining whether the substantial activities requirement is met. However, it is not practicable to specify the exact levels of qualified employees and operating expenditures that are considered adequate for meeting the substantial activities requirement as such levels would depend on the extent and complexity of the investment activities that the outsourced entity needs to carry out for the FIHVs. The Department will consider whether the actual number of qualified employees of the eligible SFO and the amount of operating expenditure incurred in Hong Kong for carrying out the CIGAs could adequately and reasonably demonstrate the fulfillment of the requirement in respect of the FIHVs, the CIGAs for which have been carried out by the outsourced entity, having regard to the totality of facts and circumstances of the case.
+If the eligible SFO arranges other parties to carry out the CIGAs of the FIHV, the eligible SFO should ensure that the CIGAs are carried out in Hong Kong and that the substantial activities requirement is met. The eligible SFO has to exercise monitoring to ensure that the number of the qualified employees in Hong Kong who carry out the investment activities and the total amount of operating expenditure incurred in Hong Kong for carrying out the investment activities are commensurate with the level of the investment activities carried out in Hong Kong and are in any event not less than the minimum thresholds of two qualified full-time employees and operating expenditure of HK$2 million.
+back to top
+Qualifying Transactions and Incidental Transactions
+An FIHV may enjoy profits tax concession in respect of transactions in specified assets (qualifying transactions) and transactions incidental to the carrying out of qualifying transactions (incidental transactions) subject to a 5% threshold.  For the latter, it means that the FIHV’s trading receipts from incidental transactions must not exceed 5% of the total of the FIHV’s trading receipts from qualifying transactions and incidental transactions in the basis period for the year of assessment.  The qualifying transactions of an FIHV must be carried out in Hong Kong by or through an eligible SFO of the relevant family, or arranged in Hong Kong by the eligible SFO.
+back to top
+Family-owned Special Purpose Entities
+It is quite common for an FIHV to establish FSPEs for holding and administering the FIHV’s assets.  Therefore, profits tax concessions will be provided at both the FIHV level and the FSPE level to the extent which corresponds to the percentage of beneficial interest of the FIHV in the FSPE.
+back to top
+Losses Sustained by Family-owned Investment Holding Vehicles or Family-owned Special Purpose Entities
+If an FIHV or an FSPE is exempted from the payment of profits tax in respect of its assessable profits earned from qualifying transactions and incidental transactions for a year of assessment, any loss sustained by the FIHV, or the FSPE in relation to the FIHV, from any of those transactions is not available for set off against any of the assessable profits of the FIHV or FSPE for the year of assessment concerned or any subsequent year of assessment.
+back to top
+Concessionary Tax Rate
+The concessionary profits tax rate for the assessable profits of an FIHV or an FSPE earned from the qualifying transactions and incidental transactions for a year of assessment commencing on or after 1 April 2022 is 0%.
+back to top
+Anti-avoidance Measures
+Requirements for Investment in Private Companies
+Private companies may hold any type of assets in Hong Kong. To reduce the risk of tax evasion by FIHVs and FSPEs through their investment in private companies, an FIHV and FSPE will be taxed on its profits from such investment that do not meet the following three tests:
+Immovable property test: If an FIHV or an FSPE invests in a private company that holds, whether directly or indirectly, more than 10% of its assets in immovable property (excluding infrastructure) in Hong Kong, the FIHV or FSPE will be taxed on the profits arising from such an investment in the private company.
+Holding period test: If the immovable property test is satisfied and the investment in the private company has been held by the FIHV or FSPE for less than two years, the FIHV or FSPE will be taxed on the profits arising from the transaction of the private company.
+Control test and short-term asset test: If the immovable property test is satisfied but the holding period test is not satisfied, profits tax concession would not apply if the FIHV or FSPE has control over the private company and the private company holds more than 50% of the value of its assets in short-term assets. Short-term assets are assets (excluding specified assets and immovable property in Hong Kong) held by the private company for less than three years before the date of disposal.
+If any transaction in a private company fails to pass the tests above, the profits tax concession will not be applicable to the profits earned from that non-qualifying transaction only.  The profits earned from other qualifying transactions of the FIHV or FSPE will not be affected.
+Anti-round Tripping Provisions
+Anti-round tripping provisions are devised to prevent abuse of the profits tax exemption.  Given the special features of family office and diverse holding structures of FIHVs, a family may hold FIHVs directly or indirectly through resident companies, and such companies are likely to be associated with the FIHVs.  In this connection, the anti-round tripping provisions would not be applicable to the following:
+resident individuals; and
+certain resident non-individual entities (i.e. an eligible SFO of the relevant family and a specified entity).
+The specified entity must be a passive investment holding vehicle not carrying on any trade or business.  At the same time, it must fulfill the following conditions:
+at least one member of the family to which the FIHV is related must have a direct or indirect beneficial interest in the entity;
+the entity is interposed between the family members and the FIHV; and
+regardless of the extent of the beneficial interest held by the family members in the entity, at least 95% of the beneficial interest in the FIHV must be held by family members.
+Anti-avoidance Provisions
+To prevent tax abuse, if the Commissioner is satisfied that:
+the main purpose, or one of the main purposes of an FIHV or an FSPE in entering into an arrangement; or
+the main purpose, or one of the main purposes of a person making a transfer of any asset or business to the FIHV or FSPE,
+is to obtain a tax benefit, whether for the FIHV or FSPE or another person or entity, the profits tax concession will not apply to the FIHV or FSPE concerned.
+However, for a transfer of asset or business to an FIHV or FSPE, the profits tax concession may still apply if the transfer is carried out on an arm’s length basis and the transferor is chargeable to tax in respect of the assessable profits arising from the transfer.
+back to top
+Record-keeping Requirements
+A responsible person for an FIHV and the eligible SFO should keep sufficient records to enable the identity and particulars of the beneficial owner(s) of the FIHV and the eligible SFO to be readily ascertained. Penalties will be imposed on the FIHV and the eligible SFO if they fail to comply with the record-keeping requirements without reasonable excuse.
+back to top
+Advance Ruling
+To obtain tax certainty, FIHVs and FSPEs may apply to the Commissioner for advance rulings on their eligibility for the profits tax concessions.
+To facilitate the Department’s review of an application for advance ruling, an applicant is encouraged to provide the following information:
+Ownership of FIHV and SFO
+(a)
+A family tree showing how each family member is related to “Person A” (i.e. a natural person whether alive or deceased) under section 4(2) of Schedule 16E to the IRO.
+(b)
+A group chart showing the name of each FIHV and its SFO, their place of incorporation/establishment and details of their direct and indirect beneficial interest held by the immediate parent entity, intermediate parent entity, ultimate parent entity and up to the family members.
+(c)
+Documents relating to the beneficial interest such as registers of members, partnership agreements or memorandum and articles of association.
+(d)
+In case a specified trust is involved, a full set of trust deed, deed of appointment and retirement of trustee, declaration of trust(s) and other supporting documents showing details of the trustee, specified beneficiaries and trust estate under the specified trust.
+(e)
+In case a foundation is involved, a full set of the deed or statutes of the foundation, a letter of wishes and other confirmatory documents issued by the board of trustees showing details of the foundation, specified beneficiaries and foundation assets.
+(f)
+In case where a charitable institution or trust of a public character that is exempt from tax under section 88 of the IRO (“charitable entity”) is involved, documentation showing the extent of the percentage of the beneficial interest (whether direct or indirect) in the FIHV or SFO held by the charitable entity. If it is contemplated that certain beneficial interest in the FIHV will be held by an entity, which is intended to be a charitable entity and has not applied for recognition of tax exemption status under section 88 of the IRO at the time of the application for advance ruling, a one-stop service will be provided such that the FIHV’s application for advance ruling and the entity’s application for recognition of tax exemption status under section 88 of the IRO can be processed at one go. For more information about application for recognition of tax exemption status under section 88 of the IRO, please click
+here
+.
+(g)
+Regarding the documents referred to in (c) to (f), in case the arrangement is still being contemplated and thus the documents have not yet been signed and/or legally executed, the final draft of the required documents.
+Normal management or control
+(h)
+Explanation of the following activities including how, by whom and where they are to be carried out:
+(i)
+management of daily business operations;
+(ii)
+making and implementation of the decisions made;
+(iii)
+control of the whole business at the top level (e.g. formulating the central policy of the business, making strategic policies, choosing business financing, evaluating business performance)
+Substantial activities requirement
+(i)
+Details of the investment activities of the FIHV carried out or arranged to be carried out in Hong Kong.  If outsourcing of investment activities is involved, details of the outsourcing arrangement including the full name and business registration number of the outsourced party, the types of investment activities outsourced and the location where those investment activities are to be carried out.
+(j)
+Number of full-time employees in Hong Kong carrying out the investment activities in (i), including information on their position held, duties performed, experience and qualifications.
+(k)
+Amount and types of operating expenditure incurred in Hong Kong for carrying out the investment activities in (i).
+(l)
+A copy of the investment management agreement entered into between the FIHV and the SFO.
+(m)
+A copy of the outsourcing agreement entered into between the SFO and the outsourced party, if any.
+Minimum Asset Threshold
+(n)
+Details of Schedule 16C assets of the FIHV managed by the SFO for each relevant year(s) of assessment including a breakdown showing the types and respective NAVs of the Schedule 16C assets for each year.
+Safe harbour rule
+(o)
+A proforma profit and loss account of the SFO showing the percentage of the SFO’s profits derived from services provided to the specified persons of the family for a year of assessment.
+The above serves as guidance only and is not intended to be an exhaustive list.  Depending on the facts and circumstances of each case, the information or documents to be provided by each applicant of an advance ruling would differ.
+For more information about application for advance ruling, please refer to
+Departmental Interpretation and Practice Notes No. 31 – Advance Rulings
+.
+back to top
+More Information
+The Amendment Ordinance
+back to top
+Enquiries
+If you have any question regarding tax concessions for FIHV, you may contact us at (852) 2594 1600 or
+taxpf@ird.gov.hk
+.
+back to top

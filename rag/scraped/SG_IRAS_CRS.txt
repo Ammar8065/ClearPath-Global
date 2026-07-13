@@ -1,0 +1,257 @@
+SOURCE_KEY: SG_IRAS_CRS
+TITLE: IRAS — Common Reporting Standard (CRS) for financial accounts
+JURISDICTION: SG
+URL: https://www.iras.gov.sg/taxes/international-tax/common-reporting-standard-(crs)/crs-overview-and-latest-developments
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:18+00:00
+------------------------------------------------------------------------------
+The Common Reporting Standard (CRS) is an internationally agreed standard for the automatic exchange of financial account information between jurisdictions for tax purposes, to better combat tax evasion and ensure tax compliance. Singapore has committed
+to implement the CRS and has been exchanging financial account information with partner jurisdictions since September 2018.
+If you are a Reporting Singapore Financial Institution (SGFI), you will have to register for CRS with IRAS. You are required to conduct due diligence on all Financial Accounts you maintain and report the relevant account information in a timely and accurate manner to IRAS in an annual return.
+If you are an individual holding an account with a Reporting SGFI, you may be affected by CRS in several ways. You may refer to the
+Basic information for account holders
+of Financial
+institutions
+for more information.
+On this page:
+What's New
+Date
+What's new
+2 February 2026
+List of Reportable Jurisdictions
+(PDF, 330KB) for 2025 CRS reporting published: Reporting SGFIs are to submit 2025 CRS information by 31 May 2026.
+2 February 2026
+List of Participating Jurisdictions
+(PDF, 210KB) updated: the updated list will take effect from 2 February 2026
+2 February 2026
+IRAS has published IRAS AEOI TIN Guide (Updated as at 2 February 2026) (XLXS, 44KB) to facilitate Reporting SGFIs in reviewing and reporting of TIN (or TIN equivalents in the absence of a TIN) information of their account holders. This guide contains the TIN and TIN equivalent information issued by jurisdictions reflected in the
+OECD Automatic Exchange of Information Implementation Portal
+pertaining to tax identification numbers.
+30 January 2026
+IRAS XML Schema User Guide (Fourth Edition) published (applicable for submissions from 1 January 2027)
+The
+IRAS XML Schema User Guide (Fourth Edition)
+(PDF, 3,050KB) has been updated to conform with the OECD’s CRS XML Schema Version 3.0. IRAS will adopt the CRS XML Schema Version 3.0 released by OECD with effect from 1 January 2027. All new, nil, correction or deletion CRS Returns in XML format, must be formatted and submitted using the CRS XML Schema Version 3.0 with effect from 1 January 2027.
+Please refer to the
+CRS Submission Format Section
+for the CRS XML Schema Version 3.0 and IRAS XML Schema User Guide (Fourth Edition).
+Important note
+: Prior to 1 January 2027, RSGFIs must continue to prepare the CRS Return in accordance with the OECD’s
+CRS XML Schema Version 2.0
+(ZIP, 22KB) and the
+IRAS XML Schema User Guide for CRS Return (Third Edition)
+(PDF, 4,440KB).
+12 January 2026
+The
+OECD CRS FAQs
+were updated in December 2025 to provide additional guidance on several topics relating to the Amended CRS, including the treatment of tokenised Financial Assets and determination of Specified Electronic Money Products.
+31 October 2025
+Fourth edition of the Common Reporting Standard (CRS) e-Tax Guide
+(PDF, 997KB) published with the following changes.
+Amended paragraphs 5.2.1 to 5.2.4 to clarify the rules on determining whether an FI is resident in Singapore for CRS purposes in line with the OECD CRS Commentary.
+Amended paragraph 5.5.2 to update the meaning of Investment Entity to align with the CRS Regulations.
+Amended paragraph 12.3.2 to clarify that the reference to TINs also refer to the functional equivalent in the absence of a TIN.
+Other editorial changes in the e-Tax Guide.
+31 October 2025
+IRAS FAQs on CRS
+(pdf, 457KB) Update FAQ B.2: To provide clarity on instances where trustees are considered to be resident in Singapore.
+31 October 2025
+Second edition of the Common Reporting Standard (CRS) Compliance e-Tax Guide
+(PDF, 489KB) published with the following changes.
+Inserted a new paragraph 1.6 to highlight that more information on compliance matters can be found at IRAS website.
+Amended Annex A, paragraph 13 of section 1 to include change in IT systems as a change that could impact effective CRS compliance by the Reporting SGFI.
+Other editorial changes in the e-Tax Guide.
+9 October 2025
+IRAS has published
+IRAS AEOI TIN Guide
+(Updated as at 29 September 2025) (XLXS, 43KB) to facilitate Reporting SGFIs in reviewing and reporting of TIN (or TIN equivalents in the absence of a TIN) information of their account holders. This guide contains the TIN and TIN equivalent information issued by jurisdictions reflected in the
+OECD Automatic Exchange of Information Implementation Portal
+pertaining to tax identification numbers.
+18 August 2025
+CRS XML Schema Version 3.0 (effective from the year 2027)
+As announced on 18 October 2024, from 1 January 2027, all CRS returns in XML format, including past returns, must be formatted and submitted using the
+OECD Common Reporting Standard XML Schema version 3.0
+.
+IRAS will release the updated edition of the IRAS XML Schema User Guide for CRS Return which will explain the information required to be included in each data element to be reported in the CRS XML Schema v3.0 in due course.
+You may refer to past updates at
+CRS Update History
+.
+CRS Overview
+The Common Reporting Standard (CRS) is an internationally agreed standard for the automatic exchange of financial account information between jurisdictions for tax purposes. The CRS is intended to detect and deter tax evasion by tax residents of jurisdictions
+through the use of offshore banks and other Financial Accounts.
+The CRS builds on the
+FATCA
+reporting
+regime to maximise efficiency and reduce costs for implementing jurisdictions and their FIs. More than 100 jurisdictions, including major financial centres such as Dubai, Hong Kong, Luxembourg and Switzerland, have endorsed the CRS and have commenced
+AEOI in either 2017 or 2018.
+The CRS sets out
+the financial account information to be exchanged between jurisdictions;
+the FIs required to report such information to their tax authorities;
+the different types of accounts and taxpayers covered; and
+the customer due diligence procedures to be followed by FIs.
+In Singapore, the CRS Regulations in the Income Tax Act requires and empowers all Reporting SGFIs to put in place necessary processes and systems to collect such financial account information from their account holders. Reporting SGFIs will then need
+to report to IRAS the financial account information relating to tax residents of Singapore’s exchange partners. IRAS will subsequently provide the reported information to Singapore’s exchange partners.
+As an SGFI, you should take note of the following key CRS obligations:
+CRS Registration
+–
+Register as a Reporting SGFI by 31 March
+CRS Filing
+– File
+annual returns or nil returns to IRAS by 31 May
+CRS Compliance
+– Ensure completeness
+and accuracy when collecting the required information on account holders
+Amendments to the CRS (“Amended CRS”)
+The first comprehensive review of the CRS has resulted in amendments to bring new financial assets, products, and intermediaries within its scope, because they are potential alternatives to traditional financial products, while avoiding duplicative reporting with that foreseen in the Crypto-Asset Reporting Framework (CARF). Additional amendments have also been made to enhance the reporting outcomes under the CRS. In addition, further details have been included in the Commentary to the CRS in a number of locations to increase consistency in the application of the CRS and to incorporate previously released Frequently Asked Questions and interpretative guidance.
+In line with Singapore’s commitment to international tax transparency, we signed the Addendum to the Multilateral Competent Authority Agreement on Automatic Exchange of Financial Account Information (“the Addendum to the CRS MCAA”) on 26 November 2024. Singapore is expected to commence exchanges under the Amended CRS in 2028.
+CRS Resources
+CRS Domestic Legislation
+The domestic legislative provisions to implement the CRS are set out at:
+Part 20B of the Income Tax Act 1947 – International Agreements to Improve Tax Compliance
+. This contains the enabling provisions to implement the CRS in Singapore; and
+Income Tax (International Tax Compliance Agreements)(Common Reporting Standard) Regulations 2016
+("CRS Regulations"). This incorporates the requirements of the CRS into Singapore’s domestic legislative framework
+AEOI TIN Guide
+Under the CRS, Reporting SGFIs are required to obtain the TIN (or TIN equivalents in the absence of a TIN) information of their account holders and report this TIN information for reportable account holders in their CRS returns.
+IRAS AEOI TIN Guide
+(Updated as at 2 February 2026) (XLXS, 44KB) - The purpose of this guide is to facilitate Reporting SGFIs in reviewing and reporting of TIN (or TIN equivalents in the absence of a TIN) information of their account holders. This guide contains the TIN and TIN equivalent information issued by jurisdictions reflected in the
+OECD Automatic Exchange of Information Implementation Portal
+pertaining to tax identification numbers.
+IRAS and OECD Guidance
+Reporting SGFIs should rely closely on these materials for interpretative guidance on the due-diligence and reporting requirements of the CRS.
+IRAS Guidance
+IRAS Common Reporting Standard e-Tax Guide
+(PDF, 930KB)
+- IRAS will be consulting the industry and publishing the guidance in due course with respect to the Amended CRS.
+IRAS CRS FAQs
+(PDF, 458KB)
+- IRAS will be consulting the industry and publishing the guidance in due course with respect to the Amended CRS.
+IRAS CRS XML Schema User Guide
+(PDF, 4,440KB)
+- IRAS will be publishing the IRAS CRS XML Schema User Guide which will set out specific requirements for reporting to IRAS with respect to the Amended CRS in due course.
+OECD Guidance
+Given that the CRS is the international AEOI Standard developed by the OECD, the OECD’s Commentaries on the CRS, the CRS Implementation Handbook, and OECD’s CRS-related FAQs are integral to Singapore’s CRS implementation.
+Commentaries on the CRS
+CRS Implementation Handbook
+(2nd edition)
+CRS-related FAQs
+(PDF, 457.8KB)
+(updated in December 2025)
+OECD AEOI Website and Portal
+International Standards for the Automatic Exchange of Information in Tax Matters
+(published by the OECD in June 2023)
+Amended Common Reporting Standard XML Schema
+(published by the OECD in October 2024)
+Competent Authority Agreement ("CAA")
+A CAA, which can be a bilateral or multilateral agreement, establishes exchange relationships between jurisdictions, and enables the implementation of the information exchange based on existing legal instruments. It sets out the type of information to
+be exchanged between two jurisdictions, the time and manner of exchange as well as the confidentiality and data safeguards to be respected for the exchange of information.
+Reporting SGFIs should refer to the consolidated
+List of Reportable Jurisdictions
+(PDF, 330KB) and
+List of Participating Jurisdictions
+(PDF, 210KB) that have a CAA with Singapore for information on which jurisdiction’s accounts would be reportable for the relevant CRS reporting year.
+Multilateral CAA for CRS (“CRS MCAA”)
+The
+signing of the CRS MCAA
+on 21 June 2017 reaffirms Singapore’s commitment
+to international standards on tax cooperation, and enabled Singapore to efficiently establish a wide network of exchange relationships for the automatic exchange of information based on the CRS, with more than 90 signatories to-date.
+The CRS MCAA is a multilateral framework agreement based on the
+Convention on Mutual Administrative Assistance in Tax Matters
+(“the
+Convention”). It provides a standardised and efficient mechanism to facilitate the automatic exchange of information based on the CRS. Under the CRS MCAA, a bilateral exchange relationship comes into effect only if
+both jurisdictions are signatories to the CRS MCAA;
+have filed the relevant notifications under Section 7 of the CRS MCAA; and
+have listed each other as intended exchange partner jurisdictions under the CRS MCAA.
+Please refer to the
+OECD webpage
+for the full
+list of partners from whom Singapore will receive CRS information.
+Text of the CRS MCAA
+(PDF,
+406KB)
+Bilateral CAAs on Automatic Exchange of Financial Account Information
+Singapore is engaging in automatic exchange of information based on the CRS under the bilateral CAAs with the following jurisdictions:
+Jurisdiction
+First Reporting Year
+1
+Date of Signing
+Date of Entry into Force
+2
+First Submission from SGFIs by
+(First Exchange by)
+Denmark
+(PDF, 177KB)
+2017
+13 March 2017
+5 June 2017
+31 May 2018
+(September 2018)
+Finland
+(PDF, 99KB)
+2017
+22 November 2016
+31 January 2017
+31 May 2018
+(September 2018)
+Iceland
+(PDF, 178KB)
+2017
+13 December 2016
+31 January 2017
+31 May 2018
+(September 2018)
+Ireland
+(PDF, 101KB)
+2017
+20 December 2016
+31 January 2017
+31 May 2018
+(September 2018)
+Latvia
+(PDF, 178KB)
+2017
+20 December 2016
+27 February 2017
+31 May 2018
+(September 2018)
+Lithuania
+(PDF, 175KB)
+2017
+23 February 2017
+5 June 2017
+31 May 2018
+(September 2018)
+Malta
+(PDF, 102KB)
+2017
+15 December 2016
+31 January 2017
+31 May 2018
+(September 2018)
+Norway
+(PDF, 306KB)
+2017
+25 October 2016
+31 January 2017
+31 May 2018
+(September 2018)
+South Africa
+(PDF, 180KB)
+2017
+24 October 2016
+31 January 2017
+31 May 2018
+(September 2018)
+United Kingdom
+(PDF, 234KB)
+2017
+16 September 2016
+31 January 2017
+31 May 2018
+(September 2018)
+1
+This refers to the first calendar year to which information of a reportable account maintained by a Reporting SGFI relates and has to be reported to IRAS for exchange with Singapore’s AEOI partners.
+2
+A jurisdiction becomes a "Reportable Jurisdiction" after the CAA for CRS between Singapore and that jurisdiction has entered into force.
+Contact Us
+If you have any questions on the Amended CRS, please contact us at CRS@iras.gov.sg.

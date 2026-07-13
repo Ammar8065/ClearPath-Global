@@ -1,0 +1,39 @@
+SOURCE_KEY: US_IRS_NIIT
+TITLE: IRS — Net Investment Income Tax (NIIT) under IRC §1411
+JURISDICTION: US
+URL: https://www.irs.gov/individuals/net-investment-income-tax
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:17:02+00:00
+------------------------------------------------------------------------------
+If an individual has income from investments, the individual may be subject to net investment income tax. Effective Jan. 1, 2013, individual taxpayers are liable for a 3.8 percent Net Investment Income Tax on the lesser of their net investment income, or the amount by which their modified adjusted gross income exceeds the statutory threshold amount based on their filing status.
+The statutory threshold amounts are:
+Married filing jointly — $250,000,
+Married filing separately — $125,000,
+Single or head of household — $200,000, or
+Qualifying widow(er) with a child — $250,000.
+In general, net investment income includes, but is not limited to: interest, dividends, capital gains, rental and royalty income, and non-qualified annuities.
+Net investment income generally does not include wages, unemployment compensation, Social Security Benefits, alimony, and most self-employment income.
+Additionally, net investment income does not include any gain on
+the sale of a personal residence
+that is excluded from gross income for regular income tax purposes. To the extent the gain is excluded from gross income for regular income tax purposes, it is not subject to the
+Net Investment Income Tax
+.
+If an individual owes the net investment income tax, the individual must file
+Form 8960
+PDF
+.
+Form 8960 Instructions
+PDF
+provides details on how to figure the amount of investment income subject to the tax.
+If an individual has too little withholding or fails to pay enough quarterly estimated taxes to also cover the Net Investment Income Tax, the individual may be subject to an estimated tax penalty.
+The Net Investment Income Tax is separate from the Additional Medicare Tax, which also went into effect on January 1, 2013. You may be subject to both taxes, but not on the same type of income. The 0.9 percent Additional Medicare Tax applies to individuals’ wages, compensation, and self-employment income over certain thresholds, but it does not apply to income items included in Net Investment Income.
+For additional information on Net Investment Income Tax, see our
+questions and answers
+posted on IRS.gov.
+Tools to help
+Use the
+Tax Withholding Estimator
+to calculate withholding.
+See
+Tax withholding for individuals
+.

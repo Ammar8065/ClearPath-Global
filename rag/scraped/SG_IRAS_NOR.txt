@@ -1,0 +1,130 @@
+SOURCE_KEY: SG_IRAS_NOR
+TITLE: IRAS — Not Ordinarily Resident (NOR) scheme (last application YA 2020)
+JURISDICTION: SG
+URL: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/special-tax-schemes/not-ordinarily-resident-(nor)-scheme
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:15+00:00
+------------------------------------------------------------------------------
+The NOR scheme has ceased. The last NOR status granted will run / be valid from YA 2020 to YA 2024.  Individuals who have qualified for the NOR status will continue to enjoy NOR tax concessions until their NOR status expires, if
+they continue to meet the conditions of the concessions.
+On this page:
+Yearly application of NOR tax concessions
+If the application form is not submitted by the due date, no tax concession would be allowed to you.
+Due date to apply for NOR status / tax concessions
+During the annual filing cycle
+Due date to apply for
+NOR status for YA 2020 to 2024 (one-time application together with annual tax return)
+NOR concessions (yearly application together with annual tax return)
+Year 2021
+Not Applicable
+15 Apr 2021 (paper filing)
+18 Apr 2021 (e-Filing)
+Year 2022
+Not Applicable
+15 Apr 2022 (paper filing)
+18 Apr 2022 (e-Filing)
+Year 2023
+Not Applicable
+15 Apr 2023 (paper filing)
+18 Apr 2023 (e-Filing)
+Year 2024
+Not Applicable
+15 Apr 2024 (paper filing)
+18 Apr 2024 (e-Filing)
+Late application for NOR status / tax concessions
+You will not enjoy tax concession(s) for certain YAs if you submit your application late.
+Example:
+If you file on
+NOR status applied for
+NOR concessions applied for
+NOR status granted for
+NOR concession granted for
+8 Nov 2020
+YA 2020 to 2024
+YA 2020
+YA 2020 to 2024
+No concession
+14 Apr 2021
+YA 2020 to 2024
+YA 2020 & 2021
+YA 2020 to 2024
+YA 2021
+8 Nov 2021
+YA 2020 to 2024
+YA 2021
+YA 2020 to 2024
+No concession
+10 Apr 2023
+YA 2020 to 2024
+YA 2023
+YA 2020 to 2024
+YA 2023
+14 Apr 2025
+YA 2020 to 2024
+YA 2024
+YA 2020 to 2024
+No concession
+Tax concessions under the NOR scheme
+If you are accorded the NOR status, you can enjoy the following tax concessions during the NOR period as long as you are a tax resident in the respective YA and the qualifying conditions are fulfilled:
+1. Time apportionment of Singapore employment income
+Under this concession, you will not be taxed on the portion of your Singapore employment income that corresponds to the number of days you have spent outside Singapore for business reasons, as a resident Singapore employee.
+Qualifying conditions
+You must have spent at least 90 days outside Singapore for business reasons; and
+Your total Singapore employment income must be at least $160,000. If the tax on the apportioned income is less than 10% of your total employment income, you will still be subject to a tax of 10% of your total employment income.
+Income not apportionable
+You cannot apportion:
+Director's fees; and
+Any amount of income tax payable in Singapore that is borne, directly or indirectly, by your employer.
+Calculating number of days outside Singapore
+Your presence in Singapore for any part of a day shall be counted as one day in Singapore.
+Alternatively, as an administrative concession, you may choose to count only the day of arrival in Singapore as a day in Singapore (i.e. the day of departure from Singapore will be counted as a day outside Singapore). If you have left Singapore and returned
+on the same day, this will be considered as a day in Singapore.
+You can enter your travel days in the
+NOR Travel Calculator
+(XLS, 71KB). The NOR travel calculator will compute the number of days outside Singapore for you.
+Example 1: Calculating number of days outside Singapore
+You left Singapore on 23 May and returned on 26 May. 23 May is not counted as a day in Singapore. The number of days outside Singapore is three days (23 May to 25 May).
+2. Tax exemption of employer's contribution to non-mandatory overseas pension fund or social security scheme
+Under this concession, if you are a resident Singapore employee, tax exemption will be given to you on contribution made by your employer to any non-mandatory overseas contribution scheme subject to qualifying conditions.
+This is provided that your employer does not claim a deduction for the contribution. The amount of exemption is subject to a cap.
+Qualifying conditions
+You are not a Singapore citizen or Permanent Resident; and
+Your Singapore employment income must be at least $160,000; and
+Your employer must not claim a deduction on contribution made to non-mandatory overseas pension or provident funds and social security schemes up to the NOR cap.
+For the avoidance of doubt. condition (3) is met where:
+the contribution is borne by a foreign company and is not charged or recharged to your Singapore employer, as no deduction on the contribution is taken by your Singapore employer; or
+your employer is a tax-exempt body or representative office that is not required to file a tax return, as no deduction on the contribution is taken by your employer.
+Example 2: Contributions to welfare fund set-up to supplement the national insurance scheme run by the home country government
+Your employer contributes to a pension welfare fund that was set up to supplement the national insurance scheme run by the government of your home country.
+The contribution is not mandatory but your employer participates in the scheme according to social norms.
+Generally, such contributions made by employers in line with social practice are not considered mandatory. You can claim NOR tax concession on employer's contribution to non-mandatory overseas pension fund or social security scheme subject to a cap, provided
+all the qualifying conditions are met.
+Employees of investment holding company
+If you are employed by an investment holding company, you can enjoy the tax concession on the contributions made by your employer to any non-mandatory overseas contribution scheme on or after 2014, provided your employer does not claim any deduction for such contributions under section 14(1)(e). In this regard, your employer is required to state upfront in its tax return for the relevant year of assessment that it is not claiming any deduction for such contributions under section 14(1)(e).
+Employees of service company
+If you are employed by a service company, you will continue to enjoy this tax concession provided your company prepares its tax computation based on "normal trading company" ("NTC") basis from YA 2016 (i.e. for accounting period ending in 2015) onwards.
+Employees of a service company that adopts the "cost plus mark-up" ("CM") basis of tax assessment will not be able to enjoy this tax concession after YA 2015 (i.e. for accounting period ending in 2014).
+Example 3: Service company adopting "Cost plus mark-up" ("CM") basis of tax assessment
+You are employed by a service company that adopts the CM basis of tax assessment and its accounting period ends on 31 Jan.
+Your employer contributed $2,000 and $1,000 to your non-mandatory overseas contribution scheme on 31 Jan 2014 and 31 Aug 2014 respectively. Your employer did not claim a deduction for the contribution.
+You can enjoy tax exemption on the contribution of $2,000 made on 31 Jan 2014.
+However, as the contribution of $1,000 on 31 Aug 2014 was made during your company's accounting period ending 2015 (Basis period 1 Feb 2014 to 31 Jan 2015, which is after YA 2015) and your company adopts the CM basis of tax assessment, you would not be
+able to enjoy the NOR tax concession on the contribution of $1,000.
+Example 4: Service company changes its basis of tax assessment from "Cost plus mark-up" ("CM") to "Normal Trading Company" ("NTC")
+Same scenario as in Example 2 (above) except that the employer decides to change its basis of tax computation from CM to NTC with effect from Year of Assessment 2016 (basis period 1 Feb 2014 to 31 Jan 2015).
+In this case, you can enjoy the NOR tax concession on the contribution of $1,000 made on 31 Aug 2014 and hence you will not be taxed on the total contribution of $3,000.
+Calculating the NOR cap
+The NOR cap is determined based on the total employer contribution to an approved mandatory or a non-mandatory overseas contribution scheme or to both.
+It is computed based on CPF (Central Provident Fund) capping rules as if the employer had made contribution to the CPF for a Singapore citizen as required under the CPF Act.
+Tax treatment of employer's contribution to non-mandatory overseas pension fund or social security scheme if NOR concession is not claimed
+If you do not claim the NOR tax concession, you will be taxed on your employer's contribution to an overseas pension fund or social security scheme in the year of contribution unless:
+The contribution is made under Social Security Schemes operated by the government of your home country and such contribution is compulsory even when you are working outside your home country; and
+The contribution is not borne by or no deduction is claimed by any company in Singapore.
+Please submit these documents to support your claim that the contribution is not taxable:
+State regulations of your home country; and
+The relevant letters from your employer to confirm that the company is not claiming tax deduction for the contribution made.
+For more information, please refer to
+Concessionary Tax Treatment on Overseas Pension / Provident Fund Contributions
+.
+Documents
+NOR travel calculator (XLS, 71KB)

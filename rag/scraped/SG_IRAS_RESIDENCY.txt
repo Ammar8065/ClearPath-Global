@@ -1,0 +1,256 @@
+SOURCE_KEY: SG_IRAS_RESIDENCY
+TITLE: IRAS — Tax residency and tax rates for individuals
+JURISDICTION: SG
+URL: https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/working-out-my-tax-residency
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:08+00:00
+------------------------------------------------------------------------------
+All income earned in Singapore is subject to tax. You must declare all sources of income you have earned in your Income Tax Return.
+On this page:
+Income earned in Singapore is taxable
+All income earned in Singapore is taxable.
+The amount of income tax you need to pay depends on:
+how much you earn in Singapore
+; and
+whether you are a
+tax resident
+or
+non-resident
+for income tax purposes.
+Your income tax is calculated on a preceding year basis. For example, income taxed in Year of Assessment 2026, refers to income earned from 1 Jan 2025 to 31 Dec 2025.
+Tax residents
+You are a tax resident for a particular Year of Assessment if you are a:
+Singapore Citizen or Singapore Permanent Resident (SPR) who normally resides in Singapore except for temporary absences; or
+Foreigner who has stayed/worked in Singapore:
+for at least 183 days in the previous calendar year; or
+continuously for 3 consecutive years; or
+Foreigner who has worked in Singapore for a continuous period straddling 2 calendar years and your total period of stay
+*
+is at least 183 days. This applies to foreign employees who entered Singapore from 1 Jan 2007 but excludes
+directors of a company
+,
+public entertainers
+or
+professionals
+.
+*
+including your physical presence immediately before and after your employment.
+Foreigners issued with a work pass that is valid for at least 1 year will also be treated as a tax resident. However, your tax residency status will be reviewed at the point of
+tax clearance
+when you cease your employment based on the tax residency rules. If your stay in Singapore is less than 183 days, you
+will be regarded as a non-resident.
+Tax residents may use this
+tax calculator
+(XLSM, 69KB) to estimate the tax payable.
+For foreigners: Number of days of employment
+The number of days of employment in Singapore includes weekends and public holidays. Any absences from Singapore that are temporary (e.g. overseas vacation leave) or incidental to your employment (e.g. business trips) are still counted in the total days of employment for the purpose of determining your tax residency status.
+Tax treatment of tax residents
+As a tax resident:
+You will be taxed on all income earned in Singapore;
+Your foreign-sourced income (with the exception of those received through partnerships in Singapore) brought into Singapore is tax-exempt;
+You may claim deductions on expenses, donations and personal reliefs. Find out more about
+deductions to save tax
+.
+The income of tax residents after deducting allowable expenses, donations and personal reliefs is subject to income tax at
+progressive rates
+ranging
+from 0% to 24%.
+Tax implications for foreigners at a glance
+Period of stay (inclusive of work) in Singapore
+Tax residency status
+Tax implications
+At least 183 days in a year
+Tax resident for that year
+Income is taxed at progressive resident rates.
+You may claim tax reliefs.
+3 consecutive years
+Tax resident for all 3 years
+Income is taxed at progressive resident rates.
+You may claim tax reliefs.
+Period of employment in Singapore
+Tax residency status
+Tax implications
+At least 183 days for a continuous period over 2 years
+Tax resident for both years
+Income is taxed at progressive resident rates.
+You may claim tax reliefs.
+If you are a foreigner in
+Singapore for at least 183 days in a year
+Example 1: Stayed or worked in Singapore for at least 183 days in a calendar year
+You have stayed in Singapore from 1 Apr 2025 to 3 Oct 2025 (186 days). You will be regarded as a tax resident for the Year of Assessment 2026.
+Year of Assessment
+Period of stay (inclusive of work) in Singapore
+Tax residency status
+2026
+1 Apr 2025 to 3 Oct 2025 (186 days)
+Tax resident
+If you are a foreigner in Singapore for 3 consecutive years
+If you stay or work in Singapore continuously for 3 consecutive years, you will be regarded as a tax resident for all the 3 years under the 3-year administrative concession. This applies even if you are in Singapore for less than 183 days in the first
+and third year.
+Example 2: Stayed or worked in Singapore for 3 consecutive years
+You have stayed or worked in Singapore from 3 Nov 2023 to 7 May 2025. You will be regarded as a tax resident for Years of Assessment 2024 to 2026.
+Year of Assessment
+Period of stay (inclusive of work) in Singapore
+Tax residency status
+2024
+3 Nov 2023 to 31 Dec 2023 (59 days)
+Tax resident
+2025
+1 Jan 2024 to 31 Dec 2024 (366 days)
+Tax resident
+2026
+1 Jan 2025 to 7 May 2025 (127 days)
+Tax resident
+If you are a foreigner who worked in Singapore for 2 consecutive years
+You will be regarded as a tax resident under the 2-year administrative concession if you:
+work in Singapore for a period straddling 2 calendar years; and
+your employment period plus your physical presence immediately before/after your employment cover a continuous period of at least 183 days.
+This concession applies to foreign employees (excludes
+directors of a company
+,
+public entertainers
+or
+professionals
+) who have entered Singapore.
+Example 3a: Worked in Singapore for a continuous period of at least 183 days over 2 years
+You have worked in Singapore from 3 Nov 2024 to 7 May 2025 (at least 183 days for a continuous period over 2 years). You will be regarded as a tax resident for Years of Assessment 2025 and 2026.
+Year of Assessment
+Period of stay (inclusive of work) in Singapore
+Tax residency status
+2025
+3 Nov 2024 to 31 Dec 2024 (59 days)
+Tax resident
+2026
+1 Jan 2025 to 7 May 2025 (127 days)
+Tax resident
+Total number of days in Singapore: 186 days
+Example 3b: Worked in Singapore for a period straddling 2 calendar years and your period of stay is at least 183 days
+You arrived in Singapore on 3 Nov 2024 and started work from 6 Nov 2024. You ceased employment on 5 May 2025 and left Singapore on 7 May 2025. You will be regarded as a resident for Years of Assessment 2025 and 2026 as:
+your employment period straddled 2 years (i.e. 2024 and 2025);
+your period of stay (inclusive of work) in 2024 and 2025 was at least 183 days.
+The 2-year administrative concession applies.
+Year of Assessment
+Period of stay (inclusive of work) in Singapore
+Tax residency status
+2025
+3 Nov 2024 to 31 Dec 2024 (59 days)
+Tax resident
+2026
+1 Jan 2025 to 7 May 2025 (127 days)
+Tax resident
+Total number of days in Singapore: 186 days
+Example 3c: Worked in Singapore for a period not straddling 2 calendar years
+You have worked in Singapore from 4 Aug 2024 to 29 Dec 2024. You continued to stay in Singapore from 30 Dec 2024 to 7 Apr 2025. You will be regarded as a non-resident for Years of Assessment 2025 and 2026 since your employment does not straddle 2 years
+and your period of stay in 2024 and 2025 was less than 183 days for each calendar year. The 2-year administrative concession does not apply.
+Year of Assessment
+Period of stay (inclusive of work) in Singapore
+Tax residency status
+2025
+4 Aug 2024 to 31 Dec 2024 (150 days)
+Non-resident
+2026
+1 Jan 2025 to 7 Apr 2025 (97 days)
+Non-resident
+Non-residents
+A non-resident of Singapore for tax purposes, is an individual who does not qualify as a tax resident of Singapore.
+Tax treatment of non-residents
+As a non-resident:
+You will be taxed on all income earned in Singapore;
+You may claim deductions on expenses and donations to save tax. However,
+you are not eligible to claim personal reliefs
+;
+Your employment income is taxed at the
+higher
+of:
+flat rate of 15%; or
+the
+progressive resident tax rate
+.
+Director's fees, consultant's fees and all other income are generally taxed at 24%.
+Non-residents may use this
+tax calculator
+(XLS,
+120KB) to estimate the tax payable.
+For foreigners: Short-term employment (60 days or less)
+If you are a non-resident and exercised employment in Singapore for 60 days or less in a year, your short-term employment income is exempt from tax. This rule does not apply if you receive payment in the capacity of
+a board director
+, a
+public entertainer
+or a
+professional
+in Singapore. Professionals
+include foreign experts, foreign speakers, king's counsels, consultants, trainers, coaches, etc.
+For foreigners: Number of days of employment
+The number of days of employment in Singapore includes weekends and public holidays. Any absences from Singapore that are temporary (e.g. overseas vacation leave) or incidental to your employment (e.g. business trips) are still counted in the total days
+of employment for the purpose of determining your tax residency status.
+For foreigners: Employees travelling into Singapore for business purpose
+If you are based outside Singapore and travel into Singapore for business purpose, please refer to
+Travelling into Singapore for Business Purpose
+for
+information on the number of days of employment in Singapore and
+revised tax treatment for amounts received by employees travelling into Singapore on or after 1 Jan 2016 for Business Purpose
+.
+Tax implications for foreigners at a glance (employed for 60 days or less in a year)
+Tax residency status
+Tax implications
+Non-resident
+Your short-term employment is exempt from tax.
+This rule does not apply if:
+You
+receive payment in the capacity of a board director, a public entertainer or a professional in Singapore
+; or
+Your absences from Singapore are incidental to your Singapore
+employment. In this case, your total income (including income for services rendered outside Singapore) is fully taxable in Singapore.
+Director's fees and other income are taxed at the prevailing rate of 24%.
+You are not entitled
+to tax reliefs.
+Example 4: Employed in Singapore for 60 days or less
+You have worked in Singapore from 3 Nov 2024 to 28 Feb 2025. You will be regarded as a non-resident for Years of Assessment 2025 and 2026 as your employment period for 2024 and 2025 was less than 60 days. Your employment income will be exempt from tax.
+Year of Assessment
+Period of employment
+Tax residency status
+Employment income
+2025
+3 Nov 2024 to 31 Dec 2024 (59 days)
+Non-resident
+Exempt from income tax
+2026
+1 Jan 2025 to 28 Feb 2025 (59 days)
+Non-resident
+Exempt from income tax
+Example 5: Employment includes overseas business trips
+Tax exemption does not apply if your absences from Singapore are incidental to your Singapore employment. Your total income including income for services rendered outside Singapore is taxable in full in Singapore.
+Year of Assessment
+Period of employment
+Tax residency status
+2025
+1 Jun 2024 to 31 Dec 2024 (214 days)
+Overseas business trip (164 days)
+Physical presence in Singapore (50 days)
+Tax resident
+2026
+1 Jan 2025 to 30 Jul 2025 (211 days)
+Overseas business trips (161 days)
+Physical presence in Singapore (50 days)
+Tax resident
+Tax implications for foreigners at a glance (in Singapore for 61 to 182 days in a year)
+Tax residency status
+Tax implications
+Non-resident
+Your employment income is taxed at 15% or progressive resident rates, whichever results in a higher tax amount.
+Director's fees and other income are taxed at the prevailing rate of 24%.
+You are not entitled
+to tax reliefs.
+Example 6: Non-resident stayed or worked in Singapore for less than 183 days
+Year of Assessment
+Period of stay (inclusive of work) in Singapore
+Tax residency status
+2026
+3 Jul 2025 to 31 Dec 2025 (182 days)
+Non-resident
+Pages
+Basic guide for new individual taxpayers
+Digital Tools
+Calculators
+Documents
+YA 2026 Income Tax Calculator for Tax Resident Individuals (XLSM, 69KB)

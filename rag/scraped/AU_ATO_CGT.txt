@@ -1,0 +1,167 @@
+SOURCE_KEY: AU_ATO_CGT
+TITLE: ATO — Foreign residents and capital gains tax
+JURISDICTION: AU
+URL: https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/foreign-residents-and-capital-gains-tax
+METHOD: wayback (snapshot 20260508140832)
+FETCHED_AT: 2026-07-11T11:11:31+00:00
+------------------------------------------------------------------------------
+Foreign residents and capital gains tax
+Your tax residency may be different to your residency for other purposes.
+Your residency status and CGT
+Your tax residency may be different to your residency for other purposes.
+How changing residency affects CGT
+How the assets you are taxed on will change if you become or stop being a tax resident.
+CGT discount for foreign residents
+Check if you are eligible for the 50% capital gains tax (CGT) discount as a foreign resident.
+Taxable Australian property
+As a foreign resident, find out which of your assets are taxable in Australia.
+Main residence exemption for foreign residents
+Check what the requirements are for foreign residents to claim the main residence exemption for property.
+Foreign resident capital gains withholding
+Find out about the foreign resident capital gains withholding (FRCGW), including who it applies to and when it applies.
+QC
+66058
+
+===== SUB-PAGE: https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/foreign-residents-and-capital-gains-tax/main-residence-exemption-for-foreign-residents =====
+Main residence exemption for foreign residents
+Check what the requirements are for foreign residents to claim the main residence exemption for property.
+Last updated
+14 November 2025
+Print or Download
+How the exemption works for foreign residents
+Foreign residents can't claim the main residence exemption for property sold after 30 June 2020, unless they satisfy the requirements of the life events test.
+If you're a foreign resident when you dispose of the property and you don't meet the life events test (even if you were a resident for some of the ownership period), you aren't entitled to the main residence exemption. This also means you aren’t entitled to either:
+a partial or apportioned main residence exemption
+the
+home first used to produce income
+rule.
+Only foreign residents who sold property before 30 June 2020 may be eligible for the main residence exemption without meeting the life events test.
+If you're an Australian resident at the time you dispose of your property, this doesn't affect you unless you acquired the property due to the
+death of a foreign resident
+.
+Life events test
+When you dispose of your residential property, you satisfy the requirements of the life events test if both of the following are true:
+you were a foreign resident for tax purposes for a continuous period of 6 years or less
+during that period, one of the following occurred
+you, your spouse or your child under 18 years old had a
+terminal medical condition
+your spouse or your child under 18 years old died
+the capital gains tax (CGT) event happened because of a formal agreement following the breakdown of your marriage or relationship.
+If you satisfy both of these criteria and meet the general requirements for the exemption, you can:
+claim the main residence exemption
+use the exemption as a reason to
+vary the capital gains withholding
+that would otherwise apply to your property.
+Disposal of property by 30 June 2020
+You don't need to apply the life events test to a property that you:
+acquired before 7:30 pm (Canberra time) on 9 May 2017, and
+disposed of by 30 June 2020.
+You can claim the main residence exemption if you meet both of these requirements in addition to the
+general requirements for the exemption
+.
+If you were not an Australian resident for tax purposes while living in your property, you are unlikely to meet the requirements for the CGT main residence exemption.
+If you dispose of your property under a contract, the disposal time is when you enter into the contract. If there is no contract, the disposal time is when you settle.
+Effects on your deceased estate
+If you are a foreign resident for tax purposes when you die, these rules also apply to:
+legal personal representatives, trustees and beneficiaries of your deceased estate
+surviving joint tenants
+special disability trusts.
+QC
+66062
+Print or Download
+
+===== SUB-PAGE: https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/foreign-residents-and-capital-gains-tax/taxable-australian-property =====
+Taxable Australian property
+As a foreign resident, find out which of your assets are taxable in Australia.
+Last updated
+23 June 2025
+Print or Download
+About taxable Australian property
+Foreign and temporary residents are subject to capital gains tax (CGT) only on taxable Australian property.
+Taxable Australian property includes:
+Australian real property, such as a house, apartment, commercial building or land
+an indirect interest in Australian real property
+a mining, quarrying or prospecting right in Australia
+a CGT asset that you have used to carry on a business through a permanent establishment in Australia
+an option or right over one of the above – for example, a contract to purchase property off the plan.
+Foreign residents are subject to the full rate of
+foreign resident capital gains withholding
+(FRCGW). FRCGW is applied to the sale price (or
+market value
+if non-arm's length) when selling Australian real property (property), unless there is a
+variation notice
+that reduces the rate.
+For CGT events happening on or after 20 May 2009, a leasehold interest in land in Australia is Australian real property.
+If you
+stop being an Australian resident
+, you are taken to have disposed of each of your assets that are not taxable Australian property for their market value at the time you stopped being a resident.
+You have the option of disregarding capital gains and losses at that time. If you do this, your assets will be taken to be taxable Australian property. For example, if you disregard the capital gain or loss on Australian shares you own, those shares would become taxable Australian property.
+Indirect interests in Australian real property
+If you are a foreign or temporary resident, any indirect interest you have in Australian real property is subject to CGT.
+You have an indirect interest in Australian real property if both the following are true:
+you and your associates together own 10% or more of another entity, whether Australian or foreign – this is called the 'non-portfolio interest test'
+the market value of the assets of that entity is mainly attributable to Australian real property – this is called the 'principal asset test'.
+Indirect interests acquired before 11 May 2005
+If you acquired an indirect interest in Australian real property before 11 May 2005, you are taken to have acquired it at its market value on 10 May 2005 if:
+you are a foreign resident or the trustee of a trust that was not a resident trust for CGT purposes
+the interest did not have the necessary connection with Australia but is taxable Australian property.
+Foreign currency
+The entity through which you have an indirect Australian real property interest may keep its accounts mainly in a foreign currency.
+If so, when you dispose of your interest you must apply
+functional currency rules
+to calculate your capital gain or loss.
+This means if the entity uses the foreign currency to account for its transactions, you will convert your capital gain or loss into Australian currency.
+QC
+66061
+Print or Download
+
+===== SUB-PAGE: https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/foreign-residents-and-capital-gains-tax/cgt-discount-for-foreign-residents =====
+CGT discount for foreign residents
+Check if you are eligible for the 50% capital gains tax (CGT) discount as a foreign resident.
+Last updated
+17 January 2025
+Print or Download
+Assets acquired after 8 May 2012
+Foreign and temporary resident individuals, including beneficiaries of trusts and partners in a partnership:
+are subject to CGT on
+taxable Australian property
+aren’t entitled to the full 50% CGT discount for assets acquired after 8 May 2012.
+If the asset was purchased after 8 May 2012, and you were a foreign or temporary resident for the entirety of your ownership period, you aren't entitled to any CGT discount when you sell the asset.
+You can claim an apportioned discount for the period you were an Australian resident if you purchased taxable Australian property after 8 May 2012 and you were both:
+a foreign resident when you sold the property
+an Australian resident for some of your ownership period of the property.
+You can use the
+capital gains tax record keeping tool
+to help calculate the correct discount percentage.
+Example: apportioned discount
+Eliza purchased a rental property in 2013 in Australia while she was an Australia resident for tax purposes. She left Australia for the United Kingdom in 2016 and became a foreign resident. She sold the property in 2017.
+Eliza can't claim the full 50% CGT discount. However, she can claim an apportioned discount for the period she was an Australian resident. She can use the
+capital gains tax record keeping tool
+to help her calculate her discount.
+End of example
+Assets acquired on or before 8 May 2012
+You may apply a discount to your capital gain on assets acquired on or before 8 May 2012. There are 2 methods, if both apply, you can choose which one to use:
+If you had a period of Australian residency after 8 May 2012, you may pro rata the discount for the number of days you were an Australian resident after 8 May 2012.
+If you were a foreign resident or temporary resident on 8 May 2012, you can use the market value method to calculate your discount instead of the pro rata method.
+The easiest way to calculate your CGT discount is to use the
+capital gains tax record keeping tool
+.
+See,
+Income Tax Assessment Act 1997 -
+Part 3-1-Capital Gains and Losses: General Topics,
+Section 115-115
+Foreign or temporary residents - percentage for individuals
+for CGT discount formulas.
+Example: property acquired before 8 May 2012
+Violet is a resident of France. She has never been a resident of Australia. On 30 January 2011 she purchased a property in Australia for $1,000,000. On 8 May 2012 the property was valued at $1,100,000. On 1 July 2018 Violet sold the property for $2,000,000.
+Violet has a discount capital gain from the disposal of the property of $1,000,000.
+As Violet is a foreign resident, the discount percentage applicable to the gain may be adjusted.
+Violet chooses to use the market value method. The discount percentage is worked out as follows:
+Calculate the CGT asset's excess (which is the market value of the asset as at 8 May 2012 less the cost base as at 8 May 2012).
+$1,100,000 − $1,000,000 = $100,000
+As the amount of the gain accrued before 9 May 2012 of $100,000 is less than the total discount capital gain of $1,000,000 from the disposal of property, the discount will need to be adjusted. Violet uses the CGT record keeping tool to calculate her capital gain for the year as $950,000 with a discount percentage of 5% applied to the total gain of $1,000,000.
+If the excess calculated was greater than the discount capital gain from the disposal, she would have been entitled to the full 50% discount.
+End of example
+QC
+66060
+Print or Download

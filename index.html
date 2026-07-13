@@ -46,6 +46,10 @@
             <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 3h8l4 4v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><path d="M12 3v5h5"/></svg>
             Sources
           </a>
+          <a class="nav-item" data-section="ask" href="#">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10" cy="10" r="7.5"/><path d="M7.6 7.8a2.4 2.4 0 1 1 3.4 2.2c-.8.4-1 .9-1 1.5" stroke-linecap="round"/><circle cx="10" cy="14" r=".2" fill="currentColor" stroke-width="0.6"/></svg>
+            Ask ClearPath
+          </a>
         </nav>
 
         <div class="sidebar-footer"></div>
@@ -255,6 +259,22 @@
                   </div>
                 </div>
 
+                <div class="card hidden" id="aiAssistCard" style="margin-top: 16px">
+                  <div class="card-head">
+                    <div class="card-title">AI Assist &mdash; Extract From Notes</div>
+                    <div class="card-sub">Paste meeting notes or a client email and let AI pre-fill the worksheet. Review every extracted fact before you apply it.</div>
+                  </div>
+                  <div class="form-field">
+                    <label for="aiNotesInput">Client Notes</label>
+                    <textarea id="aiNotesInput" rows="6" placeholder="e.g. Client spent 190 days in Australia this year, owns an investment flat in Sydney, and still has family and bank accounts there..."></textarea>
+                  </div>
+                  <div class="eval-tool-row">
+                    <button type="button" class="btn btn-primary" id="aiExtractBtn">Extract Facts With AI</button>
+                  </div>
+                  <p class="ai-privacy-note">Notes are processed via Anthropic's API for this request only &mdash; ClearPath stores neither the notes nor the result.</p>
+                  <div id="aiExtractionResult"></div>
+                </div>
+
                 <div class="card" style="margin-top: 16px">
                   <div class="card-head">
                     <div class="card-title">Assessment Worksheet</div>
@@ -302,6 +322,11 @@
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" style="vertical-align:-2px;margin-right:4px"><path d="M3 2h7l3 3v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z"/><path d="M10 2v3h3"/><path d="M5 9h6M5 11.5h4"/></svg>
                     Export Report
                   </button>
+                  <button type="button" class="btn btn-secondary hidden" id="aiSummaryBtn">Generate AI Summary</button>
+                  <label id="includeAiSummaryWrap" class="ai-toggle hidden">
+                    <input type="checkbox" id="includeAiSummaryToggle" checked />
+                    Include AI summary in report
+                  </label>
                 </div>
                 <div id="evaluationResult">
                   <div class="eval-empty">
@@ -479,6 +504,27 @@
                   </form>
                 </div>
               </div>
+            </div>
+          </section>
+
+          <section id="section-ask" class="section">
+            <div class="card" id="ragUnavailableCard">
+              <div class="card-head">
+                <div class="card-title">Ask ClearPath Unavailable</div>
+                <div class="card-sub" id="ragUnavailableReason">Checking status&hellip;</div>
+              </div>
+            </div>
+            <div class="card hidden" id="ragCard">
+              <div class="card-head">
+                <div class="card-title">Ask ClearPath &mdash; Rules &amp; Sources Search</div>
+                <div class="card-sub" id="ragCardSub">Ask a question in plain English and get a grounded answer citing specific rules and official source pages.</div>
+              </div>
+              <form id="ragForm" class="eval-tool-row" style="gap: 10px">
+                <input id="ragQuestionInput" type="text" placeholder="e.g. What triggers Australian tax residency while overseas?" style="flex: 1" maxlength="2000" required />
+                <button type="submit" class="btn btn-primary" id="ragAskBtn">Ask</button>
+              </form>
+              <p class="ai-privacy-note">Answers are generated only from the rules and scraped source excerpts retrieved for your question &mdash; the model is instructed never to invent legislation, rates, or citations not present in that context.</p>
+              <div id="ragResult"></div>
             </div>
           </section>
 

@@ -1,0 +1,234 @@
+SOURCE_KEY: SG_IRAS_PROPERTY_GAINS
+TITLE: IRAS — Seller's Stamp Duty (SSD) on residential property
+JURISDICTION: SG
+URL: https://www.iras.gov.sg/taxes/stamp-duty/for-property/selling-or-disposing-property/seller's-stamp-duty-(ssd)-for-residential-property
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:17+00:00
+------------------------------------------------------------------------------
+SSD is payable on all residential properties and residential lands that are acquired on or after 20 Feb 2010 and disposed of within the holding period.
+On 3 July 2025, the Government announced the following changes to the Seller’s Stamp Duty (SSD) for residential properties: (a) Increase of the holding period from three to four years, and (b) increase of the SSD rates by four percentage points for each tier of the holding period. These changes will take effect for all residential properties purchased on and after 4 July 2025. There will be no transition period.
+On this page:
+Determining SSD liability
+Whether the disposal is subject to SSD and the amount payable will depend on:
+A. The type of property sold or disposed
+B. The date of purchase or acquisition
+C. The date of sale or disposal
+D. Rates applicable
+A. The type of property sold or disposed of
+The property is a
+residential property
+.
+B. The date of purchase or acquisition
+If a residential property is acquired on or after 20 Feb 2010, SSD is payable if the residential property is disposed of within the holding period.
+In most instances, the date of purchase/ acquisition of a property refers to:
+Date of Acceptance of the Option to Purchase*
+or
+Date of Sale and Purchase Agreement
+or
+Date of Agreement for Lease (for new HDB flat)
+or
+Date of transfer to a beneficiary where the property was originally held on trust for non-identifiable beneficial owner(s)
+or
+Date of Transfer where the above (a), (b), (c) and (d) are not applicable
+*Excludes an Option to Purchase that is subject to the execution/ signing of the Sale and Purchase Agreement
+In some instances, the date of purchase/ acquisition of an interest in a property depends on the manner which it was acquired:
+Manner of acquisition of that interest in the property
+Date of acquisition of that interest in the property
+Transfer pursuant to divorce where it fulfills
+Stamp Duties (Matrimonial Proceedings) Remission Rules (MP rules)
+1. Date of the marriage (that has ended); or
+2. Date the interest was acquired by the transferor prior to the transfer; whichever is later.
+Transfer pursuant to inheritance
+Date the interest was acquired by the deceased
+Transfer of HDB Flat within family where it fulfills
+Stamp Duties (Transfer of HDB Flat Within Family) Remission Rule
+Earliest date of acquisition of the flat by any of the existing owners, and who continually holds an interest in the flat from the time of acquisition to disposal
+For a property where the zoning of the land or the permitted use changes:
+If the vacant land or entire building with land which you are disposing of has been re-zoned from non-residential purposes to "Residential", "Residential/ Institution", "White", "Commercial & Residential" or "Residential with Commercial at first storey", the date of acquisition of the property is the date of the rezoning.
+If the building units or part of an entire building which you are disposing of has its permitted use being changed from non-residential purposes to residential/ mixed-residential purposes, the date of acquisition of the property is the date of the change of use.
+For Selective En bloc Redevelopment Scheme (SERS) replacement flat, the date of purchase refers to the date of the executed Agreement for Lease. While sellers may have fulfilled the Minimum Occupation Period for SERS replacement flat, sellers may still be subject to SSD if the sale is within the SSD holding period, which commences from the date of Agreement for Lease. Please see FAQ below.
+C. The date of sale or disposal
+In most instances, the date of sale/ disposal of a property refers to:
+Date of Acceptance of the Option to Purchase* by the buyer to the seller's offer to sell
+or
+Date of Sale and Purchase Agreement
+or
+Date of Transfer where (a) and (b) are not applicable
+*Excludes an Option to Purchase that is subject to the execution/ signing of the Sale and Purchase Agreement
+D. Rates applicable
+The rates of SSD payable on residential property acquired on and after 20 Feb 2010 and disposed of within certain duration, are summarized in the table below:
+Date of purchase or date of change of zoning / use
+Holding period
+SSD rate (on the actual price or market value, whichever is higher)
+Between 20 Feb 2010 and 29 Aug 2010 (all inclusive)
+Up to 1 year
+1% on first $180,000
+2% on next $180,000
+3% on remainder
+More than 1 year
+No SSD payable
+Between 30 Aug 2010 and 13 Jan 2011 (all inclusive)
+Up to 1 year
+1% on first $180,000
+2% on next $180,000
+3% on remainder
+More than 1  year and up to 2 years
+0.67% on first $180,000
+1.33% on next $180,000
+2% on remainder
+More than 2 years and up to 3 years
+0.33% on first $180,000
+0.67% on next $180,000
+1% on remainder
+More than 3 years
+No SSD payable
+Between 14 Jan 2011 and 10 Mar 2017 (all inclusive)
+Up to 1 year
+16%
+More than 1 year and up to 2 years
+12%
+More than 2 years and up to 3 years
+8%
+More than 3 years and up to 4 years
+4%
+More than 4 years
+No SSD payable
+Between 11 Mar 2017 and 3 Jul 2025 (all inclusive)
+Up to 1 year
+12%
+More than 1 year and up to 2 years
+8%
+More than 2 years and up to 3 years
+4%
+More than 3 years
+No SSD payable
+On and after 4 Jul 2025
+Up to 1 year
+16%
+More than 1 year and up to 2 years
+12%
+More than 2 years and up to 3 years
+8%
+More than 3 years and up to 4 years
+4%
+More than 4 years
+No SSD payable
+SSD payable to be rounded down to the nearest dollar.
+Rates and computation
+SSD is computed by applying the requisite SSD rate on the higher of the selling price or the market value of the
+residential property
+as at the date of sale or disposal.
+Where parts of the residential property were acquired by the vendor at different times, the holding period for each part acquired will be computed from the respective acquisition date.
+Where the sale or disposal comprises only a partial interest in the residential property, SSD payable will be based on the higher of the selling price or market value of the partial interest.
+Example 1: For properties purchased between 14 Jan 2011 and 10 Mar 2017 (all inclusive), the holding period is 4 years.
+Mr M purchased his residential property on 22 Feb 2011 and sold it on 25 Jan 2012 for $1,500,000.
+Holding period: Less than 1 year
+16% of selling price or market value, whichever is higher
+$1,500,000 x 16%
+SSD payable
+= $240,000
+In this example, if the sale of the property is on or after 22 Feb 2015, no SSD is payable.
+Example 2: For properties purchased between 11 Mar 2017 and 3 Jul 2025 (all inclusive), the holding period is 3 years.
+Mr Q purchased his residential property on 17 Mar 2017 and sold it on 01 Feb 2018 for $1,500,000.
+Holding period: Less than 1 year
+12% of selling price or market value, whichever is higher
+$1,500,000 x 12%
+SSD payable
+= $180,000
+In this example, if the sale of the property is on or after 17 Mar 2020, no SSD is payable.
+Example 3: For properties purchased on or after 4 Jul 2025, the holding period is 4 years.
+Mr T purchased his residential property on 7 July 2025 and sold it on 9 May 2026 for $1,800,000.
+Holding period: Less than 1 year
+16% of selling price or market value, whichever is higher
+$1,800,000 x 16%
+SSD payable
+= $288,000
+In this example, if the sale of the property is on or after 7 July 2029, no SSD is payable.
+Exemptions from SSD for residential properties under the Stamp Duties Act
+SSD for residential properties is exempt for sellers / transferors under the following scenarios. No application to Commissioner of Stamp Duties is required for the sellers / transferors.
+Licensed housing developers who are governed under the Housing Developers (Control and Licensing) Act need not pay SSD when selling residential properties developed by them.
+Public authorities (e.g. HDB and JTC) in exercising their functions and duties need not pay SSD when selling residential properties.
+Residential property owners need not pay SSD when their properties are acquired by the Government under the Land Acquisitions Act.
+Individuals who own residential properties need not pay SSD if they have been adjudged a bankrupt and are required to dispose of their residential properties as a result of bankruptcy.
+Companies that own residential properties need not pay SSD when disposing of their residential properties upon involuntary winding up.
+Foreigners need not pay SSD when they have to sell their residential properties as required under the Residential Property Act.
+For HDB flat sellers or transferors who bought or acquired their flats on or after 30 Aug 2010 and their flats have been identified for Selective Enbloc Redevelopment Scheme (SERS) but sell their flats in the open market before HDB claims them.
+HDB flat sellers or transferors who return their flats to HDB as a result of re-possession by HDB or under the SERS.
+A person who owns an HDB flat and inherits another HDB flat, is required under the HDB’s regulations to dispose of either the inherited HDB flat or the existing HDB flat. This exemption applies to disposal of flats on or after 18 Dec 2015.
+A person who owns a non-HDB flat and inherits an HDB flat, is required under the HDB’s regulations to dispose of the inherited HDB flat. This exemption applies to disposal of flats on or after 18 Dec 2015.
+A person who owns an HDB flat marries a person who owns another HDB flat and the couple is required under the HDB regulations to dispose of either one of the HDB flats. This exemption applies to disposal of flats on or after 18 Dec 2015.
+Remission of SSD for residential properties under the remission rules
+Non-licensed developers
+may be eligible for remission of SSD when selling residential properties developed by them only if they are registered companies or businesses, and are lawfully carrying on the business of housing development.
+You can stamp via
+myTax Portal
+(Stamp Duty Login) to obtain the remission certificate.
+Administration
+Payment of SSD can be done via
+myTax Portal
+(Stamp Duty Login).
+For details on payment modes, you may wish to refer to
+How to Pay Stamp Duty
+.
+Law firms representing the sellers are required to fill in a
+Seller's Stamp Duty for Residential Properties Declaration Form
+(PDF, 102KB). The completion of this form is mandatory.
+The completed form need not be submitted to IRAS. However, law firms are advised to retain the original declaration forms for at least 5 years from the date of sale/ disposal of the property as IRAS may request for it for audit purposes.
+FAQs
+Given the increase in SSD rates and holding period announced on 3 July 2025, will I be subjected to the revised SSD schedule if I was granted the Option to Purchase (OTP) for a residential property before 4 July 2025, but I have not exercised the OTP yet. I will only accept the OTP on or after 4 July 2025.
+Yes. The SSD holding period will commence from the date of acceptance of the OTP. If you exercise the OTP on or after 4 July 2025, you will be subjected to the revised SSD schedule, i.e. SSD rates of 4%-16% if you sell the property within 4 years. There will be no transition period.
+In a collective sale, what is the date of disposal to be considered for the purpose of determining SSD?
+For properties undergoing collective sale, the date of disposal is the date of execution of the contract for the sale of the development between the sellers (represented by the collective sale committee) and the buyer. This contract for sale is termed the “collective sale contract”.
+The date of execution is often times also the date of successful bidding (i.e. the date of the letter by which the collective sale committee accepts the winning bid). For avoidance of doubt, kindly check with your lawyer on the date of execution of the collective sale contract.
+I did not consent to the collective sale of my condominium executed on 26 February 2018. Am I liable for SSD if I had bought my condominium on 04 September 2017?
+All owners (consenting or not) whose properties were sold within the prescribed SSD holding period are liable to pay the SSD within 14 days from the date of the executed collective sale contract. In your case, you would be liable to pay 12% SSD.
+When do I need to pay SSD and can the payment be deferred?
+SSD must be paid within 14 days from the date of the executed sale contract, otherwise, a penalty will be imposed for late stamping and payment. There is no deferment of stamp duty payment.
+However, for properties undergoing collective sale, requests may be considered favorably for the waiver of the penalty incurred up to the later of the following dates, whichever is applicable:
+(1) Date that the Strata Titles Board grants the Collective Sale Order;
+(2) 30 days from the date of decision made by the High Court with no further objection; or
+(3) Date of decision made by the Court of Appeal.
+Such requests are subject to the following conditions:
+(1) The collective sale contract is stamped and
+(2) The waiver request is submitted to the Commissioner of Stamp Duties,
+where both conditions are fulfilled within 14 days from the date of the executed contract.
+To submit the request for waiver, please perform the following steps:
+(1) Log on to
+myTax Portal
+(Stamp Duty Login)
+(2) Select "Requests"
+(3) Select "Apply for Assessment/ Appeal/ Remission"
+(4) Provide the document reference number which was generated upon stamping
+(5) Select "E-appeal" as the nature of request.
+Please be informed that requests to waive penalties incurred up to the date that the collective sale is legally completed or the date that you receive the sale proceeds will not be acceded to.
+What would be the penalty for late payment?
+There would be a penalty of 5% per annum calculated on a daily basis until the Stamp Duty is paid.  Please refer to
+Late Payment of Stamp Duty
+for
+more details.
+My then-husband and I purchased our matrimonial property on 1 Feb 2000 after we were married. We divorced on 1 Jan 2017 and my ex-husband’s half share in the matrimonial property was transferred to me on 1 Jun 2017, in accordance with the court order. I sold the property on 30 Sep 2018. Do I need to pay SSD on the half share in the property transferred to me on 1 Jun 2017?
+No, you are not required to pay SSD on the half share in the matrimonial property acquired from your ex-spouse on 1 Jun 2017. As the transfer of your ex-spouse's share of the property to you was done pursuant to the divorce and in accordance with the court order, you are treated to have acquired the half share in the property on the date of the marriage (that has ended) or the date of original purchase of the property by your ex-spouse, whichever is later, which in this case is 1 Feb 2000.
+I inherited a residential property on 10 Jun 2018 from my late father, who bought it in his sole name on 1 Sep 1999. I sold the property on 1 Oct 2018. Do I need to pay SSD?
+No, you are not required to pay SSD on the sale of the inherited property. As the transfer of the property to you was pursuant to inheritance, the date of your acquisition of the property is treated as the date on which your late father purchased the property (i.e. 1 Sep 1999) for SSD purpose.
+My mother owned an HDB flat since 1 Sep 1990. I was added as a co-owner (acquired part-share from my mother) on 22 Jun 2018. We sold the flat on 31 Dec 2018. Do we need to pay SSD?
+If your acquisition of part-share of the HDB flat on 22 Jun 2018 was granted remission under the Stamp Duties (Transfer of HDB Flat within Family) (Remission) Rules, the date that you acquired part-share of the flat is treated as the date on which your mother purchased the property (i.e. 1 Sep 1990) for SSD purpose. Hence, the sale of flat will not attract SSD. However, if your acquisition of the part-share of the flat on 22 Jun 2018 did not qualify for the above-mentioned remission, you are required to pay 12% SSD on your part-share as it is sold within a year from acquisition. The SSD payable is based on the higher of the selling price or market value of the part share of the property.
+My wife and I purchased a private residential property on 1 Oct 2005. On 10 Mar 2018, my wife transferred her half share of the property to me by way of gift. As a result, I became the sole owner of the property. I sold the property on 1 Sep 2018. As I have been an owner and occupant of the property since 1 Oct 2005, do I need to pay SSD on the sale?
+Yes, as you acquired your wife's half share of the property on 10 Mar 2018 and sold the property on 1 Sep 2018 within the SSD holding period, you are required to pay 12% SSD on the half share of the property that you had acquired from your wife. The SSD payable is based on the higher of the selling price or market value of the half share of the property.
+I purchased (i.e. signed the Agreement for Lease) a replacement flat under the Selective En-bloc Redevelopment Scheme (SERS) on 1 Feb 2015. On 1 Sep 2018, HDB confirmed that I have fulfilled the Minimum Occupation Period (MOP) of 7 years for the replacement flat and granted approval for me to sell the replacement flat. I sold my replacement flat on 1 Oct 2018. Will the sale be subject to SSD?
+Yes. For HDB flats, the applicable MOP depends on the purchase mode, flat type, and date of flat application or key collection, while the SSD holding period commences from the date of purchase (to determine date of purchase, please click
+here
+). While you may have fulfilled the MOP for your flat, 4% SSD is still payable as the flat is sold within the SSD holding period. The SSD payable is based on the higher of the selling price or market value of the property.
+I was not adjudged a bankrupt when I sold my private residential property. However, I was adjudged a bankrupt shortly after I sold my property. Can I qualify for SSD exemption and seek a refund of the SSD paid on the sale?
+No. At the time of the sale of your property, you were not a bankrupt. Hence, the sale of your property would not qualify for the SSD exemption given to an adjudged bankrupt who has to dispose of the residential property as a result of the bankruptcy.
+I am disposing of an HDB shop with living quarters within the holding period. Do I need to pay SSD?
+For disposal of HDB shop with living quarters, SSD is payable on the value of the part permitted for residential use if the property is disposed of within the holding period.
+I am disposing of a shophouse with land zoned “Commercial & Residential” within the holding period. Do I need to pay SSD?
+For disposal of shophouses with land zoned "Residential","Residential/ Institution", "White", "Commercial & Residential" or "Residential with Commercial at 1st storey", SSD is payable on the component attributable to residential purposes. Please refer
+to part B of the definition of
+residential property
+to determine the
+component of the property attributable to residential purpose.
+Pages
+Stamp Duty
+Useful Links
+Stamp Duty Calculator

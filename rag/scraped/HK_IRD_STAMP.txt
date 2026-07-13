@@ -1,0 +1,554 @@
+SOURCE_KEY: HK_IRD_STAMP
+TITLE: IRD Hong Kong — Stamp Duty on property and shares
+JURISDICTION: HK
+URL: https://www.ird.gov.hk/eng/tax/sdu.htm
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:25+00:00
+------------------------------------------------------------------------------
+Skip to main content
+RSS
+Share
+Printer View
+eTAX Login/Register
+Home
+>
+Tax Information - Others
+> Stamp Duty
+Stamp Duty
+⏺
+Chargeability and Obligation
+Documents subject to Stamp Duty
+Rates of Stamp Duty
+Exchange Rates for RMB and USD
+Persons Liable for Stamping
+Time Limit for Stamping Different Types of Documents
+Late Stamping and Omission to Stamp Document
+Validity of Unstamped Documents
+Exclusion from application of the Electronic Transactions Ordinance (Cap.553)
+⏺
+Tenancy Agreement
+Frequently Asked Questions for Stamping of Tenancy Agreement
+⏺
+Property Transfers
+Stamp Duty on Immovable Property Transactions
+Ad valorem stamp duty (AVD)
+Buyer's Stamp Duty (BSD)
+Special Stamp Duty (SSD)
+Frequently Asked Questions on Stamp Duty Refund for Redevelopment
+Demand-side Management Measures for Residential Properties
+Talent Attraction Measure: Stamp duty suspension for eligible incoming talents
+Talent Attraction Measure: Stamp duty refund for eligible incoming talents
+Profits Tax Liabilities on Property Dealing
+Levy collection for Property Management Services Authority
+Inadequate Consideration
+Stamp Duty Relief
+⏺
+Share Transfers
+Frequently Asked Questions for Stamp Duty Exemption on Exchange Traded Funds (ETFs)
+Frequently Asked Questions for Stamping of contract note for non-HKD listed products (such as RMB and USD)
+Electronic Registration of Stock Borrowing and Lending Agreement (SBLA)
+Approved standard versions of SBLA
+Stamp duty on transactions under Shanghai Connect and Shenzhen Connect
+Stamp duty on Mutual Recognition of Funds between the Mainland and Hong Kong
+Inadequate Consideration
+Stamp Duty Relief
+⏺
+Assessment, Refund and Appeal
+Stamp Duty Assessment
+Refund, Adjudication & Appeal against Assessment
+⏺
+Procedural Matters
+Methods of Stamping
+e-Stamping Service
+⏺
+Publications
+Stamp Office Interpretation and Practice Notes
+Stamping Procedures and Explanatory Notes
+Stamping Circulars
+e-Stamping Circulars
+Forms
+⏺
+Enquiries
+back to top
+Stamp Duty Relief
+Stamp Duty Relief for Intra-group Transfers
+In the 2026-27 Budget, the Financial Secretary proposed to expand the scope of eligible associated bodies corporate for the intra-group relief by relaxing the criteria for stamp duty relief in relation to the intra-group transfers of immovable properties in Hong Kong or Hong Kong stocks (“intra-group relief”) under section 45 of the Stamp Duty Ordinance ("the Ordinance") (Cap. 117).  The preliminary proposed measures are as follows –
+expanding the scope of business entities eligible for the intra-group relief to include bodies corporate that do not issue or allot share capital such as limited liability partnerships which has separate legal personality; and
+lowering the minimum threshold for association between the transferor and the transferee from 90% to 75%.
+Subject to the enactment of the relevant amendment ordinance, if a body corporate has at least 75% of direct or indirect beneficial interest in another body corporate; or a body corporate is entitled to exercise, or control the exercise of, at least 75% of the voting rights in another body corporate, the body corporate will be deemed as having an associating interest in the other body corporate.  The beneficial interest is determined based on the percentage of the issued share capital of the other body corporate held by the body corporate, or the body corporate’s ownership interest in the other body corporate.  The enhanced intra-group relief regime applies to the relevant instruments executed on or after 25 February 2026.
+Before the enactment of the amendment ordinance, duty payers can submit adjudication requests for instruments in respect of transfers which satisfy the conditions under the enhanced intra-group relief regime.  The Stamp Office will decide whether the relief can be approved after the enactment of the relevant legislation.  For such cases, the duty payers are not required to pay the stamp duty first and then apply for a refund.
+Subject to the conditions set out in section 45 of the Ordinance, stamp duty relief is available for the transfer of immovable property or shares from one associated body corporate to another. Please refer to the Stamping Procedures and Explanatory Notes on
+“Intra Group Relief” [IRSD124]
+for the application procedures.
+Stock Borrowing Relief
+Transfer of shares under stock borrowing and lending transactions may be exempted from stamp duty. For details, please refer to the Stamp Office Interpretation and Practice Notes on
+“Relief for Stock Borrowing and Lending Transactions”
+. Please also refer to the Stamping Procedures and Explanatory Notes on
+Stock Borrowing Relief – Revised Procedures” [U3/SOG/PN06A]
+for the application procedures.
+Islamic Bond Scheme Relief
+Where specified conditions are met, sections 47E, 47F and 47G of the Ordinance provide stamp duty relief on the transfer of bonds and certain instruments, not otherwise required in the case of conventional bonds, issued or executed under Islamic bond schemes solely for compliance of Sharia principles. For details, please refer to the
+Stamp Office Interpretation and Practice Notes No. 6 on “Alternative Bond Schemes”
+Electronic registration of Stock Borrowing and Lending Agreement (SBLA)
+Stamp Office has launched a new electronic service allowing online registration of SBLA via e-Tax with effect from 23 April 2012. Please refer to the Stamping Procedures and Explanatory Notes on
+Stock Borrowing Relief - Electronic Registration of Stock Borrowing and Lending Agreement" [U3/SOG/PN08A]
+for details.
+Demonstration on the e-registration services
+Please click "e-Demo" at
+New Tax Portals Learning Resources Centre
+for Demonstration on the e-registration services, or click the links below to watch the demonstartion videos.
+Stock Borrowing and Lending Agreement Registration
+Notification of Execution of Stock Borrowing and Lending Agreement by Lender
+Download Approval Letter
+Approved standard versions of SBLA
+Approved standard versions of SBLA
+Publishers of Approved SBLA
+Approved SBLA
+PDF Format
+1.
+International Securities Lending Association
+Overseas Securities Lender's Agreement, version 1995
+2.
+Master Gilt Edged Stock Lending Agreement, version 1996
+3.
+Master Equity & Fixed Interest Stock Lending Agreement, version 1997
+4.
+Global Master Securities Lending Agreement, version 2000
+5.
+Global Master Securities Lending Agreement, version 2010
+6.
+Global Master Securities Lending Agreement (Security Interest over Collateral - 2018 version)
+7.
+Public Securities Association/International Securities Market Association
+Global Master Repurchase Agreement, version 1995
+8.
+The Bond Market Association/International Securities Market Association
+Global Master Repurchase Agreement, version 2000
+9.
+The Bond Market Association
+Master Securities Loan Agreement, version 1993
+10.
+Master Repurchase Agreement, version 1996
+11.
+Master Securities Loan Agreement, version 2000
+12.
+Securities Industry and Financial Markets Association/International Capital Market Association
+Global Master Repurchase Agreement, version 2011
+13.
+Others
+Rahmenvertrag für Wertpapierdarlehen
+Miscellaneous relief on Stock Transactions
+Miscellaneous relief on Stock Transactions
+(a)
+Remission of stamp duty on delivery of Hong Kong stocks as consideration for allotment or redemption of Collective Investment Products
+[U3/SOG/PN01]
+(b)
+Remission of Stamp Duty - Exchange Traded Fund
+[IRSD 128]
+(Only applicable to transactions of ETF shares or units effected before 13 February 2015)
+(c)
+Partial Remission of Ad Valorem Stamp Duty on Contract Notes for the Sale or Purchase of Designated Exchange Traded Funds by Market Makers
+[U3/SOG/PN05]
+(Only applicable to transactions of ETF shares or units effected before 13 February 2015)
+(d)
+Exemption on instruments of transfer of units under Mandatory Provident Fund Schemes
+[U3/SOG/PN03A]
+(e)
+Exemption on instruments of transfer relating to Indirect Allotment or Redemption of Units under Unit Trust Schemes
+[U3/SOG/PN07]
+(f)
+Stamp Duty Relief for the Transactions and Transfers of Regulatory Capital Securities
+[U3/SOG/PN09]
+back to top
+Exclusion from application of the Electronic Transaction Ordinance (Cap.553)
+Other than contract notes issued and stamped by stock brokers in respect of a trade effected through the Stock Exchange, all instruments subject to stamping or denoting under the Stamp Duty Ordinance (Cap. 117) cannot be made or executed by electronic means.
+back to top
+Profits Tax Liabilities on Property Dealing
+Duty payers are reminded that despite the payment of stamp duty, there are also profits tax liabilities in respect of the assessable profits from the buying and selling of landed properties in the course of a trading adventure in Hong Kong.
+back to top
+Stamping Procedures and Explanatory Notes
+1. Hong Kong Stock
+2. Landed Properties
+3. Remission
+4. Procedures
+****************************************************************
+1. Hong Kong Stock
+U3/SOG/PN03A
+Stamp Duty (Amendment) (No. 2) Ordinance 2000 Exemption - Instruments of Transfer of Units under Mandatory Provident Fund Schemes
+U3/SOG/PN04A
+Stamping of Share Transfer
+U3/SOG/PN06A
+Stock Borrowing Relief - Procedures Registration of Stock Borrowing and Lending Agreement and Annual Filing of Return of Stock Borrowing Transactions
+U3/SOG/PN07A
+Stamp Duty Exemption - Instruments of Transfer relating to Indirect Allotment or Redemption of (1) Units under Unit Trust Schemes and (2) Shares under Open-ended Fund Companies
+U3/SOG/PN08A
+Stock Borrowing Relief - Electronic Registration of Stock Borrowing and Lending Agreement
+U3/SOG/PN09A
+Stamp Duty Relief for the Transactions and Transfers of Regulatory Capital Securities
+U3/SOG/PN10A
+e-Stamping of Share Transfer Instruments
+2. Landed Properties
+U3/SOA/PN03
+Chargeable Agreement for Sale Variation of Consideration prior to Assignment
+U3/SOA/PN04
+Section 29/29G of the Stamp Duty Ordinance Series of Transactions
+I.R.S.D. 119(E)
+Stamping Procedures and Explanatory Notes Stamping of Tenancy Agreement
+I.R.S.D. 120(E)
+Stamping Procedures and Explanatory Notes Stamping of Agreements and Assignments
+I.R.S.D. 122(E)
+Stamping Procedures and Explanatory Notes Late Stamping of Agreement and Assignment
+3. Remission
+U3/SOG/PN01
+Remission of Stamp Duty on Delivery of Hong Kong Stocks as Consideration for allotment or redemption of Collective Investment Products
+U3/SOG/PN05A
+Partial Remission of Ad Valorem Stamp Duty on Contract Notes for the Sale or Purchase of Designated Exchange Traded Funds by Market Makers
+(Only applicable to transactions of ETF shares or units effected before 13 February 2015)
+I.R.S.D. 128(E)
+Stamping Procedures and Explanatory Notes Remission or Refund of Stamp Duty Exchange Traded Funds
+(Only applicable to transactions of ETF shares or units effected before 13 February 2015)
+4. Procedures
+U3/SOG/PN02A
+Stamping Procedures and Explanatory Notes Counter Service
+I.R.S.D. 98
+Notes On Appeal Procedures effective from 1 May 1998
+I.R.S.D. 124(E)
+Stamping Procedures and Explanatory Notes Intra Group Relief Transfer or Sale of Hong Kong Stock and Immovable Property
+back to top
+Stamping Circulars
+No.
+Stamping Circulars
+Date Issued
+01/2026
+Stock Borrowing Relief – Filing of Return of Stock Borrowing Transactions
+2 January 2026
+02/2025
+Stock Borrowing Relief – Reduction in Filing Frequency for Return of Stock Borrowing Transactions
+28 May 2025
+01/2025
+Stock Borrowing Relief – Filing of Return of Stock Borrowing Transactions
+2 January 2025
+04/2024
+Stamp duty waiver for transfer of shares or units of real estate investment trust and jobbing business of options market makers
+21 December 2024
+03/2024
+Stock Borrowing Relief – Filing of Return of Stock Borrowing Transactions
+2 July 2024
+02/2024
+Time limit for stamping affected by Severe Weather
+18 April 2024
+01/2024
+Stock Borrowing Relief – Filing of Return of Stock Borrowing Transactions
+2 January 2024
+03/2023
+Stock Borrowing Relief – Filing of Return of Stock Borrowing Transactions
+3 July 2023
+02/2023
+Stamp Duty Exemption for certain transactions relating to Dual-counter Stocks made by Dual-counter Market Makers
+19 May 2023
+01/2023
+Stock Borrowing Relief – Filing of Return of Stock Borrowing Transactions
+3 January 2023
+02/2022
+Stock Borrowing Relief – Filing of Return of Stock Borrowing Transactions
+4 July 2022
+01/2022
+Stock Borrowing Relief – Filing of Return of Stock Borrowing Transactions
+3 January 2022
+02/2021
+Online Appointment Booking for Stamp Office Lease Counter Service
+28 May 2021
+03/2020
+Stamp Duty Exemption on the Sale and Purchase of Hong Kong Stocks by Exchange Traded Fund (“ETF”) market makers for the Allotment and Redemption of ETF Shares or Units
+17 August 2020
+02/2019
+Stamp Duty Exemption on Delivery of Hong Kong Stocks as Consideration for the Allotment or Redemption of a Share or Unit of an Authorized Open-ended Collective Investment Scheme
+7 January 2019
+05/2018
+Stamping of instruments involving more than 1 residential property executed on or after 12 April 2017 and before the gazettal date of the Stamp Duty (Amendment) (No. 2) Ordinance 2018
+20 April 2018
+04/2018
+Stamping of instruments of immovable properties from the gazettal date of the Stamp Duty (Amendment) (No. 2) Ordinance 2018
+20 April 2018
+03/2018
+Stamping of instruments involving residential properties executed on or after 5 November 2016 and before the gazettal date of the Stamp Duty (Amendment) Ordinance 2018
+19 January 2018
+02/2018
+Stamping of instruments of immovable properties after the gazettal date of the Stamp Duty (Amendment) Ordinance 2018
+19 January 2018
+02/2015
+Stamp duty waiver for the transfer of shares or units of exchange traded funds
+13 February 2015
+07/2014
+Stamping of instruments of non-residential properties
+executed on or after 23 February 2013 and before
+the gazettal date of the Stamp Duty (Amendment) (No. 2) Ordinance 2014
+25 July 2014
+06/2014
+Stamping of instruments involving residential properties
+executed on or after 23 February 2013 and before
+the gazettal date of the Stamp Duty (Amendment) (No. 2) Ordinance 2014
+25 July 2014
+05/2014
+Stamping of instruments of immovable properties after the gazettal date of the Stamp Duty (Amendment) (No. 2) Ordinance 2014
+25 July 2014
+03/2014
+Stamping of Agreements for Sale and Conveyances on Sale of Residential Properties executed on or after 27 October 2012 and already stamped before the gazettal of the Stamp Duty (Amendment) Ordinance 2014
+28 February 2014
+02/2014
+Stamping of Agreements for Sale and Conveyances on Sale of Residential Properties after the gazettal of the Stamp Duty (Amendment) Ordinance 2014
+28 February 2014
+03/2013
+Payment arrangements for Special Stamp Duty
+12 July 2013
+02/2012
+Stock Borrowing Relief – Registration of Stock Borrowing and Lending Agreement
+23 April 2012
+02/2011
+Procedural Matters in relation to the Stamp Duty (Amendment) Ordinance 2011
+30 June 2011
+05/2010
+Practical Hints on Completing Applications for Stamping of Agreement / Assignment of Property
+24 September 2010
+03/2010
+Exchange Participant: Stamp duty on transfer of shares
+30 June 2010
+Click
+here
+for more Stamping Circulars
+back to top
+e-Stamping Circulars
+No.
+e-Stamping Circulars
+Date Issued
+2/2024
+Change in e-Stamping Service in relation to Bulk Application for Stamping Share Transfer Instruments
+25 December 2024
+1/2024
+Enhancements to e-Stamping of Property Transfer Instruments
+08 July 2024
+1/2019
+e-Stamping of Share Transfer Instruments
+16 December 2019
+1/2011
+Stamp Certificates
+14 November 2011
+1/2009
+Enhancements to e-Stamping Service
+18 November 2009
+1/2008
+e-Stamping Service under GovHK
+21 January 2008
+1/2007
+Reprovision of e-Stamping Service under GovHK
+31 December 2007
+back to top
+Forms
+1. e-Stamping
+2. Property Stamping and Adjudication
+3. Stamping of Share Transfers
+4. Stock Borrowing Relief
+5. Stamp Duty Relief and Refund
+6. Stock Brokers
+*****************************************************
+1. e-Stamping
+e-Stamping
+Form No.
+Form Title
+PDF
+Format*
+MS Word
+Format
+1.
+I.R.S.D. 109
+"E-Stamp" Account Form
+---
+2.
+I.R.S.D. 126A(E)
+Request for Amendment / Cancellation of Stamp Certificate or Withdrawal of e-Stamping Application – Property Transfer Instrument
+---
+3.
+I.R.S.D. 140(E)
+Request for Cancellation of Stamp Certificate containing error(s) - Share Transfer
+---
+4.
+I.R.S.D. 141(E)
+Request for Withdrawal of e-Stamping Application – Share Transfer
+---
+5.
+I.R.S.D. 143(E)
+Request for Amendment / Cancellation of Stamp Certificate or Withdrawal of e-Stamping Application – Tenancy Agreement
+---
+2. Property Stamping and Adjudication
+Property Stamping and Adjudication
+Form No.
+Form Title
+PDF
+Format*
+MS Word
+Format
+1.
+I.R.S.D. 110
+Property Document - Summary of Stamping Application(s)
+(for application from 2 August 2004 onwards)
+---
+2.
+I.R.S.D. 111(E)
+Stamping Request - Tenancy Agreement
+3.
+I.R.S.D. 112(E)
+Stamping Request - Agreement / Assignment
+4.
+I.R.S.D. 113(E)
+Stamping Request - Subsequent Agreement / Assignment
+($100 Fixed Duty)
+5.
+I.R.S.D. 115(E)
+Adjudication Request - Nomination  of Immovable Property
+6.
+I.R.S.D. 116(E)
+Adjudication Request - Supplemental Agreement of Immovable Property
+7.
+I.R.S.D. 117(E)
+Adjudication Request – Deed of Gift or Agreement/Assignment with no valuable consideration
+8.
+I.R.S.D. 118(E)
+Application for Charging Ad Valorem Stamp Duty at Lower Rates (Scale 2)/ Exemption of Special Stamp Duty / Buyer’s Stamp Duty
+9.
+I.R.S.D. 127(E)
+Agreement / Assignment / Tenancy Agreement - Application for Remission of Penalty for Late Stamping
+---
+10.
+I.R.S.D. 131(E)
+Statutory Declaration - Application for Charging Ad Valorem Stamp Duty at Lower Rates (Scale 2) / Exemption of Buyer’s Stamp Duty
+11.
+I.R.S.D. 131A (E)
+Statutory Declaration - Application for Charging Ad Valorem Stamp Duty at Lower Rates (Scale 2) / Exemption of Buyer’s Stamp Duty
+(For Declarations made outside Hong Kong)
+12.
+I.R.S.D. 131B (E)
+Statutory Declaration - Application for Charging Ad Valorem Stamp Duty at Lower Rates (Scale 2)
+13.
+I.R.S.D. 131C (E)
+Statutory Declaration - Claiming for Partial Refund of Stamp Duty Paid
+for change of residential property cases
+14.
+I.R.S.D. 131D (E)
+Statutory Declaration - Application for Partial Refund of Ad Valorem Stamp Duty and Refund of Buyer’s Stamp Duty by Eligible Incoming Talent
+15.
+I.R.S.D. 131E (E)
+Statutory Declaration - Application for Suspension of or Waiver of Liabilities to Stamp Duty by Eligible Incoming Talent
+16.
+I.R.S.D. 131F (E)
+Statutory Declaration - Application for Exemption from Ad Valorem Stamp Duty for Nomination of Residential Property (“Declaration”)
+17.
+I.R.S.D. 131G (E)
+Statutory Declaration - Application for Exemption from Ad Valorem Stamp Duty for Nomination of Residential Property (“Declaration”) (For Declarations made outside Hong Kong)
+18.
+I.R.S.D. 144 (E)
+Supplemental Information Form Stamping Additional Stamp Duty (“ASD”) on an instrument for Immovable Property Transaction involving Residential Property
+3. Stamping of Share Transfers
+Stamping of Share Transfers
+Form No.
+Form Title
+PDF
+Format*
+MS Word
+Format
+1.
+I.R.S.D. 102
+Schedule of Landed Properties
+---
+2.
+I.R.S.D. 142
+Stamping Request - Share Transfer
+---
+4. Stock Borrowing Relief
+Stock Borrowing Relief
+Form No.
+Form Title
+PDF
+Format*
+MS Word
+Format
+1.
+SBUL 1
+Return of Stock Borrowing Transactions
+---
+2.
+SBUL 2
+Stock Borrowing and Lending Agreement Registration Form
+---
+3.
+SBUL 3
+Stock Borrowing
+Ledger
+---
+4.
+SBUL 26
+Notification of Execution of Stock Borrowing and Lending Agreement by Lender
+---
+5.
+SBUL 27
+Format of contract notes for deemed sale and purchase of Hong Kong stock under section 19(12) of the SDO
+---
+5. Stamp Duty Relief and Refund
+Stamp Duty Relief and Refund
+Form No.
+Form Title
+PDF
+Format*
+MS Word
+Format
+1.
+I.R.S.D. 25
+Stamp Office, Hong Kong - Requisition for Allowance Ticket for spoiled or unwanted Stamps
+---
+2.
+U3/SOA/F04
+Application for Exemption of Stamp Duty under Section 29C(5A) of the Stamp Duty Ordinance (CAP. 117)
+---
+3.
+I.R.S.D. 121(E)
+Adjudication / Stamping Request - Intra-Group Agreement / Assignment
+---
+4.
+I.R.S.D. 125(E)
+Application for Refund of Stamp Duty under Section 29C(5B)of the Stamp Duty Ordinance, (Cap.117)]
+---
+5.
+I.R.S.D. 125A(E)
+Partial Refund of Ad Valorem Stamp Duty Paid under section 29DF of the Stamp Duty Ordinance (Cap. 117)
+---
+6.
+I.R.S.D. 125B(E)
+Application for Refund of Buyer’s Stamp Duty / Partial Refund of Ad Valorem Stamp Duty for properties acquired for Redevelopment under section 29DD* / 29DE of the Stamp Duty Ordinance (Cap. 117) (For Applicant who is an Individual)
+---
+7.
+I.R.S.D. 125C(E)
+Application for Refund of Buyer’s Stamp Duty / Partial Refund of Ad Valorem Stamp Duty for properties acquired for Redevelopment under section 29DD / 29DE of the Stamp Duty Ordinance (Cap. 117) (For Applicant which is a Body Corporate)
+---
+8.
+I.R.S.D. 125D(E)
+Application for Refund of Stamp Duty by Eligible Incoming Talent
+9.
+I.R.S.D. 125E(E)
+Application for Suspension of or Waiver of Liability to Stamp Duty by Eligible Incoming Talent
+6. Stock Brokers
+Stock Brokers
+Form No.
+Form Title
+PDF
+Format*
+MS Word
+Format
+1.
+I.R.S.D. 106
+Changes in Particulars Registered with the Stamp Office
+---
+* PDF file can be opened by
+Adobe Acrobat Reader
+which is available at the
+Adobe Systems Incorporated
+.
+back to top

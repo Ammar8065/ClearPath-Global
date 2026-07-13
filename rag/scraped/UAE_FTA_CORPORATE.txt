@@ -1,0 +1,27 @@
+SOURCE_KEY: UAE_FTA_CORPORATE
+TITLE: UAE Federal Tax Authority — Corporate Tax guidance (effective June 2023)
+JURISDICTION: UAE
+URL: https://tax.gov.ae/en/taxes/corporate.tax.aspx
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:31+00:00
+------------------------------------------------------------------------------
+Corporate Tax
+Corporate Tax Topics
+Read more
+Reporting(Coming Soon)
+Coming Soon...
+Read more
+Faqs
+Frequently asked questions related to Corporate tax
+Read more
+Corporate Tax Workshops
+Corporate Tax Workshops
+Read more
+Guides, References & Public Clarifications
+The Federal Tax Authority provides you with a set of guides, clarifications and other references that will help you understand your tax obligations and procedures.
+Read more
+Corporate Tax Webinars
+Corporate Tax Webinars
+Read more
+E-Learning
+Read more

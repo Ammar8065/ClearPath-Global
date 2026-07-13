@@ -1,0 +1,388 @@
+SOURCE_KEY: SG_IRAS_AREA_REP
+TITLE: IRAS — Working for a foreign employer (Area Representative tax treatment)
+JURISDICTION: SG
+URL: https://www.iras.gov.sg/taxes/individual-income-tax/employees/scenario-based-faqs-for-working-in-singapore-and-abroad/i-am-working-for-a-foreign-employer
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:16+00:00
+------------------------------------------------------------------------------
+Income earned from services rendered in Singapore is taxable. This also applies to those working for foreign employers.
+On this page:
+Foreign employers
+Foreign employers include representative offices registered with
+Enterprise Singapore
+and other entities not registered in Singapore. Foreign employers are considered
+non-resident employers for tax purposes.
+Services rendered in Singapore
+You will be taxed on income earned for the period you render services in Singapore even if your income is not received in Singapore.  Such services include attending training, operating machinery, site visits, assignments, conducting and attending meetings in Singapore required/assigned by your overseas employer.
+Income to be assessed for employees of foreign employers
+(1) 60 days or less in a calendar year
+If you are a non-resident and exercise employment here for 60 days or less in a calendar year, you will be exempted from tax on your earnings here. This rule does not apply if your stay covers three continuous years or more.
+(1.1) Working in Singapore
+For an employee who is based in Singapore, the number of days of employment in Singapore includes weekends and public holidays. In addition, any absences from Singapore that are temporary (e.g. overseas vacation leave) or incidental to your employment
+(e.g. business trips) will also be included in the count of total days of employment in Singapore.
+(1.2) Travelling into Singapore for business purposes
+If you are based outside Singapore and travel into Singapore for business purposes, the number of days of employment in Singapore includes the entire visit from the day of arrival to departure, regardless of whether the day of arrival/departure falls
+on a weekend/public holiday. This is on the basis that employment is exercised in Singapore for any day that you are physically present in Singapore, regardless of whether it is a work day or rest day.
+Example 1: Day of arrival/ departure falls on weekends
+A China company sent its employee here for a business trip for 1 week from Sunday to Saturday:
+Sun
+Mon to Fri
+Sat
+(Day of arrival)
+(Work assignment)
+(Day of departure)
+The number of days of employment in Singapore was 7 days (Sunday to Saturday).
+Example 2: Weekends fall within business trip
+A Malaysia company sent its employee here for a business trip for 1 week from Wednesday to Tuesday:
+Wed
+Thurs to Mon
+Tues
+(Day of arrival)
+(Work assignment)
+(Day of departure)
+The number of days of employment in Singapore was 7 days (Wednesday to Tuesday).
+Extension of stay after completion of work assignment
+There could be situations where presence in Singapore is not considered as arising out of employment:
+If you had fully discharged your employment duties and extended your stay in Singapore solely for leisure (i.e. you were on vacation leave), your presence in Singapore during the extended stay including weekends would be excluded from the number of days
+of employment in Singapore. This is on the basis that your presence on those days was not arising out of employment, as supported by the fact that you were on vacation leave.
+Example 3: Vacation leave after completion of work assignment
+An employee from a US company arrived here on Wednesday for a work assignment. He completed his assignment on Friday and extended his stay here for leisure. He was on vacation leave on Monday to Tuesday and left Singapore on Tuesday.
+Wed
+*
+to Fri
+*
+day of arrival
+Sat & Sun
+Mon to Tues
+#
+#
+day of departure
+(Work assignment)
+(Vacation Leave)
+The number of days of employment in Singapore was 3 days (Wednesday to Friday). The 4 days from Saturday to Tuesday were excluded from the count on the basis that they were not arising out of employment, as supported by the fact that the employee was
+on vacation leave from Monday and Tuesday.
+Similarly, the same treatment applies if you were on vacation leave prior to your commencement of employment in Singapore.
+Example 4: Vacation leave before the start of work assignment
+An employee from an Australia company arrived here for a vacation on Thursday and Friday. He was on a work assignment from Monday to Wednesday and left Singapore on Wednesday:
+Thurs
+*
+& Fri
+*
+day of arrival
+Sat & Sun
+Mon to Wed
+#
+#
+day of departure
+(Vacation Leave)
+(Work assignment)
+The number of days of employment in Singapore was 3 days (Monday to Wednesday). The 4 days from Thursday to Sunday were excluded from the count on the basis that they were not arising out of employment, as supported by the fact that the employee was on
+vacation leave from Thursday and Friday.
+(2) 61 to 182 days in a calendar year
+If you do not fall under (1) and stay or work in Singapore for 61 to 182 days in a calendar year, your income will be taxed at 15% or
+resident rates
+for individuals, whichever gives the higher tax.
+(3) 183 days or more in a calendar year
+If you stay or work in Singapore for 183 days or more in a calendar year, your income will be taxed at
+resident rates
+for individuals.
+(4) Stay or work in Singapore for three consecutive years
+If you stay or work in Singapore for three consecutive years, your income for all years will be taxed at
+resident rates
+for individuals.
+Taxable income
+Working in Singapore
+Income that is taxable includes:
+Salary, bonus, allowances, honorarium, per diem, accommodation, leave passages, and value of any benefits-in-kind (e.g. food, transport) provided to you by your employer; and
+Any allowances paid or benefits-in-kind provided by the local sponsor company.
+Payment that you received when your overseas employer sent you to Singapore for training.
+Your employer is required to report your employment income in the Form IR8A yearly.  You should declare this income in your income tax return during the annual tax filing cycle from 1 Mar to 18 Apr.
+In the year that your services rendered in Singapore ceased, your overseas employer should
+file Form IR21
+, on your behalf, to report your employment income up to the date that your services in Singapore ceased.
+Example 1: Working in Singapore
+A UK company sent its employee to work in Singapore from 1 Feb 2025 to 30 Jul 2025.
+Salary from UK company for this period
+S$30,000
+Other allowances from UK company for this period
+S$10,000
+Accommodation etc. provided by Singapore company
+S$4,000
+Total income subject to tax in Singapore
+S$44,000
+Travelling into Singapore for business purposes
+If you are based outside Singapore and travel into Singapore for business purposes, taxable income includes:
+Salary, bonus, allowances, per diem, accommodation and value of any benefits-in-kind (e.g. food, transport) provided to you by your employer; and
+Any allowances paid or benefits-in-kind provided by the local sponsor company.
+Tax treatment for employees travelling into Singapore on or after 1 January 2016 for business purposes
+The following receipts for business trips are not taxable:
+Accommodation
+Travelling and entertainment (which have been expended for business purpose)
+Introduction of an IRAS acceptable rate for
+per diem allowances for employees travelling into Singapore for business purposes
+Per diem allowance would not be taxable unless it is in excess of the acceptable rate. For employees who travel into Singapore for business purposes, the acceptable rate for 2025 is $160 per day.
+The acceptable rates determined by IRAS are strictly for Income Tax purpose and are reviewed yearly. The rates do not determine the amount of per diem allowance that an employer wishes to pay its employees.
+Example 2: Travels into Singapore for business purposes
+An employee of a US company made frequent business trips to Singapore during the period 1 Feb 2025 to 30 Jul 2025. The total number of days of employment in Singapore during the year 2025 was 61 days and the following payments were made by his US company
+for the 61 days:
+Salary
+Per diem allowance ($180 per day)
+Accommodation
+Travelling and entertainment allowances (expended for business purposes)
+Salary from US Company
+Per diem allowances in excess of the acceptable rate (acceptable rate for 2025 is S$160 per day)
+(S$180 - S$160= $20 per day)
+S$8,000
+S$1,220
+Total income subject to tax in Singapore
+S$9,220
+Accommodation provided, travelling and entertainment expenses which have been expended for business purposes are not taxable for travels into Singapore on or after 1 Jan 2016 for business purposes.
+Filing income tax
+The income tax filing takes place during
+Mar to Apr
+each year.
+The foreign employer should prepare the
+Form IR8A and related appendices
+for you by 1 Mar each year. You have to file your tax return by 18 Apr each year.
+Travelling into Singapore for business purposes
+If you are based outside Singapore and travel into Singapore for business purposes, please submit your schedule of physical presence in Singapore in the following format:-
+Date of Arrival
+Date of Departure
+Number of Days, including date of arrival in and departure from Singapore
+Purpose of Visit
+Remuneration received from your foreign employer while on assignment in Singapore, in SGD
+Paying income tax
+After you have filed your tax return, you will receive a tax bill (Notice of Assessment). You must
+pay your tax within one month
+from the date of the tax bill. Payment by GIRO is not applicable for employees of foreign employers.
+Letter of Guarantee (LOG) requirement
+A
+non-Singapore citizen
+is required to forward a
+Letter of Guarantee
+(DOC, 62KB) from an established limited company in Singapore or a digital guarantees (“
+eGuarantees
+”) from a
+financial institution
+,
+to cover the estimated tax payable for the coming Year of Assessment.
+Please note the following:
+The LOG issued by a Representative Office in Singapore is not acceptable as it is not regarded as a limited company in Singapore.
+An established limited company in Singapore refers to a company
+that is registered in Singapore for at least 3 years;
+has a paid up capital of at least $25,000
+*
+and
+must not have any record of the following for the 1 year immediately before submitting the LOG:
+Late filing of tax returns; or
+Late payment of taxes
+*
+Company paid up capital information is available in the business profile obtainable from ACRA.  You must submit the company's business profile together with the LOG.
+For a LOG issued by an established limited company in Singapore, please
+email
+the LOG to us.
+For a digital guarantee or eGuarantee issued by a
+financial institution
+, it will be transmitted electronically to the Comptroller of Income Tax directly. For more information, please refer to
+eGuarantee@Gov
+.
+The LOG or eGuarantee has to be submitted to IRAS on a yearly basis.
+In the absence of the LOG or eGuaranteee, an advance assessment will be issued to you and you are required to settle your tax in full.
+You are still required to file the Income Tax Return even if you have submitted the LOG/eGuarantee or if an advance assessment has been issued to you.
+The LOG has to be signed by an authorized personnel of the Company.  If you are an authorized personnel and are required to forward the LOG to cover your estimated tax, the LOG must be signed by another authorised personnel.
+A LOG that is issued by a Company where you are the Director is not acceptable.
+eGuarantee Application Process
+When applying for an
+eGuarantee
+from a participating
+financial institutions
+, you will be required to provide the information as listed in the table below to the financial institution.
+No.
+Field
+Value/ Description
+1
+Guarantee Template Reference
+GOV_UT
+The reference GOV_UT is only applicable for eGuarantee.
+2
+Case reference
+Please indicate Tax Reference number (FIN, ASGD etc.) of the employee requesting for the Guarantee after the pre-fix “IITDLOG”.
+For example: IITDLOG-G1234567L
+3
+Beneficiary Name
+Comptroller of Income Tax
+4
+Applicant Name
+Please indicate employee’s official name in FIN.
+5
+Applicant reference no.
+Please indicate employee’s FIN number.
+6
+Currency code
+This refers to the currency of the guaranteed sum. Please indicate SGD.
+7
+Guaranteed Sum
+This refers to the guaranteed sum of the Guarantee. Please indicate the Guaranteed Sum provided in our letter requesting for the Guarantee. The Guaranteed sum should be in numerical amount in 2 decimal places with no commas.
+8
+Guarantee Effective Date
+This refers to the date upon which the Guarantee will take effect. Please indicate the Guarantee Effective Date provided in our letter requesting for the Guarantee.
+9
+Guarantee Expiry Date
+This refers to the date upon which the Guarantee is no longer in effect. Please indicate the Guarantee Expiry Date provided in our letter requesting for the Guarantee.
+Waiver of the requirement to provide Letter of Guarantee (LOG)
+The requirement to provide the Letter of Guarantee can be waived if you satisfy any of the following conditions:
+Your salary cost is fully borne by the Singapore entity, i.e. the salary cost is being charged to the Profit & Loss Account of the Singapore entity; or
+Your Singapore income tax is fully borne by the Singapore entity, i.e. full tax-on-tax is computed on your Singapore employment income by your employer.  Please see the example on full
+tax-on-tax (Example 1)
+(PDF, 682KB).
+For the avoidance of doubt, your Singapore income tax is not considered to be fully borne by your employer if you are tax equalized in Singapore.
+You should provide a letter from an authorized personnel of the Singapore entity (other than yourself if you are also the authorized personnel) to confirm that your salary cost and / or Singapore income tax is (are) fully borne by them.
+Tax clearance obligations
+Your employer should complete the Form IR21 at least one month before you cease employment or leave Singapore. Find out more about
+tax clearance
+.
+Travelling into Singapore for business purposes
+If you are based outside Singapore and travel into Singapore for business purposes, please submit your schedule of physical presence in Singapore in the following format:-
+Date of Arrival
+Date of Departure
+Number of Days, including date of arrival in and departure from Singapore
+Purpose of Visit
+Remuneration received from your foreign employer while on assignment in Singapore, in SGD
+All taxes must be paid before you leave Singapore.
+If you are claiming for exemption from Singapore income tax in respect of Dependent Personal Services rendered in Singapore, please refer to
+Exemption under Avoidance of Double Taxation Agreement
+.
+How to reduce your tax liability
+1.  Area Representative tax treatment
+If you work for a foreign employer and operate from a base in Singapore to discharge your regional functions and duties, you may enjoy time apportionment of employment income, subject to qualifying conditions.
+If you qualify to be assessed as an Area Representative, you will be taxed on the amount of your remuneration attributable to the number of days spent in Singapore.  However, benefits-in-kind (BIK) provided in Singapore are fully taxable.
+Foreign employers include foreign based companies with representative offices registered with
+Enterprise Singapore
+and entities not registered in Singapore. Foreign employers are considered non-resident employers for tax purposes.
+Qualifying as an Area Representative
+To qualify as an Area Representative, you must satisfy these four criteria below:
+With effect from YA 2024
+The rationale for the area representative (AR) tax treatment is based on the territorial basis of taxation as ARs are considered as having an overseas employment.
+To qualify as an Area Representative, you must satisfy these four criteria below:
+You must be employed by a non-resident employer;
+You are based in Singapore for geographical convenience;
+You perform services primarily outside Singapore; and
+Your remuneration is paid by your foreign employer and not charged directly or indirectly to the accounts of a permanent establishment in Singapore.
+A permanent establishment refers to a fixed place where a business is wholly or partly carried on, e.g. a place of management, a branch, an office, a factory etc.
+Up to YA 2023
+You must be employed by a non-resident employer;
+You are based in Singapore for geographical convenience;
+You are required to travel outside of Singapore in the course of your duties; and
+Your remuneration is paid by your foreign employer and not charged directly or indirectly to the accounts of a permanent establishment in Singapore.
+A permanent establishment refers to a fixed place where a business is wholly or partly carried on, e.g. a place of management, a branch, an office, a factory etc.
+Time apportionment of income
+Your employment income will be prorated based on the
+duration of your physical presence
+in Singapore during the calendar year:
+Number of days of presence in Singapore
+__________________________________     x Employment Income
+Total number of days in the basis period
+If you are present in Singapore for any part of the day, your presence on that day will be counted as one day in Singapore.
+If you are on vacation leave during the calendar year, whether inside or outside of Singapore, your pro-rated employment income will be calculated as follow:
+Tax residency status
+Depending on the total number of days attributable to work in Singapore, you may be treated either as a tax resident or a non-resident:
+Total number of days attributable to work in Singapore in a calendar year is 60 days or less
+Resident status
+Tax implications
+Non-Resident
+Your short-term employment income is exempt from tax. This rule does not apply if your stay covers three continuous years or more.
+Total number of days attributable to work in Singapore in a calendar year is 61-182 days
+Resident status
+Tax implications
+Non-Resident
+Your apportioned income will be taxed at 15% or
+resident rates
+, whichever results in a higher tax.
+Total number of days attributable to work in Singapore in a calendar year is 183 days or more
+Resident status
+Tax implications
+Resident
+Your apportioned income will be taxed at
+resident rates
+.
+Your stay covers three continuous years or more
+Resident status
+Tax implications
+Resident for all years
+Your apportioned income will be taxed at
+resident rates
+for all years.
+Applying for Area Representative status and concession
+Submit the following documents to IRAS together with your annual tax return by 18 April of the Year of Assessment in which you qualify for the scheme:
+Application Form for Area Representative Status (wef YA 2024)
+(DOC, 218KB)
+Application Form for Area Representative Status (Up to YA 2023)
+(DOC, 218KB)
+Employment contract or job description under the foreign employer's letterhead and signed by authorised personnel.
+Travel schedule using
+Area Representative Travel Calculator
+(XLS, 53KB)
+Subsequent years
+If your Area Representative status is approved and your employment arrangement remains unchanged the following year, you need not apply for the status every year. However, you are still required to submit the
+Area Representative Travel Calculator
+(XLS, 53KB) by 18 Apr each year so as to enjoy the tax concession.
+However, if there is a change in your employment arrangement (e.g. your job scope, the entity which bears your remuneration cost), please inform us to enable us to review your eligibility for the Area Representative status.
+2. Exemption under Avoidance of Double Taxation Agreement (DTA)
+If you are a tax resident of a jurisdiction that has a
+DTA
+with Singapore,
+it may protect you from being taxed twice on the same income. This depends on the provisions of the DTA.
+The DTA article for Dependent Personal Services may provide for exemption from Singapore income tax if certain conditions are met. Please use our
+DTA Calculator - Dependent Services
+(XLS, 289KB) to check if you are eligible for the tax exemption.
+If you are eligible for the DTA exemption, please complete and submit the Claim for DTA Exemption and Certificate of Residence to IRAS.
+If you anticipate a refund, please register for
+PayNow FIN
+for faster processing.
+Common scenarios
+Scenario 1: Japanese engineer working in Singapore
+Japan Headquarters sent me, an engineer, to Singapore to assist in the Singapore operations for one year. I remained under the employment of the Japan Headquarters.
+My salary continued to be paid in Japan by the Japan Headquarters. The Singapore company did not incur any charges or expenses for my stay in Singapore, except for the housing fees for my apartment.
+Are all remuneration received in Japan, including housing fees paid by the Singapore company, taxable?
+Yes.
+Is there any tax exemption if I have also been taxed on the same income by Japanese tax office?
+You may claim for tax exemption under Article 15 of the Avoidance of Double Tax Agreement (DTA) between Singapore and Japan if you meet all of the following conditions:
+You are a resident of Japan;
+You are present in Singapore for not more than 183 days in any consecutive twelve-month period;
+Your remuneration is paid by, or on behalf of, an employer who is a not a resident of Singapore; and
+None of your remuneration is borne by a permanent establishment or a fixed base that your employer has in Singapore.
+Please use our
+DTA Calculator - Dependent Services
+(XLS, 289KB) to check if you are eligible for DTA exemption. If you are eligible for DTA exemption, you should complete and submit the Claim for DTA Exemption and Certificate of Residence to IRAS.
+Scenario 2: PRC national in Singapore for training
+I am a national of People's Republic of China employed by a subsidiary company in China. I came to Singapore in July 2025 for a six-month training course at the Singapore Headquarter Office
+I am on a training work permit pass. The Singapore Headquarter Office pays me an overseas/training allowance of S$20 - $S40 per day. The allowance will be re-charged to the subsidiary company in China.
+Is my employer required to seek tax clearance before I leave Singapore?
+Yes, your employer is required to seek clearance before you leave Singapore. Your employer should complete the
+Form IR21
+(DOC, 139KB) by providing details of your income (including benefits-in-kind such as accommodation) from your employment in Singapore.
+Can I claim any tax exemption on my employment income?
+You may claim for tax exemption under Article 15 of the Avoidance of Double Tax Agreement (DTA) between Singapore and People's Republic of China if you satisfy all of the following conditions:
+You are a resident of People's Republic of China;
+You are present in Singapore for not more than 183 days within any twelve-month period;
+Your remuneration is paid by, or on behalf of, an employer who is not a resident of Singapore; and
+None of your remuneration is borne by a permanent establishment or a fixed base that your employer has in Singapore.
+Please use our
+DTA Calculator - Dependent Services
+(XLS, 289KB) to check if you are eligible for the DTA exemption. If you are eligible for DTA exemption, you should complete and submit the Claim for DTA Exemption
+and Certificate of Residence to IRAS.
+Scenario 3: Payment of income tax
+I am employed by the HQ office in my home country to work in Singapore for three years. I do not qualify for DTA exemption and will be taxed on the income I earn in Singapore.
+Can I apply for instalment payment for my tax?
+No, payment by GIRO instalment is not applicable for employees of foreign employers. You are required to settle your tax in full.
+FAQs
+Q1: Employee A was based overseas and his overseas employer sent him to Singapore for a business trip in 2025. He received an allowance to cover his travelling expenses and living expenses. How should the amounts be reported to IRAS?
+A1. Where the total allowance covers non-taxable business expenses (for example airport transfer, entertainment for business purposes etc), the employer has to ascertain the actual amounts of such expenses and exclude them from the allowance. The balance, if any, in excess of IRAS acceptable rate is to be reported as income in the Form IR8A.
+Q2: Employee B was based overseas and his overseas employer sent him to Singapore for a business trip in 2025. He was provided with hotel accommodation and received an allowance to cover his travelling expenses. Is the allowance/reimbursement for expenses incurred for travel from the hotel to the place of work and airport taxable?
+A2: Where the employee travels into Singapore on or after 1 Jan 2016 for business purposes, payment for travelling expenses from hotel to the place of work/airport and vice versa will be considered as business expense and not taxable.
+Documents
+DTA Calculator - Dependent Services (XLS, 289KB)
+Pages
+Individual Income Tax rates
+Useful Links
+Exchange Rates

@@ -1,0 +1,371 @@
+SOURCE_KEY: SG_IRAS_PROPERTY
+TITLE: IRAS — Buyer's Stamp Duty and Additional Buyer's Stamp Duty (ABSD)
+JURISDICTION: SG
+URL: https://www.iras.gov.sg/taxes/stamp-duty/for-property/buying-or-acquiring-property/additional-buyer's-stamp-duty-(absd)
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:14+00:00
+------------------------------------------------------------------------------
+Liable buyers are required to pay ABSD on top of the existing Buyer’s Stamp Duty (BSD). ABSD and BSD are computed on the purchase price as stated in the dutiable document or the market value of the property (whichever is the higher amount).
+All buyers / transferees (i.e. individuals, entities including housing developers) are required to complete the
+ABSD Declaration Form
+(PDF, 277KB) to be witnessed by their lawyers (if applicable). The completed form need not be submitted to IRAS but it should be retained for at least 5 years from the date of purchase / acquisition of the property as IRAS may request for it for audit purposes.
+On this page:
+Determining ABSD liability
+The ABSD liability will depend on the profile of the buyer as at the date of purchase or acquisition of the
+residential property
+:
+A. Whether the buyer is an individual or an entity
+B. The profile of the buyer
+C. The
+count of residential properties owned by the buyer (including residential property beneficially owned and held in trust) and
+D. Whether the residential property is to be held in a living trust
+Date of purchase or acquisition refers to the earliest of
+Date of execution of the Acceptance to the Option to Purchase
+or
+Date of Sale & Purchase Agreement
+or
+Date of instrument which places the residential property on trust
+or
+Date of transfer to a beneficiary where the residential property was originally held on trust for non-identifiable beneficial owner(s)
+or
+Date of transfer where (1), (2), (3) and (4) are not available nor applicable.
+Residential properties held on trust - ABSD (Trust)
+Any conveyance, assignment or transfer on sale of residential property to a trustee to hold on trust and any instrument chargeable in like manner will be subject to the ABSD (Trust) rate of 65%.
+For the purposes of stamp duty, the date of document of the purchase instrument will be taken as the date on which the document is
+signed
+(i.e. the Acceptance to Option to Purchase/Sale and Purchase Agreement should be signed on the date it is to be executed and delivered to the Vendor). The trust instrument should also be signed, sealed and delivered on the day it is to be executed.
+Remission of ABSD (Trust) may be provided via a refund where the conveyance, assignment or transfer on sale of residential property to a person i.e. trustee, is held on trust for one or more identifiable individual beneficiaries only (whether or not the
+conveyance, transfer or assignment is also made to another person).
+The amount remitted will be based on
+the difference between the ABSD (Trust)
+rate of 65% and ABSD rate corresponding to the profile of the beneficial owner with the highest applicable ABSD rate. ABSD
+(Trust) of 65% is to be paid upfront, and an application for the refund must be made to IRAS within six months after the date of execution of the instrument.
+Please refer to the page on
+Remission of ABSD (Trust)
+for more details on the remission conditions.
+Residential properties transferred into trusts for housing developers are subject to ABSD rate of 40% (5% non-remittable; plus 35% remitted upfront subject to conditions).
+A. Whether the buyer is an individual or an entity
+An entity means a person who is not an individual. It includes the following:
+An unincorporated association
+A trustee for a collective investment scheme when acting in that capacity
+A trustee-manager for a business trust when acting in that capacity
+The partners of the partnership whether or not any of them is an individual, where the property conveyed, transferred or assigned is to be held as partnership property
+B. The profile of the buyer
+The applicable ABSD rate is based on the profile of the buyer on the date of purchase. You must have been granted the Singapore Citizenship status or Singapore Permanent Resident status by the Immigration and Checkpoint Authority (ICA) as at the date of property purchase in order to enjoy lower ABSD liability.
+For purchases made jointly by two or more buyers of different profiles, the highest applicable ABSD rate will apply on the entire value of the property purchased.
+C. The count of residential properties owned by the buyer
+1. Count from date of contract or agreement
+If a contract or an agreement to purchase the property has been signed, that property is to be included in the count of properties owned by a buyer
+(A)
+from the date of acceptance of the agreement, even if it has not been legally
+transferred to him as he already has an equitable interest in the property.
+This also includes the purchase of an uncompleted unit from the developer if the Sale & Purchase Agreement has been signed.
+Similarly, the property is to be excluded from the count of properties owned by a buyer
+(A)
+if there is already a contract or an agreement to sell his property and the new buyer
+(B)
+has executed his
+option to buy the property.
+2. Full count for partial ownership and joint ownership
+As long as a buyer owns any interest in a property, that property will be included in the count of properties owned by him. For example, if a person jointly owns a property with his wife, and owns 20% share of another property with his sibling, the number of properties owned by him is counted as two properties.
+3. Property held on trust
+If
+A
+purchases a residential property to be held on trust for an identifiable beneficial owner
+(B)
+,
+the property will be included as a count for
+B
+.
+4. Purchase of multiple properties in one transaction
+Although many properties may be bought under a single contract, each property will be counted as a separate property. Where applicable, the buyer may choose any one of the multiple properties to be subject to ABSD. For example, if a Singapore Citizen
+who does not own any residential property decides to purchase two residential properties in one contract, he may choose any one of the units to be subject to ABSD.
+If multiple properties are jointly purchased by buyers of different profiles, each property will be counted as a separate property and the profile with the highest ABSD rate will apply on each property as if the buyers are acquiring the properties jointly under separate instruments. For example, a Singapore Citizen who owns one residential property decides to purchase three residential properties ("Property A, B and C") together with a Singapore Permanent Resident who does not own any residential property, in a single contract. The ABSD rates applicable on the purchase of Property A, B and C are 20%^, 30%* and 35%
+#
+respectively.
+^20% because Property A is the Singapore Citizen's second residential property, whose profile is higher than his co-purchaser's (Singapore Permanent Resident's first residential property).
+*30% because Property B is the Singapore Citizen's third residential property and the Singapore Permanent Resident's second residential property. Both profiles attract a 30% ABSD rate.
+#
+35% because Property C is the Singapore Permanent Resident's third residential property, whose profile is higher than his co-purchaser's (Singapore Citizen's third and subsequent property).
+5. Properties acquired to be included in the property count
+Apart from properties that have been purchased, properties acquired or transferred by way of gift, inheritance, release, settlement, declaration of trust (where the beneficial owners of the trust property are identifiable), letter of authority and exchange are to be included in the property count.
+6. HDB shop with living quarters and shophouse
+HDB shops with living quarters or shophouses with a portion permitted for residential use will be included as a residential property count.
+7. Exclusion of properties gazetted for compulsory acquisition
+All residential properties gazetted for compulsory acquisition are to be excluded from the count of properties.
+8. Exclusion of properties located outside Singapore
+All residential properties located outside Singapore are to be excluded.
+Rates and computation
+ABSD Rates on the higher of the purchase price or market value
+Profile of buyer
+ABSD rates from 16 Dec 2021 to 26 Apr 2023
+ABSD rates on or after 27 Apr 2023
+Singapore Citizens (SC) buying first residential property
+1
+Not applicable
+Not applicable
+SC buying second residential property
+1
+17%
+20%
+SC buying third and subsequent residential property
+1
+25%
+30%
+Singapore Permanent Residents (SPR) buying first residential property
+1
+5%
+5%
+SPR buying second residential property
+1
+25%
+30%
+SPR buying third and subsequent residential property
+1
+30%
+35%
+Foreigners (FR) buying any residential property
+1
+30%
+60%
+Entities
+2
+buying any residential property
+1
+35%
+65%
+Housing Developers
+3
+buying any residential property
+1
+35%
+4
+(Plus additional 5% (non-remittable)
+5
+)
+35%
+4
+(Plus additional 5% (non-remittable)
+5
+)
+From 9 May 2022 onwards, any transfer of residential property into a living trust will be subject to an ABSD rate that is the same as entities.
+Profile of buyer
+ABSD rates from 9 May 2022 to 26 Apr 2023
+ABSD rates on or after 27 Apr 2023
+Trustee
+6
+buying any residential property
+1
+35%
+65%
+ABSD is to be rounded down to the nearest dollar, subject to a minimum duty of $1.
+1
+Whether owned wholly, partially or jointly with others.
+2
+An Entity means a person who is not an individual. It includes the following:
+An unincorporated association,
+A trustee for a collective investment scheme when acting in that capacity,
+A trustee-manager for a business trust when acting in that capacity
+The partners of the partnership whether or not any of them is an individual, where the property conveyed, transferred or assigned is to be held as partnership property.
+3
+Housing Developers refer to entities in the business of housing development (i.e. construction and sale of housing units) with respect to the subject property acquired. These include trustees for housing developers, which will continue to be subject to the same ABSD rate as Housing Developers.
+4
+As entities, Housing Developers will also be subject to the ABSD rate for entities as follows:
+For the period on or after 16 Dec 2021, Housing Developers will be subject to the ABSD rate of 35%.
+Housing Developers may apply for remission of 35% ABSD, subject to conditions.
+5
+This 5% ABSD for Housing Developers is in addition to the 35% (on or after 16 Dec 2021) ABSD. This 5% will not be remitted, and is to be paid upfront upon purchase of residential property.
+6
+Trustee refers to a trustee of any trust when acting in that capacity, but excludes the following:
+Trustee for a collective investment scheme when acting in that capacity;
+Trustee-manager for a business trust when acting in that capacity; and
+Trustee for a housing developer when acting in that capacity.
+Example: A Foreigner purchases a unit at a market value of $2 million on 1 Aug 2023 and the ABSD rate of 60% applies.
+Computation of ABSD
+60% of $2,000,000
+= $1,200,000
+ABSD payable
+$1,200,000
+ABSD rates prior to 16 Dec 2021
+Profile of buyer
+ABSD rates from 12 Jan 2013 to 5 Jul 2018
+ABSD rates from 6 Jul 2018 to 15 Dec 2021
+Singapore Citizens (SC) buying first residential property
+Not applicable
+Not applicable
+SC buying second residential property
+7%
+12%
+SC buying third and subsequent residential property
+10%
+15%
+Singapore Permanent Residents (SPR) buying first residential property
+5%
+5%
+SPR buying second residential property
+10%
+15%
+SPR buying third and subsequent residential property
+10%
+15%
+Foreigners (FR) buying any residential property
+15%
+20%
+Entities buying any residential property
+15%
+25%
+Housing Developers buying any residential property
+15%
+25%
+(Plus additional 5% (non-remittable))
+All entities will be subject to the new ABSD rate of 65%. Housing Developers are subject to the ABSD rate of 35% and an additional non-remittable ABSD rate of 5% upon stamping, i.e. aggregate ABSD rate of 40%. Such developers may apply for remission on the ABSD rate
+of 35% under the
+ABSD remission for development of 4 or less units of housing accommodation
+or
+ABSD remission for development of 5 or more units of housing accommodation
+.
+Entities who are acquiring residential properties with no intention to carry out housing development (i.e. construction and sale of housing units) with respect to the subject property acquired should pay the ABSD rate of 65%.
+It is
+important
+for the purchasing entity to decide whether it will undertake housing development of the subject property at the point of purchase, in order to ascertain the applicable ABSD treatment. Any subsequent change of
+intention will not be considered for stamp duty purposes. For example, entities who have paid the ABSD rate of 65% will not qualify for the ABSD Housing Developers Remission, even if they fulfil the remission conditions subsequently.
+FAQs
+ABSD treatment for trusts
+Why is there a remission of ABSD (Trust)?
+The intent of the ABSD (Trust) remission is to equalise the ABSD treatment for transfers of residential properties, irrespective of whether a trust is involved or not. Remission can be obtained only if all the conditions are met. Please refer to
+Remission of ABSD (Trust)
+for more details.
+With ABSD (Trust), will the residential property transferred into the trust be added to the property count of the beneficial owner?
+The residential property transferred into the trust will be added to property count of any identifiable beneficial owner of that property, regardless of whether there is a remission of ABSD (Trust).
+How do I stamp documents liable to ABSD (Trust)?
+You can stamp via
+myTax Portal
+(Stamp Duty Login) > "Stamping" > "Stamp Sale and Purchase Documents – Purchase/ Acquisition" > Select the relevant form. You will have to login with your Singpass (under Individual or Business User). Please note that this service is available only on desktop and not on mobile devices.
+For purchase by Singapore Citizens (SC)
+I am an SC currently owning only one private apartment. I am considering selling it and buying a terrace house. Do I have to pay ABSD when I buy the terrace house?
+If you have contracted to sell your only apartment before you execute the Acceptance to the Option to Purchase for the terrace house, you do not need to pay ABSD.
+But if you have not contracted to sell your apartment, your purchase of the terrace house will be your second property on which you need to pay ABSD at 20%.
+For purchases of second residential property on or after 16 Feb 2024, if you are a single SC senior aged 55 and above, you may be eligible for a
+refund of ABSD
+paid on the second residential property, subject to conditions.
+My wife and I are SCs and we jointly own an apartment. We intend to jointly purchase a terrace house that is under construction. Do we need to pay ABSD?
+The ABSD of 20% is payable as the terrace house will be your second property. However, if you dispose of your apartment within 6 months from the date of TOP/CSC (whichever is earlier) of the terrace house, you may be eligible for the
+refund of ABSD.
+My wife and I are SCs and we jointly own one semi-detached house. I also inherited a 10% share of another property from a deceased relative. If I now buy a condominium unit together with my son who is an SC and does not own any property, do we have to pay ABSD on the purchase of the condominium unit?
+Ownership of a partial interest in a property will add to the count of property owned by you. Thus you would have owned two residential properties before you purchase the condominium unit. The purchase of the condominium unit with your son will be your third residential property. Hence you and your son would have to pay ABSD at 30% on the full purchase price/market value (whichever is higher) of the condominium unit based on your ABSD profile which is the higher of the two profiles.
+I am an SC currently owning only a 20% share in a house co-owned with my mother. Should my mother transfer her 80% share of the house to me, do I need to pay ABSD? If I were to buy another private flat after that, what would be the ABSD rate?
+Although the acquisition of your mother's 80% share would have been considered your second property, however, as you are a Singapore citizen who only owns one residential property and are acquiring additional interest in the same property from the co-owner, no ABSD is payable on the acquisition.
+However, please note that BSD is still payable on the acquisition of your mother’s 80% share of the property.
+Your subsequent purchase of the private flat would be your second property which would attract the ABSD rate of 20%.
+I am an SC and I co-own a house with my mother. My husband who is also an SC does not own any residential property. If we buy our first matrimonial home jointly, do we need to pay ABSD?
+The matrimonial home will be your second property and therefore both of you will have to pay ABSD at 20% based on your ABSD profile which is the higher of the two profiles. However, you may be eligible for the ABSD refund if you dispose of your interest in the house that is co-owned with your mother within 6 months from the date of purchase/TOP/CSC (whichever is applicable or earlier) of your matrimonial home.
+I am an SC. I own 2 residential properties, 1 of which I own jointly with my mother, and the other with my husband. My husband now wishes to transfer his share of the jointly owned property to me. Do I need to pay ABSD on the transfer given that I already own half share in the property?
+As you are a Singapore citizen owning two properties (albeit partial interest in each property), the acquisition of your husband’s half share would be counted as your third property and subject to 30% ABSD.
+However, as you are a Singapore citizen who owns two properties and are acquiring additional interest in one of the two properties which you already have a partial interest in, there is a remission available which would reduce the ABSD to 20%.
+Please note that BSD is still payable on the acquisition of your husband’s half share. You can stamp at
+myTax Portal
+(Stamp Duty Login) to obtain the remission certificate.
+I am an SC. I own 3 residential properties, 2 in my sole name and the other jointly with my husband. My husband now wishes to transfer his share of the jointly owned property to me. Do I need to pay ABSD on the transfer given that I already own half share in the property?
+As you are a Singapore citizen owning three properties, the acquisition of your husband’s half share would be counted as your fourth property and subject to 30% ABSD.
+Please note that BSD is still payable on the acquisition of your husband’s half share.
+I am a widow and I jointly own a terrace house with my son. We are both SC. We intend to downgrade to a condominium unit. Can we apply for ABSD refund if we dispose of the terrace house within 6 months after the purchase of the condominium unit?
+For purchases of second residential property on or after 16 Feb 2024, Single SC seniors aged 55 and above may be eligible for a
+refund of ABSD
+paid on the second residential property, subject to conditions.
+If both you and your son are Single Singapore Citizens and aged 55 and above, you may apply for a refund of ABSD if you and your son fulfil the conditions.
+Otherwise, you and your son will need to dispose of your terrace house first if you wish to avoid paying ABSD on your next purchase.
+For purchase by SC and others (Singapore Permanent Residents (SPR) and Foreigners (FR))
+I am an SC married to a SPR. We jointly own a private apartment. If we buy another house jointly, what is the ABSD payable by us?
+The purchase of the house will be your second property for both yourself and your spouse. As your spouse is a SPR, both of you will have to pay ABSD at 30% of the purchase price/market value (whichever is higher) of the house. However, you may be eligible for the
+ABSD refund
+if you and your spouse dispose of your first property within 6 months from the date of purchase/ TOP/ CSC (whichever is applicable or earlier) of your second property.
+I am an SC married to a SPR. We jointly own a 3-room HDB flat. If we upgrade to a 5-room flat, do we need to pay ABSD?
+As HDB’s rules require buyers to dispose of their existing flats within 6 months from the possession of new HDB flats, ABSD remission will be given upfront. You do not need to pay ABSD when you buy the 5-room HDB flat.
+I am an SC married to a SPR. We jointly own a 5-room HDB flat. If we upgrade to a private flat, do we need to pay ABSD?
+The purchase of the house will be your second property for both yourself and your spouse. As your spouse is a SPR, both of you will have to pay ABSD at 30% of the purchase price/market value (whichever is higher) of the house. However, you may be eligible for the
+ABSD refund
+for second residential property if you and your spouse dispose of the HDB flat within 6 months of the date of purchase/ TOP/ CSC (whichever is applicable or earlier) of your private flat.
+I am an SC married to an SPR. Both of us do not own any property in Singapore. If we jointly purchase our first matrimonial home, do we need to pay ABSD?
+SPRs are required to pay ABSD at 5% if they buy their first residential property on their own or jointly with SC. However, if both you and your SPR spouse do not own any property and the matrimonial home is the only residential property owned by you and
+your spouse, you may be eligible for the
+ABSD remission for SC married couples.
+I am an SC and my wife is a FR. We jointly own one apartment which is our first matrimonial home and no other property. Would we be eligible for the ABSD remission if we upgrade to a terrace house and sell the apartment within 6 months of our purchase of the terrace house?
+If you are able to fulfil all the conditions for
+ABSD refund for purchase of second property
+, the ABSD of 60% paid will be refunded to you upon application.
+For purchase by non-SC
+I am an SPR who recently became a Singapore citizen. Do I need to pay ABSD?
+ABSD liability is determined based on the buyer’s profile at the point of purchasing a property and does not change notwithstanding subsequent changes to the buyer’s profile.
+The point of purchase refers to the date you signed your:
+a) Date of Acceptance of the Option to Purchase*
+or
+b) Date of Sale and Purchase Agreement
+or
+c) Date of Agreement for Lease (for new HDB flat)
+or
+d) Date of Transfer where the above a), b) and c) are not applicable.
+*Excludes an Option to Purchase that is subject to the execution/ signing of the Sale and Purchase Agreement
+If you received the in-principle approval for your application for SC/ SPR by the Immigration & Checkpoints Authority (ICA) before purchasing the property, please submit an appeal through the
+myTax portal
+(Stamp Duty Login). Please note that this service is available only on desktop and not on mobile devices. Notwithstanding your appeal request, you will need to pay the ABSD within 14 days of purchasing the property. Your appeal will be assessed on a case-by-case basis and if successful, the ABSD will be refunded to you after all the remission conditions have been met.
+If you only received ICA’s in-principle approval after purchasing the property, your appeal will not be successful.
+I am an SPR buying my first HDB resale flat. Do I need to pay ABSD?
+From 12 Jan 2013, SPR buying their first residential property including HDB flat would have to pay ABSD at 5%.
+I am an SPR owning one private apartment. If I downgrade to a HDB resale flat, do I need to pay ABSD on the HDB flat?
+As HDB’s rules require buyers to dispose of all their private properties within 6 months from the completion date of the HDB resale flats, the ABSD remission will be given upfront. You only need to pay ABSD at 5% instead of 30% when you buy the HDB flat.
+I am an SPR owning one private apartment. If I purchase a second private apartment, what is the ABSD payable by me?
+As you are a Singapore Permanent Resident buying your second residential property, you will need to pay ABSD at 30% of the purchase price/market value (whichever is higher) of the private apartment.
+I am an SPR owning two private apartments. If I purchase a third or subsequent private apartment, what is the ABSD payable by me?
+As you are a Singapore Permanent Resident buying your third or subsequent residential property you will need to pay ABSD at 35% of the purchase price/market value (whichever is higher) of the private apartment.
+I am an SPR. I am also a citizen of United States of America. There is a Free Trade Agreement signed between USA and Singapore. Which ABSD rate will apply to me when I buy my first residential property in Singapore?
+You will be accorded the same treatment as a Singapore Citizen. You do not need to pay ABSD on your first property purchase. The ABSD rates of 20% and 30% will apply when you buy the second and additional residential properties respectively.
+If I am in the process of obtaining my SC or SPR at the time of purchase, can I later apply for a remission to enjoy lower ABSD rates based on my new status?
+The applicable ABSD rate is based on the profile of the buyer on the date of purchase. You must have been granted the Singapore Citizenship status or Singapore Permanent Resident status by the Immigration and Checkpoint Authority (ICA) as at the date of purchase in order to enjoy lower ABSD liability. The date of issue reflected in the IC collection slip would be taken as when the status was granted.
+Property type
+I am buying a HDB shop with living quarters. Is ABSD payable?
+ABSD is payable only on the apportioned value of the living quarters. You may get a professional valuer to value the living quarters.
+I am buying a strata shop unit. Is ABSD payable?
+If the strata unit is permitted to be used as a shop by a Written Permission given under section 14(4) of the Planning Act for a period exceeding 10 years, ABSD is not payable.
+I am buying a mixed-use development on land zoned ‘Residential’. Is ABSD payable?
+As the land is zoned ‘Residential’ and hence the development is capable of being developed or used for fully residential purposes, ABSD is payable.
+I am buying a semi-detached house which has been approved as a child care centre for three years. Is ABSD payable?
+ABSD is payable as this is a residential property and the use as a child care centre is only a temporary permitted use.
+Property Count
+I am an SC owning one house in Malaysia but none in Singapore. Is ABSD payable when I buy my first residential property in Singapore?
+Only residential properties in Singapore are included in the property count which is used to determine ABSD liability. As this is your first residential property in Singapore, ABSD is not payable.
+I am an SC. My only house has been gazetted to be compulsorily acquired by the Government. If I buy another residential property now, do I need to pay ABSD?
+Properties gazetted for compulsory acquisition will be excluded from the count of properties. As such, your count of properties owned is zero and hence ABSD will not be payable on your purchase of the next residential property.
+Payment
+Who should pay ABSD?
+Where the terms of the document do not state who is liable to pay stamp duty, the party to pay stamp duty will follow that as specified in the Third Schedule of the Stamp Duties Act. For ABSD, this is generally the purchaser (buyer) or transferee. Please refer to
+Who Should Pay Stamp Duty
+for more details.
+When must BSD and ABSD be paid?
+BSD and ABSD must be paid within 14 days after the date of the signed Contract or Agreement. Where the Contract or Agreement is executed (signed) overseas, BSD and ABSD must be paid within 30 days after the receipt of the Contract or Agreement in Singapore. A document is considered to be duly stamped only when stamp duty is fully paid. Audit checks will be conducted by IRAS to ensure that BSD and ABSD are duly paid. Under the Stamp Duties Act, a penalty of 4 times the amount of unpaid duty can be imposed.
+What if I do not have enough funds to pay ABSD? Can ABSD be deferred or paid by instalments?
+Stamp duty is an upfront cost that a buyer has to consciously set aside when he decides to purchase a property. It must be paid in full and cannot be deferred. Inadequate payment or late payment of stamp duty is tantamount to non-stamping and penalties would apply.
+Can I pay ABSD using my Central Provident Fund (CPF) money?
+Using CPF funds to pay stamp duty is subject to the terms and conditions under the Private Properties and Public Housing Schemes. You may wish to check with CPF Board for more details.
+Others
+If a seller were to backdate the date of offer of his Option upon the request of the buyer to avoid paying ABSD at a higher rate, is this an offence?
+Yes, it is an offence under Section 62 of Stamp Duties Act to evade stamp duty by executing a document where facts and circumstances are not fully and truly set forth. Any person guilty of such an offence shall be liable on conviction to a fine not exceeding $10,000 or to imprisonment for a term not exceeding 3 years or to both.
+If I enter into an arrangement in order to reduce or avoid the Additional Buyer’s Stamp Duty that I have to pay, is this an offence?
+IRAS takes a stern view of any arrangements for the purpose of reducing or avoiding tax. This includes the scenario where buyers purchase properties under a contrived or artificial arrangement in order to reduce or avoid the Stamp Duties they have to pay.
+In cases of tax avoidance, the Commissioner of Stamp Duties will disregard or vary any tax avoidance arrangement, claw back the rightful amount of stamp duty and impose a 50% surcharge on the additional duty payable. Further penalties of up to 4 times the outstanding amount may be imposed if the stamp duty and surcharge are not paid by the deadline.
+I bought a condominium unit from a developer who has offered me 15% direct cash discount and this discount is also stated in the document to be stamped. Should I pay stamp duty on the purchase price before or after discount?
+The amount of
+direct cash discount
+may be deducted from the purchase price
+to determine what is the amount of consideration for stamp duty purpose. This is provided that the nett price is still reflective of the market value.
+I did not have to pay ABSD on the purchase of my new flat because I managed to sell my previous property just before the purchase of my new flat. However, my buyer has now aborted the purchase of my previous property. Do I need to pay ABSD on my new flat now?
+You are to disclose to IRAS the failed sale of your previous property and the circumstances of the aborted sale. Whether ABSD would be clawed back from you and what further action would be taken by IRAS would depend on the circumstances of the case. For information, the Commissioner of Stamp Duties may invoke the anti-avoidance provision under Section 33A of the Stamp Duties Act if there is reason to suspect that the sale of your previous property was fictitious and was schemed to avoid or reduce payment of ABSD.
+Pages
+Common Stamp Duty Remissions and Reliefs for Property
+Pages
+Who Should Pay Stamp Duty
+Pages
+When to Pay Stamp Duty
+Pages
+How to Pay
+Useful Links
+Stamp Duty Calculator

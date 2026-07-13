@@ -1,0 +1,549 @@
+SOURCE_KEY: AU_ATO_PE
+TITLE: ATO — Permanent establishment for non-residents (PCG 2021/D2 / TR 2002/5)
+JURISDICTION: AU
+URL: https://www.ato.gov.au/law/view/document?DocID=TXR/TR20025/NAT/ATO/00001
+METHOD: wayback (snapshot 20260109183020)
+FETCHED_AT: 2026-07-11T11:16:02+00:00
+------------------------------------------------------------------------------
+Legal database
+Legal database
+Download
+Email
+Print
+Back to browse
+84 related documents
+Taxation Ruling
+TR 2002/5
+Income tax: Permanent establishment - What is 'a place at or through which [a] person carries on any business' in the definition of permanent establishment in subsection 6(1) of the
+Income Tax Assessment Act 1936?
+Please note that the
+PDF version
+is the authorised consolidated version of this ruling and amending notices.
+This document incorporates revisions made since original publication. View its
+history
+and amending notices, if applicable.
+FOI status:
+may be released
+Contents
+Para
+What this Ruling is about
+1
+Ruling
+9
+Date of effect
+10
+Explanations
+11
+Examples
+36
+Detailed Contents List
+43
+Appendix A
+Page 16
+Preamble
+The number, subject heading,
+Class of person, Date of effect
+and
+Ruling
+parts of this document are a 'public ruling' for the purposes of Division 358 of Schedule 1 to the
+Taxation Administration Act 1953
+to the extent to which they rule on the way in which a tax law applies. To that extent they are legally binding on the Commissioner. The remainder of the document is administratively binding on the Commissioner. Taxation Ruling TR 2006/10 explains when a Ruling is a public ruling and how it is binding on the Commissioner.
+[
+Note:
+This is a consolidated version of this document. Refer to the Legal Database (
+ato.gov.au/law
+) to check its currency and to view the details of all changes.]
+What this Ruling is about
+1. This Ruling provides the Commissioner's interpretation of the meaning of the phrase 'a place at or through which [a] person carries on any business'
+[1]
+in the definition of 'permanent establishment' (PE) in subsection 6(1) of the
+Income Tax Assessment Act 1936
+('ITAA 1936').
+2. The definition of PE in subsection 6(1) of the ITAA 1936 also applies for the purposes of both the of
+Income Tax Assessment Act 1997
+('ITAA 1997') and Schedule 1 to the
+Taxation Administration Act 1953
+('TAA 1953'), except so far as the contrary intention appears.
+Class of person
+3. This Ruling applies to an Australian resident who carries on business overseas or a non-resident who carries on business in Australia and who wants guidance as to whether they have a place for the purposes of the definition of PE in subsection 6(1).
+Other aspects
+4. The subsection 6(1) definition of PE is relevant not just for income tax purposes. Appendix A contains a list of some of the provisions which utilise the subsection 6(1) PE definition, or elements of it.
+5. This ruling is concerned with the meaning of the phrase 'a place at or through which [a] person carries on any business'. It does not deal with whether a person carries on any business, nor the meaning of 'at or through'.
+[2]
+It also does not deal with the other aspects of the definition of PE contained in subsection 6(1).
+[3]
+6. In some contexts Australian tax liability will arise as a consequence of the application of the approach adopted in this Ruling.
+[4]
+To that extent, this document is a 'public ruling' on the way in which a tax law applies in terms of Division 358 of Schedule 1 to the TAA 1953. In other contexts, this document will assist in determining a range of non-liability issues, including administrative or collection questions.
+[5]
+In those situations, the Ruling is not a 'public ruling' as defined in section 358-5 of Schedule 1 to the TAA 1953.
+7. While this Ruling refers to the concept of PE used in Australia's tax treaties, it does not deal with the specific application of the tax treaty definitions.
+8. The subsection 6(1) definition of PE does not have a specific territorial limitation. Depending on the context in which the PE definition is used, the definition can apply both to activities in Australia and outside Australia.
+Ruling
+9. The subsection 6(1) definition of PE is based on the concept of PE used in Australia's tax treaties. For the purposes of the definition of PE in subsection 6(1) 'a place at or through which [a] person carries on any business' is a reference to a place used for carrying on that person's business activities. That place must have an element of permanence, both geographic and temporal.
+[6]
+Permanence must be construed in the context of each particular business and is a question of fact and degree. Permanent in this context does not mean forever.
+Date of effect
+10. This Ruling applies to years commencing both before and after 13 March 2002. However, the Ruling does not apply to taxpayers to the extent that it conflicts with the terms of a settlement of a dispute agreed to before the date of issue of the Ruling (see paragraphs 75 and 77 of Taxation Ruling TR 2006/10).
+Explanations
+Contextual approach
+11. This ruling adopts the contextual approach to interpretation used by Australian Courts. For example the Full Federal Court in
+Chaudhri v. FCT
+2001 ATC 4214 at 4216; (2001) 47 ATR 126 at 128 said:
+'The guiding principle of statutory interpretation may be summed up as being the ascertaining of the meaning of the words which Parliament has used by reference to the context in which they appear, where 'context' has the wide meaning which extends to the legislative history, the parliamentary intention and the mischief to which a particular provision has been directed as well as the narrower meaning which would dictate reading the words to be construed by reference to the immediately surrounding or otherwise related provisions.'
+Statutory definitions
+12. Subsection 6(1) of the ITAA 1936 defines permanent establishment as:
+'permanent establishment'
+, in relation to a person (including the Commonwealth, a State or an authority of the Commonwealth or a State), means a place at or through which the person carries on any business and, without limiting the generality of the foregoing, includes:
+a)
+a place where the person is carrying on business through an agent;
+b)
+a place where the person has, is using or is installing substantial equipment or substantial machinery;
+c)
+a place where the person is engaged in a construction project; and
+d)
+where the person is engaged in selling goods manufactured, assembled, processed, packed or distributed by another person for, or at or to the order of, the first-mentioned person and either of those persons participates in the management, control or capital of the other person or another person participates in the management, control or capital of both of those persons - the place where the goods are manufactured, assembled, processed, packed or distributed;
+but does not include:
+e)
+a place where the person is engaged in business dealings through a bona fide commission agent or broker who, in relation to those dealings, acts in the ordinary course of his or her business as a commission agent or broker and does not receive remuneration otherwise than at a rate customary in relation to dealings of that kind, not being a place where the person otherwise carries on business;
+f)
+a place where the person is carrying on business through an agent:
+(i)
+who does not have, or does not habitually exercise, a general authority to negotiate and conclude contracts on behalf of the person; or
+(ii)
+whose authority extends to filling orders on behalf of the person from a stock of goods or merchandise situated in the country where the place is located, but who does not regularly exercise that authority,
+not being a place where the person otherwise carries on business; or
+g)
+a place of business maintained by the person solely for the purpose of purchasing goods or merchandise.
+13. This Ruling deals only with the opening words of the definition of PE in subsection 6(1). It will still be necessary for the parties concerned, where appropriate, to look at the rest of the definition to determine if a PE exists or not under paragraphs (a) to (g).
+14. Subsection 6(1AA) of the ITAA 1936 says that so far as a provision of the ITAA 1936 gives an expression a particular meaning, the provision does
+not
+also have effect for the purposes of the ITAA 1997 or for the purposes of Schedule 1 to the TAA 1953, except as provided in the ITAA 1997 or in that Schedule. Section 995-1 of the ITAA 1997 says that 'in this Act, except so far as the contrary intention appears:
+permanent establishment
+has the meaning given by subsection 6(1) of the ITAA 1936'. Likewise, subsection 3AA(2) of the TAA 1953 says that 'an expression has the same meaning in Schedule 1 (of the TAA 1953) as in the ITAA 1997'. The end result is that the definition of PE in subsection 6(1) of the ITAA 1936 is also the definition in the ITAA 1997 and Schedule 1 to the TAA 1953 except so far as the contrary intention appears.
+15. Appendix A contains a list of some of the provisions which utilise the subsection 6(1) PE definition, or elements of it.
+The PE Concept
+16. 'Permanent establishment' is a concept used both in international and domestic tax law. In Australia it was first used in our tax treaty with the United Kingdom signed in 1946. It appeared specifically in Australia's domestic tax law outside the tax treaty context in 1959.
+17. PE is defined in most of Australia's tax treaties to mean, among other things, a fixed place of business through which the business of an enterprise is wholly or partly carried on (or words to similar effect). This is consistent with the primary meaning of PE in the OECD Model Tax Convention on Income and on Capital.
+[8]
+18. The Commentary
+[9]
+on the
+Permanent Establishment
+Article (Article 5) of the OECD Model Tax Convention says that the general definition of PE outlined in the previous paragraph:
+'... contains the following conditions:
+•
+the existence of a "place of business", ie a facility such as premises or, in certain instances, machinery or equipment;
+[10]
+•
+this place of business must be "fixed", i.e., it must be established at a distinct place with a certain degree of permanence;
+•
+the carrying on of the business of the enterprise through this fixed place of business. This means usually that persons who, in one way or another, are dependent on the enterprise (personnel) conduct the business of the enterprise in the State in which the fixed place is situated.'
+[11]
+19. While the general definitions of PE in Australia's tax treaties refer to a fixed place of business through which the business of the enterprise is wholly or partly carried on, the subsection 6(1) definition refers only to 'a place at or through which [a] person carries on any business'. The ATO does not consider it significant that the word 'fixed' does not appear in the subsection 6(1) definition of PE.
+Historical context
+20. The
+Income Tax Assessment Act 1947
+gave force of law to the 1946 United Kingdom Double Tax Agreement (DTA). Subparagraph 1(j) of Article II of that DTA said that the term 'permanent establishment', when used with respect to an enterprise of one of the territories, meant a branch or other fixed place of business and included a management, factory, mine or agricultural or pastoral property. As the Explanatory Memorandum (EM) put it, 'the substantive part of the definition is designed to ensure that an enterprise of one of the territories having a fixed place of business in the other territory shall be regarded as having a permanent establishment in that territory.'
+21. The
+Income Tax International Agreements Act 1953
+among other things
+[12]
+gave force of law to the 1953 United States Double Tax Convention (DTC). Paragraph 1(o) of Article II of that DTC said a 'permanent establishment' meant a branch, agency, management or fixed place of business and included a factory, workshop, mine, oilwell, office or agricultural or pastoral property.
+22. The
+Income Tax and Social Services Contribution Assessment Act (No. 3) 1959
+introduced a dividend withholding tax regime in Australia. Dividends derived by non-residents engaged in business through a PE in Australia were excluded from the tax. A non-resident was deemed in section 128A of the ITAA 1936 (as it then was) to be engaged in business through a PE in Australia only if, in connection with a business carried on by him:
+(a)
+he [had] in Australia a branch, agency, place of management, office, factory, mine, quarry, oilwell, agricultural, pastoral or forestry property or other place of business...
+23. The EM to that Act said about this definition:
+The substance of sub-sections (4) and (5) corresponds closely with definitions of 'permanent establishment' found in double taxation agreements entered into by Australia.
+24. The
+Income Tax Assessment Act 1968
+repealed the definition of PE mentioned (in part) above in paragraph 22 and inserted the present subsection 6(1) definition. The EM on that Act said:
+Paragraph (a) of clause 3 will insert a definition of the phrase 'permanent establishment'. The concept of a permanent establishment is significant in the imposition of withholding tax on dividends and interest paid from Australia to non-residents. It will also have effect for the purposes of the proposals in this Bill relating to the taxation of royalties paid from Australia to non-residents.
+Section 128A of the Principal Act at present contains provisions in sub-sections (5), (6) and (7) which determine the circumstances in which a place of business in a country is regarded as a permanent establishment for the purposes of the withholding tax on dividends and interest derived by non-residents. As a drafting measure, these provisions are being repealed by a later clause of the Bill (Clause 8) and replaced by a definition in section 6 of the Principal Act. This will not make any change in the basis on which the withholding tax on dividends and interest is now applied. In the future, however, the definition will also have effect for the purposes of taxing royalties paid to non-residents.
+Concept of Permanence
+25. Having regard to the context in which the definition arose, it is clear that the subsection 6(1) definition of PE in the ITAA 1936 continued the previous approach, which was based on the meaning of permanent establishment in the 1946 UK DTA and the 1953 US DTC. The predominant idea in these two tax treaties was of a fixed place of business. For these reasons, it is the Commissioner's view that the phrase 'a place at or through which [a] person carries on any business' in the subsection 6(1) definition of PE has as its essence the concept of permanence.
+26. Further arguments support this approach. First, the term 'permanent establishment' itself connotes permanence.
+[13]
+Secondly, the word 'place' denotes something that is not transitory or temporary, ie something that is permanent. The requirement that the person carry on a business at or through a place reinforces the idea of permanence in the sense of not being transitory or temporary. The phrase links the business to a particular place for a particular period. As McHugh J said in
+Thiel v. FCT
+(1990) 171 CLR 338 at 359; 90 ATC 4717 at 4728; 21 ATR 531 at 544 '...the carrying on of a business requires the habitual pursuit of business activities.'
+[14]
+The phrase 'a place at or through which a person carries on any business' thus requires a place - something of permanence - at or through which the habitual pursuit of business activities (also something of permanence) occurs.
+27. The analysis set out in paragraphs 16 to 26 above leads the Commissioner to conclude that the phrase 'a place at or through which [a] person carries on any business' in the definition of PE in subsection 6(1) should be construed in a way that is broadly consistent with the meaning of PE in our tax treaties. Interpreting the phrase to include the concept of permanence in both its geographical and temporal senses facilitates such an approach.
+28. While each situation needs to be judged in the context of the particular business, and is a question of fact and degree, the following comments offer guidance in determining whether 'a place at or through which a person carries on any business' exists for the purposes of the definition of PE in subsection 6(1).
+Geographic Permanence
+29. A place at or through which a person carries on any business in the context of the definition of PE in subsection 6(1) must be geographically permanent. Any area, viewed commercially and as a whole, may, in relation to the business concerned, be a place.
+[15]
+Examples include business premises such as a factory, office, farm, mine or market. Thus a market is a place (and a place at or through which a trader carries on business) where that trader operates a stall regularly in that market. This is the case even if the stall is set up at different locations within the market at different times. It is the market which is, in relation to the trader, the distinct or discrete commercial area and it is therefore a place (and a place at or through which the trader carries on their business) within the definition of PE in subsection 6(1).
+Temporal Permanence
+30. The second criteria for a place at or through which a person carries on any business to exist for the purposes of the definition of PE in subsection 6(1) is temporal permanence, ie the business presence must not be of a purely temporary nature. In other words, the business must operate at that place for a period of time. Again, this has to be judged in the context of the particular business and is a question of fact and degree.
+31. Permanent in this context does not mean forever. As Sheppard J said in
+Applegate v. FCT
+78 ATC 4054 at 4060; (1978) 8 ATR 372 at 378 in discussing the meaning of permanent in the phrase permanent place of abode:
+...permanent is used in the sense of something which is to be contrasted with that which is temporary or transitory. It does not mean everlasting. The question is thus one of fact and degree.
+32. This is the sense in which permanence is used in this ruling.
+[16]
+Six months
+33. Whether temporal permanence exists is a matter of fact and degree. However, as a guide, if a business operates at or through a place continuously for six months or more that place will be temporally permanent.
+[17]
+34. Because each case is a question of fact and degree the six month guide is not a hard and fast rule. The circumstances may for example indicate that a period of less than six months is sufficient to lead to the conclusion that temporal permanence exists. Where the period in Australia is less than six months there may still be temporal permanence where the connection with Australia is very strong. One example would be where the business returns to a particular location in Australia on an on-going and regular basis but for short periods each time. Another example would be where a place is set up in Australia with a view to carrying on business permanently in Australia at or through that place but the business ceases after a short period of time. One instance of this would be where the taxpayer dies after a short time but their intention had been to carry on business in Australia at or through a place for more than six months. This is consistent with the Commentary on the
+Permanent Establishment
+Article (Article 5) of the OECD Model Tax Convention on Income and on Capital
+[18]
+which says at paragraph 6.3:
+'If the place of business was not set up merely for a temporary purpose, it can constitute a permanent establishment, even though it existed, in practice, only for a very short period of time because of the special nature of the activity of the enterprise or because, as a consequence of special circumstances (e.g., death of the taxpayer, investment failure), it was prematurely liquidated.'
+35. It is also conceivable that in some limited circumstances, a period of six months or more might not constitute temporal permanence, however the Commissioner considers this would be likely to occur in only the most extraordinary of circumstances. For example, the international travel restrictions and government-mandated lockdowns globally during the COVID-19 pandemic resulted in many businesses having employees present in Australia when they would ordinarily have been located outside of Australia, and many employees were typically required to continue their employment under 'working from home' arrangements. While temporal permanence remained a question of fact and degree in each case, the extraordinary circumstances of the COVID-19 pandemic presented some situations in which a forced presence in Australia for more than six months was considered temporary.
+Examples
+36. The following examples are intended to illustrate the analysis set out above. They concentrate on the issue of whether there is a place at or through which a person carries on any business.
+Example 1
+37. Neil is a professional golfer and a resident of Namibia. He visits Australia to compete in an Australian golf tournament. The event is played at a prominent course in a major Australian city and takes four days. Neil is in Australia for a total of two weeks in the particular income year (including practice days and rest days.) The question is whether the golf course is a place at or through which Neil carries on his golfing business.
+[19]
+For the golf course to be a place at or through which Neil carries on his golfing business for the purposes of the definition of PE in subsection 6(1) his activity as a professional golfer in Australia would need to be both geographically and temporally permanent. While the activities on the golf course are undertaken at a single location which is geographically permanent, Neil plays at the course for only seven days (including practice days). As a result, sufficient temporal permanence does not exist and the golf course is therefore not a place at or through which Neil carries on his business for the purposes of the definition of PE in subsection 6(1).
+Example 2
+38. Plays & Co is a theatrical company incorporated in Iceland. The company visits Australia with a production of a modern Icelandic play. Plays & Co performs in a theatre in Melbourne over a 12 month period.
+[20]
+It pays royalties to the author of the play who is a resident of Iceland. In this case the company has a place at or through which it carries on its business in Melbourne because it satisfies the geographic and temporal permanence requirements. This could have tax implications for the author of the play.
+[21]
+Example 3
+39. If Plays & Co did not have a base in Australia and were to tour the country giving 'one-off' performances at numerous towns and cities for four months (and with separate performance contracts with local clubs and other venues) the company would not have a place at or through which it carries on business for the purposes of the definition of PE in subsection 6(1) in Australia in either its geographic or temporal sense. If the tour lasted more than six months there would be temporal permanence but because of the itinerant nature of the activity in Australia, Plays & Co does not satisfy the geographic permanence requirement and so does not have a place at or through which it carries on its business.
+Example 4
+40. Ausco Ltd is an Australian resident retailing company. As well as its on-going Australian operations, for four months it sells products through rented premises in Zimbabwe. Without more the company does not have a place at or through which it carries on business in Zimbabwe for the purposes of the definition of PE in subsection 6(1). This could have tax implications for Ausco.
+[22]
+Example 5
+41. ChiCo is a Chilean wine maker. It has a vineyard in Chile where it grows its grapes and makes and bottles its wine. The company advertises its wines in an Australian wine magazine. It has no other connection with Australia. Many Australian residents who after reading the advertisement in the magazine have ordered and paid for substantial amounts of ChiCo's wines. ChiCo does not have a place at or through which it carries on business in Australia for the purposes of the definition of PE in subsection 6(1).
+Example 6
+42. HKco is a computer service provider and a resident of Hong Kong. It successfully tenders to train the employees of Ausco, a company resident in Australia, in a new computer system. To undertake the training, HKco sends four of its employees to Australia for six months. Ausco provides HKco employees with a room in one of its offices for that six months. Because HKco has at its disposal a room in Ausco's offices for six months and carries on its business at or through that room, HKco has a place at or through which it carries on its business in Australia.
+Detailed contents list
+43. Below is a detailed contents list for this draft Ruling:
+Paragraph
+What this Ruling is about
+1
+Class of person
+3
+Other aspects
+4
+Ruling
+9
+Date of effect
+10
+Explanations
+11
+Contextual approach
+11
+Statutory definitions
+12
+The PE Concept
+16
+Historical context
+20
+Concept of Permanence
+25
+Geographic Permanence
+29
+Temporal Permanence
+30
+Six months
+33
+Examples
+36
+Example 1
+37
+Example 2
+38
+Example 3
+39
+Example 4
+40
+Example 5
+41
+Example 6
+42
+Detailed contents list
+43
+Appendix A
+Page 16
+Commissioner of Taxation
+13 March 2002
+APPENDIX A
+INCOME TAX ASSESSMENT ACT 1936
+PERMANENT ESTABLISHMENT
+Provision
+Content
+6(1)
+Definition of PE
+6C
+Source of royalty income derived by a non-resident
+23AH
+Exemption of foreign branch profits of Australian companies
+24L
+Source of interest or royalty for "prescribed persons"
+121C
+Offshore Banking Units - meaning of non-OB money
+121EA
+OBU requirement
+121EB
+OBU Internal Financial Dealings
+126
+Interest paid by a company on bearer debentures
+128B
+Liability to withholding tax
+136AA
+Interpretation - definition of permanent establishment
+136AC
+International agreements
+136AE
+Determination of source of income
+160ZZV
+Definition of Australian branch
+160ZZV
+Definition of time of establishment
+160ZZW
+Certain provisions to apply as if Australian branch of foreign bank were a separate legal entity
+262A
+Keeping of records
+403
+Additional notional exempt income - unlisted country CFC
+419
+Modified application of Subdivision 126-B of the
+ITAA 1997
+432
+Active Income Test
+436
+Amounts excluded from active income test
+437
+Treatment of Partnership Income
+447
+Tainted sales income
+448
+Tainted services income
+450
+AFI subsidiaries - asset disposals and currency transactions
+INCOME TAX ASSESSMENT ACT 1997
+PERMANENT ESTABLISHMENT
+Provision
+Content
+320-37
+Non-assessable non-exempt income - Life Insurance companies
+995-1
+Dictionary Definitions - permanent establishment
+TAXATION ADMINISTRATION ACT 1953
+SCHEDULE 1
+PERMANENT ESTABLISHMENT
+Provision
+Content
+10-5
+Summary of withholding payments
+12-190
+No ABN withholding
+Subdivision 12-F
+Dividend, interest and royalty payments
+INCOME TAX REGULATIONS 1936
+PERMANENT ESTABLISHMENT
+Provision
+Content
+152A
+Foreign Income - Interpretation
+Footnotes
+[1]
+The subsection says that permanent establishment in relation to a person means 'a place at or through which
+the
+person carries on any business ...' For grammatical reasons we use 'a place at or through which [a] person carries on any business'.
+[2]
+While the ruling looks at the whole phrase, it assumes that the person carries on a business. The ruling elucidates the meaning of the words 'a place' in the context of the wider phrase. The relationship between carrying on a business and the place at or through which that is done is helpful in understanding the phrase, and in particular the words 'a place'.
+[3]
+While the fact that a place at or through which a person carries on any business is important in terms of the definition of PE in subsection 6(1), it is not necessarily determinative of the existence of a PE in terms of subsection 6(1). Paragraphs (a) to (g) of the definition of PE will, depending on the circumstances, also need to be examined to determine if there is or is not a PE under the definition.
+[4]
+For example, the concept of PE is used in subsections 128B(2), (2A), (2B) and (2C) of the ITAA 1936 and can be crucial in determining if a liability to interest or royalty withholding tax exists. A further example of the importance of the PE concept, for the purpose of liability to interest withholding tax, can be found in subparagraph 128B(3)(h)(ii) of the ITAA 1936.
+[5]
+This would be the case, for example, in relation to section 12-190 of Schedule 1 to the TAA 1953.
+[6]
+To the extent to which Taxation Ruling IT 2324 relates to the former 1953 Australia/United States Double Tax Convention, it is withdrawn.
+[7]
+[Omitted.]
+[8]
+OECD
+Model Tax Convention on Income and on Capital
+(condensed version) (Paris 22 July 2010.)
+[9]
+Australian courts have indicated on a number of occasions that the OECD Model Commentary is relevant to the interpretation of Australia's tax treaties (
+Thiel v. FC of T
+(1990) 171 CLR 338;
+Lamesa Holdings BV v. FC of T
+97 ATC 4229; (1997) 35 ATR 239, at first instance, confirmed on appeal 97 ATC 4752; (1997) 36 ATR 589 but without reference to this point). Given that this Ruling argues that the subsection 6(1) definition of PE is based on the tax treaty concept of PE, it is appropriate to have regard to the OECD Model Commentary in understanding the provision.
+[10]
+Unlike other countries, Australia has a specific provision dealing with equipment and machinery in the PE context. Paragraph (b) of the subsection 6(1) definition of PE contains a reference to substantial equipment or substantial machinery. The reference to machinery or equipment in the OECD Model Commentary will only be relevant in the Australian context in relation to a discussion of the phrase 'a place at or through which a person carries on any business' where the machinery or equipment is not a PE under paragraph 6(1)(b) of the definition.
+[11]
+OECD Commentaries on the Articles of the Model Tax Convention
+, op. cit., p.92 at paragraph 2.
+[12]
+Australia's tax treaties are now given force of law by the
+International Tax Agreements Act 1953
+[13]
+See
+Consolidated Premium Iron Ores Ltd et al v. Commissioner of Inland Revenue
+(1957) 57 DTC 11 46 at 1162 per Van Fossan J, cited in
+Fiebert v. The Minister of National Revenue
+(1986) 86 DTC 1017 at 1018 per Brule T.C.J. The decision of Hill and Sackville JJ in the Federal Court case of
+FCT v. Prestige Motors Pty Ltd
+98 ATC 4241 at 4261; (1998) 38 ATR 568 at 591 says that 'it is not helpful to resort to the ordinary meaning of a defined word or expression in construing the definition:
+Telstra Corporation Ltd v. Australasian Performing Right Association Ltd
+(1997) 146 ALR 649 at 657, per Dawson and Gaudron JJ.' However because there is some doubt about the meaning of the definition itself, it is the ATO view that the international context and the use of the word 'permanent' reflect on and help us understand the definition, in particular the meaning to be given to the reference to 'a place'. See for example Barwick CJ in
+UG Insurances Pty Ltd v. Comr of Stamp Duties (NSW)
+(1973) 128 CLR 353 at 359-360; 4 ATR 60 at 65.
+[14]
+McHugh J was rebutting the argument that cases such as
+Kirkwood v. Gadd
+[1910] AC 422 and
+Smith v. Capewell
+(1979) 142 CLR 509 which dealt with the meaning of 'carrying on ... any business' were relevant to understanding the meaning of the phrase 'the enterprise carries on business' in the context of the
+Business Profits
+Article in the Australia/Switzerland DTA. His analysis however of the rationale for those cases is appropriate in helping to understand the meaning of the phrase 'a place at or through which [a] person carries on any business' and the linkage between the business activity and the place.
+[15]
+The Commissioner's view is that while concepts such as ownership, rights to use and the length of time such rights exist would be factors to take into account in confirming geographic and temporal permanence, the lack of such ownership and other rights does not preclude the finding that a place exists for the purposes of the definition of PE in subsection 6(1). Similarly, while the Commissioner accepts that control of a site might indicate a place exists in relation to the person exercising control, and notwithstanding anything contained in the decision of the Canadian Federal Court of Appeal in Dudney v R 2000 DTC 6169, [2000] 2 C.T.C. 56, the lack of control by a person of an area does not mean that that area is not a place for the purposes of the definition of PE in relation to that person. These issues are discussed at pages 93-95 of the OECD's
+Commentaries on the Articles of the Model Tax Convention
+, op.cit.
+[16]
+See also
+Unisys Corporation Inc v. FC of T
+2002 ATC 5146; (2002) 51 ATR 386; [2002] NSWSC 1115 at paragraph 76 where Gzell J stated 'a place of business must be more than merely temporarily at the enterprise's disposal', and
+Henrikson v. Grafton Hotels
+[1942] 2 KB 184 at 196; [1942] 1 All ER 679 at 684; per du Parcq LJ. In McDermott Industries (Aust) Pty Ltd v. FC of T 2005 ATC 4398; (2005) 59 ATR 358; [2005] FCAFC 67 the Full Federal Court considered Article 4(3)(b) of the Singapore Agreement which relates to deemed substantial equipment permanent establishments. At paragraph 53 of its decision the Court stated 'the deeming provision operates without a time limit'. The ATO view is that the Court's statement has no application to 'a place at or through which [a] person carries on any business' in the subsection 6(1) definition of PE. The basis for the Court's statement was that the Singapore Agreement specifies minimum times for other types of permanent establishments, but not for substantial equipment permanent establishments. The subsection 6(1) definition of 'permanent establishment', by contrast, does not specify minimum times for any type of permanent establishment.
+[17]
+Internationally six months is recognised as an appropriate benchmark. This issue is discussed at page 95, paragraph 6, of the OECD's
+Commentaries on the Articles of the Model Tax Convention
+, op.cit.
+[18]
+OECD
+Commentaries on the Articles of the Model Tax Convention
+, op.cit., p. 96.
+[19]
+A professional golfer is regarded as carrying on the business of golfing.
+[20]
+The mere fact that the company has played at the theatre for twelve months, irrespective of whether it has a lease, is enough of itself to constitute a place at or through which it carries on its business for the purposes of the PE definition.
+[21]
+It may, for example, have consequences for the application of subparagraph 128B(2B)(b)(ii) and subsection 128B(5A) of the ITAA 1936. In relation to Plays and Co, see section 12-280 of Schedule 1 of the TAA 1953.
+[22]
+It may, for example, have consequences for the application of section 23AH of the ITAA 1936.
+Previously released as TR 2001/D6
+References
+ATO references:
+NO T2001/07518
+ISSN: 1039-0731
+Related Rulings/Determinations:
+IT 2324
+TR 2006/10
+Business Line:
+ISP
+Legislative References:
+ITAA 1936 6(1)
+ITAA 1936 6C
+ITAA 1936 6(1AA)
+ITAA 1936 23AH
+ITAA 1936 24L
+ITAA 1936 121C
+ITAA 1936 121EA
+ITAA 1936 121EB
+ITAA 1936 126
+ITAA 1936 128A
+ITAA 1936 128B
+ITAA 1936 128B(2)
+ITAA 1936 128B(2A)
+ITAA 1936 128B(2B)
+ITAA 1936 128B(2B)(3)(h)(ii)
+ITAA 1936 128B(2B)(b)(ii)
+ITAA 1936 128B(5A)
+ITAA 1936 128B(2C)
+ITAA 1936 136AA
+ITAA 1936 136AC
+ITAA 1936 136AE
+ITAA 1936 160ZZV
+ITAA 1936 160ZZW
+ITAA 1936 262A
+ITAA 1936 377
+ITAA 1936 403
+ITAA 1936 419
+ITAA 1936 432
+ITAA 1936 436
+ITAA 1936 437
+ITAA 1936 447
+ITAA 1936 448
+ITAA 1936 450
+ITR 1936 152A
+TAA 1953 3AA(2)
+TAA 1953 Sch1 10-5
+TAA 1953 Subdiv 12-F
+TAA 1953 Sch1 12-190
+TAA 1953 Sch1 12-280
+TAA 1953 Sch1 Div 358
+TAA 1953 Sch1 358-5
+ITAA 1997 136-25
+ITAA 1997 136-30
+ITAA 1997 320-35
+ITAA 1997 995-1
+Tax and Superannuation Laws Amendment (2016 Measures No. 1) Act 2016
+Case References:
+Applegate v. FCT
+78 ATC 4054
+(1978) 8 ATR 372
+Chaudhri v. FCT
+2001 ATC 4214
+(2001) 47 ATR 126
+Henrikson v. Grafton Hotels
+[1942] 2 KB 184
+[1942] 1 All ER 678
+Consolidated Premium Iron Ores Ltd et al v. Commissioner of Inland Revenue
+(1957) 57 DTC 1146
+Fiebert v. The Minister of National Revenue
+(1986) 86 DTC 1017
+FCT v. Prestige Motors Pty Ltd
+98 ATC 4241
+(1998) 38 ATR 568
+UG Insurances Pty Ltd v. Comr of Stamp Duties (NSW)
+(1973) 128 CLR 353
+(1973) 4 ATR 60
+Dudney v R
+2000 DTC 6169
+[2000] 2 C.T.C. 56
+Thiel v. FCT
+(1990) 171 CLR 338
+(1990) 90 ATC 4717
+(1990) 21 ATR 531
+Kirkwood v. Gadd
+[1910] AC 422
+Smith v. Capewell
+(1979) 142 CLR 509
+Lamesa Holdings BV v. FC of T
+97 ATC 4229
+McDermott Industries (Aust) Pty Ltd v. FC of T
+2005 ATC 4398
+(2005) 59 ATR 358
+[2005] FCAFC 67
+Telstra Corporation Ltd v. Australasian Performing Right Association Ltd
+(1997) 146 ALR 649 at 657
+Unisys Corporation Inc v. FC of T
+2002 ATC 5146
+(2002) 51 ATR 386
+[2002] NSWSC 1115
+Other References:
+Explanatory Memorandum: Income Tax Assessment Bill (No. 4) 1967
+OECD Model Tax Convention on Income and on Capital (condensed version), Paris, 22 July 2010
+OECD Commentaries on the Articles of the Model Tax Convention, Paris, 22 July 2010
+TR 2002/5 history
+Date:
+Version:
+Change:
+13 March 2002
+Original ruling
+4 April 2012
+Consolidated ruling
+Addendum
+7 December 2016
+Consolidated ruling
+Addendum
+You are here
+12 May 2021
+Consolidated ruling
+Addendum
+Back to top

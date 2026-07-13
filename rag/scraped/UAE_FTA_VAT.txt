@@ -1,0 +1,20 @@
+SOURCE_KEY: UAE_FTA_VAT
+TITLE: UAE Federal Tax Authority — VAT registration and compliance
+JURISDICTION: UAE
+URL: https://tax.gov.ae/en/taxes/vat.aspx
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:37+00:00
+------------------------------------------------------------------------------
+VAT
+VAT Topics
+Value Added Tax is a tax on consumption levied at each stage of the supply chain and ultimately borne by the end consumer.
+Read more
+Refunds
+You can claim VAT refunds in a number of circumstances. You may be a taxable person in a net tax refundable position or someone who is eligible for refunds under the special schemes. Refer to the detailed guidance on the conditions and requirements for VAT refunds.
+Read more
+Guides, References & Public Clarifications
+The Federal Tax Authority provides you with a set of guides, clarifications and references that will help you understand your tax obligations.
+Read more
+E-Learning
+FTA offers eLearning platform, materials and interactive videos tutorials.
+Read more

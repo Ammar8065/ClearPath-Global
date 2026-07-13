@@ -1,0 +1,37 @@
+SOURCE_KEY: AU_ATO_CFC
+TITLE: ATO — Controlled foreign companies (CFC attribution)
+JURISDICTION: AU
+URL: https://www.ato.gov.au/businesses-and-organisations/international-tax-for-business/private-wealth-international-program/controlled-foreign-company
+METHOD: wayback (snapshot 20251116160650)
+FETCHED_AT: 2026-07-11T11:15:19+00:00
+------------------------------------------------------------------------------
+Controlled foreign company
+When the controlled foreign company provisions apply and risks we are concerned with.
+Published
+10 December 2024
+Print or Download
+The controlled foreign company (CFC) provisions apply to Australian resident taxpayers with a substantial interest in a foreign company controlled by Australians.
+The provisions operate to include a taxpayer's share of specified income and gains of a CFC in the taxpayer's assessable income. This is called attribution. Subject to some modifications, the income and gains of CFCs are worked out using the same tax rules that apply to residents.
+We're concerned about:
+non and under-reporting of attributable foreign income
+by resident taxpayers
+tax returns and international dealings schedules being lodged with incomplete and inconsistent disclosures.
+Information and examples to assist you in applying the CFC measures are available on our website in Chapter 1 of the
+Foreign income return form guide
+. In particular, it's important to understand these features:
+Are you subject to the CFC measures?
+Does the CFC satisfy the active income test?
+Working out attributable income and the amount to include in your assessable income
+You can also refer to available summaries and worksheets to:
+work out your control and attribution percentages
+work out the tainted income ratio for a CFC
+work out the attributable income of a CFC
+.
+Companies, partnerships and trusts who complete certain
+trigger points
+in their tax returns are required to complete the International dealings schedule. Instructions are available on how to complete
+Section C: Interests in foreign entities
+of the International dealings schedule.
+QC
+103523
+Print or Download

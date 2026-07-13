@@ -1,0 +1,31 @@
+SOURCE_KEY: SG_IRAS_CLEARANCE
+TITLE: IRAS — Tax clearance for foreign and Singapore PR employees (Form IR21)
+JURISDICTION: SG
+URL: https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:13+00:00
+------------------------------------------------------------------------------
+Generally, when your non-Singapore Citizen employee (i.e. foreign or Singapore Permanent Resident employee) ceases employment with you in Singapore, goes on an overseas posting or plans to leave Singapore for more than three months, you are required to
+seek tax clearance for him. As an employer, you have the responsibility to file the Form IR21 and withhold all monies due to the employee for tax clearance purpose. This applies to all work pass holders including Personalised Employment Pass (PEP)
+holders.
+On this page:
+Refer to our
+step-by-step guide
+or select the relevant links listed in the table below to find out more about tax clearance.
+Filing Tax Clearance
+After Filing Tax Clearance
+After Getting Clearance Directive
+Tax Clearance for Employees
+Check if tax clearance is required for non-Singapore Citizen employees
+(XLS, 115KB)
+Filing Tax Clearance (Form IR21)
+Late Filing or Non-Filing of Tax Clearance
+Checking Status of Tax Clearance
+Processing Time for Tax Clearance
+Changing Filing Details/Withdrawing Form IR21
+Clearance Directives
+When to Pay Clearance Tax
+Late Payment or Non-Payment of Taxes
+Tax Refunds
+Digital Tools
+Calculators

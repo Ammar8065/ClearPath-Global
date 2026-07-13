@@ -1,0 +1,83 @@
+SOURCE_KEY: AU_ATO_RESIDENCY
+TITLE: ATO — Tax residency guidance for individuals
+JURISDICTION: AU
+URL: https://www.ato.gov.au/individuals-and-families/coming-to-australia-or-going-overseas/your-tax-residency/australian-resident-for-tax-purposes
+METHOD: wayback (snapshot 20260112073911)
+FETCHED_AT: 2026-07-11T11:10:02+00:00
+------------------------------------------------------------------------------
+Australian resident for tax purposes
+If you're an Australian resident for tax purposes, you must declare all income you've earned in Australia and overseas.
+Last updated
+26 June 2025
+Print or Download
+Are you an Australian resident for tax purposes?
+If you're an Australian resident for tax purposes, you need to declare all income earned both in Australia and overseas on your Australian tax return (even if you've already paid tax on it overseas).
+If you've paid foreign tax on income in another country, you may be entitled to an Australian foreign income tax offset.
+Generally, you are an Australian resident for tax purposes if you:
+have always lived in Australia or you have come to Australia and live here permanently
+have been in Australia continuously for 6 months or more, and for most of that time you worked in the one job and lived at the same place
+have been in Australia for more than 6 months of the year, unless your usual home is overseas and you do not intend to live in Australia
+go overseas temporarily and you do not set up a permanent home in another country
+are an overseas student who has come to Australia to study and are enrolled in a course that is more than 6 months long.
+There are 4 statutory tests to determine your residency:
+Resides test
+Domicile test
+183-day test
+The commonwealth superannuation test.
+You can also use our
+Work out your residency status for tax purposes
+tool to help work out your
+residency
+.
+For information about foreign and temporary residents, see
+Foreign and temporary residents
+.
+Part-year Australian resident
+If you are an Australian resident for part of the year, your
+tax-free threshold
+will be less than the full tax-free threshold of $18,200 that applies to Australian residents.
+If you became or ceased to be an Australian resident for tax purposes during the income year, you will receive the
+part-year tax-free threshold
+and resident tax rates will apply to your income.
+Part-year residents have a tax-free threshold of at least $13,464. The remaining $4,736 of the full tax-free threshold is pro-rated according to the number of months during the income year you were a resident for tax purposes.
+When you complete your individual income tax return, you must include the:
+date that you became or stopped being an Australian resident for tax purposes
+number of months that you were an Australian resident.
+We will work out your tax-free threshold using the information you provide.
+For more information on lodging your tax return early, see
+Lodge your tax return before leaving Australia
+.
+Dual residents
+You're a dual resident if you're a resident of both:
+Australia for domestic income tax law purposes
+another country for the purpose of that other country’s tax laws.
+Where Australia has a
+double tax treaty
+with a foreign country, a treaty tie breaker test would usually determine which country has the right to tax Australian and foreign sourced income.
+For more information about working out your residency, see
+Work out your residency status for tax purposes
+.
+Australian resident for tax purposes and foreign income
+If you're an Australian resident for tax purposes and you:
+are also a
+temporary resident
+most of your
+foreign income
+isn't taxed in Australia
+we tax some of your income from actual work you do overseas while you are a temporary Australian resident (see
+Exempt foreign employment income
+)
+receive foreign income
+income may be taxed in both Australia and the country from where you received it
+tax paid in another country on your foreign income may entitle you to an
+Australian foreign income tax offset
+receive income from a country that Australia has a tax treaty with
+you can ask the tax authorities in that country to reduce their withholding tax or to exempt you from paying tax in that country
+done by supplying a
+tax relief form
+or a
+certificate of residency
+.
+QC
+65132
+Print or Download

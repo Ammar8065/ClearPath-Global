@@ -1,0 +1,24 @@
+SOURCE_KEY: US_IRS_TIE_BREAKER
+TITLE: IRS — Treaty residency tie-breaker (Form 8833)
+JURISDICTION: US
+URL: https://www.irs.gov/forms-pubs/about-form-8833
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:17:01+00:00
+------------------------------------------------------------------------------
+Taxpayers use this form to make the treaty-based return position disclosure required by Internal Revenue Code section 6114. Dual-resident taxpayers use this form to make the treaty-based return position disclosure required by Regulations section 301.7701(b)-7.
+Current revision
+Form 8833
+PDF
+Recent developments
+None at this time.
+Other items you may find useful
+All Form 8833 Revisions
+About Publication 519, U.S. Tax Guide for Aliens
+Other Current Products
+Related
+About Form 1040-NR, U.S. Nonresident Alien Income Tax Return
+About Form 1040-NR-EZ, U.S. Income Tax Return for Certain Nonresident Aliens With No Dependents
+About Form 1042, Annual Withholding Tax Return for U.S. Source Income of Foreign Persons
+About Form 1120-F, U.S. Income Tax Return of a Foreign Corporation
+About Form 1120-FSC, U.S. Income Tax Return of a Foreign Sales Corporation
+About Form 8854, Initial and Annual Expatriation Statement

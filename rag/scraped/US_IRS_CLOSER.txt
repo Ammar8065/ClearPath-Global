@@ -1,0 +1,77 @@
+SOURCE_KEY: US_IRS_CLOSER
+TITLE: IRS — Closer Connection Exception to the Substantial Presence Test (Form 8840)
+JURISDICTION: US
+URL: https://www.irs.gov/individuals/international-taxpayers/conditions-for-a-closer-connection-to-a-foreign-country
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:17:03+00:00
+------------------------------------------------------------------------------
+Even if you met the substantial presence test, you can still be treated as a nonresident of the United States for U.S. tax purposes, within Internal Revenue Code Section 7701(b)(1)(B), if you:
+Were present in the United States less than 183 days during the year, and
+Had a closer connection during the year to one foreign country in which you had a tax home than to the United States (unless you had a closer connection to two foreign countries, discussed next), and
+Maintained a tax home in that foreign country during the entire year (see Chapter 28 of
+Publication 17
+for a discussion of the tax home concept), and
+Had not taken steps toward, and did not have an application pending for, lawful permanent resident status (green card).
+Closer connection to two foreign countries
+You can demonstrate that you had a closer connection to two foreign countries (but not more than two) if you meet all the following conditions:
+You maintained a tax home beginning on the first day of the year in one foreign country,
+You changed your tax home during the year to a second foreign country,
+You continued to maintain your tax home in the second foreign country for the rest of the year,
+You had a closer connection to each foreign country than to the United States for the period during which you maintained a tax home in that foreign country, and
+You were subject to tax as a resident under the tax laws of either foreign country for the entire year or subject to tax as a resident in both foreign countries for the period during which you maintained a tax home in each foreign country.
+Establishing a closer connection
+You will be considered to have a closer connection to a foreign country than to the United States if you or the IRS establishes that you have maintained more significant contacts with the foreign country than with the United States. In determining whether you have maintained more significant contacts with the foreign country than with the United States, the facts and circumstances to be considered include, but are not limited to, the following:
+The country of residence you designate on forms and documents.
+The types of official forms and documents you file, such as
+Form W-9, Request for Taxpayer Identification Number and Certification
+,
+Form W-8 BEN, Certificate of Foreign Status of Beneficial Owner for United States Tax Withholding
+, or
+Form W-8 ECI, Certificate of Foreign Person’s Claim That Income Is Effectively Connected With the Conduct of a Trade or Business in the United States
+.
+The location of:
+Your permanent home,
+Your family,
+Your personal belongings, such as cars, furniture, clothing, and jewelry,
+Your current social, political, cultural, or religious affiliations,
+Your business activities (other than those that constitute your tax home),
+The jurisdiction in which you hold a driver's license,
+The jurisdiction in which you vote, and
+Charitable organizations to which you contribute.
+Note:
+It does not matter whether your permanent home is a house, an apartment, or a furnished room. It also does not matter whether you rent or own it. It is important, however, that your home be available at all times, continuously, and not solely for short stays.
+When you cannot claim closer connection to a foreign country
+You cannot claim you have a closer connection to a foreign country if either of the following applies:
+You personally applied, or took other steps during the year, to change your status to that of a Lawful Permanent Resident, or
+You had an application pending for adjustment of status to Lawful Permanent Resident during the year.
+Indications of intent to change your status
+If you filed any of the following forms during or before the year in question, this indicates your intent to become a Lawful Permanent Resident of the United States and that you are not eligible for the Closer Connection Exception.
+Form I-508, Waiver of Rights, Privileges, Exemptions and Immunities
+Form I-485, Application to Register Permanent Residence or Adjust Status
+Form I-130, Petition for Alien Relative
+Form I-140, Immigrant Petition for Alien Worker
+Form ETA-750, Application for Alien Employment Certification
+Form OF-230, Application for Immigrant Visa and Alien Registration
+How to claim the closer connection exception
+You must file
+Form 8840, Closer Connection Exception Statement for Aliens
+, to claim the Closer Connection Exception. If you are filing a U.S. federal income tax return, please attach Form 8840 to the income tax return. If you do not have to file a U.S. federal income tax return, send Form 8840 to the Internal Revenue Service Center (indicated in the instructions attached to Form 8840) by the due date for filing the income tax return.
+Requirement to file Form 8840
+If you do not timely file
+Form 8840, Closer Connection Exception Statement for Aliens
+, you cannot claim the closer connection exception to the substantial presence test, unless you can show by clear and convincing evidence that you took reasonable actions to become aware of the filing requirements and significant steps to comply with those requirements.
+The closer connection exception for students
+If you are a student and you do not qualify for the closer connection exception described above using Form 8840, you may qualify for the closer connection exception for students only. Refer to
+The closer connection exception to the substantial presence test for foreign students
+.
+References/Related topics
+Determining an Individual’s Tax Residency Status
+Publication 519, U.S. Tax Guide for Aliens
+Treasury Regulation 301.7701(b)-2
+PDF
+Note:
+This page contains one or more references to the Internal Revenue Code (IRC), Treasury Regulations, court cases, or other official tax guidance. References to these legal authorities are included for the convenience of those who would like to read the technical reference material. To access the applicable IRC sections, Treasury Regulations, or other official tax guidance, visit the
+IRS guidance
+page. To access any Tax Court case opinions issued after September 24, 1995, visit the
+Opinions search
+page of the United States Tax Court.

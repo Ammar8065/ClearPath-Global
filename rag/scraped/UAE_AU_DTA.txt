@@ -1,0 +1,859 @@
+SOURCE_KEY: UAE_AU_DTA
+TITLE: Australian Treasury — Income tax treaties table (status of all Australian DTAs)
+JURISDICTION: UAE
+URL: https://treasury.gov.au/tax-treaties/income-tax-treaties
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:43+00:00
+------------------------------------------------------------------------------
+False
+Treaty information and implementation
+1
+Multilateral Instrument
+2
+Withholding on Managed Investment Trust distributions
+Country or
+Jurisdiction
+Text and information
+Signature
+Explanatory Memorandum
+Status of treaty
+Entry Into Force
+Modified by the Multilateral Instrument
+Date of Entry into Force
+3
+Synthesised Text Available
+4
+Listed jurisdiction
+5
+Application date
+1
+Argentina
+DTA
+29/08/1999
+International Tax Agreements Amendment Bill 1999
+In force
+30/12/1999
+(GN 7 [2000] at 429)
+Yes
+01-Jul-08
+2
+Austria
+DTA
+08/07/1986
+Taxation Laws Amendment Bill (No 3) 1986
+In force
+01/09/1988
+(GN 33 [1988] at 2101)
+3
+Belgium
+Second Amending Protocol
+24/06/2009
+International Tax Agreements Amendment Bill (No 1) 2010
+In force
+12/05/2014
+Yes
+01/10/2019
+Yes
+Yes
+01-Jan-12
+Amending Protocol
+20/03/1984
+Income Tax (International Agreements) Amendment Bill 1984
+In force
+20/09/1986
+(S 486 [1986])
+DTA
+13/10/1977
+Income Tax (International Agreements) Amendment Bill 1977
+In force
+01/11/1979
+(S 226 [1979])
+4
+Canada
+Amending Protocol
+23/01/2002
+International Tax Agreements Amendment Bill (No.2) 2002
+In force
+18/12/2002
+(GN 1 [2003] at 190)
+Yes
+01/12/2019
+Yes
+Yes
+01-Jul-08
+DTA
+21/05/1980
+Income Tax (International Agreements) Amendment Bill (No. 2) 1980
+In force
+29/04/1981
+(S 90 [1981])
+1957 DTA
+01/10/1957
+Income Tax (International Agreements) Bill 1958
+Terminated 29/04/1981
+21/05/1958
+5
+Chile
+DTA
+10/03/2010
+International Tax Agreements Amendment Bill (No. 1) 2011**
+In force
+08/02/2013
+(GN 11 [2013] at 780)
+Yes
+01/03/2021
+Yes
+6
+China
+DTA
+17/11/1988
+Taxation Laws Amendment (International Agreements) Bill 1989**
+In force
+28/12/1990
+(S 51 [1991])
+Yes
+01/09/2022
+Yes
+Yes
+01-Jul-08
+Airline Profits Agreement
+22/11/1985
+Taxation Laws Amendment Act 1986**
+In force
+14/11/1986
+(S 613 [1986])
+7
+Czech Republic
+DTA
+28/03/1995
+International Tax Agreements Amendment Bill 1995
+In force
+27/11/1995
+(GN 3 [1996] at 378)
+Yes
+01/09/2020
+Yes
+Yes
+01-Jul-08
+8
+Denmark
+DTA
+01/04/1981
+Income Tax (International Agreements) Amendment Bill (No. 2) 1981**
+In force
+27/10/1981
+(S 228 [1981])
+Yes
+01/01/2020
+Yes
+Yes
+01-Jul-08
+9
+Fiji
+DTA
+15/10/1990
+Taxation Laws Amendment (International Agreements) Bill 1989**
+In force
+28/12/1990
+(S 51 [1991])
+Yes
+01-Jul-08
+10
+Finland
+2009 Exchange of Notes on AIC article
+17/08/2009
+n/a
+In force
+01/09/2009
+(GN36 [2009] at 2457)
+Yes
+01/06/2019
+Yes
+Yes
+01-Jul-08
+DTA
+20/11/2006
+International Tax Agreements Amendment Bill (No. 2) 2007**
+In force
+10/11/2007
+(GN48 [2007] at 3367)
+1984 DTA Second Amending Protocol
+05/11/1997
+International Tax Agreements Amendment Bill (No. 1) 2000
+Terminated 10/11/2007
+17/08/2000
+(GN 33 [2000] at 2324)
+1984 DTA and Protocol
+12/09/1984
+Taxation Laws Amendment Bill (No. 3) 1985**
+Terminated 01/09/2009
+28/03/1986
+(S 158 [1986])
+11
+France
+2018 Exchange of Notes on AIR article
+27/03/2018
+n/a
+In force
+01/04/2018
+(G2018G00241)
+Yes
+01/01/2019
+Yes
+Yes
+01-Jul-08
+DTA
+20/06/2006
+International Tax Agreements Amendment Bill (No 1) 2007
+In force
+01/06/2009
+(GN 21 [2009] at 1334)
+1976 DTA Amending Protocol
+19/06/1989
+Income Tax (International Agreements) Amendment Bill (No. 2) 1989**
+Terminated 01/06/2009
+19/07/1990
+(GN 37 [1990] at 2538)
+1976 DTA
+13/04/1976
+Income Tax (International Agreements) Amendment Bill 1976
+Terminated 01/06/2009
+21/09/1977
+(S 202 [1977])
+1969 Airline Profits Agreement
+27/03/1969
+Income Tax (International Agreements) Bill 1969**
+Terminated 01/06/2009
+09/07/1970
+(GN 77 [1970] at 6128)
+12
+Germany
+DTA
+12/11/2015
+International Tax Agreements Amendment Bill 2016**
+In force
+07/12/2016
+(C2016G01655)
+Yes
+01-Jul-08
+1972 DTA
+24/11/1972
+Income Tax (International Agreements) Bill 1974**
+Terminated 07/12/2016
+15/02/1975
+(GN 6 [1975] at 25)
+Yes
+01-Jul-08
+13
+Greece
+Airline Profits Agreement
+05/05/1977
+Income Tax (International Agreements) Amendment Bill 1977**
+In force
+07/04/1981
+(S 69 [1981])
+14
+Hungary
+DTA
+29/11/1990
+Income Tax (International Agreements) Amendment Bill 1991**
+In force
+10/04/1992
+(S 135 [1992])
+Yes
+01/07/2021
+Yes
+Yes
+01-Jul-08
+15
+Iceland
+DTA
+12/10/2022
+Treasury Laws Amendment (Refining and Improving Our Tax System) Bill 2023
+In force
+06/11/2023
+16
+India
+Amending Protocol
+16/12/2011
+International Tax Agreements Amendment Bill 2012
+In force
+02/04/2013
+Yes
+01/10/2019
+Yes
+Yes
+01-Jul-08
+DTA
+25/07/1991
+Income Tax (International Agreements) Amendment Bill (No.2) 1991**
+In force
+30/12/1991
+(S 50 [1992])
+Airline Profits Agreement
+31/05/1983
+Income Tax (International Agreements) Amendment Bill 1983**
+Terminated 30/12/1991
+16/11/1983
+(S 283 [1983])
+17
+Indonesia
+DTA
+22/04/1992
+Income Tax (International Agreements) Amendment Bill 1992**
+In force
+14/12/1992
+(GN 5 [1993] at 461)
+Yes
+01/08/2020
+Yes
+Yes
+01-Jul-08
+18
+Ireland
+DTA
+31/05/1983
+Income Tax (International Agreements) Amendment Bill 1983**
+In force
+21/12/1983
+(S 345 [1983])
+Yes
+01/05/2019
+Yes
+Yes
+01-Jul-08
+19
+Israel
+DTA
+28/03/2019
+Treasury Laws Amendment (International Tax Agreements) Bill 2019
+In force
+06/12/2019
+20
+Italy
+DTA
+14/12/1982
+Income Tax (International Agreements) Amendment Bill 1983**
+In force
+05/11/1985
+(S 479 [1985])
+Yes
+01-Jul-08
+Airline Profits Agreement
+13/04/1972
+Income Tax (International Agreements) Bill 1973**
+In force
+09/04/1976
+(GN 19 [1976] at 22)
+21
+Japan
+DTA
+31/01/2008
+International Tax Agreements Amendment Bill (No.1) 2008**
+In force
+03/12/2008
+(S 246 [2008])
+Yes
+01/01/2019
+Yes
+Yes
+01-Jul-08
+1969 DTA
+20/03/1969
+Income Tax (International Agreements) Bill 1969**
+Terminated 01/07/2009
+04/07/1970
+(GN 47 [1970] at 3683)
+22
+Kiribati
+DTA
+23/03/1991
+Income Tax (International Agreements) Amendment Bill 1991**
+In force
+28/06/1991
+(GN 28 [1991] at 2482)
+Yes
+01-Jul-08
+23
+Korea (Republic of)
+DTA
+12/07/1982
+Income Tax (International Agreements) Amendment Bill 1983**
+In force
+1/01/1984
+(S 5 [1984])
+Yes
+01/09/2020
+Yes
+Yes
+01-Jul-12
+24
+Malaysia
+Third Amending Protocol
+24/02/2010
+International Tax Agreements Amendment Bill (No. 1) 2011
+In force
+08/08/2011
+(GN 34 [2003] at 2227)
+Yes
+01/06/2021
+Yes
+Yes
+01-Jan-12
+Second Amending Protocol and Exchange of Letters
+28/07/2002
+International Tax Agreements Amendment Bill (No.2) 2002**
+In force
+23/07/2003
+(GN 44 [2003] at 3339)
+Exchange of Letters prolonging DTA provisions
+09/11/1999
+n/a
+In force
+27/06/2000
+(GN 48 [1999] at 4106)
+First Amending Protocol
+02/08/1999
+International Tax Agreements Amendment Bill 1999
+In force
+27/06/2000
+(GN 33 [2000] at 2323)
+DTA
+20/08/1980
+Income Tax (International Agreements) Amendment Bill 1981
+In force
+26/06/1981
+(S 131 [1981])
+25
+Malta
+DTA
+09/05/1984
+Income Tax (International Agreements) Amendment Bill 1984
+In force
+20/05/1985
+(S 189 [1985])
+Yes
+01/04/2019
+Yes
+Yes
+01-Jul-08
+26
+Mexico
+DTA
+09/09/2002
+International Tax Agreements Amendment Bill 2003
+In force
+31/12/2003
+(GN 7 [2004] at 365)
+Yes
+01/07/2023
+Yes
+Yes
+01-Jul-08
+27
+Netherlands
+Second Amending Protocol
+30/06/1986
+Taxation Laws Amendment Bill (No 3) 1986
+In force
+01/05/1987
+(GN 5 [1987] at 202)
+Yes
+01/07/2019
+Yes
+Yes
+01-Jul-08
+DTA and First Protocol
+17/03/1976
+Income Tax (International Agreements) Amendment Bill 1976
+In force
+27/09/1976
+(S 171 [1976])
+28
+New Zealand
+DTA
+26/06/2009
+International Tax Agreements Amendment Bill (No 2) 2009**
+In force
+19/03/2010
+(GN 13 [2010] at 729)
+Yes
+01/01/2019
+Yes
+Yes
+01-Jul-08
+2005 DTA Amending Protocol
+15/11/2005
+International Tax Agreements Amendment Bill (No 1) 2006
+Terminated 19/03/2010
+22/01/2007
+(GN 12 2007)
+1995 DTA
+27/01/1995
+Income Tax (International Agreements) Amendment Bill 1995
+Terminated 19/03/2010
+29/03/1995
+(GN 18 [1995] at 1653)
+1972 DTA
+08/11/1972
+Income Tax (International Agreements) Bill 1973**
+Terminated 29/03/1995
+31/03/1973
+1960 DTA
+12/05/1960
+Income Tax (International Agreements) Bill (No. 2) 1960
+Terminated 31/03/1973
+23/06/1960
+29
+Norway
+2011 Exchange of Notes on AIC article
+19/05/2011
+n/a
+In force
+01/07/11
+(GN27 [2011] at 1796)
+Yes
+01/11/2019
+Yes
+Yes
+01-Jul-08
+DTA
+08/08/2006
+International Tax Agreements Amendment Bill (No 1) 2007
+In force
+12/09/2007
+[GN 39 2007] at 2685
+Exchange of Notes (as per 2(b) of the Protocol to the 1982 treaty)
+07/08/1998
+n/a
+In force
+06/09/1998
+(GN 18 [1999] at 1274)
+1982 DTA
+06/05/1982
+Income Tax (International Agreements) Amendment Bill 1983**
+Terminated 08/08/2006
+19/10/1983
+(S 250 [1983])
+30
+Papua New Guinea
+DTA
+24/05/1989
+Income Tax (International Agreements) Amendment Bill (No. 2) 1989**
+In force
+29/12/1989
+(S 4 [1990])
+Yes
+01/12/2023
+Yes
+Yes
+01-Jul-08
+31
+Philippines
+DTA
+11/05/1979
+Income Tax (International Agreements) Amendment Bill 1980**
+In force
+17/06/1980
+(S 132 [1980])
+32
+Poland
+DTA
+07/05/1991
+Income Tax (International Agreements) Amendment Bill (No.2) 1991**
+In force
+04/03/1992
+(S 135 [1992])
+Yes
+01/01/2019
+Yes
+Yes
+01-Jul-08
+33
+Romania
+DTA
+02/02/2000
+International Tax Agreements Amendment Bill (No. 1) 2000
+In force
+11/04/2001 (
+GN 27 [2001] at 1975
+)
+Yes
+01/06/2022
+Yes
+Yes
+01-Jul-08
+34
+Russia
+DTA
+07/09/2000
+International Tax Agreements Amendment Bill (No.1) 2002
+In force
+17/12/2003
+(GN 4 [2004] at 190)
+Yes
+01/10/2019
+Yes
+Yes
+01-Jul-08
+35
+Singapore
+Second Amending Protocol
+08/09/2009
+International Tax Agreements Amendment Act (No. 2) 2010
+In force
+22/12/2010
+(GN 49 [2010] at 3020)
+Yes
+01/04/2019
+Yes
+Yes
+01-Jul-11
+Amending Protocol
+16/10/1989
+Income Tax (International Agreements) Amendment Bill (No. 2) 1989**
+In force
+05/01/1990
+(S 5 [1990])
+1989 Exchange of Notes to extend Art 18(3)
+16/10/1989
+n/a
+In force
+16/10/1989
+(GN 47 [1989] at 2803)
+1981 Exchange of Notes to extend Article 18(3)
+11/03/1981
+n/a
+In force
+11/06/1981
+1975 Exchange of Letters to extend Art 18(3)
+21/05/1975
+n/a
+In force
+21/05/1975
+DTA
+11/02/1969
+Income Tax (International Agreements) Bill 1969**
+In force
+04/06/1969
+36
+Slovakia
+DTA
+24/08/1999
+International Tax Agreements Amendment Bill 1999
+In force
+22/12/1999
+(GN 7 [2000] at 428)
+Yes
+01/01/2019
+Yes
+Yes
+01-Jul-08
+37
+South Africa
+Amending Protocol
+31/03/2008
+International Tax Agreements Amendment Bill (No.2) 2008**
+In force
+12/11/2008
+(S 256 [2008])
+Yes
+01/01/2023
+Yes
+Yes
+01-Jul-08
+AIC Article
+31/03/2008
+International Tax Agreements Amendment Bill (No.2) 2008**
+In force
+01/07/2010
+(GN 47 [2010] at 2783)
+DTA
+01/07/1999
+International Tax Agreements Amendment Bill 1999
+In force
+21/12/1999
+(GN 7 [2000] at 428)
+38
+Spain
+DTA
+24/03/1992
+Income Tax (International Agreements) Amendment Bill 1992**
+In force
+10/12/1992
+(GN 5 [1993] at 463)
+Yes
+01/01/2022
+Yes
+Yes
+01-Jul-08
+39
+Sri Lanka
+DTA
+18/12/1989
+Taxation Laws Amendment (International Agreements) Bill 1989
+In force
+21/10/1991
+(GN 44 [1991] at 3593)
+Yes
+01-Jul-08
+40
+Sweden
+DTA
+14/01/1981
+Income Tax (International Agreements) Amendment Bill 1981**
+In force
+04/09/1981
+(S 192 [1981])
+Yes
+01-Jul-08
+41
+Switzerland
+2013 Revised Treaty
+30/07/2013
+International Tax Agreements Amendment Bill 2014**
+In force
+14/10/2014
+(GN C2014G01758)
+DTA
+28/02/1980
+Income Tax (International Agreements) Amendment Bill 1980**
+Terminated 14/10/2014
+13/02/1981
+(S 32 [1981])
+42
+Taiwan
+DTA
+29/05/1996
+Taxation Laws Amendment (International Tax Agreements) Bill 1996
+In force
+21/10/1996
+(GN 48 [1996] at 3616)
+Yes
+01-Jul-08
+43
+Thailand
+DTA
+31/08/1989
+Income Tax (International Agreements) Amendment Bill (No. 2) 1989**
+In force
+27/12/1989
+(S 4 [1990])
+Yes
+01/07/2022
+Yes
+Yes
+01-Jul-08
+44
+Turkey
+DTA
+28/04/2010
+International Tax Agreements Amendment Bill (No. 1) 2011**
+In force
+05/06/2013
+(C2013CG01139)
+45
+United Kingdom
+DTA and Exchange of Notes
+21/08/2003
+International Tax Agreements Amendment Bill 2003
+In force
+17/12/2003
+(GN 4 [2004] at 190)
+Yes
+01/01/2019
+Yes
+Yes
+1-Jul-08
+1967 DTA Amending Protocol
+29/01/1980
+Income Tax (International Agreements) Amendment Bill 1980**
+Terminated 17/12/2003
+21/05/1980
+(S 176 [1980])
+1967 DTA
+07/12/1967
+Income Tax (International Agreements) Bill 1968**
+Terminated 17/12/2003
+08/05/1968
+1947 DTA
+29/10/1946
+Income Tax Assessment Bill 1947**
+Terminated 08/05/1968
+03/06/1947
+Income Tax and Social Services Contribution Assessment Bill (No. 3) 1953**
+46
+United States of America
+Amending Protocol
+27/09/2001
+International Tax Agreements Amendment Bill (No.1) 2002
+In force
+13/05/2003
+(GN 32 [2003] at 2455)
+Yes
+01-Jul-08
+DTA
+06/08/1982
+Income Tax (International Agreements) Amendment Bill 1983
+In force
+31/10/1983
+(S 268 [1983])
+1953 DTA
+14/05/1953
+Income Tax and Social Services Contribution Assessment Bill (No. 3) 1953**
+Terminated 31/10/1983
+14/12/1953
+47
+Vietnam
+2002 Exchange of Letters to amend DTA
+05/08/2002
+n/a
+In force
+11/02/2003 (GN 22 [2003] at 1677-1679)
+Yes
+01/09/2023
+Yes
+Yes
+01-Jul-08
+1996 Exchange of Notes to amend DTA Art 23
+22/11/1996
+International Tax Agreements Amendment Bill (No. 1) 1997
+In force
+23/07/1997
+(GN 42 [1997] at 3121)
+DTA
+13/04/1992
+Income Tax (International Agreements) Amendment Bill 1992**
+In force
+10/12/1992
+(GN 5 [1993] at 462)
+Note: Where online information is available it's linked to the applicable sources.
+1
+Australia's income tax treaties are given the force of law by the
+International Tax Agreements Act 1953
+. The
+Agreement between the Australian Commerce and Industry Office and the Taipei Economic and Cultural Office concerning the Avoidance of Double Taxation and the Prevention of Fiscal Evasion with respect to Taxes on Income
+is a document of less than treaty status enacted as
+Schedule 1
+to the
+International Tax Agreements Act 1953
+.
+2
+The Multilateral Instrument is given the force of law by the
+International Tax Agreements Act 1953
+. Its entry into force was
+notified under section 4A
+on 10 January 2019. The Explanatory Memorandum is with the
+Treasury Laws Amendment (OECD Multilateral Instrument) Bill 2018
+.
+3
+This is the latter of the 2 dates on which the multilateral instrument enters into force for each of the 2 treaty partners. Following entry into force, the Multilateral Instrument will generally take effect for each treaty partner as follows:
+For withholding taxes, for payments made or credited on or after the next 1 January beginning on or after the date of entry into force; and
+For all other taxes, for taxable periods (income years) beginning on or after the expiration of six months following the date of entry into force.
+For further information on these dates, please refer to the synthesised texts that have been prepared in respect of individual treaties (where available).
+4
+The tax administrations of some of Australia's treaty partners have agreed to prepare synthesised texts to help the public better understand the impacts of the MLI. The Australian Taxation Office has responsibility for preparing synthesised texts on behalf of Australia. The sole purpose of a synthesised text of the MLI and a bilateral tax treaty is to facilitate the understanding of the application of the MLI to the particular bilateral tax treaty. A synthesised text does not constitute a source of law. The authentic legal texts of the bilateral tax treaty and the MLI take precedence and remain the legal texts applicable.
+5
+EOI jurisdictions are listed in Taxation Administration Regulations 2017 r 34
+Last updated
+24 March 2026

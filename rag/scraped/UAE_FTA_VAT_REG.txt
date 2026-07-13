@@ -1,0 +1,142 @@
+SOURCE_KEY: UAE_FTA_VAT_REG
+TITLE: UAE Federal Tax Authority — VAT registration (mandatory threshold AED 375,000)
+JURISDICTION: UAE
+URL: https://tax.gov.ae/en/services/vat.registration.aspx
+METHOD: direct
+FETCHED_AT: 2026-07-11T11:16:49+00:00
+------------------------------------------------------------------------------
+Value Added Tax (VAT) Registration
+Page last updated:: Tuesday, July 07, 2026
+Start Service
+Type
+Registration
+Service Category
+From Government to Business, From Government to Government, From Government to People
+Service Channels
+Obligation to Sign-up
+Applicable.
+Categories of Customers
+All persons required to or entitled to register for Value Added Tax (VAT) with the FTA
+Relevant Publications
+VAT Registration
+(5004 KB)
+Turnover Declaration Letter Form
+(32 KB)
+Sustainable Development Goals
+Service Card Rating
+84,472
+Total Transactions
+45 Minutes.
+Estimated Time to Submit Application
+Service Description
+This service enables eligible persons to apply for VAT registration to obtain a Tax Registration Number (TRN) and comply with their tax obligations.
+Channels and working hours
+EmaraTax platform:
+24 hours a day, 7 days a week
+Service Fees Details
+Free
+Estimated Time to Submit Application
+45 Minutes.
+Estimated Time to Complete Application by the FTA
+20 business days from the date the completed application was received
+Required Documents and Forms
+The applicant is required to complete the necessary information and attach the supporting documents, based on the legal form of the entity (whether a natural person or a legal person). The requirements vary depending on the type of legal entity.
+•
+Certificate of Incorporation, Memorandum of Association, or Partnership Agreement (if applicable).
+•
+Commercial registration certificate, or any official document issued by the licensing authority.
+•
+A valid trade license, along with branch licenses (if any).
+•
+Emirates ID and passport copies of owners and authorized signatories.
+•
+Power of attorney document for the authorized signatory, required if the manager’s name is not mentioned in the Memorandum of Association or when adding other individuals as authorized signatories.
+•
+Official declaration letter stating the total taxable supplies and monthly sales from the date of establishment until the date of application, stamped and signed by the authorized signatory.
+•
+Supporting documents, including invoices, local purchase orders, contracts, ownership deeds, completion certificates, and lease agreements, as applicable to the type of application.
+•
+For expenses: at least five VAT invoices with amounts exceeding the registration threshold.
+•
+Expected revenues supported by valid documents, such as purchase orders or contracts, duly stamped and signed by both parties.
+•
+Bank letter detailing the bank account information (optional):
+o
+For legal entities: the account must be in the company’s name.
+o
+For individuals: a personal or sole establishment account can be used.
+•
+Customs information (if applicable).
+•
+Registration documents and supporting evidence for clubs, charities, or associations (Applicable when selecting "Legal Person – Club, Charity, or Association").
+•
+Copy of the Decree (Applicable when selecting "Legal Person – Federal Government Entity in the UAE" or "Legal Person – Emirate-level Government Entity in the UAE").
+Accepted file format: PDF. Maximum file size per document: 15 MB.
+Procedures and Steps
+1.
+Signup for an EmaraTax account through the FTA’s website and activate it
+2.
+Access the EmaraTax account dashboard
+3.
+Create New Taxable Person Profile
+4.
+Click on “View” to access the Taxable Person Account
+5.
+Click on “Register” under “Value Added Tax”
+6.
+Complete the registration process
+FAQs
+1.
+When is registration for Value Added Tax (VAT) mandatory?
+•
+Businesses resident in the UAE:
+Registration for VAT is mandatory if:
+-
+The total value of taxable supplies and imports exceeds AED 375,000 over the past 12 months, or is expected to exceed that threshold within the next 30 days.
+•
+Non-resident businesses:
+VAT registration is mandatory if:
+-
+The business makes taxable supplies in the UAE, even if the value of supplies does not exceed the threshold, unless there is another party in the UAE responsible for settling the VAT on those supplies.
+2.
+When is a business eligible for voluntary VAT registration?
+•
+Businesses resident in the UAE that make taxable supplies may register voluntarily for VAT if:
+-
+The total value of taxable supplies, imports, or taxable expenses in the past 12 months, or expected in the next 30 days, exceeds AED 187,500 (the voluntary registration threshold).
+3.
+When will the VAT registration certificate be received?
+-
+Once the registration application is approved, the VAT registration certificate will be available in the dashboard of the taxpayer’s e-Services account.
+4. What is the difference between a natural person and a legal person?
+•
+Natural Person: An individual who carries out a business or business activity in their personal capacity, such as the owner of a sole establishment.
+•
+Legal Person: A separate legal entity, such as a company, that has a legal personality distinct from its owners.
+5. Do sole establishments require separate registration?
+-
+No. All sole establishments owned by the same natural person must be registered under a single Tax Registration Number (TRN), and the VAT registration threshold is calculated based on the combined value of the activities of all sole establishments owned by that natural person.
+6. Do branches need to register separately?
+•
+No. A company with multiple branches is not required to register each branch separately.
+-
+All branches are registered under a single Tax Registration Number (TRN).
+-
+All branches must be included under the parent company’s VAT registration.
+-
+A single VAT return must be submitted covering all branches.
+7.
+Are businesses established in a Designated Zone and engaged in the trade of goods required to register for VAT?
+•
+This depends on the nature of the activities and supplies carried out by the business and whether it meets the mandatory or voluntary VAT registration requirements in accordance with the VAT legislation.
+-
+Note: When submitting a registration application, the applicant may be required to provide a business flow and supporting documents demonstrating the nature of the activity, the movement of goods, and the supply chain.
+Terms & Conditions
+1.
+Registration provisions apply to any natural or legal person carrying out an economic activity in the UAE, even if they do not hold a trade license
+2.
+The person required to register for VAT must submit a registration application with the FTA within 30 days of being required to register.
+3.
+In case of failure to submit the registration application within the specified deadline, a late registration penalty will be imposed by the Authority in accordance with the applicable tax legislation
+4.
+The taxpayer must ensure the accuracy and correctness of the data submitted during registration. In case of submitting incorrect or misleading financial data, the Authority has the right to take punitive actions as stipulated in the applicable laws and regulations.
