@@ -4,3 +4,10 @@
 [build]
   publish = "."
   command = ""
+
+# index.html loads its assets from /static/... (FastAPI routes). On Netlify
+# the files live at the site root — rewrite so the same HTML works on both.
+[[redirects]]
+  from = "/static/*"
+  to = "/:splat"
+  status = 200
