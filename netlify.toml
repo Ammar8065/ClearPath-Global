@@ -1,6 +1,6 @@
-# Static deploy of the UI only. The FastAPI backend (evaluations, AI, RAG,
-# PDF reports) does not run on Netlify — API calls from the page will fail
-# unless the backend is hosted elsewhere and proxied.
+# Netlify serves the static UI; API calls are proxied to the FastAPI
+# backend on Render (see render.yaml). Netlify serves real files first,
+# so only non-file paths (the API routes) hit the proxy.
 [build]
   publish = "."
   command = ""
@@ -10,4 +10,11 @@
 [[redirects]]
   from = "/static/*"
   to = "/:splat"
+  status = 200
+
+# Everything that isn't a static file is an API call — forward it to the
+# Render backend. Update the host below if the Render service URL differs.
+[[redirects]]
+  from = "/*"
+  to = "https://clearpath-global.onrender.com/:splat"
   status = 200
