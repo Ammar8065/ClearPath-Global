@@ -1,0 +1,116 @@
+{
+  "description": "Golden cases for eval_ai_extraction.py — realistic advisor notes with the client_data a correct extraction should produce. expected_client_data uses engine payload types (bool / number / enum string).",
+  "cases": [
+    {
+      "id": "au-expat-basics",
+      "notes": "Initial call with client. He's an Australian domiciled here his whole life, spent 190 days in Australia this financial year. Owns an investment flat in Sydney which he rents out for about AUD 48,000 a year. Wife and kids are still in Melbourne and he keeps his NAB accounts open. He hasn't set up any permanent home overseas yet. Currently treated as a non-resident by his accountant, which we should test.",
+      "expected_client_data": {
+        "days_in_country": 190,
+        "domicile_country": "AU",
+        "australian_property_owned": true,
+        "australian_source_income": 48000,
+        "strong_personal_economic_ties_in_country": true,
+        "permanent_abode_outside_country": false,
+        "tax_residency_status": "non_resident"
+      }
+    },
+    {
+      "id": "uae-transition",
+      "notes": "Client relocated to Dubai in July and has now spent 190 days in the UAE. She runs a mainland consulting business there with estimated taxable income of AED 525,000 and annual revenue around AED 2.5m. She has applied to the FTA for a tax residency certificate but it has not been issued yet. She confirmed she is not tax resident anywhere else. She holds a golden visa, so permanent residence in the UAE is established.",
+      "expected_client_data": {
+        "days_in_country": 190,
+        "uae_business_owned": true,
+        "uae_taxable_income": 525000,
+        "uae_revenue": 2500000,
+        "tax_residency_certificate_requested": true,
+        "tax_residency_certificate": false,
+        "has_other_tax_residency": false,
+        "uae_permanent_residence_established": true
+      }
+    },
+    {
+      "id": "us-citizen-abroad",
+      "notes": "US citizen living in Sydney, treated as an Australian tax resident. Earns about USD 145,000 in foreign-source income. Holds Australian managed funds which are almost certainly PFICs — no QEF or mark-to-market election has been made. Peak balance across her Australian bank and brokerage accounts was roughly USD 42,000 this year. California still claims her as a resident from her last filing.",
+      "expected_client_data": {
+        "citizenship": "US",
+        "residency_country": "AU",
+        "tax_residency_status": "resident",
+        "foreign_source_income": 145000,
+        "pfic_holdings": true,
+        "pfic_election_made": false,
+        "foreign_financial_accounts_balance": 42000,
+        "us_state_residency": "CA"
+      }
+    },
+    {
+      "id": "sg-employment",
+      "notes": "New engagement: engineer seconded to Singapore. Employment started in November and runs through to next August, so it straddles two calendar years. He has spent 75 days in Singapore so far but expects around 200 across the whole review period. Salary sourced in Singapore is SGD 80,000. He also sits on the board of the Singapore subsidiary and receives SGD 15,000 in director fees. Employer flagged that IR21 tax clearance will be required when the secondment ends.",
+      "expected_client_data": {
+        "days_in_country": 75,
+        "employment_straddles_two_years": true,
+        "total_days_in_country": 200,
+        "singapore_source_income": 80000,
+        "sg_director_fees": 15000,
+        "sg_tax_clearance_required": true
+      }
+    },
+    {
+      "id": "hk-company-fsie",
+      "notes": "Client owns and controls a Hong Kong private company. The company earns about HKD 200,000 of passive offshore income — mainly dividends from a BVI holding. There is no real economic substance in Hong Kong: no staff, no premises, decisions taken in London. He personally rendered no services in Hong Kong. He is also mid-way through buying a flat in Mid-Levels, so there is a Hong Kong property transaction in play.",
+      "expected_client_data": {
+        "hk_company_owned": true,
+        "hk_passive_offshore_income": 200000,
+        "hk_economic_substance_in_hk": false,
+        "hk_services_rendered_in_hk": false,
+        "hk_property_transaction": true
+      }
+    },
+    {
+      "id": "messy-email",
+      "notes": "fwd: RE: re: quick one\n\nhi - spoke to Tom last nite. hes been in aus 210 days (!!) this yr but reckons hes a non resident lol. still has the house in Brisbane (not rented, sitting empty since Feb). big super lump sum came thru in march. HELP debt outstanding from uni days. btw he asked about crypto - parked that for now. also his employer is a UK ltd and he works for them remotely from the Gold Coast. cheers",
+      "expected_client_data": {
+        "days_in_country": 210,
+        "tax_residency_status": "non_resident",
+        "australian_property_owned": true,
+        "australian_property_vacant": true,
+        "super_lump_sum_received": true,
+        "au_help_debt": true,
+        "working_remotely_for_foreign_employer": true
+      }
+    },
+    {
+      "id": "dual-residency-treaty",
+      "notes": "Client is claimed as tax resident by both Australia and Singapore at the moment — a genuine dual residency. No treaty relief has been claimed yet. Worldwide income is approximately 320,000. She holds CRS-reportable accounts in three jurisdictions.",
+      "expected_client_data": {
+        "dual_tax_residency": true,
+        "treaty_relief_claimed": false,
+        "worldwide_income": 320000,
+        "crs_reportable_account": true
+      }
+    },
+    {
+      "id": "shorthand-amounts",
+      "notes": "US person, weighted substantial presence count works out at 183 days. Specified foreign financial assets total $1.2m. Net investment income last year was about $85k. He is a 15% shareholder of a controlled foreign corporation in Ireland.",
+      "expected_client_data": {
+        "citizenship": "US",
+        "us_substantial_presence_days": 183,
+        "specified_foreign_assets_balance": 1200000,
+        "niit_investment_income": 85000,
+        "cfc_us_shareholder": true
+      }
+    },
+    {
+      "id": "no-facts-hallucination-probe",
+      "notes": "Please book a follow-up call with the client for Thursday afternoon. She mentioned the weather in Lisbon was lovely and asked whether we received the signed engagement letter. Nothing substantive was discussed — the file review is still pending.",
+      "expected_client_data": {}
+    },
+    {
+      "id": "negation-vs-absence",
+      "notes": "Confirmed on the call: the client does NOT own any property in Australia, and he is definitely not a beneficiary of any Australian discretionary trust. He was cagey about his day count and refused to confirm how long he has been in the country, so treat that as unknown for now.",
+      "expected_client_data": {
+        "australian_property_owned": false,
+        "australian_discretionary_trust_beneficiary": false
+      }
+    }
+  ]
+}
