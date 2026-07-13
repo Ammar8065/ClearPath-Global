@@ -22,7 +22,7 @@ def _esc(val: object) -> str:
     return escape(str(val)) if val else ""
 
 
-def generate_report_html(result: dict, *, fact_count: int = 0) -> str:
+def generate_report_html(result: dict, *, fact_count: int = 0, ai_summary: dict | None = None) -> str:
     risk = result.get("overall_risk", "low")
     score = min(100, max(0, result.get("score", 0)))
     client_label = _esc(result.get("assessment_label") or "Unspecified")
@@ -32,6 +32,7 @@ def generate_report_html(result: dict, *, fact_count: int = 0) -> str:
     jur_breakdown = result.get("jurisdiction_breakdown", {})
     citations = result.get("citations", [])
     incomplete = result.get("incomplete_rules", [])
+    rule_interactions = result.get("rule_interactions", [])
     warnings = result.get("warnings", [])
     generated = datetime.now().strftime("%d %B %Y, %H:%M")
 
@@ -115,6 +116,26 @@ def generate_report_html(result: dict, *, fact_count: int = 0) -> str:
             <td style="text-align:center; color:var(--text-secondary);">{jc}</td>
           </tr>"""
 
+    # ── Rule interactions HTML ───────────────────────────────────────────────
+    interaction_cards = ""
+    for i in (rule_interactions if isinstance(rule_interactions, list) else []):
+        d = i if isinstance(i, dict) else i.model_dump()
+        itype = d.get("interaction_type", "")
+        type_label = "Relief Available" if itype == "relief" else "Exception Applies"
+        type_class = "gold" if itype == "relief" else "blue"
+        interaction_cards += f"""
+        <div class="interaction-card {type_class}">
+          <div class="interaction-top">
+            <span class="interaction-type-badge {type_class}">{_esc(type_label)}</span>
+            <span class="interaction-pair">
+  {_esc(d.get('primary_rule_code', ''))}
+              <span class="interaction-arrow">&larr;</span>
+              {_esc(d.get('related_rule_code', ''))}
+            </span>
+          </div>
+          <p class="interaction-note">{_esc(d.get('note', ''))}</p>
+        </div>"""
+
     # ── Citations HTML ───────────────────────────────────────────────────────
     cite_rows = ""
     for c in (citations if isinstance(citations, list) else []):
@@ -126,6 +147,47 @@ def generate_report_html(result: dict, *, fact_count: int = 0) -> str:
           <td>{_esc(d.get('source_title', ''))}</td>
           <td class="brand-mono">{_esc(d.get('section_reference', '') or '')}</td>
         </tr>"""
+
+    # ── AI Executive Summary section ─────────────────────────────────────────
+    ai_summary_html = ""
+    if ai_summary:
+        risk_items = "".join(f'<li class="ai-point">{_esc(r)}</li>' for r in ai_summary.get("key_risks", []))
+        action_items = "".join(f'<li class="ai-point">{_esc(a)}</li>' for a in ai_summary.get("recommended_actions", []))
+        explanation_rows = "".join(
+            f"""
+          <tr>
+            <td class="mono">{_esc(item.get("rule_code", ""))}</td>
+            <td>{_esc(item.get("explanation", ""))}</td>
+          </tr>"""
+            for item in ai_summary.get("rule_explanations", [])
+        )
+        risks_block = f'<h2>Key Risks</h2><ul class="ai-points">{risk_items}</ul>' if risk_items else ""
+        actions_block = f'<h2>Recommended Actions</h2><ul class="ai-points">{action_items}</ul>' if action_items else ""
+        explanations_block = (
+            f"""
+  <h2>Findings Explained</h2>
+  <table>
+    <thead><tr><th>Rule</th><th>What it means</th></tr></thead>
+    <tbody>{explanation_rows}</tbody>
+  </table>"""
+            if explanation_rows else ""
+        )
+        ai_summary_html = f"""
+<section class="report-section">
+  <div class="section-kicker">Section &mdash; Executive Summary</div>
+  <h1>{_esc(ai_summary.get("headline", ""))}</h1>
+  <p class="lede">{_esc(ai_summary.get("overview", ""))}</p>
+  {risks_block}
+  {actions_block}
+  {explanations_block}
+
+  <div class="callout callout-gold">
+    <div class="c-label">AI-Generated Summary</div>
+    <p>This section was drafted by ClearPath Global's AI assistant from the rule outcomes below.
+    Verify every statement against the cited legislation before reliance. Only rule outcomes were
+    shared with the AI service &mdash; no client financial facts.</p>
+  </div>
+</section>"""
 
     # ── Severity Profile section ─────────────────────────────────────────────
     severity_html = ""
@@ -161,6 +223,22 @@ def generate_report_html(result: dict, *, fact_count: int = 0) -> str:
     category. The overall composite score is a weighted average: Residency 30%, Tax 30%, Cross-Border 25%,
     Structure 15%. The overall risk level is always the maximum severity across all triggered rules.</p>
   </div>
+</section>"""
+
+    # ── Rule interactions section ────────────────────────────────────────────
+    interactions_html = ""
+    if interaction_cards:
+        interactions_html = f"""
+<section class="report-section">
+  <div class="section-kicker">Section &mdash; Interactions</div>
+  <h1>Interacting Findings</h1>
+  <p class="lede">{len(rule_interactions)} pair{'s' if len(rule_interactions) != 1 else ''} of triggered rules
+  affect one another. A relief means the client can elect or claim something that reduces the primary
+  rule's exposure; an exception means the related rule's own facts already carve the client out
+  automatically. Neither is applied for you &mdash; each requires verification against the client's
+  specific facts before relying on it.</p>
+
+  {interaction_cards}
 </section>"""
 
     # ── Citations section ────────────────────────────────────────────────────
@@ -701,6 +779,68 @@ def generate_report_html(result: dict, *, fact_count: int = 0) -> str:
   }}
   .callout-gold .c-label {{ color: var(--gold); }}
 
+  /* ── RULE INTERACTIONS ──────────────────────── */
+  .interaction-card {{
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    padding: 4mm 5mm;
+    margin-bottom: 4mm;
+    background: var(--bg-subtle);
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }}
+  .interaction-card.gold {{ border-left-color: var(--gold); }}
+  .interaction-top {{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 4px;
+  }}
+  .interaction-type-badge {{
+    display: inline-block;
+    padding: 2px 8px;
+    font-family: var(--font-mono);
+    font-size: 7pt;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+    background: var(--accent-deep);
+    color: #fff;
+  }}
+  .interaction-type-badge.gold {{ background: var(--gold); }}
+  .interaction-pair {{
+    font-family: var(--font-mono);
+    font-size: 9pt;
+    font-weight: 600;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }}
+  .interaction-arrow {{ color: var(--text-faint); }}
+  .interaction-note {{
+    font-size: 9pt;
+    color: var(--text-secondary);
+    line-height: 1.55;
+    margin: 0;
+  }}
+
+  /* ── AI SUMMARY LISTS ───────────────────────── */
+  .ai-points {{
+    margin: 2mm 0 4mm;
+    padding-left: 6mm;
+  }}
+  .ai-point {{
+    font-size: 9.5pt;
+    color: var(--text-secondary);
+    line-height: 1.55;
+    margin-bottom: 2mm;
+  }}
+
   .ornament {{
     text-align: center;
     color: var(--accent);
@@ -815,6 +955,8 @@ def generate_report_html(result: dict, *, fact_count: int = 0) -> str:
 
 <!-- ═══════════════ FLOWING REPORT BODY ═══════════════ -->
 <div class="report-body">
+{ai_summary_html}
+
 {severity_html}
 
 <section class="report-section">
@@ -825,6 +967,8 @@ def generate_report_html(result: dict, *, fact_count: int = 0) -> str:
 
   {rules_html if rules_html else no_findings}
 </section>
+
+{interactions_html}
 
 {citations_html}
 

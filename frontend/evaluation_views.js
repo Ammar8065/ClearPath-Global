@@ -1,5 +1,27 @@
 import { escapeHtml, jurisdictionBadge, riskBadge, scoreFill } from "./core.js";
 
+export function renderAiSummary(summary) {
+  const risks = (summary.key_risks || []).map((risk) => `<li>${escapeHtml(risk)}</li>`).join("");
+  const actions = (summary.recommended_actions || []).map((action) => `<li>${escapeHtml(action)}</li>`).join("");
+  const explanations = (summary.rule_explanations || []).map((item) => `
+    <div class="ai-explanation-item">
+      <span class="citation-code">${escapeHtml(item.rule_code)}</span>
+      <span class="ai-explanation-text">${escapeHtml(item.explanation)}</span>
+    </div>
+  `).join("");
+
+  return `
+    <div class="ai-summary-card">
+      <div class="ai-summary-eyebrow">AI Summary &mdash; decision support, verify before reliance</div>
+      <div class="ai-summary-headline">${escapeHtml(summary.headline)}</div>
+      <p class="ai-summary-overview">${escapeHtml(summary.overview)}</p>
+      ${risks ? `<div class="report-section-title">Key Risks</div><ul class="ai-summary-list">${risks}</ul>` : ""}
+      ${actions ? `<div class="report-section-title">Recommended Actions</div><ul class="ai-summary-list">${actions}</ul>` : ""}
+      ${explanations ? `<div class="report-section-title">Findings Explained</div><div class="ai-explanation-list">${explanations}</div>` : ""}
+    </div>
+  `;
+}
+
 export function renderPreviewResult(result, context) {
   const matchedRules = result.rules.filter((rule) => rule.matched);
   const unmatchedRules = result.rules.filter((rule) => !rule.matched);
@@ -107,6 +129,27 @@ function renderCategoryBreakdown(categoryBreakdown) {
   }).join("");
 }
 
+function renderRuleInteractions(interactions) {
+  if (!interactions?.length) return "";
+  return `
+    <div class="report-section-title" style="margin-top:24px">Interacting Findings</div>
+    <p class="rule-interactions-lede">A relief means the client can elect or claim something that reduces the
+    primary rule's exposure; an exception means the related rule's own facts already carve the client out
+    automatically. Verify against the client's specific facts before relying on either.</p>
+    <div class="interactions-list">
+      ${interactions.map((item) => `
+        <div class="interaction-item ${item.interaction_type}">
+          <div class="interaction-item-top">
+            <span class="badge interaction-type-badge ${item.interaction_type}">${item.interaction_type === "relief" ? "Relief Available" : "Exception Applies"}</span>
+            <span class="interaction-item-pair">${escapeHtml(item.primary_rule_code)} <span class="interaction-item-arrow">&larr;</span> ${escapeHtml(item.related_rule_code)}</span>
+          </div>
+          <div class="interaction-item-note">${escapeHtml(item.note)}</div>
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+
 function renderCitations(citations) {
   if (!citations?.length) return "";
   return `
@@ -205,6 +248,7 @@ export function renderEvaluationResult(result, context) {
         <div class="item-list">${rulesHtml}</div>
       </div>
 
+      ${renderRuleInteractions(result.rule_interactions)}
       ${renderCitations(result.citations)}
     </div>
   `;

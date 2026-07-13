@@ -10,11 +10,14 @@ import {
   TAX_RESIDENCY_OPTIONS,
   US_STATE_OPTIONS,
 } from "./evaluation_config.js";
-import { renderEvaluationResult, renderPreviewResult } from "./evaluation_views.js";
+import { renderAiSummary, renderEvaluationResult, renderPreviewResult } from "./evaluation_views.js";
 
 let answers = { ...DEFAULT_STATE };
 let focusJurisdictions = new Set();
 let _reviewTimer = null;
+let aiEnabled = false;
+let lastEvaluationResult = null;
+let pendingExtraction = null;
 
 function debouncedRenderReview() {
   clearTimeout(_reviewTimer);
@@ -67,18 +70,27 @@ function isValueProvided(field, value) {
   return typeof value === "string" ? value.trim() !== "" : value !== null && value !== undefined;
 }
 
+// Single definition of "provided" shared by the payload, the fact counter,
+// and the highlights list: a field counts only when it is visible under the
+// current showWhen rules AND has an answer. Hidden follow-up answers (e.g. a
+// FIRB answer whose parent question was flipped back to No) are stale and
+// must never reach the engine.
+function providedEntries(sourceAnswers = answers) {
+  return Object.entries(FIELD_MAP).filter(([key, field]) =>
+    fieldVisible(field.showWhen, sourceAnswers) && isValueProvided(field, sourceAnswers[key]));
+}
+
 function buildPayload(sourceAnswers = answers) {
   const payload = {};
-  Object.entries(FIELD_MAP).forEach(([key, field]) => {
+  providedEntries(sourceAnswers).forEach(([key, field]) => {
     const value = sourceAnswers[key];
-    if (!isValueProvided(field, value)) return;
     payload[key] = field.type === "number" ? Number(value) : value;
   });
   return payload;
 }
 
 function providedFactCount(sourceAnswers = answers) {
-  return Object.entries(FIELD_MAP).filter(([key, field]) => fieldVisible(field.showWhen, sourceAnswers) && isValueProvided(field, sourceAnswers[key])).length;
+  return providedEntries(sourceAnswers).length;
 }
 
 function inferFocusFromAnswers(sourceAnswers = answers) {
@@ -130,8 +142,7 @@ function formatFieldValue(field, value) {
 }
 
 function summarizeKnownFacts(sourceAnswers, limit = 8) {
-  return Object.entries(FIELD_MAP)
-    .filter(([key, field]) => isValueProvided(field, sourceAnswers[key]))
+  return providedEntries(sourceAnswers)
     .slice(0, limit)
     .map(([key, field]) => ({
       key,
@@ -140,13 +151,29 @@ function summarizeKnownFacts(sourceAnswers, limit = 8) {
     }));
 }
 
+const ENUM_OPTION_VALUES = {
+  jurisdiction: JURISDICTIONS.map((option) => option.value),
+  tax_status: TAX_RESIDENCY_OPTIONS.map((option) => option.value).filter(Boolean),
+  us_state: US_STATE_OPTIONS.map((option) => option.value).filter(Boolean),
+};
+
 function payloadToAnswers(payload) {
   const nextAnswers = { ...DEFAULT_STATE };
   Object.entries(FIELD_MAP).forEach(([key, field]) => {
     if (!(key in payload)) return;
-    if (field.type === "number") nextAnswers[key] = payload[key] === "" ? null : Number(payload[key]);
-    else if (field.type === "ternary") nextAnswers[key] = payload[key] === true ? true : payload[key] === false ? false : null;
-    else nextAnswers[key] = payload[key] ?? "";
+    const value = payload[key];
+    if (field.type === "number") {
+      const num = value === "" || value === null ? null : Number(value);
+      nextAnswers[key] = Number.isFinite(num) ? num : null;
+    } else if (field.type === "ternary") {
+      nextAnswers[key] = value === true ? true : value === false ? false : null;
+    } else {
+      // Imported values must match a real option — otherwise the select
+      // would display "Not specified" while the stale value silently
+      // stayed in the payload.
+      const allowed = ENUM_OPTION_VALUES[field.type] || [];
+      nextAnswers[key] = allowed.includes(value) ? value : "";
+    }
   });
   return nextAnswers;
 }
@@ -383,6 +410,11 @@ function handleWorksheetChange(target) {
 function requestBody(snapshot) {
   return {
     assessment_label: elements.evaluateAssessmentLabel?.value.trim() || null,
+    // Scope the evaluation to the focused jurisdictions so generic fields
+    // (days_in_country, tax_residency_status, ...) are only read by the
+    // rules of the countries this assessment is actually about. An empty
+    // focus means a general review across every jurisdiction.
+    jurisdiction_scope: snapshot.focus.length ? snapshot.focus : null,
     client_data: snapshot.payload,
   };
 }
@@ -421,12 +453,13 @@ async function downloadPdfReport() {
   const snapshot = getActionSnapshot("generating this report");
   if (!snapshot) return;
 
-  setStatus("Generating report...");
+  const includeAiSummary = aiEnabled && !!elements.includeAiSummaryToggle?.checked;
+  setStatus(includeAiSummary ? "Generating report with AI summary..." : "Generating report...");
   try {
     const res = await fetch(`${API_BASE_URL}/evaluate/private/report`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(requestBody(snapshot)),
+      body: JSON.stringify({ ...requestBody(snapshot), include_ai_summary: includeAiSummary }),
     });
     if (!res.ok) throw new Error(`Server returned ${res.status}`);
 
@@ -484,6 +517,7 @@ async function runEvaluation() {
     method: "POST",
     body: JSON.stringify(requestBody(snapshot)),
   });
+  lastEvaluationResult = result;
   elements.evaluationResult.innerHTML = renderEvaluationResult(result, {
     focusLabel: focusLabelList(snapshot.focus),
     factCount: snapshot.factCount,
@@ -496,8 +530,130 @@ async function runEvaluation() {
   setStatus(`Assessment complete - ${result.overall_risk.toUpperCase()} overall risk.${missingSuffix}`);
 }
 
+// ── AI Assist ────────────────────────────────────────────────────────────────
+
+async function initAiStatus() {
+  try {
+    const res = await fetch(new URL("/ai/status", API_BASE_URL));
+    const status = res.ok ? await res.json() : { enabled: false };
+    aiEnabled = !!status.enabled;
+  } catch {
+    aiEnabled = false;
+  }
+  elements.aiAssistCard?.classList.toggle("hidden", !aiEnabled);
+  elements.aiSummaryBtn?.classList.toggle("hidden", !aiEnabled);
+  elements.includeAiSummaryWrap?.classList.toggle("hidden", !aiEnabled);
+}
+
+function renderExtractionOutcome(extraction) {
+  if (!elements.aiExtractionResult) return;
+
+  const factsHtml = extraction.facts.length
+    ? extraction.facts.map((fact) => `
+      <div class="ai-fact-item">
+        <div class="ai-fact-main">
+          <span class="ai-fact-label">${escapeHtml(fact.label)}</span>
+          <span class="ai-fact-value">${escapeHtml(formatFieldValue(FIELD_MAP[fact.field], fact.value))}</span>
+        </div>
+        <div class="ai-fact-evidence">&ldquo;${escapeHtml(fact.evidence)}&rdquo;</div>
+      </div>
+    `).join("")
+    : '<div class="ai-empty-note">No worksheet facts were found in the notes.</div>';
+
+  const unmappedHtml = extraction.unmapped_notes.length
+    ? `
+      <div class="ai-subhead">Mentioned but not on the worksheet</div>
+      <ul class="ai-unmapped-list">${extraction.unmapped_notes.map((note) => `<li>${escapeHtml(note)}</li>`).join("")}</ul>
+    `
+    : "";
+
+  const warningsHtml = extraction.warnings.length
+    ? `<ul class="ai-warning-list">${extraction.warnings.map((warning) => `<li>${escapeHtml(warning)}</li>`).join("")}</ul>`
+    : "";
+
+  elements.aiExtractionResult.innerHTML = `
+    <div class="ai-extract-outcome">
+      <div class="ai-subhead">${extraction.facts.length} fact${extraction.facts.length === 1 ? "" : "s"} extracted &mdash; review, then apply</div>
+      <div class="ai-fact-list">${factsHtml}</div>
+      ${unmappedHtml}
+      ${warningsHtml}
+      ${extraction.facts.length ? '<button type="button" class="btn btn-primary" id="aiApplyBtn">Apply To Worksheet</button>' : ""}
+    </div>
+  `;
+  document.getElementById("aiApplyBtn")?.addEventListener("click", applyExtraction);
+}
+
+async function runAiExtraction() {
+  const notes = elements.aiNotesInput?.value.trim();
+  if (!notes) {
+    setStatus("Paste some client notes before extracting.", true);
+    return;
+  }
+
+  if (elements.aiExtractBtn) elements.aiExtractBtn.disabled = true;
+  try {
+    const extraction = await apiRequest("/ai/extract", {
+      method: "POST",
+      body: JSON.stringify({ notes }),
+    });
+    pendingExtraction = extraction;
+    renderExtractionOutcome(extraction);
+    setStatus(`AI extraction complete - ${extraction.facts.length} fact${extraction.facts.length === 1 ? "" : "s"} found.`);
+  } catch (error) {
+    console.error(error);
+    setStatus(`AI extraction failed: ${error.message}`, true);
+  } finally {
+    if (elements.aiExtractBtn) elements.aiExtractBtn.disabled = false;
+  }
+}
+
+function applyExtraction() {
+  if (!pendingExtraction) return;
+
+  const merged = { ...buildPayload(), ...pendingExtraction.client_data };
+  const nextAnswers = payloadToAnswers(merged);
+  applyAnswers(
+    nextAnswers,
+    [...inferFocusFromAnswers(nextAnswers)],
+    elements.evaluateAssessmentLabel?.value.trim() || "",
+  );
+  setStatus(`Applied ${pendingExtraction.facts.length} AI-extracted fact${pendingExtraction.facts.length === 1 ? "" : "s"} to the worksheet.`);
+}
+
+async function runAiSummary() {
+  if (!lastEvaluationResult) {
+    setStatus("Run a full evaluation before generating a summary.", true);
+    return;
+  }
+
+  if (elements.aiSummaryBtn) elements.aiSummaryBtn.disabled = true;
+  try {
+    const result = await apiRequest("/ai/summarise", {
+      method: "POST",
+      body: JSON.stringify({ evaluation: lastEvaluationResult }),
+    });
+    let container = document.getElementById("aiSummaryContainer");
+    if (!container) {
+      container = document.createElement("div");
+      container.id = "aiSummaryContainer";
+      elements.evaluationResult?.prepend(container);
+    }
+    container.innerHTML = renderAiSummary(result.summary);
+    setStatus("AI summary generated.");
+  } catch (error) {
+    console.error(error);
+    setStatus(`AI summary failed: ${error.message}`, true);
+  } finally {
+    if (elements.aiSummaryBtn) elements.aiSummaryBtn.disabled = false;
+  }
+}
+
 export function initEvaluationSection() {
   applyAnswers(DEFAULT_STATE, [], "");
+  initAiStatus();
+
+  elements.aiExtractBtn?.addEventListener("click", () => runAiExtraction());
+  elements.aiSummaryBtn?.addEventListener("click", () => runAiSummary());
 
   elements.evaluateGuidedSections?.addEventListener("input", (event) => handleWorksheetChange(event.target));
   elements.evaluateGuidedSections?.addEventListener("change", (event) => handleWorksheetChange(event.target));
@@ -537,6 +693,9 @@ export function initEvaluationSection() {
 
   elements.resetEvaluateFormBtn?.addEventListener("click", () => {
     applyAnswers(DEFAULT_STATE, [], "");
+    lastEvaluationResult = null;
+    pendingExtraction = null;
+    if (elements.aiExtractionResult) elements.aiExtractionResult.innerHTML = "";
     if (elements.evaluationResult) {
       elements.evaluationResult.innerHTML = `
         <div class="eval-empty">

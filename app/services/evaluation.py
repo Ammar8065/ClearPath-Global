@@ -11,22 +11,36 @@ from app.engine.scorer import _normalize
 from app.engine.selector import deduplicate_by_version
 from app.models.client import Client
 from app.models.rule import Rule
+from app.models.rule_interaction import RuleInteraction
 
 
-def _active_rules(db: Session) -> list[Rule]:
+def _active_rules(db: Session, jurisdiction_scope: list[str] | None = None) -> list[Rule]:
+    """Active, version-deduplicated rules — optionally limited to a set of
+    jurisdiction codes.
+
+    Scoping exists because generic worksheet fields (days_in_country,
+    tax_residency_status, ...) describe "the relevant country": without a
+    scope, one payload value would be read as a different country's fact by
+    each jurisdiction's rules. An empty/None scope evaluates everything.
+    """
     today = date.today()
-    rows = list(
-        db.scalars(
-            select(Rule)
-            .options(joinedload(Rule.source))
-            .where(
-                Rule.is_deleted.is_(False),
-                Rule.effective_from <= today,
-                (Rule.effective_to.is_(None)) | (Rule.effective_to >= today),
-            )
+    statement = (
+        select(Rule)
+        .options(joinedload(Rule.source))
+        .where(
+            Rule.is_deleted.is_(False),
+            Rule.effective_from <= today,
+            (Rule.effective_to.is_(None)) | (Rule.effective_to >= today),
         )
     )
+    if jurisdiction_scope:
+        statement = statement.where(Rule.jurisdiction.in_(jurisdiction_scope))
+    rows = list(db.scalars(statement))
     return deduplicate_by_version(rows)
+
+
+def _active_interactions(db: Session) -> list[RuleInteraction]:
+    return list(db.scalars(select(RuleInteraction)))
 
 
 def _preview_rule_detail(rule: Rule, client_data: dict[str, Any]) -> tuple[bool, dict]:
@@ -85,11 +99,13 @@ def evaluate_client(
     client_data: dict[str, Any],
     *,
     assessment_label: str | None = None,
+    jurisdiction_scope: list[str] | None = None,
 ) -> dict:
     client = _require_active_client(db, client_id)
 
-    rules = _active_rules(db)
-    result = run_evaluation(client, rules, client_data)
+    rules = _active_rules(db, jurisdiction_scope)
+    interactions = _active_interactions(db)
+    result = run_evaluation(client, rules, client_data, interactions)
     result["assessment_label"] = assessment_label
     return result
 
@@ -99,18 +115,26 @@ def evaluate_private_assessment(
     client_data: dict[str, Any],
     *,
     assessment_label: str | None = None,
+    jurisdiction_scope: list[str] | None = None,
 ) -> dict:
-    rules = _active_rules(db)
-    result = run_evaluation(SimpleNamespace(id=None), rules, client_data)
+    rules = _active_rules(db, jurisdiction_scope)
+    interactions = _active_interactions(db)
+    result = run_evaluation(SimpleNamespace(id=None), rules, client_data, interactions)
     result["client_id"] = None
     result["assessment_label"] = assessment_label
     return result
 
 
-def preview_client(db: Session, client_id: int, client_data: dict[str, Any]) -> dict:
+def preview_client(
+    db: Session,
+    client_id: int,
+    client_data: dict[str, Any],
+    *,
+    jurisdiction_scope: list[str] | None = None,
+) -> dict:
     _require_active_client(db, client_id)
 
-    rules = _active_rules(db)
+    rules = _active_rules(db, jurisdiction_scope)
     rule_details = []
     matched_count = 0
 
@@ -134,8 +158,9 @@ def preview_private_assessment(
     client_data: dict[str, Any],
     *,
     assessment_label: str | None = None,
+    jurisdiction_scope: list[str] | None = None,
 ) -> dict:
-    rules = _active_rules(db)
+    rules = _active_rules(db, jurisdiction_scope)
     rule_details = []
     matched_count = 0
 

@@ -7,7 +7,9 @@ Operator contracts
 
 in
     • If actual is list/tuple/set: expected in actual
-    • Otherwise: actual in expected (expected must be iterable)
+    • Else if expected is list/tuple/set: actual in expected
+    • Otherwise (both scalars): plain equality — strings are deliberately
+      NOT treated as containers, so "US" in "AUS" does not match.
 
 not_in
     Negation of ``in``.
@@ -21,8 +23,9 @@ starts_with
     ``actual`` must be a string; non-string actual returns False.
 
 is_empty
-    True when actual is: None, "" , whitespace-only string, [], {}, ().
-    0 and False are NOT empty.
+    True when actual is: None, "" , whitespace-only string, [], {}, (),
+    or when the field is absent from client_data entirely — a fact that
+    was never provided is empty. 0 and False are NOT empty.
 
 not_empty
     Negation of ``is_empty``.
@@ -112,6 +115,10 @@ def _evaluate_leaf(condition: dict[str, Any], client_data: dict[str, Any]) -> bo
         raise ValueError(f"Unrecognised condition format: {condition!r}")
 
     if field not in client_data:
+        # is_empty/not_empty are well-defined on missing data: a fact that
+        # was never provided is empty. Every other operator cannot match.
+        if operator in _EMPTY_OPERATORS:
+            return _apply_operator(operator, None, None)
         return False
 
     actual_value = client_data[field]

@@ -15,6 +15,7 @@ export const SECTION_META = {
   rules: { title: "Rules Library", sub: "Versioned, legislation-backed rules" },
   sources: { title: "Knowledge Sources", sub: "Legislation and guidance underpinning rules" },
   assets: { title: "Asset Storage Disabled", sub: "Private mode prevents persistent asset registers" },
+  ask: { title: "Ask ClearPath", sub: "Grounded search over the rules and sources knowledge base" },
 };
 
 export const elements = {
@@ -49,6 +50,21 @@ export const elements = {
   assessmentImportInput: document.getElementById("assessmentImportInput"),
   downloadPdfBtn: document.getElementById("downloadPdfBtn"),
   evalResultActions: document.getElementById("evalResultActions"),
+  aiAssistCard: document.getElementById("aiAssistCard"),
+  aiNotesInput: document.getElementById("aiNotesInput"),
+  aiExtractBtn: document.getElementById("aiExtractBtn"),
+  aiExtractionResult: document.getElementById("aiExtractionResult"),
+  aiSummaryBtn: document.getElementById("aiSummaryBtn"),
+  includeAiSummaryWrap: document.getElementById("includeAiSummaryWrap"),
+  includeAiSummaryToggle: document.getElementById("includeAiSummaryToggle"),
+  ragUnavailableCard: document.getElementById("ragUnavailableCard"),
+  ragUnavailableReason: document.getElementById("ragUnavailableReason"),
+  ragCard: document.getElementById("ragCard"),
+  ragCardSub: document.getElementById("ragCardSub"),
+  ragForm: document.getElementById("ragForm"),
+  ragQuestionInput: document.getElementById("ragQuestionInput"),
+  ragAskBtn: document.getElementById("ragAskBtn"),
+  ragResult: document.getElementById("ragResult"),
 };
 
 export function setStatus(message, isError = false) {

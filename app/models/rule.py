@@ -56,10 +56,13 @@ class Rule(Base):
     is_deleted: Mapped[bool] = mapped_column(Boolean, default=False, nullable=False, index=True)
     source_id: Mapped[int] = mapped_column(ForeignKey("knowledge_sources.id"), nullable=False, index=True)
     section_reference: Mapped[str | None] = mapped_column(String(200), nullable=True)
+    # Conservative default: a rule nobody has explicitly verified is
+    # needs_update. Matches the API schema default in app/schemas/rule.py;
+    # the seeder marks its fact-checked fixtures verified_current explicitly.
     review_status: Mapped[ReviewStatus] = mapped_column(
         Enum(ReviewStatus),
         nullable=False,
-        default=ReviewStatus.verified_current,
+        default=ReviewStatus.needs_update,
         index=True,
     )
     created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)

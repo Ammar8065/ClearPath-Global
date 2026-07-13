@@ -158,6 +158,76 @@ def test_http_private_evaluation_flow_supports_empty_operators(running_http_app:
     assert set(body["triggered_rules"]) == {"HTTP_RES_001", "HTTP_EMPTY_001"}
 
 
+def test_http_jurisdiction_scope_limits_evaluated_rules(running_http_app: str):
+    """Generic fields like days_in_country mean "the relevant country", so a
+    scoped evaluation must only run the scoped jurisdictions' rules."""
+    _, source = _request(
+        running_http_app,
+        "/sources",
+        method="POST",
+        payload={
+            "jurisdiction": "AU",
+            "title": "Scope Source",
+            "url": "https://example.com/scope-source",
+            "source_type": "legislation",
+        },
+    )
+
+    for code, jurisdiction, operator, value in (
+        ("SCOPE_AU_001", "AU", ">=", 183),   # AU 183-day style test
+        ("SCOPE_HK_001", "HK", "<=", 60),    # HK 60-day style exemption
+    ):
+        _request(
+            running_http_app,
+            "/rules",
+            method="POST",
+            payload={
+                "rule_code": code,
+                "jurisdiction": jurisdiction,
+                "category": "residency",
+                "condition_expression": {"field": "days_in_country", "operator": operator, "value": value},
+                "description": f"{jurisdiction} day-count rule",
+                "risk_level": "high",
+                "confidence_level": "high",
+                "source_id": source["id"],
+                "version": 1,
+                "effective_from": "2025-01-01",
+                "effective_to": None,
+            },
+        )
+
+    # Unscoped: both jurisdictions read the same day count as their own.
+    status, body = _request(
+        running_http_app,
+        "/evaluate/private",
+        method="POST",
+        payload={"client_data": {"days_in_country": 45}},
+    )
+    assert status == 200
+    assert set(body["triggered_rules"]) == {"SCOPE_HK_001"}
+
+    # Scoped to AU (lowercase input must normalise): the HK rule is excluded
+    # entirely — neither triggered nor reported incomplete.
+    status, body = _request(
+        running_http_app,
+        "/evaluate/private",
+        method="POST",
+        payload={"client_data": {"days_in_country": 45}, "jurisdiction_scope": ["au"]},
+    )
+    assert status == 200
+    assert body["triggered_rules"] == []
+    assert all(item["rule_code"] != "SCOPE_HK_001" for item in body["incomplete_rules"])
+
+    status, body = _request(
+        running_http_app,
+        "/evaluate/private",
+        method="POST",
+        payload={"client_data": {"days_in_country": 200}, "jurisdiction_scope": ["AU"]},
+    )
+    assert status == 200
+    assert body["triggered_rules"] == ["SCOPE_AU_001"]
+
+
 def test_http_privacy_mode_blocks_client_and_asset_storage(running_http_app: str):
     client_status, client_body = _request(running_http_app, "/clients")
     asset_status, asset_body = _request(running_http_app, "/assets")

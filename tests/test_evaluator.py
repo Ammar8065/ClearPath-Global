@@ -273,6 +273,32 @@ class TestEvaluateConditionOperators:
             {"x": ""},
         ) is False
 
+    def test_is_empty_missing_field_is_true(self):
+        """A fact never provided is empty — is_empty must not silently
+        short-circuit to False just because the key is absent."""
+        assert evaluate_condition(
+            {"field": "x", "operator": "is_empty"},
+            {},
+        ) is True
+
+    def test_not_empty_missing_field_is_false(self):
+        assert evaluate_condition(
+            {"field": "x", "operator": "not_empty"},
+            {},
+        ) is False
+
+    def test_in_scalar_expected_is_equality_not_substring(self):
+        """A scalar expected value falls back to equality — 'US' must not
+        match inside 'AUS' via string containment."""
+        assert evaluate_condition(
+            {"field": "citizenship", "operator": "in", "value": "AUS"},
+            {"citizenship": "US"},
+        ) is False
+        assert evaluate_condition(
+            {"field": "citizenship", "operator": "in", "value": "US"},
+            {"citizenship": "US"},
+        ) is True
+
     def test_unsupported_operator_raises(self):
         with pytest.raises(ValueError, match="Unsupported operator"):
             evaluate_condition({"field": "x", "operator": "~=", "value": 1}, {"x": 1})
@@ -792,6 +818,8 @@ class TestRunEvaluationIncomplete:
         )
         result = run_evaluation(client, [rule], {})
         assert result["incomplete_rules"] == []
+        # ...and a missing field IS empty, so the is_empty rule fires.
+        assert result["triggered_rules"] == ["EMPTY_CHECK"]
 
 
 # ═══════════════════════════════════════════════════════════════════════════

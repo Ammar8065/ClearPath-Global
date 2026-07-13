@@ -13,6 +13,7 @@ from app.engine.conditions import (
     missing_required_fields,
     parse_condition_expression,
 )
+from app.engine.interactions import find_interactions
 from app.engine.scorer import (
     _normalize,
     category_breakdown,
@@ -29,14 +30,23 @@ def _source_url(source: Any) -> str:
     return str(url)
 
 
-def run_evaluation(client: Any, rules: list[Any], client_data: dict[str, Any]) -> dict[str, Any]:
+def run_evaluation(
+    client: Any,
+    rules: list[Any],
+    client_data: dict[str, Any],
+    interactions: list[Any] = (),
+) -> dict[str, Any]:
     """Core evaluation entry point — pure, no DB calls.
 
     Args:
-        client:      Client ORM object (used for client_id).
-        rules:       Active, version-deduplicated Rule ORM objects with
-                     ``source`` relationship eagerly loaded.
-        client_data: Flat dict of client attributes sent in the request.
+        client:       Client ORM object (used for client_id).
+        rules:        Active, version-deduplicated Rule ORM objects with
+                      ``source`` relationship eagerly loaded.
+        client_data:  Flat dict of client attributes sent in the request.
+        interactions: Curated RuleInteraction rows (or dicts with the same
+                      shape) to resolve against whichever rules end up
+                      triggered. Optional — an empty/omitted list simply
+                      means no interactions are reported, never an error.
 
     Returns:
         Plain dict matching EvaluationResponse schema.
@@ -117,6 +127,9 @@ def run_evaluation(client: Any, rules: list[Any], client_data: dict[str, Any]) -
             }
         )
 
+    rule_interactions, interaction_warnings = find_interactions(set(triggered_rules), list(interactions))
+    warnings.extend(interaction_warnings)
+
     cat_breakdown = category_breakdown(summary)
     jur_breakdown = jurisdiction_breakdown(summary)
 
@@ -149,5 +162,6 @@ def run_evaluation(client: Any, rules: list[Any], client_data: dict[str, Any]) -
         "jurisdiction_breakdown": jur_breakdown,
         "citations": citations,
         "incomplete_rules": incomplete_rules,
+        "rule_interactions": rule_interactions,
         "warnings": warnings,
     }

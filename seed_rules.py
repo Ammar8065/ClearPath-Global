@@ -101,7 +101,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "s. 6-5(3) ITAA 1997 — non-resident assessable income",
-        "source_key": "AU_ATO_RESIDENCY",
+        "source_key": "AU_ATO_NONRES_RATES",
     },
     {
         "rule_code": "AU_TAX_002",
@@ -112,19 +112,21 @@ RULE_FIXTURES = [
             simple_condition("australian_property_owned", "==", True),
         ),
         "description": (
-            "Since 1 July 2020, Australian non-residents are no longer eligible for the main residence "
-            "CGT exemption when selling Australian residential property. This is one of the most commonly "
-            "overlooked tax exposures for Australian expats who retain their former home. The full capital "
-            "gain is taxable at non-resident rates with no 50% CGT discount available."
+            "Foreign residents generally cannot claim the main residence CGT exemption on Australian "
+            "residential property sold after 30 June 2020, unless they satisfy the life events test. "
+            "This is one of the most commonly overlooked tax exposures for Australian expats who retain "
+            "their former home. The client may also lose access to some or all of the 50% CGT discount: "
+            "for assets acquired after 8 May 2012 the discount is denied for periods of foreign residency, "
+            "with an apportioned discount available only for periods of Australian residency."
         ),
         "risk_level": RiskLevel.high,
         "confidence_level": ConfidenceLevel.high,
-        "version": 1,
+        "version": 2,
         "effective_from": date(2025, 1, 1),
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "s. 118-110 ITAA 1997 — main residence exemption excluded for non-residents",
-        "review_status": ReviewStatus.needs_update,
+        "review_status": ReviewStatus.verified_current,
         "source_key": "AU_ATO_CGT",
     },
     {
@@ -136,14 +138,15 @@ RULE_FIXTURES = [
             simple_condition("treaty_relief_claimed", "==", False),
         ),
         "description": (
-            "An individual who is treated as a tax resident in both Australia and another jurisdiction "
+            "An individual who appears to be a tax resident of both Australia and another jurisdiction "
             "without invoking applicable treaty tie-breaker provisions faces unresolved taxing rights. "
-            "Both jurisdictions may assert full taxation rights, creating the risk of double taxation "
-            "on worldwide income."
+            "Both jurisdictions may assert competing residency claims, and depending on the final "
+            "residency determination in each, both may seek to tax worldwide income — creating the "
+            "risk of double taxation until the position is resolved."
         ),
         "risk_level": RiskLevel.high,
         "confidence_level": ConfidenceLevel.medium,
-        "version": 1,
+        "version": 2,
         "effective_from": date(2025, 1, 1),
         "effective_to": None,
         "is_deleted": False,
@@ -215,7 +218,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "s. 45 ITA (Singapore) — withholding tax on non-resident income",
-        "source_key": "SG_IRAS_NONRESIDENT",
+        "source_key": "SG_IRAS_RATES",
     },
     {
         "rule_code": "SG_TAX_002",
@@ -238,7 +241,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "s. 45A ITA (Singapore) — withholding on director's fees",
-        "source_key": "SG_IRAS_NONRESIDENT",
+        "source_key": "SG_IRAS_RATES",
     },
     {
         "rule_code": "SG_STR_001",
@@ -262,32 +265,14 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "Div 9A ITAA 1936 — controlled foreign companies (CFC attribution)",
-        "review_status": ReviewStatus.unsupported_or_wrong_source,
-        "source_key": "AU_ATO_RESIDENCY",
+        "review_status": ReviewStatus.verified_current,
+        "source_key": "AU_ATO_CFC",
     },
 
     # ── Hong Kong ─────────────────────────────────────────────────────────────
-    {
-        "rule_code": "HK_RES_001",
-        "jurisdiction": "HK",
-        "category": RuleCategory.residency,
-        "condition_expression": simple_condition("days_in_country", ">=", 180),
-        "description": (
-            "Hong Kong does not have a formal statutory day-count residency rule, but physical presence "
-            "of 180 days or more in a tax year (April to March) is an established indicator of 'ordinary "
-            "residence' under the Inland Revenue Ordinance. Ordinary residents are liable for Salaries "
-            "Tax on Hong Kong-sourced employment income and may face broader review."
-        ),
-        "risk_level": RiskLevel.medium,
-        "confidence_level": ConfidenceLevel.medium,
-        "version": 1,
-        "effective_from": date(2025, 1, 1),
-        "effective_to": None,
-        "is_deleted": False,
-        "section_reference": "s. 8(1A)(b) IRO (Hong Kong) — ordinary residence indicator",
-        "review_status": ReviewStatus.needs_update,
-        "source_key": "HK_IRD_SALARIES",
-    },
+    # NOTE: former HK_RES_001 ("180-day ordinary residence indicator") removed 2026-07-11.
+    # No accessible IRD page supports a 180-day residency indicator, and HK Salaries Tax
+    # is charged on a source basis, not residence. Do not re-add without a primary source.
     {
         "rule_code": "HK_TAX_001",
         "jurisdiction": "HK",
@@ -375,8 +360,8 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "Div 9A ITAA 1936 — CFC; Subdiv 815-B ITAA 1997 — transfer pricing",
-        "review_status": ReviewStatus.unsupported_or_wrong_source,
-        "source_key": "AU_ATO_RESIDENCY",
+        "review_status": ReviewStatus.verified_current,
+        "source_key": "AU_ATO_CFC",
     },
 
     # ── UAE ───────────────────────────────────────────────────────────────────
@@ -425,7 +410,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "Cabinet Decision No. 85 of 2022, Art. 4 — 90-day deemed residency",
-        "review_status": ReviewStatus.needs_update,
+        "review_status": ReviewStatus.verified_current,
         "source_key": "UAE_FTA_RESIDENCY",
     },
     {
@@ -450,7 +435,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "Federal Decree-Law No. 47 of 2022, Art. 3 — corporate tax rate 9%",
-        "source_key": "UAE_FTA_CORPORATE",
+        "source_key": "UAE_GOV_CT",
     },
     {
         "rule_code": "UAE_STR_001",
@@ -474,8 +459,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "Ministerial Decision No. 139 of 2023 — qualifying income for Freezone persons",
-        "review_status": ReviewStatus.needs_update,
-        "source_key": "UAE_FTA_CORPORATE",
+        "source_key": "UAE_GOV_CT",
     },
     {
         "rule_code": "UAE_XB_001",
@@ -578,20 +562,20 @@ RULE_FIXTURES = [
             simple_condition("foreign_financial_accounts_balance", ">", 10000),
         ),
         "description": (
-            "US persons with an aggregate balance exceeding USD 10,000 in foreign financial accounts "
-            "at any point during the calendar year must file FinCEN Form 114 (FBAR) by 15 April. "
-            "Failure to file carries civil penalties of up to USD 10,000 per non-wilful violation "
-            "and up to USD 100,000 (or 50% of account balance) per wilful violation. "
+            "US persons whose foreign financial accounts exceed USD 10,000 in aggregate value at "
+            "any point during the calendar year must file FinCEN Form 114 (FBAR), due 15 April "
+            "with an automatic extension to 15 October. The FBAR is filed with FinCEN separately "
+            "from the federal tax return, and civil penalties apply for failures to file. "
             "This is one of the most commonly unmet obligations for US citizens living in Australia."
         ),
         "risk_level": RiskLevel.high,
         "confidence_level": ConfidenceLevel.high,
-        "version": 1,
+        "version": 2,
         "effective_from": date(2025, 1, 1),
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "31 CFR § 1010.350 — FBAR filing requirement (FinCEN Form 114)",
-        "review_status": ReviewStatus.needs_update,
+        "review_status": ReviewStatus.verified_current,
         "source_key": "US_FINCEN_FBAR",
     },
     {
@@ -807,8 +791,8 @@ RULE_FIXTURES = [
         "description": (
             "Foreign persons (including AU citizens ordinarily resident overseas in some cases) "
             "must obtain FIRB approval BEFORE acquiring an interest in Australian residential real "
-            "estate. Acquiring without approval triggers civil penalties up to AUD 1.65M for "
-            "individuals, divestment orders, and criminal exposure. Established dwellings are "
+            "estate. Acquiring without approval triggers civil penalties, "
+            "divestment orders, and criminal exposure. Established dwellings are "
             "generally not available to foreign persons; only new dwellings, off-the-plan purchases "
             "and vacant land for redevelopment are typically permissible."
         ),
@@ -827,11 +811,11 @@ RULE_FIXTURES = [
         "category": RuleCategory.tax,
         "condition_expression": simple_condition("foreign_purchaser_property_purchase", "==", True),
         "description": (
-            "States impose substantial 'Surcharge Purchaser Duty' on foreign buyers of residential "
-            "property — currently 8% in NSW, 8% in Victoria, 7% in Queensland, 7% in WA, in addition "
-            "to standard transfer duty. Foreign owners also pay annual Land Tax surcharges "
-            "(NSW 5%, VIC 4% absentee owner surcharge, QLD 3%). For a $2M residential purchase the "
-            "combined duty surcharge alone exceeds $150,000 above resident rates."
+            "Foreign individuals, trusts and corporations acquiring an interest in residential-related "
+            "property in NSW may need to pay surcharge purchaser duty in addition to standard "
+            "transfer duty, and equivalent foreign-buyer surcharges and absentee-owner land tax "
+            "surcharges apply in other states. Rates are set by each state's revenue office and "
+            "materially increase acquisition and holding costs above resident rates."
         ),
         "risk_level": RiskLevel.high,
         "confidence_level": ConfidenceLevel.high,
@@ -848,13 +832,14 @@ RULE_FIXTURES = [
         "category": RuleCategory.tax,
         "condition_expression": all_conditions(
             simple_condition("au_help_debt", "==", True),
-            simple_condition("worldwide_income", ">=", 54435),
+            simple_condition("worldwide_income", ">", 16750),
         ),
         "description": (
             "Australians with HELP, VSL, TSL, or SFSS debts living overseas must report worldwide "
             "income annually and make compulsory repayments once worldwide income exceeds the "
-            "minimum repayment threshold (AUD 54,435 for 2024-25). Repayment rates scale to 10% at "
-            "the highest income brackets. Failure to lodge or report carries penalties and interest, "
+            "minimum repayment threshold (for 2025-26, a non-lodgement advice applies only if "
+            "worldwide income is at or below AUD 16,750, being 25% of that threshold). "
+            "Failure to lodge or report carries penalties and interest, "
             "and ATO has data-sharing arrangements with foreign tax authorities to identify "
             "non-reporters."
         ),
@@ -865,7 +850,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "Higher Education Support Act 2003, Part 4 — overseas worldwide-income reporting",
-        "review_status": ReviewStatus.needs_update,
+        "review_status": ReviewStatus.verified_current,
         "source_key": "AU_ATO_HELP",
     },
     {
@@ -891,7 +876,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "Medicare Levy Act 1986, Part VIIB — Medicare Levy Surcharge",
-        "review_status": ReviewStatus.needs_update,
+        "review_status": ReviewStatus.verified_current,
         "source_key": "AU_ATO_MEDICARE",
     },
     {
@@ -904,8 +889,8 @@ RULE_FIXTURES = [
         ),
         "description": (
             "Distributions of accumulated income or capital from a non-resident discretionary trust "
-            "to an Australian resident beneficiary are fully assessable under s. 99B at marginal "
-            "rates (up to 47%) with NO 50% CGT discount available. Section 99B catches the entire "
+            "to an Australian resident beneficiary are fully assessable under s. 99B at the "
+            "beneficiary's marginal rates, and an additional interest charge can apply. Section 99B catches the entire "
             "distribution unless an exception applies (e.g. previously taxed income, corpus). This "
             "is a critical exposure for AU expats returning home with offshore family-trust "
             "structures established while overseas."
@@ -977,8 +962,8 @@ RULE_FIXTURES = [
             simple_condition("foreign_source_income", ">", 0),
         ),
         "description": (
-            "Temporary residents (typically subclass 482, 491, 188, etc. visa-holders) qualify for "
-            "the Subdivision 768-910 concession: most foreign-source income is exempt from AU tax "
+            "Temporary residents (holders of eligible temporary visas who meet the definition) "
+            "qualify for the Subdivision 768-910 concession: most foreign-source income is exempt from AU tax "
             "and foreign capital gains on non-TARP assets are disregarded. The concession does NOT "
             "extend to foreign employment income directly attributable to AU services. Loss of "
             "temporary-resident status (e.g. PR grant, marriage to AU resident) ends the concession "
@@ -1016,7 +1001,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "ITRA 1986 Schedule 7, Part II — non-resident marginal rates",
-        "source_key": "AU_ATO_RESIDENCY",
+        "source_key": "AU_ATO_NONRES_RATES",
     },
     {
         "rule_code": "AU_STR_001",
@@ -1052,21 +1037,21 @@ RULE_FIXTURES = [
             simple_condition("tax_residency_status", "==", "non_resident"),
         ),
         "description": (
-            "An Australian discretionary trust distributing income to a non-resident beneficiary is "
-            "subject to non-resident withholding (Section 98) at the top non-resident marginal rate "
-            "of 45% on most categories of trust income, with no general tax-free threshold. Trustees "
-            "are personally liable to the ATO for the tax on the non-resident's share. Capital gains "
-            "from non-TARP assets distributed to a non-resident beneficiary may be disregarded by "
-            "the beneficiary but the rules are complex (s. 855-40)."
+            "Where an Australian trust distributes income to a beneficiary who is a non-resident "
+            "at year end, the trustee (rather than the beneficiary) is assessed on the "
+            "beneficiary's share of the trust's net income under section 98 ITAA 1936, at rates "
+            "that depend on the income category and with no general tax-free threshold. The tax "
+            "paid by the trustee is generally not final — the non-resident beneficiary may need "
+            "to lodge an Australian return and can claim a credit for the trustee's tax."
         ),
         "risk_level": RiskLevel.high,
         "confidence_level": ConfidenceLevel.medium,
-        "version": 1,
+        "version": 2,
         "effective_from": date(2025, 1, 1),
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "ss. 98, 99A ITAA 1936 — trustee assessment for non-resident beneficiary",
-        "source_key": "AU_ATO_RESIDENCY",
+        "source_key": "AU_ATO_TRUST_NONRES",
     },
     {
         "rule_code": "AU_XB_002",
@@ -1092,7 +1077,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "AU-US DTA, Art. 4 (tie-breaker) and Art. 1(3) (saving clause)",
-        "source_key": "AU_TREASURY_DTA",
+        "source_key": "UAE_AU_DTA",
     },
     {
         "rule_code": "AU_XB_003",
@@ -1103,20 +1088,21 @@ RULE_FIXTURES = [
             simple_condition("dual_tax_residency", "==", True),
         ),
         "description": (
-            "Australia and the UAE signed a comprehensive double tax agreement in November 2024, "
-            "but at the time of writing it has not entered into force. Until ratification and "
-            "exchange of instruments, NO comprehensive treaty exists between AU and UAE — meaning "
-            "no tie-breaker rule and no reduced withholding. Australian-source dividends, interest, "
-            "and royalties paid to UAE residents face full domestic withholding rates (30%, 10%, "
-            "30%). UAE residency cannot be invoked under Article 4 for AU treaty purposes."
+            "Australia has NO comprehensive double tax agreement in force with the UAE — the UAE "
+            "does not appear in the Australian Treasury's income tax treaties table. Without a "
+            "treaty there is no Article 4 tie-breaker rule and no treaty-reduced withholding: "
+            "Australian-source unfranked dividends, interest, and royalties paid to UAE residents "
+            "face full domestic withholding rates, and UAE residency cannot be invoked for AU "
+            "treaty purposes. Treaty status should be re-checked periodically against the "
+            "Treasury treaties table."
         ),
         "risk_level": RiskLevel.high,
-        "confidence_level": ConfidenceLevel.medium,
-        "version": 1,
+        "confidence_level": ConfidenceLevel.high,
+        "version": 2,
         "effective_from": date(2025, 1, 1),
         "effective_to": None,
         "is_deleted": False,
-        "section_reference": "Australia-UAE DTA — signed 1 Nov 2024, not yet in force",
+        "section_reference": "Australian Treasury income tax treaties table — no AU-UAE DTA listed in force",
         "source_key": "UAE_AU_DTA",
     },
     {
@@ -1141,7 +1127,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "AU-SG DTA, Arts 4 & 15 — residence and dependent personal services",
-        "source_key": "AU_TREASURY_DTA",
+        "source_key": "UAE_AU_DTA",
     },
     {
         "rule_code": "AU_XB_005",
@@ -1193,7 +1179,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "Subdiv 396-A Sch 1 TAA 1953 — CRS implementation in Australia",
-        "source_key": "AU_ATO_RESIDENCY",
+        "source_key": "AU_ATO_CRS",
     },
     {
         "rule_code": "AU_XB_007",
@@ -1204,22 +1190,21 @@ RULE_FIXTURES = [
             simple_condition("dual_tax_residency", "==", True),
         ),
         "description": (
-            "Australia and Hong Kong signed a comprehensive DTA in March 2024; entry into force "
-            "depends on completion of domestic ratification by both jurisdictions. Until in force, "
-            "no comprehensive treaty applies — AU-source income paid to HK residents is subject to "
-            "full domestic withholding and no tie-breaker is available for dual residents. The "
-            "Hong Kong DTA, when active, is expected to materially reduce AU non-resident WHT on "
-            "dividends, interest, and royalties for HK residents and to provide standard Article 4 "
-            "tie-breaker analysis."
+            "Australia has NO comprehensive double tax agreement in force with Hong Kong — Hong "
+            "Kong does not appear in the Australian Treasury's income tax treaties table (only a "
+            "Tax Information Exchange Agreement exists). No comprehensive treaty applies: AU-source "
+            "income paid to HK residents is subject to full domestic withholding and no Article 4 "
+            "tie-breaker is available for dual residents. Treaty status should be re-checked "
+            "periodically against the Treasury treaties table."
         ),
         "risk_level": RiskLevel.medium,
-        "confidence_level": ConfidenceLevel.medium,
-        "version": 1,
+        "confidence_level": ConfidenceLevel.high,
+        "version": 2,
         "effective_from": date(2025, 1, 1),
         "effective_to": None,
         "is_deleted": False,
-        "section_reference": "Australia-Hong Kong DTA — signed Mar 2024, ratification pending",
-        "source_key": "AU_TREASURY_DTA",
+        "section_reference": "Australian Treasury income tax treaties table — no AU-HK DTA listed in force",
+        "source_key": "UAE_AU_DTA",
     },
     {
         "rule_code": "AU_TAX_014",
@@ -1231,20 +1216,22 @@ RULE_FIXTURES = [
             simple_condition("australian_source_income", ">", 0),
         ),
         "description": (
-            "Australian non-residents pay non-resident marginal rates from the first dollar of "
-            "AU-source rental income. Negative gearing losses against AU income are quarantined and "
-            "cannot be offset against foreign-source salary or investment income. Rental losses "
-            "carry forward against future AU income. Many AU expats incorrectly assume foreign "
-            "employment income can absorb AU rental losses — the quarantine eliminates that strategy."
+            "Australian non-residents pay non-resident rates from the first dollar of AU-source "
+            "rental income, with no tax-free threshold. Because foreign residents are generally "
+            "not assessed in Australia on their foreign-source income, Australian rental losses "
+            "cannot be applied against foreign salary or investment income — the foreign income "
+            "simply is not in the Australian return. Unused losses carry forward against future "
+            "Australian assessable income. Many AU expats incorrectly assume foreign employment "
+            "income can absorb AU rental losses."
         ),
         "risk_level": RiskLevel.medium,
         "confidence_level": ConfidenceLevel.high,
-        "version": 1,
+        "version": 2,
         "effective_from": date(2025, 1, 1),
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "s. 6-5(3) ITAA 1997 — non-resident assessable income (rental)",
-        "source_key": "AU_ATO_RESIDENCY",
+        "source_key": "AU_ATO_TEMP_RES",
     },
     {
         "rule_code": "AU_TAX_015",
@@ -1256,15 +1243,15 @@ RULE_FIXTURES = [
             simple_condition("australian_property_vacant", "==", True),
         ),
         "description": (
-            "Vacant Residential Land Tax (VIC), Foreign-owner vacancy fees (Federal), and similar "
-            "annual levies apply to dwellings owned by foreign residents that remain unoccupied or "
-            "untenanted for substantial periods. The Federal Annual Vacancy Fee (introduced 2017, "
-            "uplifted 2024) currently equals 3× the original FIRB application fee per year of "
-            "vacancy — for a $2M acquisition this approaches $80,000 per annum."
+            "Foreign owners of Australian residential dwellings must pay an annual vacancy fee "
+            "if the property is not residentially occupied or genuinely available for rent for "
+            "more than 183 days (approximately 6 months) during a year. An annual vacancy fee "
+            "return is required, and state-level levies (such as Victoria's Vacant Residential "
+            "Land Tax) can apply in addition to the federal vacancy fee."
         ),
         "risk_level": RiskLevel.medium,
         "confidence_level": ConfidenceLevel.high,
-        "version": 1,
+        "version": 2,
         "effective_from": date(2025, 1, 1),
         "effective_to": None,
         "is_deleted": False,
@@ -1295,7 +1282,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "TR 2018/5 — Central management and control test (Bywater)",
-        "source_key": "AU_ATO_RESIDENCY",
+        "source_key": "AU_ATO_COMPANY_RES",
     },
     {
         "rule_code": "AU_TAX_016",
@@ -1319,7 +1306,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "ITAA 1997, Subdiv 61-N — LITO not available to foreign residents",
-        "source_key": "AU_ATO_RESIDENCY",
+        "source_key": "AU_ATO_NONRES_RATES",
     },
     {
         "rule_code": "AU_TAX_018",
@@ -1411,9 +1398,9 @@ RULE_FIXTURES = [
             "Singapore employers must file Form IR21 at least one month before a foreign or PR "
             "employee ceases employment, leaves Singapore for more than 3 months, or is posted "
             "overseas. The employer is required to withhold all monies due to the employee until "
-            "IRAS issues a tax clearance directive. Failure to file timely IR21 exposes the "
-            "employer to penalties up to SGD 1,000 per offence and the employee to delayed "
-            "departures or frozen final payments."
+            "IRAS issues a tax clearance directive. Failure to file a timely IR21 exposes the "
+            "employer to penalties and the employee to delayed "
+            "clearance or frozen final payments."
         ),
         "risk_level": RiskLevel.medium,
         "confidence_level": ConfidenceLevel.high,
@@ -1565,7 +1552,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "AU-SG DTA, Art. 15 — short-term employment exemption",
-        "source_key": "AU_TREASURY_DTA",
+        "source_key": "UAE_AU_DTA",
     },
     {
         "rule_code": "SG_STR_002",
@@ -1589,7 +1576,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "s. 43 ITA (Singapore) — corporate tax 17%; partial exemption rules",
-        "source_key": "SG_IRAS_RATES",
+        "source_key": "SG_IRAS_CORP",
     },
     {
         "rule_code": "SG_TAX_008",
@@ -1639,7 +1626,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "s. 13(6) ITA (Singapore) — 60-day short-term employment exemption",
-        "source_key": "SG_IRAS_NONRESIDENT",
+        "source_key": "SG_IRAS_RATES",
     },
     {
         "rule_code": "SG_TAX_010",
@@ -1801,7 +1788,7 @@ RULE_FIXTURES = [
             "Hong Kong Stamp Duty on residential property transactions is currently the Ad Valorem "
             "Duty (AVD) Scale 2 — same rate for residents and non-residents after the abolition "
             "of Buyer's Stamp Duty (BSD) and the New Residential Stamp Duty (NRSD) on 28 February "
-            "2024. Standard AVD scales from 1.5% to 4.25% based on consideration. Non-residential "
+            "2024. AVD Scale 2 rates apply based on the consideration. Non-residential "
             "property is charged on a separate scale. This 2024 reform materially reduced the "
             "transaction-cost gap between AU expats and local buyers."
         ),
@@ -1846,20 +1833,20 @@ RULE_FIXTURES = [
             simple_condition("treaty_relief_claimed", "==", True),
         ),
         "description": (
-            "Australia and Hong Kong signed a comprehensive DTA in March 2024 that is not yet "
-            "in force (as at the writing of this rule). Until ratification, claims for treaty "
-            "benefits between AU and HK will be denied. Until then, AU-source income paid to HK "
-            "residents faces full domestic withholding (30% unfranked dividends, 10% interest, "
-            "30% royalties) and no Article 4 tie-breaker analysis is available."
+            "Australia has NO comprehensive double tax agreement in force with Hong Kong — Hong "
+            "Kong does not appear in the Australian Treasury's income tax treaties table. Claims "
+            "for AU-HK treaty benefits will be denied: AU-source income paid to HK residents "
+            "faces full domestic withholding and no Article 4 tie-breaker analysis is available. "
+            "Treaty status should be re-checked periodically against the Treasury treaties table."
         ),
         "risk_level": RiskLevel.high,
-        "confidence_level": ConfidenceLevel.medium,
-        "version": 1,
+        "confidence_level": ConfidenceLevel.high,
+        "version": 2,
         "effective_from": date(2025, 1, 1),
         "effective_to": None,
         "is_deleted": False,
-        "section_reference": "AU-HK DTA — signed March 2024, ratification pending",
-        "source_key": "AU_TREASURY_DTA",
+        "section_reference": "Australian Treasury income tax treaties table — no AU-HK DTA listed in force",
+        "source_key": "UAE_AU_DTA",
     },
     {
         "rule_code": "HK_TAX_008",
@@ -1886,8 +1873,8 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "Div 9A ITAA 1936 (CFC) read with HK FSIE regime",
-        "review_status": ReviewStatus.unsupported_or_wrong_source,
-        "source_key": "AU_ATO_RESIDENCY",
+        "review_status": ReviewStatus.verified_current,
+        "source_key": "AU_ATO_CFC",
     },
     {
         "rule_code": "HK_TAX_009",
@@ -2013,7 +2000,7 @@ RULE_FIXTURES = [
         "effective_to": date(2026, 12, 31),
         "is_deleted": False,
         "section_reference": "Ministerial Decision No. 73 of 2023 — Small Business Relief",
-        "review_status": ReviewStatus.unsupported_or_wrong_source,
+        "review_status": ReviewStatus.verified_current,
         "source_key": "UAE_FTA_SBR",
     },
     {
@@ -2028,8 +2015,8 @@ RULE_FIXTURES = [
             "Mandatory VAT registration is required where a taxable person's annual taxable "
             "supplies exceed AED 375,000 in the past 12 months OR are expected to in the next "
             "30 days. Standard VAT rate is 5%. Voluntary registration is available from "
-            "AED 187,500 of taxable supplies/expenses. Failure to register attracts penalties "
-            "of AED 10,000. AU expats running freezone businesses commonly underestimate when "
+            "AED 187,500 of taxable supplies/expenses. Failing to register when required attracts "
+            "administrative penalties. AU expats running freezone businesses commonly underestimate when "
             "their cross-border supplies trigger UAE VAT obligations."
         ),
         "risk_level": RiskLevel.medium,
@@ -2039,7 +2026,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "Federal Decree-Law No. 8 of 2017, Art. 13 — mandatory VAT registration",
-        "source_key": "UAE_FTA_VAT",
+        "source_key": "UAE_FTA_VAT_REG",
     },
     {
         "rule_code": "UAE_STR_002",
@@ -2052,8 +2039,8 @@ RULE_FIXTURES = [
             "banking, insurance, investment fund management, lease-finance, headquarter, "
             "shipping, holding, IP, and distribution and service centre business — to "
             "demonstrate adequate economic substance in the UAE. Annual ESR notifications and "
-            "reports are required. Penalties for non-compliance start at AED 20,000 (failure to "
-            "submit notification) and escalate to AED 400,000+ for repeated failures."
+            "reports are required, and administrative penalties apply for failures to notify, "
+            "report, or demonstrate adequate substance."
         ),
         "risk_level": RiskLevel.medium,
         "confidence_level": ConfidenceLevel.high,
@@ -2090,28 +2077,9 @@ RULE_FIXTURES = [
         "section_reference": "Cabinet Decision implementing OECD Pillar Two DMTT (effective Jan 2025)",
         "source_key": "UAE_DMTT",
     },
-    {
-        "rule_code": "UAE_TAX_005",
-        "jurisdiction": "UAE",
-        "category": RuleCategory.tax,
-        "condition_expression": simple_condition("uae_property_transaction", "==", True),
-        "description": (
-            "Transfer of real estate in the UAE attracts emirate-level transfer fees (no federal "
-            "stamp duty). Dubai Land Department charges 4% of the transaction value (typically "
-            "split equally between buyer and seller by convention but legally borne by the "
-            "buyer); Abu Dhabi charges ~2% transfer fee. AU expats acquiring UAE real estate "
-            "should budget the transfer fee plus mortgage-registration fees (0.25% of loan) "
-            "and the 5% VAT on commercial property (zero-rated for residential)."
-        ),
-        "risk_level": RiskLevel.low,
-        "confidence_level": ConfidenceLevel.high,
-        "version": 1,
-        "effective_from": date(2025, 1, 1),
-        "effective_to": None,
-        "is_deleted": False,
-        "section_reference": "Dubai Law No. 7 of 2006, Art. 184 — Land Department transfer fee 4%",
-        "source_key": "UAE_FTA_VAT",
-    },
+    # NOTE: former UAE_TAX_005 (Dubai Land Department 4% transfer fee) removed 2026-07-11.
+    # Cited the FTA VAT page, which does not cover emirate-level land transfer fees, and no
+    # accessible official page could verify the fee schedule. Do not re-add without a primary source.
     {
         "rule_code": "UAE_XB_002",
         "jurisdiction": "UAE",
@@ -2123,19 +2091,19 @@ RULE_FIXTURES = [
         ),
         "description": (
             "AU expats living in the UAE who claim AU treaty relief on AU-source income should "
-            "verify treaty status: the AU-UAE comprehensive DTA was signed November 2024 but is "
-            "not yet in force. Until ratification, claims for reduced AU withholding (e.g. on "
-            "Australian dividends, interest, royalties) under a treaty are not available. UAE "
-            "Tax Residency Certificates do not unlock AU treaty relief in the absence of a "
-            "treaty between the two countries."
+            "verify treaty status: Australia has no comprehensive DTA in force with the UAE — "
+            "the UAE does not appear in the Australian Treasury's income tax treaties table. "
+            "Claims for reduced AU withholding (e.g. on Australian dividends, interest, "
+            "royalties) under a treaty are not available, and UAE Tax Residency Certificates "
+            "do not unlock AU treaty relief in the absence of a treaty between the two countries."
         ),
         "risk_level": RiskLevel.high,
         "confidence_level": ConfidenceLevel.high,
-        "version": 1,
+        "version": 2,
         "effective_from": date(2025, 1, 1),
         "effective_to": None,
         "is_deleted": False,
-        "section_reference": "AU-UAE DTA — signed Nov 2024, not yet in force",
+        "section_reference": "Australian Treasury income tax treaties table — no AU-UAE DTA listed in force",
         "source_key": "UAE_AU_DTA",
     },
     {
@@ -2163,7 +2131,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "Ministerial Decision No. 265 of 2023 — Qualifying Activities for QFZPs",
-        "source_key": "UAE_FTA_CORPORATE",
+        "source_key": "UAE_GOV_CT",
     },
     {
         "rule_code": "UAE_RES_005",
@@ -2176,15 +2144,19 @@ RULE_FIXTURES = [
         ),
         "description": (
             "Spending fewer than 90 days in the UAE in a 12-month period AND maintaining tax "
-            "residency in another country generally means the individual is not a UAE tax "
-            "resident — closing off access to UAE Tax Residency Certificates. AU expats with "
-            "UAE business interests but limited physical presence often discover they have "
-            "neither successfully ceased AU residency NOR established UAE residency, leaving "
-            "them effectively stateless from a treaty-residence perspective."
+            "residency in another country generally means the individual does not qualify as a "
+            "UAE tax resident under the day-count tests. This is not conclusive on its own — "
+            "Cabinet Decision No. 85 of 2022 also recognises residency pathways that do not turn "
+            "on day counts, such as a usual or primary place of residence combined with a centre "
+            "of financial and personal interests in the UAE, so the client's overall position "
+            "should be assessed against those pathways before concluding no UAE residency exists. "
+            "AU expats with UAE business interests but limited physical presence often discover "
+            "they have neither successfully ceased AU residency NOR clearly established UAE "
+            "residency, leaving them exposed from a treaty-residence perspective."
         ),
         "risk_level": RiskLevel.high,
-        "confidence_level": ConfidenceLevel.high,
-        "version": 1,
+        "confidence_level": ConfidenceLevel.medium,
+        "version": 2,
         "effective_from": date(2023, 3, 1),
         "effective_to": None,
         "is_deleted": False,
@@ -2269,8 +2241,8 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "26 U.S.C. § 6038D; Form 8938 — FATCA specified foreign assets",
-        "review_status": ReviewStatus.needs_update,
-        "source_key": "US_IRS_FATCA",
+        "review_status": ReviewStatus.verified_current,
+        "source_key": "US_IRS_8938",
     },
     {
         "rule_code": "US_TAX_006",
@@ -2296,7 +2268,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "26 U.S.C. §§ 951, 951A, 250; Form 5471 — Subpart F & GILTI inclusions",
-        "review_status": ReviewStatus.unsupported_or_wrong_source,
+        "review_status": ReviewStatus.verified_current,
         "source_key": "US_IRS_GILTI",
     },
     {
@@ -2310,8 +2282,8 @@ RULE_FIXTURES = [
         "description": (
             "Non-resident, non-US-domiciled aliens owning US-situs assets (US real estate, "
             "tangible personal property in the US, US-incorporated company shares) above USD "
-            "60,000 face US estate tax exposure — at rates up to 40%. The USD 60,000 lifetime "
-            "exemption is MUCH lower than the USD 13.6M+ exemption for US persons. AU expats "
+            "60,000 must file a US estate tax return and face US estate tax exposure. The USD "
+            "60,000 filing threshold is far lower than the exemption for US persons. AU expats "
             "directly holding US-listed shares (Apple, Microsoft, etc.) are commonly unaware of "
             "this exposure. Holding through an Australian or other foreign company can avoid "
             "US-situs treatment for the equity (but not for US real estate)."
@@ -2323,7 +2295,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "26 U.S.C. § 2102 — non-resident alien estate tax (USD 60k exemption)",
-        "review_status": ReviewStatus.needs_update,
+        "review_status": ReviewStatus.verified_current,
         "source_key": "US_IRS_ESTATE_NRA",
     },
     {
@@ -2347,7 +2319,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "26 U.S.C. § 877A; Form 8854 — Mark-to-market exit tax for covered expatriates",
-        "review_status": ReviewStatus.needs_update,
+        "review_status": ReviewStatus.verified_current,
         "source_key": "US_IRS_EXIT",
     },
     {
@@ -2374,7 +2346,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "26 U.S.C. § 1411 — Net Investment Income Tax (3.8%)",
-        "review_status": ReviewStatus.needs_update,
+        "review_status": ReviewStatus.verified_current,
         "source_key": "US_IRS_NIIT",
     },
     {
@@ -2469,7 +2441,7 @@ RULE_FIXTURES = [
         ),
         "description": (
             "The Foreign Earned Income Exclusion (FEIE) under §911 lets qualifying US citizens "
-            "abroad exclude up to USD 126,500 (2024, indexed) of foreign earned income, plus a "
+            "abroad exclude foreign earned income up to an annually indexed maximum, plus a "
             "Foreign Housing Exclusion/Deduction. Eligibility requires either Bona Fide Residence "
             "or Physical Presence (330 full days in any 12-month period). FEIE applies BEFORE "
             "FTC, and is generally inferior to FTC for AU-based US citizens because AU tax rates "
@@ -2483,7 +2455,7 @@ RULE_FIXTURES = [
         "effective_to": None,
         "is_deleted": False,
         "section_reference": "26 U.S.C. § 911; Form 2555 — Foreign Earned Income Exclusion",
-        "review_status": ReviewStatus.needs_update,
+        "review_status": ReviewStatus.verified_current,
         "source_key": "US_IRS_INTERNATIONAL",
     },
 ]

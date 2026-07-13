@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.responses import Response
 from sqlalchemy.orm import Session
 
-from app.config import privacy_mode_enabled
+from app.config import ai_enabled, privacy_mode_enabled
 from app.database.session import get_db
 from app.schemas.evaluation import (
     EvaluationRequest,
@@ -16,6 +16,7 @@ from app.services.evaluation import (
     preview_client,
     preview_private_assessment,
 )
+from app.services.ai.summarisation import summarise_evaluation
 from app.services.report_html import generate_report_html
 from app.services.report_pdf import render_pdf
 from app.engine.scorer import _normalize
@@ -41,6 +42,7 @@ def evaluate_private_endpoint(
         db,
         payload.client_data,
         assessment_label=payload.assessment_label,
+        jurisdiction_scope=payload.jurisdiction_scope,
     )
 
 
@@ -53,6 +55,7 @@ def preview_private_endpoint(
         db,
         payload.client_data,
         assessment_label=payload.assessment_label,
+        jurisdiction_scope=payload.jurisdiction_scope,
     )
 
 
@@ -65,12 +68,24 @@ def report_private_endpoint(
         db,
         payload.client_data,
         assessment_label=payload.assessment_label,
+        jurisdiction_scope=payload.jurisdiction_scope,
     )
+    # An explicit False is an answered fact ("No"), distinct from absence —
+    # only None and empty strings are unanswered. Mirrors the worksheet count.
     fact_count = sum(
         1 for v in payload.client_data.values()
-        if v is not None and v != "" and v is not False
+        if v is not None and v != ""
     )
-    html = generate_report_html(result, fact_count=fact_count)
+    ai_summary = None
+    if payload.include_ai_summary and ai_enabled():
+        try:
+            ai_summary = summarise_evaluation(result)["summary"]
+        except Exception:  # noqa: BLE001 — the report must never fail because AI did
+            result["warnings"] = [
+                *result.get("warnings", []),
+                "AI summary could not be generated — the report was rendered without it.",
+            ]
+    html = generate_report_html(result, fact_count=fact_count, ai_summary=ai_summary)
     pdf_bytes = render_pdf(html)
     safe_label = (payload.assessment_label or "Private Assessment").strip() or "Private Assessment"
     safe_label = "".join(c if c.isalnum() or c in (" ", "-", "_") else "_" for c in safe_label).strip()
@@ -93,7 +108,13 @@ def evaluate_client_endpoint(
 ) -> EvaluationResponse:
     _ensure_client_eval_allowed()
     try:
-        return evaluate_client(db, client_id, payload.client_data, assessment_label=payload.assessment_label)
+        return evaluate_client(
+            db,
+            client_id,
+            payload.client_data,
+            assessment_label=payload.assessment_label,
+            jurisdiction_scope=payload.jurisdiction_scope,
+        )
     except LookupError as exc:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(exc)) from exc
 
@@ -106,7 +127,12 @@ def preview_client_endpoint(
 ) -> PreviewResponse:
     _ensure_client_eval_allowed()
     try:
-        return preview_client(db, client_id, payload.client_data)
+        return preview_client(
+            db,
+            client_id,
+            payload.client_data,
+            jurisdiction_scope=payload.jurisdiction_scope,
+        )
     except LookupError as exc:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(exc)) from exc
 

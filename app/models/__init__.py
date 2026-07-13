@@ -1,4 +1,4 @@
-from app.models import asset, client, knowledge_source, residency_history, rule, tenant
+from app.models import asset, client, knowledge_source, residency_history, rule, rule_interaction, tenant
 
 __all__ = [
     "asset",
@@ -6,5 +6,6 @@ __all__ = [
     "knowledge_source",
     "residency_history",
     "rule",
+    "rule_interaction",
     "tenant",
 ]

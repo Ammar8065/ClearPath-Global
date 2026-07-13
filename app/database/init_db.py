@@ -9,6 +9,7 @@ from app.models import client  # noqa: F401
 from app.models import knowledge_source  # noqa: F401
 from app.models import residency_history  # noqa: F401
 from app.models import rule  # noqa: F401
+from app.models import rule_interaction  # noqa: F401
 from app.models import tenant  # noqa: F401
 
 _AUTO_CREATE_ENV_VARS = {"1", "true", "yes", "on"}

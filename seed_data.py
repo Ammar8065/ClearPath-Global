@@ -8,6 +8,7 @@ from app.database.init_db import init_db
 from app.database.session import SessionLocal, engine
 from app.models.knowledge_source import KnowledgeSource
 from app.models.rule import ReviewStatus, Rule
+from app.models.rule_interaction import RuleInteraction
 
 from seed_sources import SOURCE_FIXTURES
 from seed_rules import (
@@ -16,6 +17,7 @@ from seed_rules import (
     any_conditions,     # noqa: F401  (re-exported helper)
     simple_condition,   # noqa: F401  (re-exported helper)
 )
+from seed_rule_interactions import RULE_INTERACTION_FIXTURES
 
 
 # ── Upsert logic ──────────────────────────────────────────────────────────────
@@ -76,14 +78,59 @@ def upsert_rules(source_ids: dict[str, int]) -> None:
             rule.risk_level = rule_values["risk_level"]
             rule.confidence_level = rule_values["confidence_level"]
             rule.section_reference = rule_values.get("section_reference")
-            rule.review_status = rule_values.get("review_status", "needs_update")
+            # setdefault above guarantees the key is present.
+            rule.review_status = rule_values["review_status"]
             rule.source_id = source_id
+
+        db.commit()
+
+
+def upsert_rule_interactions() -> None:
+    """Insert or update curated rule-interaction fixtures.
+
+    Fails loudly (not gracefully) on a rule_code that doesn't exist in
+    RULE_FIXTURES — a dangling reference here is an authoring bug in the
+    fixture data, not something that can happen at evaluation time, so it
+    should be caught at seed time rather than silently seeded.
+    """
+    known_codes = {r["rule_code"] for r in RULE_FIXTURES}
+
+    with SessionLocal() as db:
+        for payload in RULE_INTERACTION_FIXTURES:
+            for field in ("primary_rule_code", "related_rule_code"):
+                code = payload[field]
+                if code not in known_codes:
+                    raise ValueError(
+                        f"seed_rule_interactions.py references unknown rule_code "
+                        f"{code!r} in {field} — check for a typo or a renamed/removed rule."
+                    )
+
+            if payload["primary_rule_code"] == payload["related_rule_code"]:
+                raise ValueError(
+                    f"seed_rule_interactions.py: {payload['primary_rule_code']!r} "
+                    "references itself — a rule cannot modify its own finding."
+                )
+
+            interaction = db.scalar(
+                select(RuleInteraction).where(
+                    RuleInteraction.primary_rule_code == payload["primary_rule_code"],
+                    RuleInteraction.related_rule_code == payload["related_rule_code"],
+                )
+            )
+
+            if interaction is None:
+                db.add(RuleInteraction(**payload))
+                continue
+
+            interaction.interaction_type = payload["interaction_type"]
+            interaction.note = payload["note"]
 
         db.commit()
 
 
 def reset_seed_data() -> None:
     with SessionLocal() as db:
+        db.execute(delete(RuleInteraction))
         db.execute(delete(Rule))
         db.execute(delete(KnowledgeSource))
         db.commit()
@@ -105,6 +152,7 @@ def seed(reset: bool = False, recreate: bool = False) -> None:
 
     source_ids = upsert_sources()
     upsert_rules(source_ids)
+    upsert_rule_interactions()
 
 
 if __name__ == "__main__":

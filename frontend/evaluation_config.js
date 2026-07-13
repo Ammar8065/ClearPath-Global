@@ -57,7 +57,6 @@ export const DEFAULT_STATE = {
   dasp_eligible: null,
   private_health_insurance_held: null,
   au_help_debt: null,
-  nor_scheme_active: null,
   non_tarp_assets_held: null,
   i1_deferral_election: null,
 
@@ -73,6 +72,7 @@ export const DEFAULT_STATE = {
   sg_property_being_sold: null,
   sg_property_holding_years: null,
   sg_area_representative: null,
+  nor_scheme_active: null,
 
   // Hong Kong
   hong_kong_source_income: null,
@@ -97,7 +97,6 @@ export const DEFAULT_STATE = {
   uae_revenue: null,
   uae_vat_taxable_supplies: null,
   uae_relevant_activity_esr: null,
-  uae_property_transaction: null,
   mne_global_revenue_eur_millions: null,
 
   // US
@@ -212,10 +211,6 @@ export const GROUPS = [
         showWhen: { field: "tax_residency_status", is: "resident" },
       },
       { key: "au_help_debt", label: "Does the client have a HELP/HECS debt?", help: "Overseas-resident debtors must make repayments once their worldwide income exceeds the threshold.", type: "ternary" },
-      { key: "nor_scheme_active", label: "Is the client on the Temporary Flat Rate NOR scheme?", help: "The Norfolk Island scheme provides a temporary flat tax rate — only relevant to qualifying individuals.",
-        type: "ternary",
-        showWhen: { field: "tax_residency_status", is: "resident" },
-      },
       { key: "non_tarp_assets_held", label: "Does the client hold non-TARP Australian assets?", help: "Non-taxable Australian real property — affects CGT outcomes for departing residents.",
         type: "ternary",
         showWhen: { field: "tax_residency_status", is: "non_resident" },
@@ -253,6 +248,10 @@ export const GROUPS = [
         showWhen: { field: "sg_property_being_sold", is: true },
       },
       { key: "sg_area_representative", label: "Is the client acting as a Singapore area representative?", help: "Area representatives have specific tax obligations even without physical presence.", type: "ternary" },
+      { key: "nor_scheme_active", label: "Is the client on Singapore's Not Ordinarily Resident (NOR) scheme?", help: "The NOR scheme time-apportioned employment income for foreign professionals based in Singapore. It closed to new applicants after YA 2020; existing approvals run to the end of their five-year window.",
+        type: "ternary",
+        showWhen: { field: "tax_residency_status", is: "resident" },
+      },
     ],
   },
 
@@ -314,7 +313,6 @@ export const GROUPS = [
         type: "ternary",
         showWhen: { field: "tax_residency_certificate_requested", is: true },
       },
-      { key: "uae_property_transaction", label: "Is the client involved in a UAE property transaction?", help: "DLD transfer fees, registration charges, and municipality fees may apply.", type: "ternary" },
       { key: "mne_global_revenue_eur_millions", label: "What is the MNE group's global revenue (EUR millions)?", help: "Groups with EUR 750M+ revenue face Pillar Two global minimum tax and country-by-country reporting.",
         type: "number", placeholder: "e.g. 800",
         showWhen: { field: "uae_business_owned", is: true },
