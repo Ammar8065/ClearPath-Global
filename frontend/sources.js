@@ -1,3 +1,4 @@
+import { isAdmin } from "./auth.js";
 import { apiRequest, elements, escapeHtml, jurisdictionBadge, setStatus } from "./core.js";
 
 let loadDashboardStats = async () => {};
@@ -31,13 +32,35 @@ export async function loadSources() {
           <span>Source ID: <strong>#${escapeHtml(source.id)}</strong></span>
           <a href="${escapeHtml(safeUrl)}" target="_blank" rel="noreferrer" style="color:var(--brand);word-break:break-all">${escapeHtml(source.url)}</a>
         </div>
+        ${isAdmin() ? '<div style="margin-top:10px"><button class="btn btn-danger" data-source-id="">Delete</button></div>' : ""}
       `;
+
+      const deleteButton = card.querySelector("[data-source-id]");
+      if (deleteButton) {
+        deleteButton.dataset.sourceId = source.id;
+        deleteButton.addEventListener("click", () => handleSourceDelete(source.id));
+      }
+
       elements.sourcesList.appendChild(card);
     });
     setStatus("Ready");
   } catch (error) {
     console.error(error);
     setStatus(`Failed to load sources: ${error.message}`, true);
+  }
+}
+
+async function handleSourceDelete(sourceId) {
+  if (!confirm("Delete this source? Sources still referenced by rules cannot be deleted.")) return;
+
+  try {
+    await apiRequest(`/sources/${sourceId}`, { method: "DELETE" });
+    await loadSources();
+    await loadDashboardStats();
+    setStatus("Source deleted.");
+  } catch (error) {
+    console.error(error);
+    setStatus(`Failed: ${error.message}`, true);
   }
 }
 

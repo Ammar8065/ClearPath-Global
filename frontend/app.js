@@ -1,3 +1,4 @@
+import { initAuth } from "./auth.js";
 import { populateJurisdictionControls } from "./core.js";
 import { loadDashboardStats, initDashboardSection } from "./dashboard.js";
 import { initEvaluationSection } from "./evaluation.js";
@@ -7,6 +8,10 @@ import { loadRules, initRulesSection } from "./rules.js";
 import { loadSources, initSourcesSection } from "./sources.js";
 
 export async function bootApp() {
+  // Blocks until the session is valid (or auth is disabled server-side), so
+  // no data loads and no admin controls render before the role is known.
+  await initAuth();
+
   populateJurisdictionControls();
 
   const loaded = { rules: false, sources: false, ask: false };

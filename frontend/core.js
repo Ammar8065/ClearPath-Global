@@ -73,11 +73,21 @@ export function setStatus(message, isError = false) {
   elements.statusMessage.classList.toggle("error", isError);
 }
 
+// Set by auth.js once ClerkJS is ready; returns the session JWT (or null).
+let authTokenProvider = null;
+
+export function setAuthTokenProvider(provider) {
+  authTokenProvider = provider;
+}
+
 export async function apiRequest(path, options = {}) {
   setStatus("Working...", false);
+  const headers = { "Content-Type": "application/json", ...(options.headers || {}) };
+  const token = authTokenProvider ? await authTokenProvider() : null;
+  if (token) headers["Authorization"] = `Bearer ${token}`;
   const response = await fetch(new URL(path, API_BASE_URL), {
-    headers: { "Content-Type": "application/json", ...(options.headers || {}) },
     ...options,
+    headers,
   });
 
   const contentType = response.headers.get("content-type") || "";
@@ -86,6 +96,12 @@ export async function apiRequest(path, options = {}) {
     : await response.text();
 
   if (!response.ok) {
+    // Session missing/expired on an app route — hand control back to the
+    // login flow (auth.js listens). /auth/* 401s are ordinary bad-credential
+    // responses and are handled where they're thrown.
+    if (response.status === 401 && !path.startsWith("/auth/")) {
+      window.dispatchEvent(new CustomEvent("cp:unauthorized"));
+    }
     const message = typeof data === "string"
       ? data
       : data.detail || `Request failed with status ${response.status}`;

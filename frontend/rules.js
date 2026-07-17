@@ -1,3 +1,4 @@
+import { isAdmin } from "./auth.js";
 import {
   apiRequest,
   deletedBadge,
@@ -46,7 +47,7 @@ export async function loadRules() {
         <div class="item-meta">
           <span>Confidence: <strong>${escapeHtml(rule.confidence_level)}</strong> · Effective: ${escapeHtml(rule.effective_from)}${rule.effective_to ? ` → ${escapeHtml(rule.effective_to)}` : " onwards"} · Source #${escapeHtml(rule.source_id)}</span>
         </div>
-        ${!rule.is_deleted ? '<div style="margin-top:10px"><button class="btn btn-danger" data-rule-id="">Soft Delete</button></div>' : ""}
+        ${!rule.is_deleted && isAdmin() ? '<div style="margin-top:10px"><button class="btn btn-danger" data-rule-id="">Soft Delete</button></div>' : ""}
       `;
 
       const deleteButton = card.querySelector("[data-rule-id]");

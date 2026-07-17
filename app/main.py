@@ -1,7 +1,7 @@
 from contextlib import asynccontextmanager
 from pathlib import Path
 
-from fastapi import FastAPI, Request
+from fastapi import Depends, FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
@@ -11,11 +11,13 @@ from app.config import cors_allow_origins
 from app.database.init_db import ensure_schema_ready, init_db, should_auto_create_schema
 from app.routes.ai import router as ai_router
 from app.routes.assets import router as assets_router
+from app.routes.auth import router as auth_router
 from app.routes.clients import router as clients_router
 from app.routes.evaluation import router as evaluation_router
 from app.routes.rag import router as rag_router
 from app.routes.rules import router as rules_router
 from app.routes.sources import router as sources_router
+from app.services.auth import require_user
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -63,13 +65,18 @@ app.add_middleware(NoCacheStaticAssetsMiddleware)
 
 app.mount("/frontend", StaticFiles(directory=BASE_DIR / "frontend"), name="frontend")
 
-app.include_router(sources_router)
-app.include_router(rules_router)
-app.include_router(clients_router)
-app.include_router(assets_router)
-app.include_router(evaluation_router)
-app.include_router(ai_router)
-app.include_router(rag_router)
+# /auth is the only open API surface; every data router requires a session
+# when auth is enabled (no-op otherwise — see app.services.auth.require_user).
+# Admin-only mutations add require_admin at the endpoint level.
+app.include_router(auth_router)
+_authed = [Depends(require_user)]
+app.include_router(sources_router, dependencies=_authed)
+app.include_router(rules_router, dependencies=_authed)
+app.include_router(clients_router, dependencies=_authed)
+app.include_router(assets_router, dependencies=_authed)
+app.include_router(evaluation_router, dependencies=_authed)
+app.include_router(ai_router, dependencies=_authed)
+app.include_router(rag_router, dependencies=_authed)
 
 
 @app.get("/", tags=["System"])

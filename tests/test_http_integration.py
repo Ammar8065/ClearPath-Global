@@ -57,6 +57,10 @@ def running_http_app(tmp_path: Path):
     env = os.environ.copy()
     env["DATABASE_URL"] = f"sqlite:///{db_path.as_posix()}"
     env["PRIVACY_MODE"] = "1"
+    # The server subprocess loads .env itself; a blank value beats the file
+    # (load_dotenv never overrides real env vars) so the suite runs open-mode
+    # even on machines with Clerk configured locally.
+    env["CLERK_SECRET_KEY"] = ""
     process = subprocess.Popen(
         [sys.executable, "-m", "uvicorn", "app.main:app", "--host", "127.0.0.1", "--port", str(port)],
         cwd=str(ROOT_DIR),

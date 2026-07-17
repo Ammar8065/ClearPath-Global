@@ -24,6 +24,32 @@ def ai_model() -> str:
     return os.getenv("AI_MODEL", "").strip() or DEFAULT_AI_MODEL
 
 
+def clerk_secret_key() -> str:
+    return os.getenv("CLERK_SECRET_KEY", "").strip()
+
+
+def clerk_publishable_key() -> str:
+    return os.getenv("CLERK_PUBLISHABLE_KEY", "").strip()
+
+
+def admin_user_id() -> str:
+    """Clerk user ID of the single admin account.
+
+    Every other authenticated Clerk user is a viewer (read/evaluate only).
+    """
+    return os.getenv("ADMIN_USER_ID", "").strip()
+
+
+def auth_enabled() -> bool:
+    """Login is enforced iff Clerk is configured.
+
+    Mirrors ai_enabled(): the feature switches on when its secret is present.
+    Without CLERK_SECRET_KEY the app behaves as before (open, full access) so
+    local dev and the test suite need no credentials.
+    """
+    return bool(clerk_secret_key())
+
+
 def cors_allow_origins() -> list[str]:
     """Comma-separated list of allowed CORS origins.
 

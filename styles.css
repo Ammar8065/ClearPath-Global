@@ -2159,3 +2159,64 @@ textarea {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+/* ── Auth: login overlay & role gating ─────────────────── */
+.login-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+}
+
+.login-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  padding: 24px;
+}
+
+.login-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.login-brand .brand-name { font-size: 18px; font-weight: 700; color: var(--text-primary); }
+.login-brand .brand-sub { font-size: 12.5px; color: var(--text-muted); }
+
+.login-error {
+  max-width: 380px;
+  font-size: 13px;
+  color: var(--risk-high, #b91c1c);
+  text-align: center;
+}
+
+.sidebar-user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 4px 4px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.sidebar-user-name {
+  font-size: 12.5px;
+  font-weight: 600;
+  max-width: 130px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sidebar-user-role { font-size: 11px; color: var(--text-muted); }
+
+.btn-logout { padding: 5px 10px; font-size: 12px; }
+
+/* Viewers never see management panels; the list column takes full width. */
+body[data-role="viewer"] .admin-only { display: none; }
+body[data-role="viewer"] .two-col { grid-template-columns: 1fr; }

@@ -16,3 +16,4 @@ _pytest_cache/
 .claude/
 .env
 .DS_Store
+.env.local

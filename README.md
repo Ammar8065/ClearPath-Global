@@ -130,6 +130,9 @@ loads it automatically at import time (real environment variables always take pr
 | `AUTO_CREATE_SCHEMA` | _(unset)_ | Set to `1` to call `create_all()` at startup as a dev fallback. Alembic migrations are the preferred path. |
 | `ANTHROPIC_API_KEY` | _(unset)_ | Enables the AI assist endpoints and UI. When unset, `/ai/*` returns `503` and the AI controls stay hidden — everything else works normally. |
 | `AI_MODEL` | `claude-sonnet-4-6` | Override the Claude model used for extraction and summarisation. |
+| `CLERK_SECRET_KEY` | _(unset)_ | Enables login (Clerk). When unset the app is open with full access — dev/test mode. When set, every API route requires a signed-in Clerk user. |
+| `CLERK_PUBLISHABLE_KEY` | _(unset)_ | Clerk frontend key, served to the browser via `/auth/status`. Required whenever `CLERK_SECRET_KEY` is set. |
+| `ADMIN_USER_ID` | _(unset)_ | Clerk user ID (`user_...`) of the single administrator. Only this account can add/delete rules and sources; every other signed-in user is a read-only viewer. |
 | `CORS_ALLOW_ORIGINS` | _(unset)_ | Comma-separated origins allowed to call the API cross-origin. Unset (the default) grants no cross-origin access — the SPA is served same-origin and needs none. |
 
 ---
